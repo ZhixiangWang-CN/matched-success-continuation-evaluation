@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_BEFORE_ANY_SYMMETRIC_AGENT_OUTCOMES",
+  "date": "2026-09-09",
+  "objective": "Estimate state-conditioned future-task performance from a common repository snapshot without conditioning selection on candidate-state outcomes.",
+  "relationship_to_protocol_25": {
+    "protocol_25_role": "deterministic feasibility and mechanism audit only",
+    "amendment_reason": "Requiring the maintainer future patch to apply in every candidate state would condition inclusion on a post-treatment manifestation of residual-state debt.",
+    "timing": "Frozen after launch and inspection of the first 18 of 72 deterministic state preflights, before completion of the preflight and before any symmetric future-agent rollout.",
+    "candidate_preflight_used_for_selection": false
+  },
+  "inputs": {
+    "pairs": "recovery_curve_pairs_17.jsonl",
+    "candidates": "recovery_curve_candidates_17.jsonl",
+    "arms": "recovery_curve_arms_17.json",
+    "diagnostic_preflight": "symmetric_future_preflight_protocol_25.json"
+  },
+  "unit": "future pair crossed with three matched successful current-task states",
+  "state_snapshot": "current.base_commit for every state",
+  "states": [
+    "historical maintainer current-task patch",
+    "frozen candidate s0",
+    "frozen candidate s1"
+  ],
+  "future_history_replay": false,
+  "eligibility": {
+    "selection_arm": "historical state only",
+    "requirements": [
+      "historical state patch applies",
+      "current FAIL_TO_PASS verifier applies and passes",
+      "future maintainer patch applies from the historical state",
+      "future test patch applies",
+      "future FAIL_TO_PASS tests pass after maintainer patch",
+      "up to 20 frozen future PASS_TO_PASS tests pass",
+      "current FAIL_TO_PASS tests still pass after future maintainer patch"
+    ],
+    "candidate_state_preflight_outcomes_ignored": true,
+    "minimum_eligible_future_pairs": 3
+  },
+  "agent_rollout": {
+    "consumer": "Codex",
+    "same_model_prompt_effort_timeout_for_all_states": true,
+    "network": "disabled inside containers",
+    "history_access": false,
+    "repeats_per_state": 1,
+    "primary_endpoint": "joint success: future FAIL_TO_PASS and capped PASS_TO_PASS pass, while current FAIL_TO_PASS remains passing",
+    "secondary_endpoints": [
+      "future-only success",
+      "prior-task preservation",
+      "tool calls",
+      "wall-clock seconds",
+      "edit size"
+    ]
+  },
+  "estimands": {
+    "primary": "within-future-pair candidate minus historical joint-success difference",
+    "candidate_pooling": "pool s0 and s1 with future-pair-clustered uncertainty",
+    "mechanism": "candidate-specific maintainer-patch application and verifier failures from protocol 25, reported without selection"
+  },
+  "replication": "Claude will later run the identical frozen eligible manifest, prompt, and endpoints when available."
+}

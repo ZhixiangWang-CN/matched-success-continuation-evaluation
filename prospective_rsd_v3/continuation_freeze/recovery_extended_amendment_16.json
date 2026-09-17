@@ -1,0 +1,30 @@
+{
+  "status": "EXTENDED_RECOVERY_BUDGET_FROZEN_BEFORE_ANY_ROLLOUT",
+  "frozen_at_utc": "2026-09-05T15:36:59Z",
+  "supersedes_for_budget_only": "recovery_executor_amendment_15.json",
+  "motivation": "Amendment 15 fixed a three-round recovery budget. Every unrecovered arm resolved all three rounds and hit a fourth conflicting commit (Jsonpickle 6/6 per consumer; one Codex RO-Crate arm). This amendment asks whether those states are recoverable at all under a larger budget, so that budget-exhaustion and irrecoverability can be distinguished.",
+  "arms": {
+    "codex": "7 arms",
+    "claude": "6 arms",
+    "union": 7,
+    "file": "recovery_extended_arms.json"
+  },
+  "arms_sha256": "81251b52f1c76d124df99f54adb972aca27938fad056df256916ee1f9d3b60b4",
+  "design": {
+    "max_recovery_rounds_per_arm": 10,
+    "everything_else": "identical to amendment 15 (same consumers, models, efforts, prompts, harness, verification, future session, strict evaluation)"
+  },
+  "outcomes": "recovery success, rounds used, number of distinct conflicting commits, verified recovery, post-recovery continuation; reported as an extended-budget sensitivity next to the frozen three-round result, never substituted for it",
+  "hashes_sha256": {
+    "recovery_runner": "e5b06dff0b3f70dde7d8895bae95cb045a6001d08a38d13cc34dfe5d6af77f6e",
+    "consumer_runner": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+    "container_proxy": "8dcf40eeddeae81742e28dc6827f2c6725d97b576ac4b6abe318287f99bd3ca8"
+  },
+  "amendment_15_outcomes_status": "already opened; arm set fixed by the exhaustion event, not by any future outcome",
+  "revision_1": {
+    "at_utc": "2026-09-06T00:45:38Z",
+    "reason": "Two Claude arms (jsonpickle-342 -> jsonpickle-469, low and high) ended with recovery_unresolved in round 5 because the Claude CLI returned 'You've hit your session limit' (account usage cap), not because the agent failed to resolve. No other Claude row in any experiment contains a limit message (scanned calibration, strict heldout, amendment 15, amendment 16).",
+    "action": "The two rows are quarantined in frontier_recovery_extended_claude.session_limit.jsonl and the two arms are re-executed under the identical protocol after the limit reset; only the re-executed rows enter the summary.",
+    "formal_rows_replaced": 2
+  }
+}

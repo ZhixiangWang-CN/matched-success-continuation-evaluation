@@ -1,0 +1,74 @@
+{
+  "cache": [
+    [
+      "contains_key",
+      "Add contains(key), returning whether the key is currently stored even when its stored value is None.",
+      "c=Cache(); assert not c.contains(\"a\"); c.put(\"a\",None); c.put(\"b\",2); assert c.contains(\"a\") and c.contains(\"b\") and not c.contains(\"x\"); assert c.get(\"b\")==2"
+    ],
+    [
+      "update_many",
+      "Add update_many(mapping), storing every supplied key and value while preserving entries whose keys are absent from the mapping.",
+      "c=Cache(); c.put(\"a\",1); c.put(\"b\",2); c.update_many({\"b\":5,\"c\":3}); assert c.get(\"a\")==1 and c.get(\"b\")==5 and c.get(\"c\")==3"
+    ]
+  ],
+  "events": [
+    [
+      "first",
+      "Add first(user), returning that user's earliest recorded value, or None if the user has no events.",
+      "s=EventStore(); assert s.first(\"a\") is None; s.record(\"a\",1); s.record(\"b\",8); s.record(\"a\",3); assert s.first(\"a\")==1 and s.first(\"b\")==8 and s.latest(\"a\")==3"
+    ],
+    [
+      "replace_latest",
+      "Add replace_latest(user, value), replacing and returning that user's latest recorded value without changing the order of other events. Return None and record nothing when the user has no event.",
+      "s=EventStore(); s.record(\"a\",1); s.record(\"b\",8); s.record(\"a\",3); assert s.replace_latest(\"a\",5)==3; assert s.latest(\"a\")==5 and s.latest(\"b\")==8; assert s.replace_latest(\"x\",7) is None; assert s.latest(\"x\") is None"
+    ]
+  ],
+  "flags": [
+    [
+      "delete_flag",
+      "Add delete(name), returning the previous boolean value or None when the feature was not configured. A deleted feature must subsequently read as disabled.",
+      "f=FeatureFlags(); f.set(\"search\",True); assert f.delete(\"search\") is True; assert not f.get(\"search\"); assert f.delete(\"search\") is None; assert f.delete(\"missing\") is None"
+    ],
+    [
+      "enabled_flags",
+      "Add enabled(), returning a sorted detached list containing the names of all currently enabled features.",
+      "f=FeatureFlags(); f.set(\"search\",True); f.set(\"export\",False); f.set(\"zeta\",True); x=f.enabled(); assert x==[\"search\",\"zeta\"]; x.clear(); assert f.get(\"search\")"
+    ]
+  ],
+  "permissions": [
+    [
+      "grant",
+      "Add grant(role, action), adding one permission to a role. An unknown role must be created with no other permissions.",
+      "p=Permissions(); p.grant(\"viewer\",\"comment\"); assert p.allowed(\"viewer\",\"read\") and p.allowed(\"viewer\",\"comment\"); p.grant(\"auditor\",\"audit\"); assert p.allowed(\"auditor\",\"audit\") and not p.allowed(\"auditor\",\"read\")"
+    ],
+    [
+      "roles_for",
+      "Add roles_for(action), returning a sorted detached list of every role currently allowed to perform that action.",
+      "p=Permissions(); x=p.roles_for(\"read\"); assert x==[\"editor\",\"viewer\"]; x.clear(); assert p.allowed(\"viewer\",\"read\"); assert p.roles_for(\"write\")==[\"editor\"]; assert p.roles_for(\"missing\")==[]"
+    ]
+  ],
+  "pricing": [
+    [
+      "remove_plan",
+      "Add remove_plan(plan), returning the removed discount fraction. The removed plan must become invalid, and removing an unknown plan must raise KeyError.",
+      "e=PriceEngine(); assert e.remove_plan(\"pro\")==0.10\ntry: e.price(\"pro\",100); assert False\nexcept KeyError: pass\ntry: e.remove_plan(\"missing\"); assert False\nexcept KeyError: pass\nassert e.price(\"basic\",20)==20"
+    ],
+    [
+      "discounts_view",
+      "Add discounts(), returning a detached dictionary that maps every currently supported plan to its fractional discount.",
+      "e=PriceEngine(); d=e.discounts(); assert d=={\"basic\":0.0,\"pro\":0.10}; d[\"pro\"]=0.8; assert e.price(\"pro\",100)==90"
+    ]
+  ],
+  "router": [
+    [
+      "rename_route",
+      "Add rename(old_path, new_path), moving an exact route and returning its target. Return None for a missing old path. The old path must no longer resolve after a successful rename.",
+      "r=Router(); assert r.rename(\"/health\",\"/status\")==\"ok\"; assert r.resolve(\"/health\") is None and r.resolve(\"/status\")==\"ok\"; assert r.rename(\"/missing\",\"/x\") is None; assert r.resolve(\"/\")==\"home\""
+    ],
+    [
+      "paths_for",
+      "Add paths_for(target), returning a sorted detached list of every exact path currently mapped to that target.",
+      "r=Router(); assert r.paths_for(\"home\")==[\"/\"]; assert r.paths_for(\"ok\")==[\"/health\"]; assert r.paths_for(\"missing\")==[]; x=r.paths_for(\"home\"); x.clear(); assert r.resolve(\"/\")==\"home\""
+    ]
+  ]
+}

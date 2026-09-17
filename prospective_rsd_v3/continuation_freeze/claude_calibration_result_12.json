@@ -1,0 +1,25 @@
+{
+  "status": "CLAUDE_SECOND_CONSUMER_CALIBRATION_PASSED",
+  "formal_result_sha256": "a57f9872ecc73bdddbc287d1809870f8ee727e73e4d814fca629e9ec7ea58236",
+  "rollouts": 15,
+  "successes": 9,
+  "success_rate": 0.6,
+  "code_changing_rollouts": 15,
+  "code_change_rate": 1.0,
+  "tool_calls": 299,
+  "invalid_actions": 0,
+  "invalid_action_rate": 0.0,
+  "gate": {
+    "historical_control_success_at_least_30_percent": true,
+    "code_changing_rollouts_at_least_80_percent": true,
+    "invalid_tool_actions_below_5_percent": true,
+    "overall": "PASS"
+  },
+  "successes_by_anchor": {
+    "getmoto__moto-5835": "3/3",
+    "jsonpickle__jsonpickle-342": "3/3",
+    "kinto__kinto-1814": "3/3",
+    "pymodbus-dev__pymodbus-1533": "0/3",
+    "researchobject__ro-crate-py-69": "0/3"
+  }
+}

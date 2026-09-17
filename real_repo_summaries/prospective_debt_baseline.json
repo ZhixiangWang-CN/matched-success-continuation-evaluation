@@ -1,0 +1,931 @@
+{
+  "design": "5-fold stratified out-of-fold prediction from earlier-task information only",
+  "n": 148,
+  "positives": 19,
+  "prevalence": 0.12837837837837837,
+  "label": "substantive exact-code repayment in the later maintainer patch",
+  "models": {
+    "size_only": {
+      "average_precision": 0.2934514211110545,
+      "roc_auc": 0.6927784577723378,
+      "precision_at_prevalence_k": 0.3157894736842105,
+      "recall_at_prevalence_k": 0.3157894736842105,
+      "k": 19,
+      "permutation_p_average_precision": 0.011976047904191617,
+      "null_average_precision_mean": 0.1547777636124772
+    },
+    "text_only": {
+      "average_precision": 0.20418818594342386,
+      "roc_auc": 0.587515299877601,
+      "precision_at_prevalence_k": 0.10526315789473684,
+      "recall_at_prevalence_k": 0.10526315789473684,
+      "k": 19,
+      "permutation_p_average_precision": 0.11377245508982035,
+      "null_average_precision_mean": 0.144279741080519
+    },
+    "combined": {
+      "average_precision": 0.27473083802559506,
+      "roc_auc": 0.6948184414524684,
+      "precision_at_prevalence_k": 0.3157894736842105,
+      "recall_at_prevalence_k": 0.3157894736842105,
+      "k": 19,
+      "permutation_p_average_precision": 0.011976047904191617,
+      "null_average_precision_mean": 0.14820245861627576
+    }
+  },
+  "combined_ranking": [
+    {
+      "rank": 1,
+      "pair_id": "robotpy__cxxheaderparser-44__TO__robotpy__cxxheaderparser-73",
+      "label": 0,
+      "score": 0.9201072006853785
+    },
+    {
+      "rank": 2,
+      "pair_id": "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-77",
+      "label": 0,
+      "score": 0.891311412174412
+    },
+    {
+      "rank": 3,
+      "pair_id": "owkin__pydeseq2-131__TO__owkin__pydeseq2-139",
+      "label": 1,
+      "score": 0.8403831524217316
+    },
+    {
+      "rank": 4,
+      "pair_id": "dcs4cop__xcube-93__TO__dcs4cop__xcube-168",
+      "label": 0,
+      "score": 0.8327220571631839
+    },
+    {
+      "rank": 5,
+      "pair_id": "pytest-dev__pyfakefs-983__TO__pytest-dev__pyfakefs-985",
+      "label": 1,
+      "score": 0.8298545050946601
+    },
+    {
+      "rank": 6,
+      "pair_id": "http-apis__hydrus-580__TO__http-apis__hydrus-590",
+      "label": 1,
+      "score": 0.818539598570265
+    },
+    {
+      "rank": 7,
+      "pair_id": "getsentry__responses-397__TO__getsentry__responses-530",
+      "label": 0,
+      "score": 0.8057593972313358
+    },
+    {
+      "rank": 8,
+      "pair_id": "boto__botocore-746__TO__boto__botocore-871",
+      "label": 1,
+      "score": 0.7954170338335916
+    },
+    {
+      "rank": 9,
+      "pair_id": "djrobstep__sqlakeyset-96__TO__djrobstep__sqlakeyset-106",
+      "label": 0,
+      "score": 0.7775477469685029
+    },
+    {
+      "rank": 10,
+      "pair_id": "textualize__rich-2031__TO__textualize__rich-3067",
+      "label": 0,
+      "score": 0.7514590349014495
+    },
+    {
+      "rank": 11,
+      "pair_id": "samuelcolvin__pydantic-2055__TO__samuelcolvin__pydantic-2119",
+      "label": 0,
+      "score": 0.7409818008428937
+    },
+    {
+      "rank": 12,
+      "pair_id": "ploomber__jupysql-821__TO__ploomber__jupysql-861",
+      "label": 0,
+      "score": 0.7362554900925722
+    },
+    {
+      "rank": 13,
+      "pair_id": "quora__pyanalyze-746__TO__quora__pyanalyze-747",
+      "label": 0,
+      "score": 0.7326886382291156
+    },
+    {
+      "rank": 14,
+      "pair_id": "pycqa__pyflakes-535__TO__pycqa__pyflakes-632",
+      "label": 0,
+      "score": 0.72888886971311
+    },
+    {
+      "rank": 15,
+      "pair_id": "radioastronomysoftwaregroup__pyuvdata-658__TO__radioastronomysoftwaregroup__pyuvdata-701",
+      "label": 0,
+      "score": 0.7160438410476836
+    },
+    {
+      "rank": 16,
+      "pair_id": "litestar-org__polyfactory-405__TO__litestar-org__polyfactory-728",
+      "label": 0,
+      "score": 0.7119925255549251
+    },
+    {
+      "rank": 17,
+      "pair_id": "pybamm-team__pybamm-4534__TO__pybamm-team__pybamm-5076",
+      "label": 1,
+      "score": 0.7061214641322887
+    },
+    {
+      "rank": 18,
+      "pair_id": "greyli__apiflask-178__TO__greyli__apiflask-260",
+      "label": 1,
+      "score": 0.6885107533459359
+    },
+    {
+      "rank": 19,
+      "pair_id": "audreyr__cookiecutter-642__TO__audreyr__cookiecutter-967",
+      "label": 0,
+      "score": 0.6854871513991032
+    },
+    {
+      "rank": 20,
+      "pair_id": "aiogram__aiogram-1657__TO__aiogram__aiogram-1665",
+      "label": 0,
+      "score": 0.6720499737537442
+    },
+    {
+      "rank": 21,
+      "pair_id": "marketsquare__robotframework-robocop-1027__TO__marketsquare__robotframework-robocop-1030",
+      "label": 1,
+      "score": 0.6581822467886808
+    },
+    {
+      "rank": 22,
+      "pair_id": "bluesky__bluesky-1709__TO__bluesky__bluesky-1798",
+      "label": 0,
+      "score": 0.6415129672916908
+    },
+    {
+      "rank": 23,
+      "pair_id": "yukinarit__pyserde-303__TO__yukinarit__pyserde-321",
+      "label": 0,
+      "score": 0.63828033596924
+    },
+    {
+      "rank": 24,
+      "pair_id": "jlowin__fastmcp-164__TO__jlowin__fastmcp-317",
+      "label": 1,
+      "score": 0.6302542261336498
+    },
+    {
+      "rank": 25,
+      "pair_id": "quantum-tii__qibo-344__TO__quantum-tii__qibo-410",
+      "label": 0,
+      "score": 0.6300554002376509
+    },
+    {
+      "rank": 26,
+      "pair_id": "pyomo__pyomo-3497__TO__pyomo__pyomo-3588",
+      "label": 0,
+      "score": 0.6286015380851279
+    },
+    {
+      "rank": 27,
+      "pair_id": "stfc__fparser-356__TO__stfc__fparser-408",
+      "label": 0,
+      "score": 0.62251319575502
+    },
+    {
+      "rank": 28,
+      "pair_id": "sanic-org__sanic-ext-98__TO__sanic-org__sanic-ext-102",
+      "label": 1,
+      "score": 0.6216130379527443
+    },
+    {
+      "rank": 29,
+      "pair_id": "pylons__waitress-249__TO__pylons__waitress-252",
+      "label": 0,
+      "score": 0.6027416406254598
+    },
+    {
+      "rank": 30,
+      "pair_id": "highcharts-for-python__highcharts-core-79__TO__highcharts-for-python__highcharts-core-85",
+      "label": 0,
+      "score": 0.5923925847942556
+    },
+    {
+      "rank": 31,
+      "pair_id": "peopledoc__workalendar-373__TO__peopledoc__workalendar-541",
+      "label": 0,
+      "score": 0.5874355526003523
+    },
+    {
+      "rank": 32,
+      "pair_id": "d0c-s4vage__pfp-123__TO__d0c-s4vage__pfp-126",
+      "label": 0,
+      "score": 0.5390952986473643
+    },
+    {
+      "rank": 33,
+      "pair_id": "liampauling__flumine-200__TO__liampauling__flumine-479",
+      "label": 0,
+      "score": 0.5238336133189618
+    },
+    {
+      "rank": 34,
+      "pair_id": "googlecloudplatform__cloud-sql-python-connector-1118__TO__googlecloudplatform__cloud-sql-python-connector-1221",
+      "label": 0,
+      "score": 0.518316790624646
+    },
+    {
+      "rank": 35,
+      "pair_id": "ambv__black-339__TO__ambv__black-724",
+      "label": 0,
+      "score": 0.5141045605561312
+    },
+    {
+      "rank": 36,
+      "pair_id": "tox-dev__pipdeptree-310__TO__tox-dev__pipdeptree-318",
+      "label": 0,
+      "score": 0.5116447722967711
+    },
+    {
+      "rank": 37,
+      "pair_id": "rochacbruno__dynaconf-188__TO__rochacbruno__dynaconf-191",
+      "label": 1,
+      "score": 0.5064390163546706
+    },
+    {
+      "rank": 38,
+      "pair_id": "mirumee__ariadne-codegen-221__TO__mirumee__ariadne-codegen-242",
+      "label": 0,
+      "score": 0.4952816553466438
+    },
+    {
+      "rank": 39,
+      "pair_id": "mpmath__mpmath-821__TO__mpmath__mpmath-828",
+      "label": 0,
+      "score": 0.4880556160977237
+    },
+    {
+      "rank": 40,
+      "pair_id": "pycqa__flake8-1535__TO__pycqa__flake8-1631",
+      "label": 0,
+      "score": 0.4830288672563138
+    },
+    {
+      "rank": 41,
+      "pair_id": "elastic__curator-603__TO__elastic__curator-616",
+      "label": 0,
+      "score": 0.46841784083306576
+    },
+    {
+      "rank": 42,
+      "pair_id": "mondeja__mkdocs-include-markdown-plugin-51__TO__mondeja__mkdocs-include-markdown-plugin-53",
+      "label": 0,
+      "score": 0.46533406410761946
+    },
+    {
+      "rank": 43,
+      "pair_id": "getmoto__moto-5870__TO__getmoto__moto-5980",
+      "label": 0,
+      "score": 0.4607886845362138
+    },
+    {
+      "rank": 44,
+      "pair_id": "theacodes__nox-140__TO__theacodes__nox-314",
+      "label": 0,
+      "score": 0.4574675021349653
+    },
+    {
+      "rank": 45,
+      "pair_id": "networkx__networkx-3365__TO__networkx__networkx-3366",
+      "label": 0,
+      "score": 0.4549479997070385
+    },
+    {
+      "rank": 46,
+      "pair_id": "aio-libs__multidict-89__TO__aio-libs__multidict-94",
+      "label": 0,
+      "score": 0.45210071291385734
+    },
+    {
+      "rank": 47,
+      "pair_id": "pypa__setuptools-1365__TO__pypa__setuptools-1847",
+      "label": 0,
+      "score": 0.45046100713871806
+    },
+    {
+      "rank": 48,
+      "pair_id": "caikit__caikit-366__TO__caikit__caikit-416",
+      "label": 0,
+      "score": 0.45011008925748003
+    },
+    {
+      "rank": 49,
+      "pair_id": "cogent3__cogent3-2138__TO__cogent3__cogent3-2269",
+      "label": 0,
+      "score": 0.437467391819429
+    },
+    {
+      "rank": 50,
+      "pair_id": "xknx__xknx-1642__TO__xknx__xknx-1663",
+      "label": 0,
+      "score": 0.4330242679483521
+    },
+    {
+      "rank": 51,
+      "pair_id": "drivendataorg__cloudpathlib-104__TO__drivendataorg__cloudpathlib-209",
+      "label": 0,
+      "score": 0.42823023820899053
+    },
+    {
+      "rank": 52,
+      "pair_id": "pyccel__pyccel-2184__TO__pyccel__pyccel-2289",
+      "label": 1,
+      "score": 0.4205832173988926
+    },
+    {
+      "rank": 53,
+      "pair_id": "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3412",
+      "label": 0,
+      "score": 0.41694296873497794
+    },
+    {
+      "rank": 54,
+      "pair_id": "agnostiqhq__covalent-1837__TO__agnostiqhq__covalent-1886",
+      "label": 0,
+      "score": 0.41666550477514364
+    },
+    {
+      "rank": 55,
+      "pair_id": "pyfar__pyfar-649__TO__pyfar__pyfar-722",
+      "label": 0,
+      "score": 0.4153199068132956
+    },
+    {
+      "rank": 56,
+      "pair_id": "mirumee__ariadne-19__TO__mirumee__ariadne-24",
+      "label": 0,
+      "score": 0.401373478475147
+    },
+    {
+      "rank": 57,
+      "pair_id": "softlayer__softlayer-python-650__TO__softlayer__softlayer-python-741",
+      "label": 0,
+      "score": 0.4006778251708404
+    },
+    {
+      "rank": 58,
+      "pair_id": "jonathonreinhart__scuba-42__TO__jonathonreinhart__scuba-105",
+      "label": 0,
+      "score": 0.3795176234601215
+    },
+    {
+      "rank": 59,
+      "pair_id": "alteryx__evalml-1365__TO__alteryx__evalml-1374",
+      "label": 0,
+      "score": 0.36859283516345764
+    },
+    {
+      "rank": 60,
+      "pair_id": "maas__python-libmaas-218__TO__maas__python-libmaas-224",
+      "label": 0,
+      "score": 0.3643578584387951
+    },
+    {
+      "rank": 61,
+      "pair_id": "simpeg__simpeg-1565__TO__simpeg__simpeg-1633",
+      "label": 0,
+      "score": 0.36326902267428574
+    },
+    {
+      "rank": 62,
+      "pair_id": "pipxproject__pipx-425__TO__pipxproject__pipx-531",
+      "label": 0,
+      "score": 0.3528850180407513
+    },
+    {
+      "rank": 63,
+      "pair_id": "pypa__pipx-1102__TO__pypa__pipx-1256",
+      "label": 0,
+      "score": 0.3502976637405859
+    },
+    {
+      "rank": 64,
+      "pair_id": "facelessuser__pymdown-extensions-2003__TO__facelessuser__pymdown-extensions-2472",
+      "label": 0,
+      "score": 0.3467954078247116
+    },
+    {
+      "rank": 65,
+      "pair_id": "azure__walinuxagent-988__TO__azure__walinuxagent-1318",
+      "label": 0,
+      "score": 0.34568076566658
+    },
+    {
+      "rank": 66,
+      "pair_id": "tobikodata__sqlmesh-2547__TO__tobikodata__sqlmesh-3654",
+      "label": 0,
+      "score": 0.3382486597244177
+    },
+    {
+      "rank": 67,
+      "pair_id": "pallets__werkzeug-2979__TO__pallets__werkzeug-2995",
+      "label": 1,
+      "score": 0.3360995959532465
+    },
+    {
+      "rank": 68,
+      "pair_id": "jazzband__tablib-456__TO__jazzband__tablib-470",
+      "label": 0,
+      "score": 0.3330108645030223
+    },
+    {
+      "rank": 69,
+      "pair_id": "openmdao__openmdao-3522__TO__openmdao__openmdao-3566",
+      "label": 0,
+      "score": 0.3301221492936709
+    },
+    {
+      "rank": 70,
+      "pair_id": "dynaconf__dynaconf-960__TO__dynaconf__dynaconf-1293",
+      "label": 0,
+      "score": 0.32678939339651514
+    },
+    {
+      "rank": 71,
+      "pair_id": "robotframework__seleniumlibrary-1248__TO__robotframework__seleniumlibrary-1366",
+      "label": 1,
+      "score": 0.3267616948369424
+    },
+    {
+      "rank": 72,
+      "pair_id": "pallets__click-1698__TO__pallets__click-1803",
+      "label": 0,
+      "score": 0.32604619770188825
+    },
+    {
+      "rank": 73,
+      "pair_id": "stingraysoftware__stingray-814__TO__stingraysoftware__stingray-858",
+      "label": 0,
+      "score": 0.323888271712063
+    },
+    {
+      "rank": 74,
+      "pair_id": "cta-observatory__ctapipe-2732__TO__cta-observatory__ctapipe-2738",
+      "label": 0,
+      "score": 0.3196510190649331
+    },
+    {
+      "rank": 75,
+      "pair_id": "biocore__biom-format-921__TO__biocore__biom-format-922",
+      "label": 0,
+      "score": 0.31264982802845936
+    },
+    {
+      "rank": 76,
+      "pair_id": "pycqa__docformatter-141__TO__pycqa__docformatter-143",
+      "label": 0,
+      "score": 0.30062163585371254
+    },
+    {
+      "rank": 77,
+      "pair_id": "takluyver__flit-168__TO__takluyver__flit-232",
+      "label": 0,
+      "score": 0.2907008697871105
+    },
+    {
+      "rank": 78,
+      "pair_id": "facebookexperimental__usort-141__TO__facebookexperimental__usort-195",
+      "label": 0,
+      "score": 0.28151133477748186
+    },
+    {
+      "rank": 79,
+      "pair_id": "ericmjl__pyjanitor-735__TO__ericmjl__pyjanitor-762",
+      "label": 0,
+      "score": 0.267819432606548
+    },
+    {
+      "rank": 80,
+      "pair_id": "digitalocean__pynetbox-128__TO__digitalocean__pynetbox-138",
+      "label": 0,
+      "score": 0.2576645599457616
+    },
+    {
+      "rank": 81,
+      "pair_id": "pdm-project__pdm-1628__TO__pdm-project__pdm-1889",
+      "label": 0,
+      "score": 0.2509222384816876
+    },
+    {
+      "rank": 82,
+      "pair_id": "gitpython-developers__gitpython-744__TO__gitpython-developers__gitpython-746",
+      "label": 0,
+      "score": 0.24799798278803054
+    },
+    {
+      "rank": 83,
+      "pair_id": "jelmer__dulwich-1073__TO__jelmer__dulwich-1160",
+      "label": 0,
+      "score": 0.2447904575121623
+    },
+    {
+      "rank": 84,
+      "pair_id": "laspy__laspy-195__TO__laspy__laspy-200",
+      "label": 1,
+      "score": 0.23627338535158254
+    },
+    {
+      "rank": 85,
+      "pair_id": "delgan__loguru-1303__TO__delgan__loguru-1304",
+      "label": 0,
+      "score": 0.23203582303947162
+    },
+    {
+      "rank": 86,
+      "pair_id": "automl__configspace-382__TO__automl__configspace-388",
+      "label": 0,
+      "score": 0.22709019816869563
+    },
+    {
+      "rank": 87,
+      "pair_id": "ishepard__pydriller-92__TO__ishepard__pydriller-119",
+      "label": 1,
+      "score": 0.2217304276773132
+    },
+    {
+      "rank": 88,
+      "pair_id": "natcap__pygeoprocessing-123__TO__natcap__pygeoprocessing-139",
+      "label": 1,
+      "score": 0.21848606576977816
+    },
+    {
+      "rank": 89,
+      "pair_id": "enthought__envisage-508__TO__enthought__envisage-546",
+      "label": 0,
+      "score": 0.21707674919434874
+    },
+    {
+      "rank": 90,
+      "pair_id": "yt-project__unyt-72__TO__yt-project__unyt-80",
+      "label": 0,
+      "score": 0.2090648203392372
+    },
+    {
+      "rank": 91,
+      "pair_id": "oasis-open__cti-python-stix2-25__TO__oasis-open__cti-python-stix2-160",
+      "label": 0,
+      "score": 0.2082433438191025
+    },
+    {
+      "rank": 92,
+      "pair_id": "wntrblm__nox-922__TO__wntrblm__nox-932",
+      "label": 0,
+      "score": 0.2074625716872673
+    },
+    {
+      "rank": 93,
+      "pair_id": "cloudreach__sceptre-413__TO__cloudreach__sceptre-415",
+      "label": 1,
+      "score": 0.20695872752844488
+    },
+    {
+      "rank": 94,
+      "pair_id": "neurodatawithoutborders__pynwb-1410__TO__neurodatawithoutborders__pynwb-1598",
+      "label": 0,
+      "score": 0.20570137789122633
+    },
+    {
+      "rank": 95,
+      "pair_id": "collective__icalendar-878__TO__collective__icalendar-880",
+      "label": 0,
+      "score": 0.1883344022584017
+    },
+    {
+      "rank": 96,
+      "pair_id": "apiflask__apiflask-353__TO__apiflask__apiflask-589",
+      "label": 0,
+      "score": 0.1809883963341626
+    },
+    {
+      "rank": 97,
+      "pair_id": "pretalx__pretalx-498__TO__pretalx__pretalx-509",
+      "label": 0,
+      "score": 0.17909053665275917
+    },
+    {
+      "rank": 98,
+      "pair_id": "amaranth-lang__amaranth-1146__TO__amaranth-lang__amaranth-1218",
+      "label": 0,
+      "score": 0.17612969817265736
+    },
+    {
+      "rank": 99,
+      "pair_id": "kayak__pypika-198__TO__kayak__pypika-236",
+      "label": 0,
+      "score": 0.17537721186402144
+    },
+    {
+      "rank": 100,
+      "pair_id": "keras-team__keras-19284__TO__keras-team__keras-19387",
+      "label": 0,
+      "score": 0.15996610351673907
+    },
+    {
+      "rank": 101,
+      "pair_id": "callowayproject__bump-my-version-147__TO__callowayproject__bump-my-version-156",
+      "label": 0,
+      "score": 0.15738484276484008
+    },
+    {
+      "rank": 102,
+      "pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385",
+      "label": 0,
+      "score": 0.15379659403863838
+    },
+    {
+      "rank": 103,
+      "pair_id": "stfc__psyclone-2084__TO__stfc__psyclone-2231",
+      "label": 0,
+      "score": 0.14577521143007968
+    },
+    {
+      "rank": 104,
+      "pair_id": "tox-dev__sphinx-autodoc-typehints-287__TO__tox-dev__sphinx-autodoc-typehints-316",
+      "label": 0,
+      "score": 0.1455990124305542
+    },
+    {
+      "rank": 105,
+      "pair_id": "jcrist__skein-114__TO__jcrist__skein-162",
+      "label": 0,
+      "score": 0.14450335153152644
+    },
+    {
+      "rank": 106,
+      "pair_id": "alteryx__featuretools-2627__TO__alteryx__featuretools-2722",
+      "label": 0,
+      "score": 0.14165884206268217
+    },
+    {
+      "rank": 107,
+      "pair_id": "martinthoma__flake8-simplify-94__TO__martinthoma__flake8-simplify-96",
+      "label": 0,
+      "score": 0.12912827454205453
+    },
+    {
+      "rank": 108,
+      "pair_id": "iamconsortium__pyam-92__TO__iamconsortium__pyam-93",
+      "label": 0,
+      "score": 0.12553562957146655
+    },
+    {
+      "rank": 109,
+      "pair_id": "reata__sqllineage-224__TO__reata__sqllineage-234",
+      "label": 0,
+      "score": 0.1253585152942461
+    },
+    {
+      "rank": 110,
+      "pair_id": "iterative__dvc-9365__TO__iterative__dvc-9888",
+      "label": 1,
+      "score": 0.12403430209583143
+    },
+    {
+      "rank": 111,
+      "pair_id": "pyca__cryptography-12286__TO__pyca__cryptography-12342",
+      "label": 0,
+      "score": 0.12160935875146618
+    },
+    {
+      "rank": 112,
+      "pair_id": "jnothman__upsetplot-55__TO__jnothman__upsetplot-61",
+      "label": 0,
+      "score": 0.12085190680393171
+    },
+    {
+      "rank": 113,
+      "pair_id": "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-137",
+      "label": 0,
+      "score": 0.12047879681951938
+    },
+    {
+      "rank": 114,
+      "pair_id": "neogeny__tatsu-320__TO__neogeny__tatsu-339",
+      "label": 0,
+      "score": 0.11757996241236641
+    },
+    {
+      "rank": 115,
+      "pair_id": "python-cmd2__cmd2-636__TO__python-cmd2__cmd2-781",
+      "label": 0,
+      "score": 0.11205310553493747
+    },
+    {
+      "rank": 116,
+      "pair_id": "modin-project__modin-7491__TO__modin-project__modin-7554",
+      "label": 0,
+      "score": 0.10814152487691299
+    },
+    {
+      "rank": 117,
+      "pair_id": "stac-utils__pystac-751__TO__stac-utils__pystac-794",
+      "label": 0,
+      "score": 0.10331332277017335
+    },
+    {
+      "rank": 118,
+      "pair_id": "ntnu-ihb__pythonfmu-40__TO__ntnu-ihb__pythonfmu-86",
+      "label": 0,
+      "score": 0.10323014856885247
+    },
+    {
+      "rank": 119,
+      "pair_id": "adamchainz__flake8-comprehensions-200__TO__adamchainz__flake8-comprehensions-205",
+      "label": 1,
+      "score": 0.10080380109359609
+    },
+    {
+      "rank": 120,
+      "pair_id": "timothycrosley__isort-536__TO__timothycrosley__isort-893",
+      "label": 0,
+      "score": 0.0927101172218562
+    },
+    {
+      "rank": 121,
+      "pair_id": "hdmf-dev__hdmf-765__TO__hdmf-dev__hdmf-855",
+      "label": 0,
+      "score": 0.0888752640882184
+    },
+    {
+      "rank": 122,
+      "pair_id": "ecmwf__earthkit-data-265__TO__ecmwf__earthkit-data-339",
+      "label": 0,
+      "score": 0.0877034136991933
+    },
+    {
+      "rank": 123,
+      "pair_id": "brazilian-utils__brutils-python-89__TO__brazilian-utils__brutils-python-125",
+      "label": 0,
+      "score": 0.086053510968266
+    },
+    {
+      "rank": 124,
+      "pair_id": "astropenguin__xarray-dataclasses-4__TO__astropenguin__xarray-dataclasses-8",
+      "label": 0,
+      "score": 0.08472779576062796
+    },
+    {
+      "rank": 125,
+      "pair_id": "python-markdown__markdown-984__TO__python-markdown__markdown-994",
+      "label": 0,
+      "score": 0.07949848939663923
+    },
+    {
+      "rank": 126,
+      "pair_id": "geofileops__geofileops-555__TO__geofileops__geofileops-649",
+      "label": 0,
+      "score": 0.07327274592874111
+    },
+    {
+      "rank": 127,
+      "pair_id": "pytask-dev__pytask-138__TO__pytask-dev__pytask-142",
+      "label": 0,
+      "score": 0.06832221001445628
+    },
+    {
+      "rank": 128,
+      "pair_id": "jazzband__pip-tools-715__TO__jazzband__pip-tools-737",
+      "label": 0,
+      "score": 0.06622584086270483
+    },
+    {
+      "rank": 129,
+      "pair_id": "oscal-compass__compliance-trestle-1573__TO__oscal-compass__compliance-trestle-1577",
+      "label": 0,
+      "score": 0.06608933855600482
+    },
+    {
+      "rank": 130,
+      "pair_id": "scikit-build__scikit-build-core-733__TO__scikit-build__scikit-build-core-921",
+      "label": 0,
+      "score": 0.06561781128671201
+    },
+    {
+      "rank": 131,
+      "pair_id": "joke2k__faker-2104__TO__joke2k__faker-2203",
+      "label": 0,
+      "score": 0.06374467633070231
+    },
+    {
+      "rank": 132,
+      "pair_id": "ctfd__ctfd-263__TO__ctfd__ctfd-432",
+      "label": 0,
+      "score": 0.05916139241433293
+    },
+    {
+      "rank": 133,
+      "pair_id": "databricks__dbt-databricks-861__TO__databricks__dbt-databricks-995",
+      "label": 0,
+      "score": 0.0569007116035919
+    },
+    {
+      "rank": 134,
+      "pair_id": "googleapis__python-bigquery-1879__TO__googleapis__python-bigquery-2140",
+      "label": 0,
+      "score": 0.054454030362943544
+    },
+    {
+      "rank": 135,
+      "pair_id": "openmdao__dymos-1165__TO__openmdao__dymos-1182",
+      "label": 0,
+      "score": 0.04862872372261783
+    },
+    {
+      "rank": 136,
+      "pair_id": "geopandas__geopandas-3395__TO__geopandas__geopandas-3564",
+      "label": 0,
+      "score": 0.04720763243381917
+    },
+    {
+      "rank": 137,
+      "pair_id": "pyjanitor-devs__pyjanitor-1446__TO__pyjanitor-devs__pyjanitor-1451",
+      "label": 0,
+      "score": 0.04139836587314703
+    },
+    {
+      "rank": 138,
+      "pair_id": "materials-consortia__optimade-python-tools-211__TO__materials-consortia__optimade-python-tools-903",
+      "label": 0,
+      "score": 0.04052719860118946
+    },
+    {
+      "rank": 139,
+      "pair_id": "python-semver__python-semver-253__TO__python-semver__python-semver-254",
+      "label": 0,
+      "score": 0.03612313561559882
+    },
+    {
+      "rank": 140,
+      "pair_id": "pvlib__pvlib-python-253__TO__pvlib__pvlib-python-304",
+      "label": 0,
+      "score": 0.0314205147791106
+    },
+    {
+      "rank": 141,
+      "pair_id": "virtuslab__git-machete-353__TO__virtuslab__git-machete-828",
+      "label": 0,
+      "score": 0.02699293268003362
+    },
+    {
+      "rank": 142,
+      "pair_id": "natcap__invest-542__TO__natcap__invest-552",
+      "label": 0,
+      "score": 0.026714521675755963
+    },
+    {
+      "rank": 143,
+      "pair_id": "aeye-lab__pymovements-486__TO__aeye-lab__pymovements-614",
+      "label": 0,
+      "score": 0.024457432585275597
+    },
+    {
+      "rank": 144,
+      "pair_id": "facebookresearch__hydra-269__TO__facebookresearch__hydra-273",
+      "label": 0,
+      "score": 0.01860816952561113
+    },
+    {
+      "rank": 145,
+      "pair_id": "hikari-py__hikari-763__TO__hikari-py__hikari-1627",
+      "label": 0,
+      "score": 0.01627412802622112
+    },
+    {
+      "rank": 146,
+      "pair_id": "cs-si__eodag-885__TO__cs-si__eodag-1271",
+      "label": 0,
+      "score": 0.009620132868304022
+    },
+    {
+      "rank": 147,
+      "pair_id": "pypa__packaging-634__TO__pypa__packaging-662",
+      "label": 0,
+      "score": 0.005818818167564619
+    },
+    {
+      "rank": 148,
+      "pair_id": "pyvrp__pyvrp-280__TO__pyvrp__pyvrp-287",
+      "label": 0,
+      "score": 0.001270248349505795
+    }
+  ],
+  "limitations": [
+    "Labels detect observed lexical repayment and are positive-unlabeled, not exhaustive debt labels.",
+    "The corpus has one selected temporal pair per repository; this pilot estimates signal, not deployment calibration.",
+    "Model selection and confirmatory evaluation require a separate held-out corpus."
+  ]
+}

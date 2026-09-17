@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_POST_COLLECTION_MISSINGNESS_AMENDMENT",
+  "date": "2026-09-09",
+  "reason": "Claude Code session limits prevented completion of 9 pre-frozen rows; the user elected to stop collection and analyze the 428 unique valid Claude rows.",
+  "collection": {
+    "codex_valid_unique_rows": 437,
+    "claude_valid_unique_rows": 428,
+    "claude_expected_rows": 437,
+    "claude_coverage": 0.9794050343249427,
+    "claude_missing_rows": 9,
+    "claude_infrastructure_errors_in_retained_rows": 0
+  },
+  "missingness": {
+    "historical_control_rows_missing": 0,
+    "candidate_endpoint_rows_missing": 9,
+    "affected_anchor_ids": [
+      "researchobject__ro-crate-py-69"
+    ],
+    "assessment": "Missingness is concentrated in one repository anchor and must not be described as missing completely at random. Missing rows are neither imputed nor scored as behavioral failures."
+  },
+  "analysis_populations": {
+    "primary": "Consumer-matched complete cases: 428 canonical keys for Codex and the same 428 for Claude, totaling 856 rows.",
+    "codex_sensitivity": "All 437 valid Codex rows."
+  },
+  "reporting_rules": [
+    "Do not claim that Claude completed 437 rows.",
+    "Do not use claude_formal_437.jsonl or combined_formal_874.jsonl; they remain superseded by the quota invalidation record.",
+    "Report 428/437 Claude coverage and the concentration of all 9 missing rows in one repository candidate endpoint.",
+    "Use paired_formal_856.jsonl for the primary consumer comparison and codex_formal_437.jsonl only for the prespecified sensitivity analysis."
+  ],
+  "authoritative_sha256": {
+    "finalizer": "535dc7fcc26df3c6bddf67bf713353e5c0b96f122cdb6966321b54640347dfc0",
+    "analysis_script": "e387fbeadcc399f0dfbed0631a371834de0c2c4c3d888b1ffb9fc87ed83663cf",
+    "formal_results_manifest": "7339804e8df86986ea229488c1298ac3c73bda48d91418c58ab839e1e3f85951",
+    "paired_formal_856": "96916a7645060e59af33c44e1cf15bfeb67f9ffe0ac44ebcc5d00027d3957167",
+    "codex_formal_437": "a5f38813c973bcf797013d1d0e74273f69be270c351aee1d19f1dd2c65f3ca9f",
+    "claude_formal_428": "040c98d985aeb2bdcf25f7de3f089014931374a47d6b2073f7cb2eba70fffcbf",
+    "analysis_results": "e4a7f745d57667130f56c534966f515d2a48df704d687c96ac72da8a2e0e8fe8"
+  }
+}

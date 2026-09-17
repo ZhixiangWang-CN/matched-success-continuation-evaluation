@@ -1,0 +1,733 @@
+{
+  "features": [
+    "chars",
+    "lines",
+    "nodes",
+    "ifs",
+    "ifexprs",
+    "dicts",
+    "sequences",
+    "compares",
+    "boolops",
+    "subscripts",
+    "state_ops",
+    "raises",
+    "assigns",
+    "methods",
+    "literals",
+    "unique_literals",
+    "returns"
+  ],
+  "n_unique_states": 64,
+  "consumers": [
+    "llama3_8b",
+    "qwen25_72b",
+    "qwen25_7b"
+  ],
+  "train_pooled": {
+    "families": [
+      {
+        "family": "cache",
+        "n_candidates": 9,
+        "chosen_hash": "cbfd800486216f5f71df2b975eb50f35252d0c239fb3fe8056fbc240a305ed3a",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.5,
+            "random": 0.5,
+            "shortest": 0.5,
+            "oracle": 1.0
+          },
+          "qwen25_72b": {
+            "critic": 1.0,
+            "random": 1.0,
+            "shortest": 1.0,
+            "oracle": 1.0
+          },
+          "qwen25_7b": {
+            "critic": 1.0,
+            "random": 1.0,
+            "shortest": 1.0,
+            "oracle": 1.0
+          }
+        }
+      },
+      {
+        "family": "events",
+        "n_candidates": 13,
+        "chosen_hash": "c4c82166d3f80d56df58636b3a6212afa23e12d1e676dcdbf2c6ab817e5c1e01",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.25,
+            "random": 0.40384615384615385,
+            "shortest": 0.25,
+            "oracle": 1.0
+          },
+          "qwen25_72b": {
+            "critic": 0.5,
+            "random": 0.7115384615384616,
+            "shortest": 0.5,
+            "oracle": 1.0
+          },
+          "qwen25_7b": {
+            "critic": 0.75,
+            "random": 0.5961538461538461,
+            "shortest": 0.75,
+            "oracle": 1.0
+          }
+        }
+      },
+      {
+        "family": "flags",
+        "n_candidates": 8,
+        "chosen_hash": "bc04b7cf1e3b44def86333a8f77f46230b9a46a1b53b2af1a1d69ac202fd5ef5",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.25,
+            "random": 0.34375,
+            "shortest": 0.25,
+            "oracle": 0.5
+          },
+          "qwen25_72b": {
+            "critic": 0.5,
+            "random": 0.46875,
+            "shortest": 0.5,
+            "oracle": 0.5
+          },
+          "qwen25_7b": {
+            "critic": 0.25,
+            "random": 0.34375,
+            "shortest": 0.25,
+            "oracle": 0.5
+          }
+        }
+      },
+      {
+        "family": "permissions",
+        "n_candidates": 15,
+        "chosen_hash": "5ca2b32b3c6b1e36c908206130ba91ea7ec3f4812fa091049ab2bf0054a1bee5",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.5,
+            "random": 0.31666666666666665,
+            "shortest": 0.25,
+            "oracle": 0.75
+          },
+          "qwen25_72b": {
+            "critic": 0.75,
+            "random": 0.7166666666666667,
+            "shortest": 0.5,
+            "oracle": 1.0
+          },
+          "qwen25_7b": {
+            "critic": 0.5,
+            "random": 0.48333333333333334,
+            "shortest": 0.5,
+            "oracle": 0.75
+          }
+        }
+      },
+      {
+        "family": "pricing",
+        "n_candidates": 12,
+        "chosen_hash": "b573a8c31c9ae73e671d583c0c3174d754f191f2e2fe13dd3a87f7b91c923a2b",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.25,
+            "random": 0.020833333333333332,
+            "shortest": 0.0,
+            "oracle": 0.25
+          },
+          "qwen25_72b": {
+            "critic": 1.0,
+            "random": 0.8125,
+            "shortest": 0.75,
+            "oracle": 1.0
+          },
+          "qwen25_7b": {
+            "critic": 0.75,
+            "random": 0.4791666666666667,
+            "shortest": 0.5,
+            "oracle": 0.75
+          }
+        }
+      },
+      {
+        "family": "router",
+        "n_candidates": 7,
+        "chosen_hash": "a5dddf62a58714a16c1b147e76c43a40e10b9bdb803204454c26d48145c03592",
+        "evaluations": {
+          "llama3_8b": {
+            "critic": 0.75,
+            "random": 0.7857142857142857,
+            "shortest": 0.5,
+            "oracle": 1.0
+          },
+          "qwen25_72b": {
+            "critic": 1.0,
+            "random": 1.0,
+            "shortest": 1.0,
+            "oracle": 1.0
+          },
+          "qwen25_7b": {
+            "critic": 1.0,
+            "random": 1.0,
+            "shortest": 1.0,
+            "oracle": 1.0
+          }
+        }
+      }
+    ],
+    "aggregate_by_evaluation_consumer": {
+      "llama3_8b": {
+        "critic": 0.4166666666666667,
+        "random": 0.3951350732600732,
+        "shortest": 0.2916666666666667,
+        "oracle": 0.75
+      },
+      "qwen25_72b": {
+        "critic": 0.7916666666666666,
+        "random": 0.7849091880341881,
+        "shortest": 0.7083333333333334,
+        "oracle": 0.9166666666666666
+      },
+      "qwen25_7b": {
+        "critic": 0.7083333333333334,
+        "random": 0.650400641025641,
+        "shortest": 0.6666666666666666,
+        "oracle": 0.8333333333333334
+      }
+    },
+    "state_prediction_mae": 0.2541439244638466,
+    "state_prediction_spearman": -0.5296831916533311
+  },
+  "train_by_consumer": {
+    "llama3_8b": {
+      "families": [
+        {
+          "family": "cache",
+          "n_candidates": 9,
+          "chosen_hash": "cbfd800486216f5f71df2b975eb50f35252d0c239fb3fe8056fbc240a305ed3a",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.5,
+              "random": 0.5,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "events",
+          "n_candidates": 13,
+          "chosen_hash": "5e34e375cfa5d557f3d556dd9d06c7a4600903ece753de1405030c58d49b7b44",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.40384615384615385,
+              "shortest": 0.25,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.7115384615384616,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.25,
+              "random": 0.5961538461538461,
+              "shortest": 0.75,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "flags",
+          "n_candidates": 8,
+          "chosen_hash": "bc04b7cf1e3b44def86333a8f77f46230b9a46a1b53b2af1a1d69ac202fd5ef5",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            },
+            "qwen25_72b": {
+              "critic": 0.5,
+              "random": 0.46875,
+              "shortest": 0.5,
+              "oracle": 0.5
+            },
+            "qwen25_7b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            }
+          }
+        },
+        {
+          "family": "permissions",
+          "n_candidates": 15,
+          "chosen_hash": "422fa8dbaf727cf163cebdc610b5f924406b2d92fd214bac0e7cebcdd990443a",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.75,
+              "random": 0.31666666666666665,
+              "shortest": 0.25,
+              "oracle": 0.75
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.7166666666666667,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.5,
+              "random": 0.48333333333333334,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "pricing",
+          "n_candidates": 12,
+          "chosen_hash": "42eebbbb45acad20157cb410df41900585b1f032ced6f1d91d9971c4889eaa71",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.0,
+              "random": 0.020833333333333332,
+              "shortest": 0.0,
+              "oracle": 0.25
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.8125,
+              "shortest": 0.75,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.75,
+              "random": 0.4791666666666667,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "router",
+          "n_candidates": 7,
+          "chosen_hash": "b62e6453a9dcbe0dcd8b8379ce5e821e4cdd6290f6f3f62103ae35ae5e5402e2",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 1.0,
+              "random": 0.7857142857142857,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        }
+      ],
+      "aggregate_by_evaluation_consumer": {
+        "llama3_8b": {
+          "critic": 0.4583333333333333,
+          "random": 0.3951350732600732,
+          "shortest": 0.2916666666666667,
+          "oracle": 0.75
+        },
+        "qwen25_72b": {
+          "critic": 0.7916666666666666,
+          "random": 0.7849091880341881,
+          "shortest": 0.7083333333333334,
+          "oracle": 0.9166666666666666
+        },
+        "qwen25_7b": {
+          "critic": 0.625,
+          "random": 0.650400641025641,
+          "shortest": 0.6666666666666666,
+          "oracle": 0.8333333333333334
+        }
+      },
+      "state_prediction_mae": 0.2754777936148054,
+      "state_prediction_spearman": -0.2870164365624758
+    },
+    "qwen25_72b": {
+      "families": [
+        {
+          "family": "cache",
+          "n_candidates": 9,
+          "chosen_hash": "5a2f545a9eb4cdad89ecaac870a98fcc671db26f84cfa981a4c3fd74eefcb267",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.75,
+              "random": 0.5,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "events",
+          "n_candidates": 13,
+          "chosen_hash": "c4c82166d3f80d56df58636b3a6212afa23e12d1e676dcdbf2c6ab817e5c1e01",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.40384615384615385,
+              "shortest": 0.25,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 0.5,
+              "random": 0.7115384615384616,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.75,
+              "random": 0.5961538461538461,
+              "shortest": 0.75,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "flags",
+          "n_candidates": 8,
+          "chosen_hash": "bc04b7cf1e3b44def86333a8f77f46230b9a46a1b53b2af1a1d69ac202fd5ef5",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            },
+            "qwen25_72b": {
+              "critic": 0.5,
+              "random": 0.46875,
+              "shortest": 0.5,
+              "oracle": 0.5
+            },
+            "qwen25_7b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            }
+          }
+        },
+        {
+          "family": "permissions",
+          "n_candidates": 15,
+          "chosen_hash": "bc4bec5a2cafe85f8176ae7d2ad493cdbcd67a244f5c1be6544b52cbd3f2e334",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.5,
+              "random": 0.31666666666666665,
+              "shortest": 0.25,
+              "oracle": 0.75
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.7166666666666667,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.5,
+              "random": 0.48333333333333334,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "pricing",
+          "n_candidates": 12,
+          "chosen_hash": "eb83fa76a85fc562c404c520d3dd69ba26f23c7a73e8757ed37f8ffdf0be0f6c",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.0,
+              "random": 0.020833333333333332,
+              "shortest": 0.0,
+              "oracle": 0.25
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.8125,
+              "shortest": 0.75,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.25,
+              "random": 0.4791666666666667,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "router",
+          "n_candidates": 7,
+          "chosen_hash": "a5dddf62a58714a16c1b147e76c43a40e10b9bdb803204454c26d48145c03592",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.75,
+              "random": 0.7857142857142857,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        }
+      ],
+      "aggregate_by_evaluation_consumer": {
+        "llama3_8b": {
+          "critic": 0.4166666666666667,
+          "random": 0.3951350732600732,
+          "shortest": 0.2916666666666667,
+          "oracle": 0.75
+        },
+        "qwen25_72b": {
+          "critic": 0.75,
+          "random": 0.7849091880341881,
+          "shortest": 0.7083333333333334,
+          "oracle": 0.9166666666666666
+        },
+        "qwen25_7b": {
+          "critic": 0.625,
+          "random": 0.650400641025641,
+          "shortest": 0.6666666666666666,
+          "oracle": 0.8333333333333334
+        }
+      },
+      "state_prediction_mae": 0.2676634785136739,
+      "state_prediction_spearman": -0.6002734486789271
+    },
+    "qwen25_7b": {
+      "families": [
+        {
+          "family": "cache",
+          "n_candidates": 9,
+          "chosen_hash": "d7ffc042dad5f38d839465efd5b8ced4c2e2c407c3457439ebf697fb855e7719",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.5,
+              "random": 0.5,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "events",
+          "n_candidates": 13,
+          "chosen_hash": "c4c82166d3f80d56df58636b3a6212afa23e12d1e676dcdbf2c6ab817e5c1e01",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.40384615384615385,
+              "shortest": 0.25,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 0.5,
+              "random": 0.7115384615384616,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.75,
+              "random": 0.5961538461538461,
+              "shortest": 0.75,
+              "oracle": 1.0
+            }
+          }
+        },
+        {
+          "family": "flags",
+          "n_candidates": 8,
+          "chosen_hash": "bc04b7cf1e3b44def86333a8f77f46230b9a46a1b53b2af1a1d69ac202fd5ef5",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            },
+            "qwen25_72b": {
+              "critic": 0.5,
+              "random": 0.46875,
+              "shortest": 0.5,
+              "oracle": 0.5
+            },
+            "qwen25_7b": {
+              "critic": 0.25,
+              "random": 0.34375,
+              "shortest": 0.25,
+              "oracle": 0.5
+            }
+          }
+        },
+        {
+          "family": "permissions",
+          "n_candidates": 15,
+          "chosen_hash": "5ca2b32b3c6b1e36c908206130ba91ea7ec3f4812fa091049ab2bf0054a1bee5",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.5,
+              "random": 0.31666666666666665,
+              "shortest": 0.25,
+              "oracle": 0.75
+            },
+            "qwen25_72b": {
+              "critic": 0.75,
+              "random": 0.7166666666666667,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.5,
+              "random": 0.48333333333333334,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "pricing",
+          "n_candidates": 12,
+          "chosen_hash": "b573a8c31c9ae73e671d583c0c3174d754f191f2e2fe13dd3a87f7b91c923a2b",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.25,
+              "random": 0.020833333333333332,
+              "shortest": 0.0,
+              "oracle": 0.25
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 0.8125,
+              "shortest": 0.75,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 0.75,
+              "random": 0.4791666666666667,
+              "shortest": 0.5,
+              "oracle": 0.75
+            }
+          }
+        },
+        {
+          "family": "router",
+          "n_candidates": 7,
+          "chosen_hash": "a5dddf62a58714a16c1b147e76c43a40e10b9bdb803204454c26d48145c03592",
+          "evaluations": {
+            "llama3_8b": {
+              "critic": 0.75,
+              "random": 0.7857142857142857,
+              "shortest": 0.5,
+              "oracle": 1.0
+            },
+            "qwen25_72b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            },
+            "qwen25_7b": {
+              "critic": 1.0,
+              "random": 1.0,
+              "shortest": 1.0,
+              "oracle": 1.0
+            }
+          }
+        }
+      ],
+      "aggregate_by_evaluation_consumer": {
+        "llama3_8b": {
+          "critic": 0.4166666666666667,
+          "random": 0.3951350732600732,
+          "shortest": 0.2916666666666667,
+          "oracle": 0.75
+        },
+        "qwen25_72b": {
+          "critic": 0.7916666666666666,
+          "random": 0.7849091880341881,
+          "shortest": 0.7083333333333334,
+          "oracle": 0.9166666666666666
+        },
+        "qwen25_7b": {
+          "critic": 0.7083333333333334,
+          "random": 0.650400641025641,
+          "shortest": 0.6666666666666666,
+          "oracle": 0.8333333333333334
+        }
+      },
+      "state_prediction_mae": 0.31922175740925746,
+      "state_prediction_spearman": -0.4779273621663578
+    }
+  }
+}

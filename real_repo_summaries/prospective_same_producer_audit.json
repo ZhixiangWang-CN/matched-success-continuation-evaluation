@@ -1,0 +1,46 @@
+{
+  "scope": "audit futures only; heldout futures untouched",
+  "producer": "Qwen3.6-35B-A3B",
+  "candidate_generation": {
+    "repository_disjoint_anchors": 19,
+    "rollouts_per_anchor": 12,
+    "operationally_valid_rollouts": 228,
+    "nonempty_patches": 154,
+    "current_gate_passes": 52,
+    "unique_current_success_hashes": 41,
+    "eligible_anchors": 5,
+    "frozen_candidate_states": 35
+  },
+  "consumer_calibration": {
+    "historical_control_rollouts": 15,
+    "successes": 3,
+    "success_rate": 0.2,
+    "code_changing_rollouts": 5,
+    "code_change_rate": 0.3333333333333333,
+    "invalid_actions": 1,
+    "total_actions": 384,
+    "invalid_action_rate": 0.0026041666666666665,
+    "preregistered_gate_pass": false
+  },
+  "deterministic_transport_audit": {
+    "historical_controls": 5,
+    "historical_controls_transportable": 5,
+    "candidate_states": 35,
+    "candidate_states_transportable": 20,
+    "candidate_transport_rate": 0.5714285714285714,
+    "manual_reconciliation_required": 15,
+    "manual_reconciliation_rate": 0.42857142857142855,
+    "source_conflict_failures": 15,
+    "transportable_states_future_patch_mergeable": 20,
+    "median_delta_lines_transportable": 59.5,
+    "median_delta_lines_incompatible": 49,
+    "by_anchor": [
+      {"anchor": "Moto", "states": 10, "transportable": 10, "manual_reconciliation": 0},
+      {"anchor": "Jsonpickle", "states": 5, "transportable": 0, "manual_reconciliation": 5},
+      {"anchor": "Kinto", "states": 8, "transportable": 0, "manual_reconciliation": 8},
+      {"anchor": "Pymodbus", "states": 3, "transportable": 1, "manual_reconciliation": 2},
+      {"anchor": "RO-Crate", "states": 9, "transportable": 9, "manual_reconciliation": 0}
+    ]
+  },
+  "claim_boundary": "Counterfactual transport failure is integration-cost evidence, not autonomous future-task failure."
+}

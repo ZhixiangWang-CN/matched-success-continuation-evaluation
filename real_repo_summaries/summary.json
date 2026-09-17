@@ -1,0 +1,740 @@
+{
+  "sequences": 50,
+  "all_future_valid": 31,
+  "at_least_three_valid": 40,
+  "rows": [
+    {
+      "sequence_id": "alteryx__woodwork-651__CONTINUATIONS",
+      "repo": "alteryx/woodwork",
+      "future_tasks": 5,
+      "eligible_future_tasks": 2,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "alteryx__woodwork-651__TO__alteryx__woodwork-666",
+        "alteryx__woodwork-651__TO__alteryx__woodwork-685",
+        "alteryx__woodwork-651__TO__alteryx__woodwork-687",
+        "alteryx__woodwork-651__TO__alteryx__woodwork-740",
+        "alteryx__woodwork-651__TO__alteryx__woodwork-741"
+      ]
+    },
+    {
+      "sequence_id": "pyccel__pyccel-2003__CONTINUATIONS",
+      "repo": "pyccel/pyccel",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "pyccel__pyccel-2003__TO__pyccel__pyccel-2019",
+        "pyccel__pyccel-2003__TO__pyccel__pyccel-2029",
+        "pyccel__pyccel-2003__TO__pyccel__pyccel-2030",
+        "pyccel__pyccel-2003__TO__pyccel__pyccel-2038",
+        "pyccel__pyccel-2003__TO__pyccel__pyccel-2063"
+      ]
+    },
+    {
+      "sequence_id": "pytest-dev__pyfakefs-903__CONTINUATIONS",
+      "repo": "pytest-dev/pyfakefs",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.9666666666666667,
+      "pair_ids": [
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-916",
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-975",
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-978",
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-983",
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-985"
+      ]
+    },
+    {
+      "sequence_id": "wtforms__wtforms-548__CONTINUATIONS",
+      "repo": "wtforms/wtforms",
+      "future_tasks": 5,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "wtforms__wtforms-548__TO__wtforms__wtforms-551",
+        "wtforms__wtforms-548__TO__wtforms__wtforms-568",
+        "wtforms__wtforms-548__TO__wtforms__wtforms-583",
+        "wtforms__wtforms-548__TO__wtforms__wtforms-592",
+        "wtforms__wtforms-548__TO__wtforms__wtforms-595"
+      ]
+    },
+    {
+      "sequence_id": "pandas-dev__pandas-56419__CONTINUATIONS",
+      "repo": "pandas-dev/pandas",
+      "future_tasks": 5,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.28,
+      "pair_ids": [
+        "pandas-dev__pandas-56419__TO__pandas-dev__pandas-57938",
+        "pandas-dev__pandas-56419__TO__pandas-dev__pandas-58231",
+        "pandas-dev__pandas-56419__TO__pandas-dev__pandas-58349",
+        "pandas-dev__pandas-56419__TO__pandas-dev__pandas-59144",
+        "pandas-dev__pandas-56419__TO__pandas-dev__pandas-59398"
+      ]
+    },
+    {
+      "sequence_id": "hypothesisworks__hypothesis-3279__CONTINUATIONS",
+      "repo": "HypothesisWorks/hypothesis",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6875,
+      "pair_ids": [
+        "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3284",
+        "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3386",
+        "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3412",
+        "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3521",
+        "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3536"
+      ]
+    },
+    {
+      "sequence_id": "kinto__kinto-http.py-131__CONTINUATIONS",
+      "repo": "Kinto/kinto-http.py",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-133",
+        "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-137",
+        "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-168",
+        "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-188",
+        "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-189"
+      ]
+    },
+    {
+      "sequence_id": "getmoto__moto-5870__CONTINUATIONS",
+      "repo": "getmoto/moto",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.5656565656565656,
+      "pair_ids": [
+        "getmoto__moto-5870__TO__getmoto__moto-5873",
+        "getmoto__moto-5870__TO__getmoto__moto-5876",
+        "getmoto__moto-5870__TO__getmoto__moto-5885",
+        "getmoto__moto-5870__TO__getmoto__moto-5960",
+        "getmoto__moto-5870__TO__getmoto__moto-5980"
+      ]
+    },
+    {
+      "sequence_id": "apiflask__apiflask-322__CONTINUATIONS",
+      "repo": "apiflask/apiflask",
+      "future_tasks": 5,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.2807017543859649,
+      "pair_ids": [
+        "apiflask__apiflask-322__TO__apiflask__apiflask-353",
+        "apiflask__apiflask-322__TO__apiflask__apiflask-448",
+        "apiflask__apiflask-322__TO__apiflask__apiflask-469",
+        "apiflask__apiflask-322__TO__apiflask__apiflask-550",
+        "apiflask__apiflask-322__TO__apiflask__apiflask-589"
+      ]
+    },
+    {
+      "sequence_id": "pallets__click-1805__CONTINUATIONS",
+      "repo": "pallets/click",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.5555555555555556,
+      "pair_ids": [
+        "pallets__click-1805__TO__pallets__click-1830",
+        "pallets__click-1805__TO__pallets__click-1840",
+        "pallets__click-1805__TO__pallets__click-1913",
+        "pallets__click-1805__TO__pallets__click-1915",
+        "pallets__click-1805__TO__pallets__click-1916"
+      ]
+    },
+    {
+      "sequence_id": "pycqa__pyflakes-484__CONTINUATIONS",
+      "repo": "PyCQA/pyflakes",
+      "future_tasks": 5,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.2702702702702703,
+      "pair_ids": [
+        "pycqa__pyflakes-484__TO__pycqa__pyflakes-508",
+        "pycqa__pyflakes-484__TO__pycqa__pyflakes-535",
+        "pycqa__pyflakes-484__TO__pycqa__pyflakes-544",
+        "pycqa__pyflakes-484__TO__pycqa__pyflakes-619",
+        "pycqa__pyflakes-484__TO__pycqa__pyflakes-632"
+      ]
+    },
+    {
+      "sequence_id": "alteryx__evalml-1302__CONTINUATIONS",
+      "repo": "alteryx/evalml",
+      "future_tasks": 5,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "alteryx__evalml-1302__TO__alteryx__evalml-1318",
+        "alteryx__evalml-1302__TO__alteryx__evalml-1348",
+        "alteryx__evalml-1302__TO__alteryx__evalml-1352",
+        "alteryx__evalml-1302__TO__alteryx__evalml-1365",
+        "alteryx__evalml-1302__TO__alteryx__evalml-1374"
+      ]
+    },
+    {
+      "sequence_id": "quora__pyanalyze-344__CONTINUATIONS",
+      "repo": "quora/pyanalyze",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.746268656716418,
+      "pair_ids": [
+        "quora__pyanalyze-344__TO__quora__pyanalyze-427",
+        "quora__pyanalyze-344__TO__quora__pyanalyze-441",
+        "quora__pyanalyze-344__TO__quora__pyanalyze-465",
+        "quora__pyanalyze-344__TO__quora__pyanalyze-564",
+        "quora__pyanalyze-344__TO__quora__pyanalyze-653"
+      ]
+    },
+    {
+      "sequence_id": "yt-project__unyt-58__CONTINUATIONS",
+      "repo": "yt-project/unyt",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.9712230215827338,
+      "pair_ids": [
+        "yt-project__unyt-58__TO__yt-project__unyt-72",
+        "yt-project__unyt-58__TO__yt-project__unyt-80",
+        "yt-project__unyt-58__TO__yt-project__unyt-109",
+        "yt-project__unyt-58__TO__yt-project__unyt-172",
+        "yt-project__unyt-58__TO__yt-project__unyt-176"
+      ]
+    },
+    {
+      "sequence_id": "cloudpipe__cloudpickle-153__CONTINUATIONS",
+      "repo": "cloudpipe/cloudpickle",
+      "future_tasks": 5,
+      "eligible_future_tasks": 1,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.8181818181818182,
+      "pair_ids": [
+        "cloudpipe__cloudpickle-153__TO__cloudpipe__cloudpickle-154",
+        "cloudpipe__cloudpickle-153__TO__cloudpipe__cloudpickle-188",
+        "cloudpipe__cloudpickle-153__TO__cloudpipe__cloudpickle-254",
+        "cloudpipe__cloudpickle-153__TO__cloudpipe__cloudpickle-314",
+        "cloudpipe__cloudpickle-153__TO__cloudpipe__cloudpickle-329"
+      ]
+    },
+    {
+      "sequence_id": "elastic__curator-603__CONTINUATIONS",
+      "repo": "elastic/curator",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6,
+      "pair_ids": [
+        "elastic__curator-603__TO__elastic__curator-616",
+        "elastic__curator-603__TO__elastic__curator-913",
+        "elastic__curator-603__TO__elastic__curator-1019",
+        "elastic__curator-603__TO__elastic__curator-1081",
+        "elastic__curator-603__TO__elastic__curator-1158"
+      ]
+    },
+    {
+      "sequence_id": "narwhals-dev__narwhals-1814__CONTINUATIONS",
+      "repo": "narwhals-dev/narwhals",
+      "future_tasks": 5,
+      "eligible_future_tasks": 0,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.12121212121212122,
+      "pair_ids": [
+        "narwhals-dev__narwhals-1814__TO__narwhals-dev__narwhals-2106",
+        "narwhals-dev__narwhals-1814__TO__narwhals-dev__narwhals-2156",
+        "narwhals-dev__narwhals-1814__TO__narwhals-dev__narwhals-2176",
+        "narwhals-dev__narwhals-1814__TO__narwhals-dev__narwhals-2206",
+        "narwhals-dev__narwhals-1814__TO__narwhals-dev__narwhals-2224"
+      ]
+    },
+    {
+      "sequence_id": "stfc__psyclone-2084__CONTINUATIONS",
+      "repo": "stfc/PSyclone",
+      "future_tasks": 5,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.25,
+      "pair_ids": [
+        "stfc__psyclone-2084__TO__stfc__psyclone-2086",
+        "stfc__psyclone-2084__TO__stfc__psyclone-2191",
+        "stfc__psyclone-2084__TO__stfc__psyclone-2230",
+        "stfc__psyclone-2084__TO__stfc__psyclone-2231",
+        "stfc__psyclone-2084__TO__stfc__psyclone-2309"
+      ]
+    },
+    {
+      "sequence_id": "kayak__pypika-127__CONTINUATIONS",
+      "repo": "kayak/pypika",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "kayak__pypika-127__TO__kayak__pypika-170",
+        "kayak__pypika-127__TO__kayak__pypika-181",
+        "kayak__pypika-127__TO__kayak__pypika-185",
+        "kayak__pypika-127__TO__kayak__pypika-198",
+        "kayak__pypika-127__TO__kayak__pypika-236"
+      ]
+    },
+    {
+      "sequence_id": "stac-utils__pystac-511__CONTINUATIONS",
+      "repo": "stac-utils/pystac",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.782608695652174,
+      "pair_ids": [
+        "stac-utils__pystac-511__TO__stac-utils__pystac-751",
+        "stac-utils__pystac-511__TO__stac-utils__pystac-794",
+        "stac-utils__pystac-511__TO__stac-utils__pystac-826",
+        "stac-utils__pystac-511__TO__stac-utils__pystac-900",
+        "stac-utils__pystac-511__TO__stac-utils__pystac-1003"
+      ]
+    },
+    {
+      "sequence_id": "pallets__werkzeug-2655__CONTINUATIONS",
+      "repo": "pallets/werkzeug",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.9487179487179487,
+      "pair_ids": [
+        "pallets__werkzeug-2655__TO__pallets__werkzeug-2673",
+        "pallets__werkzeug-2655__TO__pallets__werkzeug-2686",
+        "pallets__werkzeug-2655__TO__pallets__werkzeug-2709",
+        "pallets__werkzeug-2655__TO__pallets__werkzeug-2718",
+        "pallets__werkzeug-2655__TO__pallets__werkzeug-2723"
+      ]
+    },
+    {
+      "sequence_id": "pybamm-team__pybamm-819__CONTINUATIONS",
+      "repo": "pybamm-team/PyBaMM",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.8305084745762712,
+      "pair_ids": [
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-919",
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-925",
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-962",
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-1008",
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-1020"
+      ]
+    },
+    {
+      "sequence_id": "pallets__jinja-1664__CONTINUATIONS",
+      "repo": "pallets/jinja",
+      "future_tasks": 5,
+      "eligible_future_tasks": 1,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.3333333333333333,
+      "pair_ids": [
+        "pallets__jinja-1664__TO__pallets__jinja-1665",
+        "pallets__jinja-1664__TO__pallets__jinja-1702",
+        "pallets__jinja-1664__TO__pallets__jinja-1762",
+        "pallets__jinja-1664__TO__pallets__jinja-1782",
+        "pallets__jinja-1664__TO__pallets__jinja-1852"
+      ]
+    },
+    {
+      "sequence_id": "python-attrs__attrs-292__CONTINUATIONS",
+      "repo": "python-attrs/attrs",
+      "future_tasks": 5,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.42857142857142855,
+      "pair_ids": [
+        "python-attrs__attrs-292__TO__python-attrs__attrs-302",
+        "python-attrs__attrs-292__TO__python-attrs__attrs-367",
+        "python-attrs__attrs-292__TO__python-attrs__attrs-430",
+        "python-attrs__attrs-292__TO__python-attrs__attrs-431",
+        "python-attrs__attrs-292__TO__python-attrs__attrs-500"
+      ]
+    },
+    {
+      "sequence_id": "yukinarit__pyserde-321__CONTINUATIONS",
+      "repo": "yukinarit/pyserde",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6944444444444444,
+      "pair_ids": [
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-354",
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-389",
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-430",
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-542",
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-618"
+      ]
+    },
+    {
+      "sequence_id": "jsonpickle__jsonpickle-342__CONTINUATIONS",
+      "repo": "jsonpickle/jsonpickle",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.875,
+      "pair_ids": [
+        "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385",
+        "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+        "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-434",
+        "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+        "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469"
+      ]
+    },
+    {
+      "sequence_id": "pennylaneai__pennylane-5538__CONTINUATIONS",
+      "repo": "PennyLaneAI/pennylane",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.9411764705882353,
+      "pair_ids": [
+        "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5582",
+        "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5716",
+        "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5725",
+        "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5761",
+        "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5851"
+      ]
+    },
+    {
+      "sequence_id": "agnostiqhq__covalent-1287__CONTINUATIONS",
+      "repo": "AgnostiqHQ/covalent",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.8,
+      "pair_ids": [
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1356",
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1392",
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1460",
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1599",
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1622"
+      ]
+    },
+    {
+      "sequence_id": "openmdao__openmdao-3371__CONTINUATIONS",
+      "repo": "OpenMDAO/OpenMDAO",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3406",
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3461",
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3514",
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3522",
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3566"
+      ]
+    },
+    {
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-75__CONTINUATIONS",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.88,
+      "pair_ids": [
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-77",
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-82",
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-85",
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-88",
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-93"
+      ]
+    },
+    {
+      "sequence_id": "amaranth-lang__amaranth-1098__CONTINUATIONS",
+      "repo": "amaranth-lang/amaranth",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6153846153846154,
+      "pair_ids": [
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1135",
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1218",
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1319",
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1376",
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1519"
+      ]
+    },
+    {
+      "sequence_id": "textualize__rich-2031__CONTINUATIONS",
+      "repo": "Textualize/rich",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.9545454545454546,
+      "pair_ids": [
+        "textualize__rich-2031__TO__textualize__rich-2219",
+        "textualize__rich-2031__TO__textualize__rich-2226",
+        "textualize__rich-2031__TO__textualize__rich-2294",
+        "textualize__rich-2031__TO__textualize__rich-2513",
+        "textualize__rich-2031__TO__textualize__rich-2806"
+      ]
+    },
+    {
+      "sequence_id": "theacodes__nox-314__CONTINUATIONS",
+      "repo": "theacodes/nox",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.8636363636363636,
+      "pair_ids": [
+        "theacodes__nox-314__TO__theacodes__nox-363",
+        "theacodes__nox-314__TO__theacodes__nox-420",
+        "theacodes__nox-314__TO__theacodes__nox-482",
+        "theacodes__nox-314__TO__theacodes__nox-522",
+        "theacodes__nox-314__TO__theacodes__nox-535"
+      ]
+    },
+    {
+      "sequence_id": "ntnu-ihb__pythonfmu-24__CONTINUATIONS",
+      "repo": "NTNU-IHB/PythonFMU",
+      "future_tasks": 4,
+      "eligible_future_tasks": 2,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-30",
+        "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-40",
+        "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-86",
+        "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-158"
+      ]
+    },
+    {
+      "sequence_id": "python-semver__python-semver-239__CONTINUATIONS",
+      "repo": "python-semver/python-semver",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "python-semver__python-semver-239__TO__python-semver__python-semver-253",
+        "python-semver__python-semver-239__TO__python-semver__python-semver-254",
+        "python-semver__python-semver-239__TO__python-semver__python-semver-261",
+        "python-semver__python-semver-239__TO__python-semver__python-semver-264"
+      ]
+    },
+    {
+      "sequence_id": "marketsquare__robotframework-robocop-755__CONTINUATIONS",
+      "repo": "MarketSquare/robotframework-robocop",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6363636363636364,
+      "pair_ids": [
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775",
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1027",
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1030",
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1036",
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1094"
+      ]
+    },
+    {
+      "sequence_id": "tox-dev__sphinx-autodoc-typehints-171__CONTINUATIONS",
+      "repo": "tox-dev/sphinx-autodoc-typehints",
+      "future_tasks": 4,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.16923076923076924,
+      "pair_ids": [
+        "tox-dev__sphinx-autodoc-typehints-171__TO__tox-dev__sphinx-autodoc-typehints-199",
+        "tox-dev__sphinx-autodoc-typehints-171__TO__tox-dev__sphinx-autodoc-typehints-287",
+        "tox-dev__sphinx-autodoc-typehints-171__TO__tox-dev__sphinx-autodoc-typehints-294",
+        "tox-dev__sphinx-autodoc-typehints-171__TO__tox-dev__sphinx-autodoc-typehints-316"
+      ]
+    },
+    {
+      "sequence_id": "aws-cloudformation__cfn-lint-3390__CONTINUATIONS",
+      "repo": "aws-cloudformation/cfn-lint",
+      "future_tasks": 5,
+      "eligible_future_tasks": 5,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6896551724137931,
+      "pair_ids": [
+        "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3439",
+        "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3461",
+        "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3653",
+        "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3686",
+        "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3856"
+      ]
+    },
+    {
+      "sequence_id": "qiskit__qiskit-11206__CONTINUATIONS",
+      "repo": "Qiskit/qiskit",
+      "future_tasks": 4,
+      "eligible_future_tasks": 0,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.13636363636363635,
+      "pair_ids": [
+        "qiskit__qiskit-11206__TO__qiskit__qiskit-11272",
+        "qiskit__qiskit-11206__TO__qiskit__qiskit-12528",
+        "qiskit__qiskit-11206__TO__qiskit__qiskit-12620",
+        "qiskit__qiskit-11206__TO__qiskit__qiskit-12621"
+      ]
+    },
+    {
+      "sequence_id": "kinto__kinto-1814__CONTINUATIONS",
+      "repo": "Kinto/kinto",
+      "future_tasks": 4,
+      "eligible_future_tasks": 0,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.4,
+      "pair_ids": [
+        "kinto__kinto-1814__TO__kinto__kinto-1910",
+        "kinto__kinto-1814__TO__kinto__kinto-2011",
+        "kinto__kinto-1814__TO__kinto__kinto-2027",
+        "kinto__kinto-1814__TO__kinto__kinto-2229"
+      ]
+    },
+    {
+      "sequence_id": "pypa__pipx-1102__CONTINUATIONS",
+      "repo": "pypa/pipx",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.8955223880597015,
+      "pair_ids": [
+        "pypa__pipx-1102__TO__pypa__pipx-1256",
+        "pypa__pipx-1102__TO__pypa__pipx-1284",
+        "pypa__pipx-1102__TO__pypa__pipx-1343",
+        "pypa__pipx-1102__TO__pypa__pipx-1493"
+      ]
+    },
+    {
+      "sequence_id": "aio-libs__aiohttp-8990__CONTINUATIONS",
+      "repo": "aio-libs/aiohttp",
+      "future_tasks": 4,
+      "eligible_future_tasks": 1,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.5208333333333334,
+      "pair_ids": [
+        "aio-libs__aiohttp-8990__TO__aio-libs__aiohttp-8996",
+        "aio-libs__aiohttp-8990__TO__aio-libs__aiohttp-8997",
+        "aio-libs__aiohttp-8990__TO__aio-libs__aiohttp-11094",
+        "aio-libs__aiohttp-8990__TO__aio-libs__aiohttp-11199"
+      ]
+    },
+    {
+      "sequence_id": "robotpy__cxxheaderparser-28__CONTINUATIONS",
+      "repo": "robotpy/cxxheaderparser",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-30",
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-44",
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-50",
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-73"
+      ]
+    },
+    {
+      "sequence_id": "pycqa__docformatter-141__CONTINUATIONS",
+      "repo": "PyCQA/docformatter",
+      "future_tasks": 4,
+      "eligible_future_tasks": 1,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "pycqa__docformatter-141__TO__pycqa__docformatter-143",
+        "pycqa__docformatter-141__TO__pycqa__docformatter-182",
+        "pycqa__docformatter-141__TO__pycqa__docformatter-190",
+        "pycqa__docformatter-141__TO__pycqa__docformatter-254"
+      ]
+    },
+    {
+      "sequence_id": "mondeja__mkdocs-include-markdown-plugin-2__CONTINUATIONS",
+      "repo": "mondeja/mkdocs-include-markdown-plugin",
+      "future_tasks": 3,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.784,
+      "pair_ids": [
+        "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-46",
+        "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-51",
+        "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-53"
+      ]
+    },
+    {
+      "sequence_id": "jazzband__pip-tools-706__CONTINUATIONS",
+      "repo": "jazzband/pip-tools",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.6521739130434783,
+      "pair_ids": [
+        "jazzband__pip-tools-706__TO__jazzband__pip-tools-737",
+        "jazzband__pip-tools-706__TO__jazzband__pip-tools-842",
+        "jazzband__pip-tools-706__TO__jazzband__pip-tools-873",
+        "jazzband__pip-tools-706__TO__jazzband__pip-tools-909"
+      ]
+    },
+    {
+      "sequence_id": "enthought__traits-645__CONTINUATIONS",
+      "repo": "enthought/traits",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 1.0,
+      "pair_ids": [
+        "enthought__traits-645__TO__enthought__traits-1107",
+        "enthought__traits-645__TO__enthought__traits-1384",
+        "enthought__traits-645__TO__enthought__traits-1393",
+        "enthought__traits-645__TO__enthought__traits-1440"
+      ]
+    },
+    {
+      "sequence_id": "xknx__xknx-1066__CONTINUATIONS",
+      "repo": "XKNX/xknx",
+      "future_tasks": 4,
+      "eligible_future_tasks": 4,
+      "all_futures_eligible": true,
+      "minimum_patch_survival": 0.7575757575757576,
+      "pair_ids": [
+        "xknx__xknx-1066__TO__xknx__xknx-1190",
+        "xknx__xknx-1066__TO__xknx__xknx-1502",
+        "xknx__xknx-1066__TO__xknx__xknx-1642",
+        "xknx__xknx-1066__TO__xknx__xknx-1663"
+      ]
+    },
+    {
+      "sequence_id": "natcap__invest-542__CONTINUATIONS",
+      "repo": "natcap/invest",
+      "future_tasks": 4,
+      "eligible_future_tasks": 3,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.17647058823529413,
+      "pair_ids": [
+        "natcap__invest-542__TO__natcap__invest-552",
+        "natcap__invest-542__TO__natcap__invest-728",
+        "natcap__invest-542__TO__natcap__invest-787",
+        "natcap__invest-542__TO__natcap__invest-1530"
+      ]
+    },
+    {
+      "sequence_id": "stac-utils__pystac-client-338__CONTINUATIONS",
+      "repo": "stac-utils/pystac-client",
+      "future_tasks": 3,
+      "eligible_future_tasks": 1,
+      "all_futures_eligible": false,
+      "minimum_patch_survival": 0.0,
+      "pair_ids": [
+        "stac-utils__pystac-client-338__TO__stac-utils__pystac-client-362",
+        "stac-utils__pystac-client-338__TO__stac-utils__pystac-client-364",
+        "stac-utils__pystac-client-338__TO__stac-utils__pystac-client-373"
+      ]
+    }
+  ]
+}

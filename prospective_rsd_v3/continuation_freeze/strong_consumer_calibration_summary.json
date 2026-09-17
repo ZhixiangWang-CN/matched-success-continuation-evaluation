@@ -1,0 +1,46 @@
+{
+  "scope": "historical-gold controls on audit futures only",
+  "heldout_status": "UNTOUCHED",
+  "gate": {
+    "historical_control_success_rate_min": 0.30,
+    "code_change_rate_min": 0.80,
+    "invalid_action_rate_max_exclusive": 0.05
+  },
+  "consumers": [
+    {
+      "model": "Qwen2.5-72B-Instruct",
+      "n": 15,
+      "successes": 3,
+      "success_rate": 0.20,
+      "code_changing_rollouts": 15,
+      "code_change_rate": 1.0,
+      "invalid_actions": 2,
+      "total_actions": 361,
+      "invalid_action_rate": 0.00554016620498615,
+      "prior_task_preserved": 8,
+      "gate_pass": false,
+      "failure_reason": "success rate below 30%",
+      "raw_sha256": "62989e7f8585e983d28da74aec0a667850a52421e2e6740e066353da9f4b523d"
+    },
+    {
+      "model": "Qwen3-Coder-30B-A3B-Instruct",
+      "n": 15,
+      "successes": 2,
+      "success_rate": 0.13333333333333333,
+      "code_changing_rollouts": 7,
+      "code_change_rate": 0.4666666666666667,
+      "invalid_actions": 23,
+      "total_actions": 393,
+      "invalid_action_rate": 0.05852417302798982,
+      "prior_task_preserved": 15,
+      "gate_pass": false,
+      "failure_reason": "success, code-change, and invalid-action gates all fail",
+      "raw_shards_sha256": [
+        "c2701f00867964c0811a880acb35b7a8c16248754200c425f32def9840ffdf72",
+        "952e328eb70939f846a5ae9efc929adba3c0e82ab6a2f96ad46e1a61ae26ea08"
+      ]
+    }
+  ],
+  "decision": "NO_GO_FOR_AUTONOMOUS_CANDIDATE_OR_HELDOUT_EVALUATION",
+  "interpretation": "The largest local dense instruction model edits reliably but solves only the Kinto audit future; the code-specialized local model is less reliable under this scaffold. Neither consumer is sufficiently sensitive for state comparisons."
+}

@@ -1,0 +1,20 @@
+# Prospective branch replay, frontier consumers, and agent-mediated recovery
+
+- `continuation_freeze/`: frozen anchors, candidate states, heldout selection, replay protocol, executor amendments, and the recovery protocol (amendment 15).
+- `manifest/`: frozen anchor/future manifests with base commits, test patches, and test node ids.
+- `raw_outcomes/`: one JSON row per rollout for the sequential-replay audit, consumer calibration, strict heldout evaluation (Codex, Claude), repeat panels, and the recovery pilot.
+- `recovery_curve_raw/`: all four final independent-budget JSONL files.
+- `recovery_curve_analysis/`: input hashes, repository-cluster inference, tables, and generated macros.
+- `control_continuation_results/`: the 428-key matched primary population for each consumer, the full 437-row Codex sensitivity population, missingness amendment, manifests, and result tables. Files named `claude_formal_437.jsonl` and `combined_formal_874.jsonl` are deliberately excluded because the invalidation record supersedes them.
+- `control_continuation_scripts/`: runner, validation/finalization, and statistical analysis code for the historical-control and downstream-continuation experiment.
+- `symmetric_sol_initial/` and `symmetric_sol_repeats/`: the 15 initial and 30 repeated common-snapshot Sol rows, plus the frozen 45-row analysis.
+- `symmetric_terra/`: the independently executed 45-row Terra replication and its completion receipt and analysis.
+- `symmetric_future_scripts/`: preflight, rollout, and consumer-specific analysis code for the common-snapshot experiment.
+- `jsonpickle_mechanism/`: source-level mechanism audit, exact small-sample statistics, figure source, and vector/raster outputs.
+- `common_snapshot_extension/`: Protocols 29--32 for the repository-disjoint extension. Historical-only scans are complete (137/137 and 31/31); the producer stops at a mathematically determined no-go before any extension future outcome. Quarantined proxy-prefix failures are released but explicitly excluded from scientific counts.
+- continuation_selection_protocol/, continuation_selection_raw/, and continuation_selection_analysis/: outcome-blind amendments, 384 unique BF16 rollout rows, the frozen primary analysis, and the explicitly post-hoc transfer audit. Quarantined int8 and nugpu rows are excluded.
+- continuation_selection_scripts/: task definitions, freezing, preflight, rollout, primary analysis, exploratory transfer audit, and rendering code for the selection experiment.
+- `scripts/`: runners and analysis scripts. Container orchestration used SSH to a lab host; host names and user paths are replaced by `remote-host` / `/remote/workspace`.
+
+Recompute the strict summary with `analyze_frontier_sequential_results.py` and the recovery summary with `analyze_frontier_recovery.py` from the pilot rows. Recompute the final curve with `recovery_curve_cluster_analysis.py`; no model inference is required. In the final curve, `verified_recovery` is a certifiable-recovery lower bound: false after completed replay can mean that the frozen prior-task verifier could not be transported. The generated analysis separates verifier-unavailable rows from executed verifier failures and reports preservation bounds. Recompute the final matched historical-control contrasts with `control_continuation_analysis.py`; its primary input is `paired_formal_856.jsonl`, while `codex_formal_437.jsonl` is sensitivity-only.
+Recompute the Sol common-snapshot panel with `analyze_symmetric_future_repeats.py` and the Terra replication with `analyze_symmetric_future_consumer.py`; each analysis checks the frozen key set and reports repository-cluster bootstrap intervals. Recompute the frozen state-selection claim gate with analyze_continuation_selection_v1.py; the separate transfer analysis is post-hoc and must not replace that primary endpoint.

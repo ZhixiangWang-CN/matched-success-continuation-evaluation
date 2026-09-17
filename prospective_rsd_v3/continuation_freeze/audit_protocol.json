@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_BEFORE_ANY_CONTINUATION_OUTCOME",
+  "stage": "audit_future",
+  "arms": "all 35 unique generated states plus one historical-gold control per eligible anchor",
+  "eligible_anchors": 5,
+  "audit_futures_per_anchor": 1,
+  "expected_rollouts": 40,
+  "executor": {
+    "model": "Qwen3.6-35B-A3B",
+    "serving": "vLLM 0.19.0, tensor parallel 4 per endpoint",
+    "temperature": 0.25,
+    "top_p": 0.95,
+    "max_steps": 10,
+    "max_new_tokens_per_step": 1000,
+    "samples_per_state_future": 1,
+    "seed_offset": 20262000,
+    "verify_before_edit": true,
+    "network_isolated": true,
+    "tool_timeout_seconds": 300,
+    "test_timeout_seconds": 1200,
+    "workers_per_endpoint": 4
+  },
+  "information_boundary": "Only the single audit future is used to construct or select a state scorer. The three held-out futures per anchor remain unexecuted until the selection rule and candidate arms are frozen.",
+  "artifact_hashes": {
+    "continuation_freeze_manifest": "8d9f11b0d2af4052d317fc0171437d0837f6d54236467c88a307057d2eb2dd55",
+    "real_repo_agent_rollouts.py": "1f513253d2f40aab1c5484642e3aecebc81b2952d4da2334f8333747efb58a4e",
+    "evaluate_candidate_future_agent_rollouts.py": "7c22d02a0bbde886b611bf5cfc68302715c4d2a98f0656a16b7d2e4a3651bda8",
+    "evaluate_agent_candidate_continuations.py": "c0af25c3e03d8e9a57cfa7d0571732279369e1afc708d5f0da3f24303ff65019"
+  }
+}

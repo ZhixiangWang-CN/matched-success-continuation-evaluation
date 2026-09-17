@@ -1,0 +1,20 @@
+{
+  "status": "NO_GO",
+  "protocol_sha256": "61c653109eed5bd290d14496efe11b1faa55e801c66a2319ed7a0e4b21421e18",
+  "input_sha256": {
+    "prospective_rsd_v3/extension_preflight/yury.jsonl": "e707475f9e3416c481b0c205f2ed563218f1545850ad72904ff3cd1ad4824d23",
+    "prospective_rsd_v3/extension_preflight/nugpu.jsonl": "d4e82752b1e1a832bb359825b0fc6d8981f29251f819a93fbed3bc76c8ec6950"
+  },
+  "unique_rows": 26,
+  "eligible_repositories": 2,
+  "minimum_required": 15,
+  "eligible_pair_ids": [
+    "textualize__rich-2031__TO__textualize__rich-2219",
+    "xknx__xknx-1066__TO__xknx__xknx-1190"
+  ],
+  "first_failure_stage": {
+    "future_gold_apply": 12,
+    "current_test": 11,
+    "future_pass_to_pass": 1
+  }
+}

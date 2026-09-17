@@ -1,0 +1,150 @@
+{
+  "n_rows": 128,
+  "n_complete_pairs": 64,
+  "current_success_rate": 1.0,
+  "clean_continuation_success": 0.6875,
+  "debt_continuation_success": 0.5,
+  "empirical_state_debt": 0.1875,
+  "hierarchical_bootstrap_95ci": [
+    0.0625,
+    0.1875,
+    0.3125
+  ],
+  "mcnemar_discordant": {
+    "clean_only": 14,
+    "debt_only": 2,
+    "exact_two_sided_p": 0.004180908203125
+  },
+  "mean_completion_tokens": {
+    "clean": 110.96875,
+    "debt": 127.640625
+  },
+  "groups": {
+    "model:qwen25_7b": {
+      "n_pairs": 64,
+      "clean_success": 0.6875,
+      "debt_success": 0.5,
+      "state_debt": 0.1875
+    },
+    "family:events": {
+      "n_pairs": 16,
+      "clean_success": 0.8125,
+      "debt_success": 0.6875,
+      "state_debt": 0.125
+    },
+    "family:flags": {
+      "n_pairs": 16,
+      "clean_success": 0.75,
+      "debt_success": 0.5,
+      "state_debt": 0.25
+    },
+    "family:permissions": {
+      "n_pairs": 16,
+      "clean_success": 0.5,
+      "debt_success": 0.3125,
+      "state_debt": 0.1875
+    },
+    "family:pricing": {
+      "n_pairs": 16,
+      "clean_success": 0.6875,
+      "debt_success": 0.5,
+      "state_debt": 0.1875
+    },
+    "future_id:add_plans": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 1.0,
+      "state_debt": 0.0
+    },
+    "future_id:arbitrary": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 1.0,
+      "state_debt": 0.0
+    },
+    "future_id:audit": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 1.0,
+      "state_debt": 0.0
+    },
+    "future_id:bulk": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.0,
+      "state_debt": 1.0
+    },
+    "future_id:composable": {
+      "n_pairs": 4,
+      "clean_success": 0.0,
+      "debt_success": 0.0,
+      "state_debt": 0.0
+    },
+    "future_id:count": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.75,
+      "state_debt": 0.25
+    },
+    "future_id:custom_role": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.75,
+      "state_debt": 0.25
+    },
+    "future_id:history": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.75,
+      "state_debt": 0.25
+    },
+    "future_id:inheritance": {
+      "n_pairs": 4,
+      "clean_success": 0.0,
+      "debt_success": 0.0,
+      "state_debt": 0.0
+    },
+    "future_id:least_privilege": {
+      "n_pairs": 4,
+      "clean_success": 0.0,
+      "debt_success": 0.0,
+      "state_debt": 0.0
+    },
+    "future_id:rename": {
+      "n_pairs": 4,
+      "clean_success": 0.75,
+      "debt_success": 1.0,
+      "state_debt": -0.25
+    },
+    "future_id:revoke": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.5,
+      "state_debt": 0.5
+    },
+    "future_id:rollback": {
+      "n_pairs": 4,
+      "clean_success": 0.0,
+      "debt_success": 0.0,
+      "state_debt": 0.0
+    },
+    "future_id:runtime_rule": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 0.0,
+      "state_debt": 1.0
+    },
+    "future_id:snapshot": {
+      "n_pairs": 4,
+      "clean_success": 1.0,
+      "debt_success": 1.0,
+      "state_debt": 0.0
+    },
+    "future_id:undo": {
+      "n_pairs": 4,
+      "clean_success": 0.25,
+      "debt_success": 0.25,
+      "state_debt": 0.0
+    }
+  }
+}

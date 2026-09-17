@@ -1,0 +1,399 @@
+{
+  "heldout_codex": {
+    "n_arms": 45,
+    "n_anchors": 5,
+    "n_futures": 15,
+    "strict_failure_definition": "Every non-True success, including hard replay conflict, is failure",
+    "states": {
+      "historical": {
+        "successes": 7,
+        "arms": 15,
+        "rate": 0.4666666666666667,
+        "wilson95": [
+          0.24809535365737387,
+          0.698830199745016
+        ],
+        "hard_replay_failures": 0,
+        "consumer_executed": 15,
+        "conditional_success_given_replay": 0.4666666666666667,
+        "mean_seconds_when_executed": 242.02481002807616,
+        "mean_tool_calls_when_executed": 14.066666666666666
+      },
+      "low": {
+        "successes": 2,
+        "arms": 15,
+        "rate": 0.13333333333333333,
+        "wilson95": [
+          0.03736125910306537,
+          0.37881982832322364
+        ],
+        "hard_replay_failures": 10,
+        "consumer_executed": 5,
+        "conditional_success_given_replay": 0.4,
+        "mean_seconds_when_executed": 319.339431476593,
+        "mean_tool_calls_when_executed": 16.6
+      },
+      "high": {
+        "successes": 2,
+        "arms": 15,
+        "rate": 0.13333333333333333,
+        "wilson95": [
+          0.03736125910306537,
+          0.37881982832322364
+        ],
+        "hard_replay_failures": 10,
+        "consumer_executed": 5,
+        "conditional_success_given_replay": 0.4,
+        "mean_seconds_when_executed": 253.35914874076843,
+        "mean_tool_calls_when_executed": 18.2
+      }
+    },
+    "anchors": {
+      "getmoto__moto-5835": {
+        "historical": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 2,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "high": {
+          "successes": 2,
+          "arms": 3,
+          "hard_replay_failures": 0
+        }
+      },
+      "jsonpickle__jsonpickle-342": {
+        "historical": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      },
+      "kinto__kinto-1814": {
+        "historical": {
+          "successes": 3,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      },
+      "pymodbus-dev__pymodbus-1533": {
+        "historical": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 1
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 1
+        }
+      },
+      "researchobject__ro-crate-py-69": {
+        "historical": {
+          "successes": 2,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      }
+    },
+    "paired_historical_vs_low": {
+      "pairs": 15,
+      "debt": 6,
+      "benefit": 1,
+      "ties": 8,
+      "exact_two_sided_p": 0.125
+    },
+    "paired_historical_vs_high": {
+      "pairs": 15,
+      "debt": 6,
+      "benefit": 1,
+      "ties": 8,
+      "exact_two_sided_p": 0.125
+    },
+    "low_vs_high": {
+      "pairs": 15,
+      "debt": 0,
+      "benefit": 0,
+      "ties": 15,
+      "exact_two_sided_p": 1.0
+    },
+    "invalid_actions": 0,
+    "tool_calls": 385
+  },
+  "heldout_claude": {
+    "n_arms": 45,
+    "n_anchors": 5,
+    "n_futures": 15,
+    "strict_failure_definition": "Every non-True success, including hard replay conflict, is failure",
+    "states": {
+      "historical": {
+        "successes": 6,
+        "arms": 15,
+        "rate": 0.4,
+        "wilson95": [
+          0.1982449614134158,
+          0.6425316987937539
+        ],
+        "hard_replay_failures": 0,
+        "consumer_executed": 15,
+        "conditional_success_given_replay": 0.4,
+        "mean_seconds_when_executed": 189.03343890508015,
+        "mean_tool_calls_when_executed": 13.4
+      },
+      "low": {
+        "successes": 2,
+        "arms": 15,
+        "rate": 0.13333333333333333,
+        "wilson95": [
+          0.03736125910306537,
+          0.37881982832322364
+        ],
+        "hard_replay_failures": 10,
+        "consumer_executed": 5,
+        "conditional_success_given_replay": 0.4,
+        "mean_seconds_when_executed": 336.89999933242797,
+        "mean_tool_calls_when_executed": 22.2
+      },
+      "high": {
+        "successes": 1,
+        "arms": 15,
+        "rate": 0.06666666666666667,
+        "wilson95": [
+          0.011866895493268553,
+          0.2981652987378003
+        ],
+        "hard_replay_failures": 10,
+        "consumer_executed": 5,
+        "conditional_success_given_replay": 0.2,
+        "mean_seconds_when_executed": 241.9467792034149,
+        "mean_tool_calls_when_executed": 18.6
+      }
+    },
+    "anchors": {
+      "getmoto__moto-5835": {
+        "historical": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 2,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "high": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        }
+      },
+      "jsonpickle__jsonpickle-342": {
+        "historical": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      },
+      "kinto__kinto-1814": {
+        "historical": {
+          "successes": 3,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      },
+      "pymodbus-dev__pymodbus-1533": {
+        "historical": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 1
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 1
+        }
+      },
+      "researchobject__ro-crate-py-69": {
+        "historical": {
+          "successes": 1,
+          "arms": 3,
+          "hard_replay_failures": 0
+        },
+        "low": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        },
+        "high": {
+          "successes": 0,
+          "arms": 3,
+          "hard_replay_failures": 3
+        }
+      }
+    },
+    "paired_historical_vs_low": {
+      "pairs": 15,
+      "debt": 5,
+      "benefit": 1,
+      "ties": 9,
+      "exact_two_sided_p": 0.21875
+    },
+    "paired_historical_vs_high": {
+      "pairs": 15,
+      "debt": 5,
+      "benefit": 0,
+      "ties": 10,
+      "exact_two_sided_p": 0.0625
+    },
+    "low_vs_high": {
+      "pairs": 15,
+      "debt": 1,
+      "benefit": 0,
+      "ties": 14,
+      "exact_two_sided_p": 1.0
+    },
+    "invalid_actions": 0,
+    "tool_calls": 405
+  },
+  "cross_consumer": {
+    "shared_arms": 45,
+    "outcome_agreement": 0.9555555555555556,
+    "disagreements": [
+      {
+        "future_pair_id": "getmoto__moto-5835__TO__getmoto__moto-5873",
+        "state_level": "high",
+        "codex": true,
+        "claude": false
+      },
+      {
+        "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95",
+        "state_level": "historical",
+        "codex": true,
+        "claude": false
+      }
+    ]
+  },
+  "claude_calibration": {
+    "complete": true,
+    "rollouts": 15,
+    "expected": 15,
+    "successes": 9,
+    "success_rate": 0.6,
+    "changed": 15,
+    "changed_rate": 1.0,
+    "tool_calls": 299,
+    "invalid_actions": 0,
+    "invalid_rate": 0.0,
+    "gate_pass": true,
+    "by_anchor": {
+      "getmoto__moto-5835": {
+        "successes": 3,
+        "rollouts": 3
+      },
+      "jsonpickle__jsonpickle-342": {
+        "successes": 3,
+        "rollouts": 3
+      },
+      "kinto__kinto-1814": {
+        "successes": 3,
+        "rollouts": 3
+      },
+      "pymodbus-dev__pymodbus-1533": {
+        "successes": 0,
+        "rollouts": 3
+      },
+      "researchobject__ro-crate-py-69": {
+        "successes": 0,
+        "rollouts": 3
+      }
+    }
+  },
+  "stochastic_repeats_additional": {
+    "complete": true,
+    "rollouts": 6,
+    "by_state": {
+      "historical": {
+        "success": 2
+      },
+      "low": {
+        "success": 2
+      },
+      "high": {
+        "success": 2
+      }
+    }
+  },
+  "deterministic_repeats": {
+    "complete": true,
+    "rollouts": 6,
+    "replay_failures": 6,
+    "conflict_signatures": {
+      "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004:jsonpickle/pickler.py": 3,
+      "ea5f66dd4441447292ce26a068bdb690b7de7496:kinto/core/authorization.py": 3
+    }
+  }
+}

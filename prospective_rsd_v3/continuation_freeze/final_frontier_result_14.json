@@ -1,0 +1,52 @@
+{
+  "status": "ALL_REQUESTED_FRONTIER_EXPERIMENTS_COMPLETE",
+  "codex_heldout": {
+    "historical": "7/15",
+    "low": "2/15",
+    "high": "2/15",
+    "historical_minus_low_points": 33.3333333333,
+    "historical_minus_high_points": 33.3333333333,
+    "paired_historical_vs_low": {"debt": 6, "benefit": 1, "ties": 8, "exact_two_sided_p": 0.125},
+    "paired_historical_vs_high": {"debt": 6, "benefit": 1, "ties": 8, "exact_two_sided_p": 0.125}
+  },
+  "claude_calibration": {
+    "success": "9/15",
+    "code_change": "15/15",
+    "invalid_actions": "0/299",
+    "gate": "PASS"
+  },
+  "claude_heldout": {
+    "historical": "6/15",
+    "low": "2/15",
+    "high": "1/15",
+    "historical_minus_low_points": 26.6666666667,
+    "historical_minus_high_points": 33.3333333333,
+    "paired_historical_vs_low": {"debt": 5, "benefit": 1, "ties": 9, "exact_two_sided_p": 0.21875},
+    "paired_historical_vs_high": {"debt": 5, "benefit": 0, "ties": 10, "exact_two_sided_p": 0.0625}
+  },
+  "cross_consumer": {
+    "arm_outcome_agreement": "43/45",
+    "agreement_rate": 0.9555555556,
+    "kinto_pattern_both_consumers": "historical 3/3 versus low 0/3 and high 0/3"
+  },
+  "sequential_replay": {
+    "audit_candidate_success": "22/35",
+    "audit_hard_conflicts": "13/35",
+    "heldout_candidate_hard_conflicts_per_consumer": "20/30",
+    "validated_artifact_correction": "Eight Kinto transplant failures were real code conflicts; two Pymodbus transplant failures were artifacts; sequential replay additionally exposed five Jsonpickle code conflicts."
+  },
+  "repeats": {
+    "deterministic_high_debt": "6/6 reproduced the identical commit/file conflict signature",
+    "stochastic_audit_total_including_original": "historical 3/3, low 3/3, high 3/3",
+    "interpretation": "The audit future is a stable ceiling and does not distinguish these Moto states; multiple heldout futures are necessary."
+  },
+  "negative_results": {
+    "low_vs_high_codex": "0 discordances across 15 futures",
+    "low_vs_high_claude": "1 discordance across 15 futures",
+    "interpretation": "The frozen audit-severity ranking does not yet establish a useful state-debt critic."
+  },
+  "hashes_sha256": {
+    "claude_heldout_raw": "1309b5758931c7afa745ab331ad143f9e1319059ae4a15022325b2856d018a81",
+    "combined_summary": "77fcb97557bc983c298e802c5b841d9c7c1aecc126c16a14979ea818ff532f3c"
+  }
+}

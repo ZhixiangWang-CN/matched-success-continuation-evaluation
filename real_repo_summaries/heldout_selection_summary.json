@@ -1,0 +1,204 @@
+{
+  "dataset": "PrimeIntellect/SWE-rebench-V2-Filtered-Verified",
+  "rows_scanned": 6272,
+  "excluded_repositories": 200,
+  "language_counts": {
+    "ts": 734,
+    "js": 811,
+    "python": 1952,
+    "rust": 477,
+    "go": 1241,
+    "r": 51,
+    "kotlin": 215,
+    "java": 324,
+    "php": 237,
+    "swift": 64,
+    "elixir": 84,
+    "scala": 58,
+    "ocaml": 2,
+    "lua": 5,
+    "c": 13,
+    "dart": 4
+  },
+  "eligible_python_repos": 223,
+  "candidate_pairs": 134,
+  "selected_pairs": 100,
+  "selected_repos": 63,
+  "top_pairs": [
+    {
+      "pair_id": "mila-udem__fuel-186__TO__mila-udem__fuel-192",
+      "repo": "mila-udem/fuel",
+      "gap_days": 8.025347222222223,
+      "overlap_files": [],
+      "selection_score": 1.2069704185157706
+    },
+    {
+      "pair_id": "gammapy__gammapy-5508__TO__gammapy__gammapy-5525",
+      "repo": "gammapy/gammapy",
+      "gap_days": 6.9534722222222225,
+      "overlap_files": [],
+      "selection_score": 1.1971131273378637
+    },
+    {
+      "pair_id": "pymodbus-dev__pymodbus-1659__TO__pymodbus-dev__pymodbus-1671",
+      "repo": "pymodbus-dev/pymodbus",
+      "gap_days": 4.172280092592593,
+      "overlap_files": [],
+      "selection_score": 1.1243491079917884
+    },
+    {
+      "pair_id": "pythainlp__pythainlp-382__TO__pythainlp__pythainlp-399",
+      "repo": "PyThaiNLP/pythainlp",
+      "gap_days": 8.242268518518518,
+      "overlap_files": [],
+      "selection_score": 1.0859701070536325
+    },
+    {
+      "pair_id": "scrapy__scrapy-6239__TO__scrapy__scrapy-6897",
+      "repo": "scrapy/scrapy",
+      "gap_days": 485.57900462962965,
+      "overlap_files": [],
+      "selection_score": 0.9960805741311936
+    },
+    {
+      "pair_id": "sinaptik-ai__pandas-ai-1048__TO__sinaptik-ai__pandas-ai-1071",
+      "repo": "Sinaptik-AI/pandas-ai",
+      "gap_days": 9.909467592592593,
+      "overlap_files": [],
+      "selection_score": 0.9382952010331681
+    },
+    {
+      "pair_id": "berriai__litellm-11964__TO__berriai__litellm-12168",
+      "repo": "BerriAI/litellm",
+      "gap_days": 8.084120370370371,
+      "overlap_files": [],
+      "selection_score": 0.7997777000264972
+    },
+    {
+      "pair_id": "celery__celery-7945__TO__celery__celery-8984",
+      "repo": "celery/celery",
+      "gap_days": 507.80125,
+      "overlap_files": [],
+      "selection_score": 0.7443540249728788
+    },
+    {
+      "pair_id": "dask-contrib__dask-expr-872__TO__dask-contrib__dask-expr-901",
+      "repo": "dask-contrib/dask-expr",
+      "gap_days": 14.447523148148148,
+      "overlap_files": [],
+      "selection_score": 0.7170410588349059
+    },
+    {
+      "pair_id": "awslabs__cfn-python-lint-659__TO__awslabs__cfn-python-lint-682",
+      "repo": "awslabs/cfn-python-lint",
+      "gap_days": 12.944131944444445,
+      "overlap_files": [],
+      "selection_score": 0.6879529834992499
+    },
+    {
+      "pair_id": "more-itertools__more-itertools-892__TO__more-itertools__more-itertools-903",
+      "repo": "more-itertools/more-itertools",
+      "gap_days": 18.106238425925927,
+      "overlap_files": [],
+      "selection_score": 0.6009880792939325
+    },
+    {
+      "pair_id": "axelrod-python__axelrod-975__TO__axelrod-python__axelrod-1182",
+      "repo": "Axelrod-Python/Axelrod",
+      "gap_days": 445.77688657407407,
+      "overlap_files": [],
+      "selection_score": 0.5813525321415226
+    },
+    {
+      "pair_id": "openmined__pysyft-2549__TO__openmined__pysyft-2612",
+      "repo": "OpenMined/PySyft",
+      "gap_days": 18.92412037037037,
+      "overlap_files": [],
+      "selection_score": 0.5434551386648676
+    },
+    {
+      "pair_id": "silx-kit__silx-4242__TO__silx-kit__silx-4282",
+      "repo": "silx-kit/silx",
+      "gap_days": 18.109050925925924,
+      "overlap_files": [],
+      "selection_score": 0.504870325376994
+    },
+    {
+      "pair_id": "kozea__weasyprint-2405__TO__kozea__weasyprint-2416",
+      "repo": "Kozea/WeasyPrint",
+      "gap_days": 16.66226851851852,
+      "overlap_files": [],
+      "selection_score": 0.4178554863132776
+    },
+    {
+      "pair_id": "crewaiinc__crewai-2408__TO__crewaiinc__crewai-2570",
+      "repo": "crewAIInc/crewAI",
+      "gap_days": 21.878981481481482,
+      "overlap_files": [],
+      "selection_score": 0.4148250801190158
+    },
+    {
+      "pair_id": "yelp__bravado-core-367__TO__yelp__bravado-core-372",
+      "repo": "Yelp/bravado-core",
+      "gap_days": 16.01275462962963,
+      "overlap_files": [],
+      "selection_score": 0.3878293319409722
+    },
+    {
+      "pair_id": "kennethreitz__pipenv-976__TO__kennethreitz__pipenv-1095",
+      "repo": "kennethreitz/pipenv",
+      "gap_days": 24.22246527777778,
+      "overlap_files": [],
+      "selection_score": 0.27381193866989684
+    },
+    {
+      "pair_id": "jax-ml__jax-25650__TO__jax-ml__jax-25957",
+      "repo": "jax-ml/jax",
+      "gap_days": 27.832337962962963,
+      "overlap_files": [],
+      "selection_score": 0.20580191747351373
+    },
+    {
+      "pair_id": "opencybersecurityalliance__stix-shifter-1306__TO__opencybersecurityalliance__stix-shifter-1355",
+      "repo": "opencybersecurityalliance/stix-shifter",
+      "gap_days": 29.867025462962964,
+      "overlap_files": [],
+      "selection_score": 0.1962492184107681
+    },
+    {
+      "pair_id": "oceanparcels__parcels-574__TO__oceanparcels__parcels-590",
+      "repo": "OceanParcels/parcels",
+      "gap_days": 23.926712962962963,
+      "overlap_files": [],
+      "selection_score": 0.1632479694567477
+    },
+    {
+      "pair_id": "meltano__sdk-3019__TO__meltano__sdk-3091",
+      "repo": "meltano/sdk",
+      "gap_days": 37.20509259259259,
+      "overlap_files": [],
+      "selection_score": 0.03162494346461591
+    },
+    {
+      "pair_id": "mie-lab__trackintel-274__TO__mie-lab__trackintel-296",
+      "repo": "mie-lab/trackintel",
+      "gap_days": 15.928969907407408,
+      "overlap_files": [],
+      "selection_score": -0.013221080061625479
+    },
+    {
+      "pair_id": "sfdo-tooling__cumulusci-3624__TO__sfdo-tooling__cumulusci-3645",
+      "repo": "SFDO-Tooling/CumulusCI",
+      "gap_days": 45.88167824074074,
+      "overlap_files": [],
+      "selection_score": -0.11410155462289137
+    },
+    {
+      "pair_id": "google__jax-21774__TO__google__jax-22541",
+      "repo": "google/jax",
+      "gap_days": 39.401099537037034,
+      "overlap_files": [],
+      "selection_score": -0.1450856006880335
+    }
+  ]
+}

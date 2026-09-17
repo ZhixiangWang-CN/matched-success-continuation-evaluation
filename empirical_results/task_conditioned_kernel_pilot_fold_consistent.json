@@ -1,0 +1,183 @@
+{
+  "rows": 768,
+  "unique_states": 64,
+  "task_consumer_groups": 72,
+  "known_distribution_unseen_state": {
+    "state_only": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.25256469819795097,
+      "log_loss": 0.6991821378088482,
+      "roc_auc": 0.5438682004289335
+    },
+    "task_only": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.13599346764643416,
+      "log_loss": 0.43053458064592576,
+      "roc_auc": 0.8914157591287637
+    },
+    "additive_context": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.1331149387595076,
+      "log_loss": 0.42104655659884704,
+      "roc_auc": 0.894023479932039
+    },
+    "conditional_kernel": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.1396543715607433,
+      "log_loss": 0.45765479115800495,
+      "roc_auc": 0.8732731248085119
+    },
+    "pairwise_conditional": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.37142823036058575,
+      "log_loss": 1.3254249478277331,
+      "roc_auc": 0.5478685625156672
+    }
+  },
+  "unseen_family": {
+    "state_only": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.32784926174999046,
+      "log_loss": 0.9362591821725648,
+      "roc_auc": 0.36033200568197643
+    },
+    "task_only": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.22998091312846347,
+      "log_loss": 0.6601219714766765,
+      "roc_auc": 0.6301701807648386
+    },
+    "additive_context": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.29714724437963763,
+      "log_loss": 0.9300163882620608,
+      "roc_auc": 0.5438264211904297
+    },
+    "conditional_kernel": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.2870883573386241,
+      "log_loss": 0.8992508477639761,
+      "roc_auc": 0.5855778068685068
+    },
+    "pairwise_conditional": {
+      "n": 768,
+      "positive_rate": 0.5807291666666666,
+      "brier": 0.3330307759236344,
+      "log_loss": 1.180250657252891,
+      "roc_auc": 0.5240509149653233
+    }
+  },
+  "selection": {
+    "fold_task_groups": 324,
+    "task_consumer_groups": 72,
+    "methods": {
+      "state_only": {
+        "mean": 0.5944444444444444,
+        "ci95": [
+          0.4986111111111111,
+          0.6840277777777778
+        ],
+        "n_groups": 72
+      },
+      "task_only": {
+        "mean": 0.5534722222222223,
+        "ci95": [
+          0.4534722222222223,
+          0.6486111111111111
+        ],
+        "n_groups": 72
+      },
+      "additive_context": {
+        "mean": 0.6111111111111112,
+        "ci95": [
+          0.5180555555555555,
+          0.6993055555555555
+        ],
+        "n_groups": 72
+      },
+      "conditional_kernel": {
+        "mean": 0.6319444444444444,
+        "ci95": [
+          0.5423611111111111,
+          0.7152777777777778
+        ],
+        "n_groups": 72
+      },
+      "pairwise_conditional": {
+        "mean": 0.588888888888889,
+        "ci95": [
+          0.49374999999999997,
+          0.6791840277777775
+        ],
+        "n_groups": 72
+      },
+      "random_expected": {
+        "mean": 0.5865162037037037,
+        "ci95": [
+          0.4965842013888888,
+          0.6739583333333333
+        ],
+        "n_groups": 72
+      },
+      "oracle": {
+        "mean": 0.6937500000000001,
+        "ci95": [
+          0.6118055555555555,
+          0.7715277777777778
+        ],
+        "n_groups": 72
+      }
+    },
+    "paired_differences": {
+      "pairwise_conditional_minus_state_only": {
+        "mean": -0.005555555555555556,
+        "ci95": [
+          -0.04652777777777777,
+          0.03680555555555556
+        ],
+        "n_groups": 72
+      },
+      "pairwise_conditional_minus_task_only": {
+        "mean": 0.03541666666666666,
+        "ci95": [
+          -0.006944444444444444,
+          0.07916666666666666
+        ],
+        "n_groups": 72
+      },
+      "pairwise_conditional_minus_additive_context": {
+        "mean": -0.022222222222222223,
+        "ci95": [
+          -0.04861111111111111,
+          0.0027777777777777796
+        ],
+        "n_groups": 72
+      },
+      "pairwise_conditional_minus_conditional_kernel": {
+        "mean": -0.04305555555555555,
+        "ci95": [
+          -0.07013888888888889,
+          -0.017361111111111112
+        ],
+        "n_groups": 72
+      },
+      "pairwise_conditional_minus_random_expected": {
+        "mean": 0.0023726851851852,
+        "ci95": [
+          -0.025175057870370363,
+          0.029687500000000016
+        ],
+        "n_groups": 72
+      }
+    }
+  }
+}

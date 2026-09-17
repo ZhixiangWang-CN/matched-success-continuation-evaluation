@@ -1,0 +1,30 @@
+{
+  "status": "FROZEN_BEFORE_REPEAT_EXECUTION_AND_WITHOUT_HELDOUT_OUTCOME_SELECTION",
+  "stochastic_consumer_panel": {
+    "anchor_id": "getmoto__moto-5835",
+    "future_pair_id": "getmoto__moto-5835__TO__getmoto__moto-5843",
+    "states": [
+      {"candidate_id": "historical_gold", "candidate_hash": "historical_gold"},
+      {"candidate_id": "cand_bb87a253d13c", "candidate_hash": "bb87a253d13c0f27944699604f4edd6ce798e293561a3b475fbd00356006d0c1"},
+      {"candidate_id": "cand_71acea192e0e", "candidate_hash": "71acea192e0eaa3df1577535fc43891ffb71b0d87f850e869c6200e62f8d1b5d"}
+    ],
+    "target_total_rollouts_per_state": 3,
+    "existing_formal_rollouts_per_state": 1,
+    "additional_rollouts_per_state": 2
+  },
+  "deterministic_high_debt_replay_panel": [
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "candidate_id": "cand_181961e71adb",
+      "candidate_hash": "181961e71adbbeb76e6e5e6592450622d4d835b1a1da552c6ce18fd55b6e4313",
+      "target_replays": 3
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "candidate_id": "cand_df8435d47e6a",
+      "candidate_hash": "df8435d47e6afd2799b3ef88e528bf18352633380ed9764ab8b4b68eebf6ad94",
+      "target_replays": 3
+    }
+  ],
+  "selection_basis": "Frozen audit replay severity and candidate-patch churn only; no held-out outcome used."
+}

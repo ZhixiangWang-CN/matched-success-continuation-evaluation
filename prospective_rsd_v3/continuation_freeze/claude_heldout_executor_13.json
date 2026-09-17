@@ -1,0 +1,23 @@
+{
+  "status": "CLAUDE_HELDOUT_EXECUTION_FROZEN_AFTER_CALIBRATION_PASS_AND_BEFORE_HELDOUT_RUN",
+  "calibration_result": "claude_calibration_result_12.json",
+  "selection_sha256": "4210b48b320023beed529b9465ba2db4bab77e6feba1366f58c0eb0a89e894cb",
+  "replay_protocol_sha256": "44c02049e0bdc4f3af8a73b9ed7091a4f11f5ef87714604750c0142114d60471",
+  "consumer_runner_sha256": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+  "heldout_runner_sha256": "eff6eef3f44c9374d0e05d04a81c8c18ffbbab97f64b9e5aa1f378b7222236c1",
+  "consumer": "Claude Code CLI, Opus, high effort, no session persistence",
+  "design": {
+    "anchors": 5,
+    "heldout_futures_per_anchor": 3,
+    "states_per_future": ["historical", "low", "high"],
+    "total_arms": 45,
+    "workers": 3,
+    "timeout_seconds": 1800,
+    "proxy_port": 18801
+  },
+  "failure_semantics": {
+    "code_replay_conflict": "strict continuation failure and separately reported maintenance debt",
+    "metadata_replay_conflict": "upstream version accepted, recovery event counted, continuation proceeds",
+    "consumer_or_test_failure": "strict continuation failure"
+  }
+}

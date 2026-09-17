@@ -1,0 +1,103 @@
+{
+  "n_pairs": 600,
+  "scenarios": {
+    "uniform": {
+      "n": 600,
+      "clean_success": 0.575,
+      "debt_success": 0.375,
+      "state_debt": 0.2,
+      "clean_only": 154,
+      "debt_only_rank_reversals": 34,
+      "discordant_clean_share": 0.8191489361702128
+    },
+    "extension": {
+      "n": 300,
+      "clean_success": 0.65,
+      "debt_success": 0.44,
+      "state_debt": 0.21,
+      "clean_only": 75,
+      "debt_only_rank_reversals": 12,
+      "discordant_clean_share": 0.8620689655172413
+    },
+    "maintenance": {
+      "n": 105,
+      "clean_success": 0.7047619047619048,
+      "debt_success": 0.3904761904761905,
+      "state_debt": 0.3142857142857143,
+      "clean_only": 37,
+      "debt_only_rank_reversals": 4,
+      "discordant_clean_share": 0.9024390243902439
+    },
+    "governance_recovery": {
+      "n": 195,
+      "clean_success": 0.38974358974358975,
+      "debt_success": 0.26666666666666666,
+      "state_debt": 0.12307692307692308,
+      "clean_only": 42,
+      "debt_only_rank_reversals": 18,
+      "discordant_clean_share": 0.7
+    }
+  },
+  "models": {
+    "gemma2_9b": {
+      "clean": {
+        "mean": 0.6583333333333333,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.3583333333333333,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    },
+    "llama3_8b": {
+      "clean": {
+        "mean": 0.275,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.20833333333333331,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    },
+    "phi35": {
+      "clean": {
+        "mean": 0.5083333333333333,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.31666666666666665,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    },
+    "qwen25_72b": {
+      "clean": {
+        "mean": 0.8,
+        "cvar25_continuation": 0.2,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.6,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    },
+    "qwen25_7b": {
+      "clean": {
+        "mean": 0.6333333333333333,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.39166666666666666,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    }
+  }
+}

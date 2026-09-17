@@ -1,0 +1,65 @@
+{
+  "status": "RECOVERY_EXECUTION_FROZEN_BEFORE_ANY_RECOVERY_ROLLOUT",
+  "frozen_at_utc": "2026-09-05T13:30:59Z",
+  "motivation": "Under the strict protocol the historical reference cannot incur a replay conflict by construction (subsequent upstream commits were authored on top of it), while 20/30 alternative arms stopped at a source conflict before any consumer executed. This amendment measures recovery probability, recovery cost, and post-recovery continuation for those arms, keeping the three quantities separate.",
+  "arms": "prospective_rsd_v3/continuation_freeze/recovery_conflict_arms.json (20 arms; identical for both consumers)",
+  "arms_sha256": "15613d372966266ad40a204b0f45e1ce65031d156d80f494d4354d988f4150b0",
+  "consumers": [
+    {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "workers": 2
+    },
+    {
+      "agent": "claude",
+      "model": "claude-opus-4-8",
+      "effort": "high",
+      "claude_host": "remote-host",
+      "workers": 3
+    }
+  ],
+  "design": {
+    "recovery_agent": "same consumer as the future-task consumer of the arm",
+    "recovery_prompt": "frozen in run_frontier_conflict_recovery.py::recovery_prompt; names the conflicting commit, its subject, and unmerged paths; never mentions the future task",
+    "future_prompt": "byte-identical to the strict heldout consumer prompt",
+    "max_recovery_rounds_per_arm": 3,
+    "forbidden_for_recovery_agent": [
+      "internet",
+      "git reset",
+      "git checkout",
+      "git restore",
+      "git stash",
+      "git rebase",
+      "cherry-pick --abort",
+      "cherry-pick --skip"
+    ],
+    "harness_verification": "no unmerged paths and no conflict markers after the agent session; if the cherry-pick is still in progress the harness stages and continues it",
+    "timeout_seconds_per_agent_session": 1800
+  },
+  "outcomes": {
+    "recovery_success": "replay reaches the frozen future base with every source conflict resolved by the agent",
+    "verified_recovery": "recovery_success and the current task FAIL_TO_PASS tests pass on the recovered tree (diagnostic; prior tests restored before the future session)",
+    "recovery_cost": "agent tool calls, agent seconds, and resolution numstat per round, reported next to the upstream commit numstat",
+    "continuation_success": "unchanged strict definition: future FAIL_TO_PASS pass, first 20 PASS_TO_PASS pass, and prior task preserved",
+    "comparison": "post-recovery alternative outcome versus the historical arm on the same future (exploratory paired sign test); historical arms are not re-run"
+  },
+  "pilot": "one harness pilot arm (kinto low -> kinto-2011, Codex) is executed first and recorded in frontier_recovery_pilot.jsonl; it is excluded from formal counts and the formal run re-executes that arm",
+  "hashes_sha256": {
+    "recovery_runner": "f54c0935d217cd32e6c2468c49cd910ff55f426b5a7185c4899c5c00a7efca93",
+    "consumer_runner": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+    "container_proxy": "8dcf40eeddeae81742e28dc6827f2c6725d97b576ac4b6abe318287f99bd3ca8",
+    "proxy_server": "e2132f5908e6aa857f013f9c12eaa5052a2a7882db7c25714462c482bca33dfe",
+    "selection": "4210b48b320023beed529b9465ba2db4bab77e6feba1366f58c0eb0a89e894cb",
+    "replay_protocol": "44c02049e0bdc4f3af8a73b9ed7091a4f11f5ef87714604750c0142114d60471",
+    "candidates": "2570bdddc32f8bf89d1102dfe83b81171fe829c2957491f4c1800ce6422c85d0"
+  },
+  "heldout_outcomes_status": "Strict heldout outcomes were already opened (final_frontier_result_14.json); this amendment is a post-hoc but pre-registered extension whose arm set is fixed by the strict replay failures, not by outcomes.",
+  "revision_1": {
+    "at_utc": "2026-09-05T13:36:51Z",
+    "reason": "Harness pilot (kinto low -> kinto-2011, Codex) resolved the conflict and completed the cherry-pick, but the harness marker scan searched the whole tree and matched reStructuredText '=======' underlines in docs/, returning a false recovery_unresolved. The scan now checks only the unmerged files for '<<<<<<< ', '>>>>>>> ', and '||||||| ' markers; per-arm timing moved into the finally block.",
+    "pilot_row": "server_staging/prospective_rsd_v3/frontier_recovery_pilot.jsonl (row 1; excluded from formal counts)",
+    "formal_rollouts_before_revision": 0,
+    "recovery_runner_sha256_after_fix": "e5b06dff0b3f70dde7d8895bae95cb045a6001d08a38d13cc34dfe5d6af77f6e"
+  }
+}

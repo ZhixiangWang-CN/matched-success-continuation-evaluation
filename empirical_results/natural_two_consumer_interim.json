@@ -1,0 +1,1175 @@
+{
+  "producer_attempts": 90,
+  "current_successes": 78,
+  "current_success_rate": 0.8666666666666667,
+  "unique_successful_terminal_states": 64,
+  "evaluated_unique_terminal_states": 64,
+  "families": {
+    "pricing": {
+      "n_states": 12,
+      "mean": 0.25,
+      "sd": 0.10206207261596575,
+      "min": 0.125,
+      "max": 0.5,
+      "natural_debt_mean": 0.25,
+      "fraction_nonzero_debt": 0.9166666666666666
+    },
+    "flags": {
+      "n_states": 8,
+      "mean": 0.3359375,
+      "sd": 0.11240230132764187,
+      "min": 0.25,
+      "max": 0.5,
+      "natural_debt_mean": 0.1640625,
+      "fraction_nonzero_debt": 0.75
+    },
+    "permissions": {
+      "n_states": 15,
+      "mean": 0.4,
+      "sd": 0.13844373104863458,
+      "min": 0.125,
+      "max": 0.625,
+      "natural_debt_mean": 0.225,
+      "fraction_nonzero_debt": 0.8666666666666667
+    },
+    "events": {
+      "n_states": 13,
+      "mean": 0.5048076923076923,
+      "sd": 0.21436054624623033,
+      "min": 0.25,
+      "max": 1.0,
+      "natural_debt_mean": 0.4951923076923077,
+      "fraction_nonzero_debt": 0.9230769230769231
+    },
+    "router": {
+      "n_states": 7,
+      "mean": 0.8660714285714286,
+      "sd": 0.08470386589736731,
+      "min": 0.75,
+      "max": 1.0,
+      "natural_debt_mean": 0.13392857142857142,
+      "fraction_nonzero_debt": 0.8571428571428571
+    },
+    "cache": {
+      "n_states": 9,
+      "mean": 0.75,
+      "sd": 0.13176156917368248,
+      "min": 0.5,
+      "max": 1.0,
+      "natural_debt_mean": 0.25,
+      "fraction_nonzero_debt": 0.8888888888888888
+    }
+  },
+  "producer_consumer_success": {
+    "qwen25_7b|qwen25_7b": 0.6333333333333333,
+    "llama3_8b|qwen25_7b": 0.5892857142857143,
+    "gemma2_9b|qwen25_7b": 0.5166666666666667,
+    "phi35|qwen25_7b": 0.734375,
+    "qwen25_72b|qwen25_7b": 0.6805555555555556,
+    "gemma2_9b|llama3_8b": 0.31666666666666665,
+    "llama3_8b|llama3_8b": 0.32142857142857145,
+    "phi35|llama3_8b": 0.484375,
+    "qwen25_72b|llama3_8b": 0.4305555555555556,
+    "qwen25_7b|llama3_8b": 0.3
+  },
+  "consumer_rank_agreement": [
+    {
+      "a": "llama3_8b",
+      "b": "qwen25_7b",
+      "n": 64,
+      "spearman": 0.5507558708715056
+    }
+  ],
+  "states": [
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "pricing",
+      "hash": "49f238e381e009c9a42731364d4cf6f1ce50b64e2ec272038c610bec1faa8898",
+      "value": 0.125,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 254,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b",
+        "llama3_8b"
+      ],
+      "family": "pricing",
+      "hash": "7eee24fa16be1d67780389fa6c105544f7e3fb6ce04e0a4c390a9b31865e2637",
+      "value": 0.25,
+      "n_rollouts": 24,
+      "features": {
+        "loc": 8,
+        "chars": 253,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "flags",
+      "hash": "90daf6b698721ec390f8a43b8c0702f414c12878ec6712dcad1e490071fe4c99",
+      "value": 0.25,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 15,
+        "chars": 322,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 5
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "flags",
+      "hash": "77799d0419acaf28d7399384b10e3c0f21ae2fc48c71a872170f26fc9930d554",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 15,
+        "chars": 292,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 5
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "permissions",
+      "hash": "1c71976d58b82621219024949c7e292e8e25339a474885fe9afaca70f77fa575",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 237,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "permissions",
+      "hash": "66e7ff1a459ccc9172fe056895ef85d1391ea6f7120ae312e021ba8897ddc5f8",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 11,
+        "chars": 331,
+        "ifs": 1,
+        "dicts": 3,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "permissions",
+      "hash": "422fa8dbaf727cf163cebdc610b5f924406b2d92fd214bac0e7cebcdd990443a",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 236,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 3,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "events",
+      "hash": "e67bb9ee53404887fbeb3e59247e1407867b0bcd934185c6a0bd8536c80abce9",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 205,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "events",
+      "hash": "c4c82166d3f80d56df58636b3a6212afa23e12d1e676dcdbf2c6ab817e5c1e01",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 184,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b"
+      ],
+      "family": "events",
+      "hash": "b833170f0332fe2213a20ca696a864309f424bd8ab1e9fc1f019b80ffec921e0",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 202,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "gemma2_9b",
+        "qwen25_72b"
+      ],
+      "family": "router",
+      "hash": "02b07b12fdee3121d4ad71eee1fe1b8c1e5b09f66f9be4acc801654cd7f17b2c",
+      "value": 0.875,
+      "n_rollouts": 40,
+      "features": {
+        "loc": 9,
+        "chars": 197,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "pricing",
+      "hash": "c80ccfc26cfa63ab7d1e183816713f70e467363f16c86080686e3cb1046bc45f",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 269,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "pricing",
+      "hash": "72c607b1648b1b7241184ac2d876bfa9645190bb5b0caad17d95053569671772",
+      "value": 0.125,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 255,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "flags",
+      "hash": "45f4dd74f59bcaf7ac982fd1fe9f80253766a5bf78954db1e800112efeb72d20",
+      "value": 0.25,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 9,
+        "chars": 206,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "permissions",
+      "hash": "8dfe38799b626be08900b802827543c95d51e968b983c0028b32fca7eb90db09",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 7,
+        "chars": 218,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 1,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "permissions",
+      "hash": "754f2774195ea45928824191fb83acc30a1a651d8401ccf33e41b9f2ce0d790b",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 11,
+        "chars": 301,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 2,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "permissions",
+      "hash": "9fab3373eb1772ac5c3b775a5e156f6e19ae918cf5677e0f6f8336ac11aa70a8",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 239,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 2,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "events",
+      "hash": "7329e93b2ea2de98555af366689001b803168b84b73965cbc0b59c276939dce4",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 15,
+        "chars": 372,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "events",
+      "hash": "7ee7aa90124b228bbb833d29a8898a445aed566d681be40b1aef901305d67054",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 13,
+        "chars": 359,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "events",
+      "hash": "784f79666fa3dffe6f242c98770f34752804d0697f2503bd9b824c0d7b16d6ea",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 202,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "router",
+      "hash": "ffc3928c9531a938e4858dc58fee084ee0d7db9b37bd862f35750c2f5d42c022",
+      "value": 0.875,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 11,
+        "chars": 243,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "router",
+      "hash": "00e8bca1bd12408d14e529d80318b1f6144cc9bc3998f4fe144f84284813e3ac",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 8,
+        "chars": 186,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "llama3_8b"
+      ],
+      "family": "cache",
+      "hash": "d7ffc042dad5f38d839465efd5b8ced4c2e2c407c3457439ebf697fb855e7719",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 184,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "pricing",
+      "hash": "7de08e3ba308a939598a765ae11cc4659f695990b318d18ca393ae119e272837",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 28,
+        "chars": 796,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "pricing",
+      "hash": "c005b87cfb36375c4b7062f88588624443fe21fe187803c1f168e7e1f462f334",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 28,
+        "chars": 950,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "flags",
+      "hash": "bc04b7cf1e3b44def86333a8f77f46230b9a46a1b53b2af1a1d69ac202fd5ef5",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 20,
+        "chars": 588,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 4
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "flags",
+      "hash": "47fc8e7ca3f41db8b75c25d4228fa76ece1cb5297e0073b2f7ab2e48289c41cc",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 21,
+        "chars": 679,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 4
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "permissions",
+      "hash": "7abd75dc6854a81b67efb2c6cb3178a6acf4f69e600156fadde08301f08b3d54",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 32,
+        "chars": 971,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "permissions",
+      "hash": "9eb612d3a9ac8fdc6462d897f269710b377ef710841c9f041ce3fa989632629e",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 31,
+        "chars": 910,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 2,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "permissions",
+      "hash": "466f33e51b55cb307bea0f94d328049fdc68bef643389e16fd388eec02d950ee",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 33,
+        "chars": 1045,
+        "ifs": 1,
+        "dicts": 3,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "events",
+      "hash": "5e34e375cfa5d557f3d556dd9d06c7a4600903ece753de1405030c58d49b7b44",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 26,
+        "chars": 881,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "events",
+      "hash": "db151d39e7ffffed0e500aab48bddbfac2f14bf9da60bed5c808d768e32e2c30",
+      "value": 1.0,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 23,
+        "chars": 655,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "events",
+      "hash": "7dc58a4ec9dfa15703d33166d4a9b0626c479c37c9f1ab7fad981726288aec26",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 25,
+        "chars": 833,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "router",
+      "hash": "a28508e13d8b5df2d4336ff9050b877e6823cb1a97331440ebd2913b75976ec7",
+      "value": 0.9375,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 15,
+        "chars": 374,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "router",
+      "hash": "a5dddf62a58714a16c1b147e76c43a40e10b9bdb803204454c26d48145c03592",
+      "value": 0.875,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 16,
+        "chars": 419,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "cache",
+      "hash": "f419ab1b670aa1938823321bb97b8daaaf01553b1dd1dd1214fb3c0ce6585a92",
+      "value": 1.0,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 16,
+        "chars": 379,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "cache",
+      "hash": "cbfd800486216f5f71df2b975eb50f35252d0c239fb3fe8056fbc240a305ed3a",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 17,
+        "chars": 488,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "phi35"
+      ],
+      "family": "cache",
+      "hash": "5a2f545a9eb4cdad89ecaac870a98fcc671db26f84cfa981a4c3fd74eefcb267",
+      "value": 0.875,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 18,
+        "chars": 510,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "pricing",
+      "hash": "b573a8c31c9ae73e671d583c0c3174d754f191f2e2fe13dd3a87f7b91c923a2b",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 20,
+        "chars": 630,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "pricing",
+      "hash": "1f3330e092334cd8208361e68abfa9ec1f72f2b1bef414c901012bcb0a216592",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 13,
+        "chars": 367,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "pricing",
+      "hash": "42eebbbb45acad20157cb410df41900585b1f032ced6f1d91d9971c4889eaa71",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 13,
+        "chars": 371,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "flags",
+      "hash": "2533e735a6decdb3ac7b02bf38dc89f5ad5342be34902d5964b2da64f49e7295",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 15,
+        "chars": 383,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "flags",
+      "hash": "0a0a90d83ac67528101a04181473a9ceccbd23a99d2d17c03dcc9dac197a8c5b",
+      "value": 0.4375,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 15,
+        "chars": 381,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "permissions",
+      "hash": "5ca2b32b3c6b1e36c908206130ba91ea7ec3f4812fa091049ab2bf0054a1bee5",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 17,
+        "chars": 521,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 2,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "permissions",
+      "hash": "bc4bec5a2cafe85f8176ae7d2ad493cdbcd67a244f5c1be6544b52cbd3f2e334",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 18,
+        "chars": 576,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 2,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "permissions",
+      "hash": "3b9613e20163534c3577d8402931825014d434a75e0be0c322f5989307145627",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 18,
+        "chars": 578,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 2,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "events",
+      "hash": "7bfce811e571b8d18e717c211d1fdabd11b70e344700aafb407cf00e8d245b93",
+      "value": 0.375,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 211,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "events",
+      "hash": "b8ca6086564de9cd183bef652d6de36700238b63b024e5b8edc8b73a05691f0a",
+      "value": 0.375,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 9,
+        "chars": 208,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "router",
+      "hash": "b62e6453a9dcbe0dcd8b8379ce5e821e4cdd6290f6f3f62103ae35ae5e5402e2",
+      "value": 1.0,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 15,
+        "chars": 384,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "cache",
+      "hash": "548ad6c43515298315919c6a3bfd6b0f7f54598872a692d83c9726ac0b81071c",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 21,
+        "chars": 585,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "cache",
+      "hash": "7d08dec9109c337e0886bab0d61c2a59ee92254af25503a7ae94b9b19ba60537",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 21,
+        "chars": 571,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_72b"
+      ],
+      "family": "cache",
+      "hash": "ff908b54e40190b414db4faad5e87f2514a6c30ad3492d6c46653f1aea310cb4",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 19,
+        "chars": 571,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "pricing",
+      "hash": "b910f2ddf5eb474ccfa43325dcc4f1450611ac5cdce91cd70c49597eaed5ae6a",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 11,
+        "chars": 315,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "pricing",
+      "hash": "eb83fa76a85fc562c404c520d3dd69ba26f23c7a73e8757ed37f8ffdf0be0f6c",
+      "value": 0.125,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 25,
+        "chars": 809,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "pricing",
+      "hash": "bda337c1bd06c8d70a7d4a9be8edc190957c57db051d5979bdf72300b742e6aa",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 20,
+        "chars": 700,
+        "ifs": 2,
+        "dicts": 0,
+        "lists": 0,
+        "methods": 1
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "flags",
+      "hash": "c6acb397b26dbe1245e266b4b2e7adcaf3a3f5baa316184228633c441f6e158e",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 12,
+        "chars": 307,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "permissions",
+      "hash": "37534ad8ca1eb5d84500858c155fbd5d8ca8c988a5a2c124c18b1436cf9a014d",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 25,
+        "chars": 875,
+        "ifs": 1,
+        "dicts": 3,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "permissions",
+      "hash": "d65abf4c8d39c7c1f209771068e71972c04c56ddd93d847f8acef9c50b4833e9",
+      "value": 0.25,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 20,
+        "chars": 723,
+        "ifs": 1,
+        "dicts": 3,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "permissions",
+      "hash": "2a7684e53c3c7c34c5bf732617fc0c34943988b6379441afb4463a97f3a67c77",
+      "value": 0.125,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 14,
+        "chars": 353,
+        "ifs": 1,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "events",
+      "hash": "155344df390d31ed9bfb4ed44eee7651a5962bacdae890378579d61f4bd1c627",
+      "value": 0.5625,
+      "n_rollouts": 16,
+      "features": {
+        "loc": 13,
+        "chars": 341,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "events",
+      "hash": "e445aec01367d2a75b4dd90bcfde1b87f61ecfceff4fe6a6eb34bce9862d64e9",
+      "value": 0.625,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 13,
+        "chars": 349,
+        "ifs": 2,
+        "dicts": 1,
+        "lists": 1,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "router",
+      "hash": "bfcda3496279751060835463e5bd4fd638bde7ceda118912309226daeafff074",
+      "value": 0.75,
+      "n_rollouts": 24,
+      "features": {
+        "loc": 9,
+        "chars": 201,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 2
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "cache",
+      "hash": "2d365424a978c54548c09b8709f04ceb4fda1355e93fed16ca17e9682b057048",
+      "value": 0.75,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 20,
+        "chars": 614,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    },
+    {
+      "producers": [
+        "qwen25_7b"
+      ],
+      "family": "cache",
+      "hash": "d3c5cd8bcdc25169a2d8127a40267539eb4432abe57e5dbc7721e7ef5fb45a44",
+      "value": 0.5,
+      "n_rollouts": 8,
+      "features": {
+        "loc": 9,
+        "chars": 198,
+        "ifs": 0,
+        "dicts": 1,
+        "lists": 0,
+        "methods": 3
+      }
+    }
+  ]
+}

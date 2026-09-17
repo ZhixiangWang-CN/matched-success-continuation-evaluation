@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_BEFORE_CONTROL_AND_CONTINUATION_OUTCOMES",
+  "frozen_at_utc": "2026-09-06T22:05:00Z",
+  "objective": "Estimate excess replay and recovery burden relative to a matched historical state and measure downstream continuation after a pre-frozen maximal recovery budget.",
+  "protocol_id": "925a1a73de9742d763c15ed0f26e87130c03aaad617ef90e8f81a1a0153e6bae",
+  "parent_protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "sample": {
+    "repository_count": 8,
+    "eligible_future_pairs": 23,
+    "historical_arms": 23,
+    "alternative_arms": 46,
+    "downstream_endpoint_arms": 69,
+    "downstream_endpoint_rows_per_consumer": 207
+  },
+  "historical_control_budgets": [0, 1, 3, 6, 10],
+  "downstream_endpoint_budget": 10,
+  "downstream_endpoint_budget_rationale": "B=10 is fixed before these outcomes because it is the largest parent-protocol budget and maximizes separation of unresolved transition failure from downstream task performance.",
+  "independent_repeats": 3,
+  "repeat_rule": "B=0 historical control is deterministic and runs once per arm. Every positive-budget historical control and every B=10 downstream arm runs from a fresh container three times. No recovered tree, transcript, or resolution is reused.",
+  "historical_state_construction": "At the frozen current base, apply and commit the historical current-task maintainer patch, then replay the same first-parent history while omitting the original integration commit. This uses the identical replay and recovery implementation as candidate states.",
+  "candidate_state_construction": "Use the same 46 eligible frozen alternative arms and candidate patches as parent protocol 17.",
+  "excluded_future_pair_ids": [
+    "alteryx__woodwork-640__TO__alteryx__woodwork-687"
+  ],
+  "exclusion_reason": "The frozen future container lacks Git object 7bde24e9c9b5c5a0e228b4c62c094fced9901c3b for this future; the exclusion is fixed before control or continuation outcomes and applies to every state and consumer.",
+  "consumers": [
+    {"agent": "codex", "model": "gpt-5.6-sol", "effort": "medium"},
+    {"agent": "claude", "model": "claude-opus-4-8", "effort": "high"}
+  ],
+  "endpoint_taxonomy": {
+    "replay_success": "history reaches the frozen future base",
+    "prior_verifier_available": "the frozen current-task test patch applies at the recovered future tree",
+    "prior_verifier_pass": "the transported current-task verifier runs and passes",
+    "downstream_verifier_available": "the frozen future-task test patch applies after the future-agent session",
+    "downstream_future_success": "the available future target and regression tests both pass; unavailable is null, never false",
+    "end_to_end_future_certified": "replay reaches the future base and an available downstream verifier passes",
+    "joint_prior_future_certified": "end-to-end future certification plus an available passing prior-task verifier"
+  },
+  "primary_estimands": {
+    "historical_excess_replay_failure": "paired candidate minus historical replay-failure probability within future, budget, consumer, and repeat",
+    "historical_excess_cost": "paired candidate minus historical recovery sessions, tool calls, and elapsed recovery seconds",
+    "downstream_continuation": "B=10 end-to-end downstream certification for historical versus each frozen alternative",
+    "future_task_conditional": "downstream future success conditional on reaching the future base and on downstream verifier availability",
+    "verifier_missingness": "prior and downstream verifier unavailability reported as separate outcomes"
+  },
+  "inference": "Average repeats within state--future arms; use paired repository-cluster bootstrap intervals and exact repository sign-flip tests. Report arm-weighted points and repository-macro sensitivity. The eight selected repositories do not identify population prevalence.",
+  "analysis_sequence": "Freeze this document and all hashes, run both consumers, validate exhaustive keys and exclusions, then write and freeze the analysis script before inspecting aggregate contrasts.",
+  "integration_commits": {
+    "alteryx__woodwork-640": "a55c98ff7f71022690862d3bbaa2c9ab8d32952d",
+    "cloudpipe__cloudpickle-57": "39044b7ddb60660d2852a62456563eac97933bfb",
+    "getmoto__moto-5835": "5d2f2bca8c3b3922127594835fad0c39345d6616",
+    "jsonpickle__jsonpickle-342": "2597331a3ae03baebc5723eb961ff8cfe7f1ac25",
+    "kinto__kinto-1814": "a5203ffd8cf6cbdb5f9cb37c9b86c3ef93ba5512",
+    "pymodbus-dev__pymodbus-1533": "369d45e7efb1c682077e58e71e63f94745d91bdc",
+    "python-markdown__markdown-984": "dbb9b3d766e847f1909fa0c92c6b997f0e7c868d",
+    "researchobject__ro-crate-py-69": "f0ebb5cdf26670d70b141cf0365175ac7ea09831"
+  },
+  "source_sha256": {
+    "parent_protocol": "3afd6b784a29587883aaaf1c9361767ee71f31cbf0d1160fc0048d8472f0bdbe",
+    "base_arms": "698002fd3227b07c01e7eb950c3ad0ee26f1ec99f251a1bced86d9924ecbcbb3",
+    "pairs": "296b465bb66aab732b2d8430d6d00715338a16093ca8f6a2c9b350ca2cdd4142",
+    "candidates": "31c2f855e40d4dd4e9d0848d3082af964c6897a006013f693bbf46840c64a16f",
+    "recovery_executor": "3eed65cba94bb784710e826788096aac5a9dbda93f9ff3b6698a37db0cebf4fe",
+    "control_continuation_runner": "bbbc70c74bd8883a171c10e591b691818648b2ce5aa2e9dae3f0ebf2e266c1b3"
+  }
+}

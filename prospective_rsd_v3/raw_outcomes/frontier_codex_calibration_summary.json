@@ -1,0 +1,40 @@
+{
+  "status": "GO",
+  "consumer": "Codex CLI / gpt-5.6-sol / medium reasoning",
+  "formal_samples": 15,
+  "unique_pair_sessions": 15,
+  "strict_success": {
+    "count": 6,
+    "rate": 0.4,
+    "gate": ">=0.30",
+    "passed": true
+  },
+  "code_changing_rollouts": {
+    "count": 15,
+    "rate": 1.0,
+    "gate": ">=0.80",
+    "passed": true
+  },
+  "tool_protocol": {
+    "tool_calls": 251,
+    "invalid_actions": 0,
+    "invalid_action_rate": 0.0,
+    "gate": "<0.05",
+    "passed": true
+  },
+  "fatal_rollouts": 0,
+  "seconds": {
+    "total": 4245.253050804138,
+    "mean": 283.01687005360924,
+    "median": 302.28524899482727
+  },
+  "by_audit_pair": {
+    "getmoto__moto-5835__TO__getmoto__moto-5843": {"strict_success": 3, "n": 3},
+    "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385": {"strict_success": 0, "n": 3, "future_oracle_pass": 2, "regression_node_collection_errors": 3},
+    "kinto__kinto-1814__TO__kinto__kinto-1910": {"strict_success": 3, "n": 3},
+    "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1659": {"strict_success": 0, "n": 3, "hidden_patch_conflicts": 3},
+    "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-76": {"strict_success": 0, "n": 3, "hidden_patch_conflicts": 2}
+  },
+  "conservative_scoring_note": "All test-collection and hidden-patch injection failures remain failures in the frozen strict gate. Pilot/debug runs are excluded.",
+  "heldout_status": "UNTOUCHED"
+}

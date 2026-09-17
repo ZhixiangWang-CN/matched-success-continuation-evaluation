@@ -1,0 +1,93 @@
+{
+  "pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+  "mechanism": {
+    "current_task": "Register plain dictionaries in the pickler and unpickler reference tables.",
+    "future_task": "Preserve identity when a dictionary subclass and its __dict__ are both referenced.",
+    "successful_candidate_composition": "data['__dict__'] = self._flatten(obj.__dict__)",
+    "interpretation": "The candidate current-task patch exposes a reusable plain-dictionary reference primitive; successful future trajectories compose through it. This is a source-level case study, not a general causal estimate."
+  },
+  "joint_success_by_consumer_and_state": {
+    "gpt-5.6-sol": {
+      "s0": [
+        1,
+        0,
+        0
+      ],
+      "s1": [
+        1,
+        1,
+        0
+      ],
+      "historical": [
+        0,
+        0,
+        0
+      ]
+    },
+    "gpt-5.6-terra": {
+      "historical": [
+        0,
+        0,
+        0
+      ],
+      "s1": [
+        0,
+        0,
+        0
+      ],
+      "s0": [
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "repository_effects": {
+    "gpt-5.6-sol": [
+      0.0,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "gpt-5.6-terra": [
+      0.0,
+      0.0,
+      0.16666666666666666,
+      0.0,
+      0.0
+    ]
+  },
+  "exact_repository_sign_flip": {
+    "gpt-5.6-sol": {
+      "observed_mean": 0.1,
+      "two_sided_p": 1.0,
+      "assignments": 32
+    },
+    "gpt-5.6-terra": {
+      "observed_mean": 0.03333333333333333,
+      "two_sided_p": 1.0,
+      "assignments": 32
+    }
+  },
+  "leave_jsonpickle_out_mean_effect": {
+    "gpt-5.6-sol": 0.0,
+    "gpt-5.6-terra": 0.0
+  },
+  "within_jsonpickle_conditional_randomization_descriptive": {
+    "gpt-5.6-sol": {
+      "historical_successes": 0,
+      "historical_n": 3,
+      "candidate_successes": 3,
+      "candidate_n": 6,
+      "one_sided_p": 0.23809523809523808
+    },
+    "gpt-5.6-terra": {
+      "historical_successes": 0,
+      "historical_n": 3,
+      "candidate_successes": 1,
+      "candidate_n": 6,
+      "one_sided_p": 0.6666666666666666
+    }
+  }
+}

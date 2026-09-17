@@ -1,0 +1,48 @@
+{
+  "status": "FROZEN_BEFORE_ANY_SYMMETRIC_REPEAT_OUTCOMES",
+  "date": "2026-09-10",
+  "protocol_id": "symmetric-future-terra-28",
+  "objective": "Test consumer sensitivity of the frozen common-snapshot continuation result using a second Codex model without changing tasks, states, prompts, endpoints, or eligibility.",
+  "relationship_to_protocols_26_27": {
+    "frozen_manifest": "symmetric_future_eligible_manifest_26.json",
+    "repeat_indices": [0, 1, 2],
+    "states_per_future": ["historical", "s0", "s1"],
+    "task_state_prompt_endpoint_changes": false,
+    "only_intended_factor_change": "consumer model: gpt-5.6-sol to gpt-5.6-terra",
+    "model_access_smoke_before_freeze": true,
+    "model_access_smoke_used_no_benchmark_task_or_state": true
+  },
+  "eligibility": {
+    "minimum_eligible_future_pairs": 3,
+    "eligible_future_pairs": 5,
+    "rule": "Inherited unchanged from protocol 26; inclusion uses historical-state feasibility only and no Terra outcome can alter inclusion."
+  },
+  "design": {
+    "future_pairs": 5,
+    "states_per_pair": 3,
+    "repeats_per_state": 3,
+    "required_valid_rollouts": 45,
+    "consumer": "Codex CLI gpt-5.6-terra, medium reasoning, ephemeral session",
+    "common_snapshot": "current.base_commit",
+    "future_history_replay": false,
+    "network_inside_container": false,
+    "same_prompt_and_hidden_verifiers_as_protocol_26": true,
+    "early_stopping": false
+  },
+  "validity": {
+    "valid_session": "Agent session reaches evaluation and both future and prior verifiers have an observed result.",
+    "infrastructure_or_setup_failure": "Quarantine and rerun the identical key with the same model and protocol.",
+    "behavioral_failure": "Retain as an outcome.",
+    "required_unique_keys": "5 pairs x 3 states x 3 repeats"
+  },
+  "analysis": {
+    "primary_endpoint": "joint future success with prior-task preservation",
+    "primary_estimand": "Within-future mean candidate success minus historical success, averaging s0/s1 and all three repeats, then averaging future pairs equally.",
+    "uncertainty_unit": "future pair",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 280910,
+    "secondary_endpoints": ["future-only success", "prior-task preservation", "tool calls", "wall-clock seconds", "edit size"],
+    "cross_consumer_interpretation": "Compare sign, repository concentration, and uncertainty with the frozen Sol panel; do not pool models into an independence claim.",
+    "claim_scope": "Within-OpenAI-family consumer sensitivity, not cross-vendor replication."
+  }
+}

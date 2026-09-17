@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_BEFORE_RECOVERY_CURVE_OUTCOMES",
+  "frozen_at_utc": "2026-09-06T03:18:00Z",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "protocol_file_sha256": "3afd6b784a29587883aaaf1c9361767ee71f31cbf0d1160fc0048d8472f0bdbe",
+  "arms_file_sha256": "698002fd3227b07c01e7eb950c3ad0ee26f1ec99f251a1bced86d9924ecbcbb3",
+  "execution": {
+    "num_shards": 2,
+    "nugpu_shard": 0,
+    "yury_shard": 1,
+    "workers_per_consumer_per_server": 2,
+    "resume_key": "curve_key",
+    "formal_outputs": "one append-only JSONL per server and consumer"
+  },
+  "integrity_note": "Runner hashes are recorded in recovery_curve_execution_hashes_18.sha256 immediately before dispatch; adding dry-run does not alter formal branch behavior."
+}

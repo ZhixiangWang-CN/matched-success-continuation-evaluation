@@ -1,0 +1,24 @@
+{
+  "status": "EXECUTION_TOPOLOGY_AMENDED_WITH_SCIENTIFIC_PROTOCOL_UNCHANGED",
+  "recorded_at_utc": "2026-09-06T03:44:00Z",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "reason": "yury's Claude CLI was unauthenticated, while nugpu's Docker root could not pull new images. The already validated historical topology separates the agent host from the Docker host.",
+  "final_topology": {
+    "orchestrator": "two detached macOS screen shards per consumer",
+    "docker_host": "yury through the restricted SSH container proxy",
+    "codex_agent_host": "macOS Codex CLI",
+    "claude_agent_host": "authenticated nugpu Claude CLI through a reverse tunnel",
+    "workers_per_shard": 2,
+    "shards_per_consumer": 2
+  },
+  "valid_rows_present_when_recorded": {
+    "codex": 5,
+    "claude": 2,
+    "note": "These rows already used the final topology; the amendment records infrastructure provenance and changes no sample, prompt, budget, repeat, or outcome rule."
+  },
+  "excluded_infrastructure_rows": {
+    "yury_claude_not_logged_in": 26,
+    "nugpu_local_docker_setup_failed": 16
+  },
+  "scientific_protocol_changed": false
+}

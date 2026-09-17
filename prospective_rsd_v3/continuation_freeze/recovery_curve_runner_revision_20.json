@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_ANY_RECOVERY_CURVE_ROLLOUT",
+  "frozen_at_utc": "2026-09-06T03:25:00Z",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "reason": "The first infrastructure pilot exited before loading an arm because the yury project lacked the frozen source projections. Local-Docker support also required the restricted proxy to execute docker locally rather than through its historical SSH hop.",
+  "formal_rollouts_before_revision": 0,
+  "pilot_outcomes_before_revision": 0,
+  "scientific_protocol_changed": false,
+  "hashes_sha256": {
+    "container_proxy": "a64e0bdf10b19eb0d5c7b053b59512cf20fe6dbfbfbcd2181c411a9f0d996568",
+    "curve_runner": "2d1c7bc1e92ce9283991225c9b905e8f98332667a6b3147f2a371765a02e5d45",
+    "recovery_runner": "3eed65cba94bb784710e826788096aac5a9dbda93f9ff3b6698a37db0cebf4fe",
+    "consumer_runner": "3e50eac7ed2303e03f4f29f3d3dc24da9549394c93d565bad1e7de6372f3c9ea"
+  }
+}

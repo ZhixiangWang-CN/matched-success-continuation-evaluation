@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_BEFORE_AGGREGATE_CONTRASTS",
+  "frozen_at_utc": "2026-09-07T05:12:11Z",
+  "protocol_id": "925a1a73de9742d763c15ed0f26e87130c03aaad617ef90e8f81a1a0153e6bae",
+  "analysis_seed": 20260907,
+  "bootstrap_replicates": 100000,
+  "unit_of_analysis": "Independent repeats are averaged within state--future arms before any contrast.",
+  "historical_control": {
+    "data": "The 46 frozen candidate arms from parent protocol 17 are paired to the matched historical maintainer state for the same future, budget, consumer, and repeat schedule.",
+    "budgets": [0, 1, 3, 6, 10],
+    "metrics": ["replay_failure", "recovery_sessions", "recovery_tool_calls", "recovery_agent_seconds"],
+    "contrast_direction": "candidate minus historical"
+  },
+  "downstream_continuation": {
+    "budget": 10,
+    "levels": ["pooled", "s0", "s1"],
+    "metrics": [
+      "replay_success",
+      "end_to_end_future_certified",
+      "joint_prior_future_certified",
+      "downstream_success_conditional",
+      "downstream_verifier_missing_given_replay"
+    ],
+    "debt_direction": "historical minus candidate for success metrics; candidate minus historical for verifier missingness"
+  },
+  "inference": "Arm-weighted point estimates; 95% stratified repository-cluster bootstrap intervals preserving five legacy and three novel repositories; exact sign-flip randomization over eight repository clusters.",
+  "source_sha256": {
+    "analysis_script": "d12a7d2ecfeee526623a703089c4e2b4ebb9c75343e095d022137109d2057547",
+    "combined_formal_874": "26abbb4df65977dcd5b04669b9e1ffc3dc714f5cd46594828c12ecbb1e9efbaa",
+    "parent_codex_s0": "74a3caea583e747192a23fa40c2e00d57054ff59ee86a1a2cfee093eb4be00da",
+    "parent_codex_s1": "4e30750e7b21a7f021f8a4ff6f4dafa4a31bf353eb7688e4caef10d75e37a48e",
+    "parent_claude_s0": "8bc8a4172619c20ca019a2d4047a51573148d21c7a06d5e30ef2a4c66ed46324",
+    "parent_claude_s1": "4009b761bde62330a8fd261223d60b15ce4b26f4b7f75c812b9d000898a157e1"
+  }
+}

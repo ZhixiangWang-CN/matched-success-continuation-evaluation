@@ -1,0 +1,64 @@
+{
+  "combined_repository_count": 14,
+  "complete": true,
+  "eligible_pairs": 15,
+  "eligible_repositories": 9,
+  "expected_pairs": 137,
+  "failure_counts": {
+    "current_test": 57,
+    "eligible": 15,
+    "future_fail_to_pass": 6,
+    "future_gold_apply": 54,
+    "future_pass_to_pass": 1,
+    "future_test_apply": 4
+  },
+  "input_sha256": {
+    "prospective_rsd_v3/continuation_freeze/common_snapshot_historical_scan_pairs_30.jsonl": "d6b4742ad8cc4af0db16918b4d9b2f4652bfce35738f60fe7eac503bc701cf2b",
+    "prospective_rsd_v3/continuation_freeze/common_snapshot_historical_scan_protocol_30.json": "08a7040a75762ad146ff304d2266805312c35a49d02808ca68fb51a8dfb217ce",
+    "prospective_rsd_v3/extension_historical_scan/nugpu.jsonl": "0f2ea7855be4b5a4403a2865f069b9f490d812504ef0e8de612484f382c329f2",
+    "prospective_rsd_v3/extension_historical_scan/yury.jsonl": "19b3f2f1f24865cf5a513baeaf7e33db396a35dab3481cbe8f2d25e50e4c347e",
+    "prospective_rsd_v3/extension_historical_scan/yury_shard0.jsonl": "413e8f21129b2d5288037919fffccaa24e4124400fa09846490bf7f98d656c47"
+  },
+  "observed_unique_pairs": 137,
+  "physical_rows": 167,
+  "protocol_id": "ed4ee0d67d7f82b75b97c19becd94c5265fb208843e9d252e5bbac912946b149",
+  "selected": [
+    {
+      "anchor_id": "amaranth-lang__amaranth-1098",
+      "pair_id": "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1376"
+    },
+    {
+      "anchor_id": "elastic__curator-603",
+      "pair_id": "elastic__curator-603__TO__elastic__curator-616"
+    },
+    {
+      "anchor_id": "kayak__pypika-127",
+      "pair_id": "kayak__pypika-127__TO__kayak__pypika-170"
+    },
+    {
+      "anchor_id": "kinto__kinto-http.py-131",
+      "pair_id": "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-133"
+    },
+    {
+      "anchor_id": "openmdao__openmdao-3371",
+      "pair_id": "openmdao__openmdao-3371__TO__openmdao__openmdao-3406"
+    },
+    {
+      "anchor_id": "pybamm-team__pybamm-819",
+      "pair_id": "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-919"
+    },
+    {
+      "anchor_id": "s-knibbs__dataclasses-jsonschema-75",
+      "pair_id": "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-93"
+    },
+    {
+      "anchor_id": "textualize__rich-2031",
+      "pair_id": "textualize__rich-2031__TO__textualize__rich-2219"
+    },
+    {
+      "anchor_id": "xknx__xknx-1066",
+      "pair_id": "xknx__xknx-1066__TO__xknx__xknx-1190"
+    }
+  ],
+  "status": "NO_GO"
+}

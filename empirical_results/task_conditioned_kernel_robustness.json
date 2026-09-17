@@ -1,0 +1,666 @@
+{
+  "rows": 768,
+  "unique_states": 64,
+  "split_seeds": 20,
+  "c_values": [
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "trials": [
+    {
+      "seed": 0,
+      "C": 0.03,
+      "conditional_minus_random": 0.02052083333333334
+    },
+    {
+      "seed": 0,
+      "C": 0.1,
+      "conditional_minus_random": 0.02121527777777778
+    },
+    {
+      "seed": 0,
+      "C": 0.3,
+      "conditional_minus_random": 0.02677083333333334
+    },
+    {
+      "seed": 0,
+      "C": 1.0,
+      "conditional_minus_random": 0.030937500000000007
+    },
+    {
+      "seed": 0,
+      "C": 3.0,
+      "conditional_minus_random": 0.028159722222222232
+    },
+    {
+      "seed": 0,
+      "C": 10.0,
+      "conditional_minus_random": 0.046215277777777786
+    },
+    {
+      "seed": 1,
+      "C": 0.03,
+      "conditional_minus_random": 0.006188271604938284
+    },
+    {
+      "seed": 1,
+      "C": 0.1,
+      "conditional_minus_random": 0.017530864197530877
+    },
+    {
+      "seed": 1,
+      "C": 0.3,
+      "conditional_minus_random": 0.014521604938271617
+    },
+    {
+      "seed": 1,
+      "C": 1.0,
+      "conditional_minus_random": 0.0045679012345679155
+    },
+    {
+      "seed": 1,
+      "C": 3.0,
+      "conditional_minus_random": 0.009197530864197546
+    },
+    {
+      "seed": 1,
+      "C": 10.0,
+      "conditional_minus_random": 0.001095679012345693
+    },
+    {
+      "seed": 2,
+      "C": 0.03,
+      "conditional_minus_random": 0.03217592592592594
+    },
+    {
+      "seed": 2,
+      "C": 0.1,
+      "conditional_minus_random": 0.03310185185185187
+    },
+    {
+      "seed": 2,
+      "C": 0.3,
+      "conditional_minus_random": 0.03032407407407409
+    },
+    {
+      "seed": 2,
+      "C": 1.0,
+      "conditional_minus_random": 0.04050925925925927
+    },
+    {
+      "seed": 2,
+      "C": 3.0,
+      "conditional_minus_random": 0.0513888888888889
+    },
+    {
+      "seed": 2,
+      "C": 10.0,
+      "conditional_minus_random": 0.04444444444444446
+    },
+    {
+      "seed": 3,
+      "C": 0.03,
+      "conditional_minus_random": 0.03327546296296297
+    },
+    {
+      "seed": 3,
+      "C": 0.1,
+      "conditional_minus_random": 0.043692129629629636
+    },
+    {
+      "seed": 3,
+      "C": 0.3,
+      "conditional_minus_random": 0.04021990740740741
+    },
+    {
+      "seed": 3,
+      "C": 1.0,
+      "conditional_minus_random": 0.033969907407407414
+    },
+    {
+      "seed": 3,
+      "C": 3.0,
+      "conditional_minus_random": 0.036747685185185196
+    },
+    {
+      "seed": 3,
+      "C": 10.0,
+      "conditional_minus_random": 0.04508101851851853
+    },
+    {
+      "seed": 4,
+      "C": 0.03,
+      "conditional_minus_random": 0.017766203703703708
+    },
+    {
+      "seed": 4,
+      "C": 0.1,
+      "conditional_minus_random": 0.024016203703703706
+    },
+    {
+      "seed": 4,
+      "C": 0.3,
+      "conditional_minus_random": 0.020543981481481486
+    },
+    {
+      "seed": 4,
+      "C": 1.0,
+      "conditional_minus_random": 0.037905092592592594
+    },
+    {
+      "seed": 4,
+      "C": 3.0,
+      "conditional_minus_random": 0.03859953703703704
+    },
+    {
+      "seed": 4,
+      "C": 10.0,
+      "conditional_minus_random": 0.03512731481481482
+    },
+    {
+      "seed": 5,
+      "C": 0.03,
+      "conditional_minus_random": 0.004668209876543223
+    },
+    {
+      "seed": 5,
+      "C": 0.1,
+      "conditional_minus_random": 0.019483024691358035
+    },
+    {
+      "seed": 5,
+      "C": 0.3,
+      "conditional_minus_random": 0.019483024691358035
+    },
+    {
+      "seed": 5,
+      "C": 1.0,
+      "conditional_minus_random": 0.03198302469135803
+    },
+    {
+      "seed": 5,
+      "C": 3.0,
+      "conditional_minus_random": 0.02457561728395063
+    },
+    {
+      "seed": 5,
+      "C": 10.0,
+      "conditional_minus_random": 0.022492283950617302
+    },
+    {
+      "seed": 6,
+      "C": 0.03,
+      "conditional_minus_random": 0.028125000000000004
+    },
+    {
+      "seed": 6,
+      "C": 0.1,
+      "conditional_minus_random": 0.03368055555555557
+    },
+    {
+      "seed": 6,
+      "C": 0.3,
+      "conditional_minus_random": 0.032986111111111126
+    },
+    {
+      "seed": 6,
+      "C": 1.0,
+      "conditional_minus_random": 0.037847222222222233
+    },
+    {
+      "seed": 6,
+      "C": 3.0,
+      "conditional_minus_random": 0.031597222222222235
+    },
+    {
+      "seed": 6,
+      "C": 10.0,
+      "conditional_minus_random": 0.031597222222222235
+    },
+    {
+      "seed": 7,
+      "C": 0.03,
+      "conditional_minus_random": 0.02667824074074075
+    },
+    {
+      "seed": 7,
+      "C": 0.1,
+      "conditional_minus_random": 0.025983796296296303
+    },
+    {
+      "seed": 7,
+      "C": 0.3,
+      "conditional_minus_random": 0.02876157407407408
+    },
+    {
+      "seed": 7,
+      "C": 1.0,
+      "conditional_minus_random": 0.028067129629629636
+    },
+    {
+      "seed": 7,
+      "C": 3.0,
+      "conditional_minus_random": 0.023900462962962974
+    },
+    {
+      "seed": 7,
+      "C": 10.0,
+      "conditional_minus_random": 0.02667824074074075
+    },
+    {
+      "seed": 8,
+      "C": 0.03,
+      "conditional_minus_random": 0.036697530864197546
+    },
+    {
+      "seed": 8,
+      "C": 0.1,
+      "conditional_minus_random": 0.04433641975308644
+    },
+    {
+      "seed": 8,
+      "C": 0.3,
+      "conditional_minus_random": 0.027206790123456805
+    },
+    {
+      "seed": 8,
+      "C": 1.0,
+      "conditional_minus_random": 0.027206790123456805
+    },
+    {
+      "seed": 8,
+      "C": 3.0,
+      "conditional_minus_random": 0.02998456790123458
+    },
+    {
+      "seed": 8,
+      "C": 10.0,
+      "conditional_minus_random": 0.0260493827160494
+    },
+    {
+      "seed": 9,
+      "C": 0.03,
+      "conditional_minus_random": 0.008981481481481491
+    },
+    {
+      "seed": 9,
+      "C": 0.1,
+      "conditional_minus_random": 0.0200925925925926
+    },
+    {
+      "seed": 9,
+      "C": 0.3,
+      "conditional_minus_random": 0.028425925925925934
+    },
+    {
+      "seed": 9,
+      "C": 1.0,
+      "conditional_minus_random": 0.031203703703703716
+    },
+    {
+      "seed": 9,
+      "C": 3.0,
+      "conditional_minus_random": 0.024953703703703718
+    },
+    {
+      "seed": 9,
+      "C": 10.0,
+      "conditional_minus_random": 0.016620370370370383
+    },
+    {
+      "seed": 10,
+      "C": 0.03,
+      "conditional_minus_random": 0.030370370370370374
+    },
+    {
+      "seed": 10,
+      "C": 0.1,
+      "conditional_minus_random": 0.027592592592592596
+    },
+    {
+      "seed": 10,
+      "C": 0.3,
+      "conditional_minus_random": 0.029444444444444447
+    },
+    {
+      "seed": 10,
+      "C": 1.0,
+      "conditional_minus_random": 0.03222222222222223
+    },
+    {
+      "seed": 10,
+      "C": 3.0,
+      "conditional_minus_random": 0.04240740740740742
+    },
+    {
+      "seed": 10,
+      "C": 10.0,
+      "conditional_minus_random": 0.03962962962962964
+    },
+    {
+      "seed": 11,
+      "C": 0.03,
+      "conditional_minus_random": 0.031493055555555566
+    },
+    {
+      "seed": 11,
+      "C": 0.1,
+      "conditional_minus_random": 0.03774305555555557
+    },
+    {
+      "seed": 11,
+      "C": 0.3,
+      "conditional_minus_random": 0.03774305555555557
+    },
+    {
+      "seed": 11,
+      "C": 1.0,
+      "conditional_minus_random": 0.041215277777777795
+    },
+    {
+      "seed": 11,
+      "C": 3.0,
+      "conditional_minus_random": 0.03496527777777779
+    },
+    {
+      "seed": 11,
+      "C": 10.0,
+      "conditional_minus_random": 0.03496527777777779
+    },
+    {
+      "seed": 12,
+      "C": 0.03,
+      "conditional_minus_random": 0.042997685185185194
+    },
+    {
+      "seed": 12,
+      "C": 0.1,
+      "conditional_minus_random": 0.042997685185185194
+    },
+    {
+      "seed": 12,
+      "C": 0.3,
+      "conditional_minus_random": 0.04924768518518519
+    },
+    {
+      "seed": 12,
+      "C": 1.0,
+      "conditional_minus_random": 0.05549768518518519
+    },
+    {
+      "seed": 12,
+      "C": 3.0,
+      "conditional_minus_random": 0.05271990740740742
+    },
+    {
+      "seed": 12,
+      "C": 10.0,
+      "conditional_minus_random": 0.04924768518518519
+    },
+    {
+      "seed": 13,
+      "C": 0.03,
+      "conditional_minus_random": 0.04189814814814816
+    },
+    {
+      "seed": 13,
+      "C": 0.1,
+      "conditional_minus_random": 0.04467592592592594
+    },
+    {
+      "seed": 13,
+      "C": 0.3,
+      "conditional_minus_random": 0.03912037037037038
+    },
+    {
+      "seed": 13,
+      "C": 1.0,
+      "conditional_minus_random": 0.04189814814814816
+    },
+    {
+      "seed": 13,
+      "C": 3.0,
+      "conditional_minus_random": 0.04398148148148149
+    },
+    {
+      "seed": 13,
+      "C": 10.0,
+      "conditional_minus_random": 0.041203703703703715
+    },
+    {
+      "seed": 14,
+      "C": 0.03,
+      "conditional_minus_random": 0.019351851851851867
+    },
+    {
+      "seed": 14,
+      "C": 0.1,
+      "conditional_minus_random": 0.031157407407407425
+    },
+    {
+      "seed": 14,
+      "C": 0.3,
+      "conditional_minus_random": 0.0339351851851852
+    },
+    {
+      "seed": 14,
+      "C": 1.0,
+      "conditional_minus_random": 0.03462962962962964
+    },
+    {
+      "seed": 14,
+      "C": 3.0,
+      "conditional_minus_random": 0.035324074074074084
+    },
+    {
+      "seed": 14,
+      "C": 10.0,
+      "conditional_minus_random": 0.04087962962962964
+    },
+    {
+      "seed": 15,
+      "C": 0.03,
+      "conditional_minus_random": 0.041257716049382734
+    },
+    {
+      "seed": 15,
+      "C": 0.1,
+      "conditional_minus_random": 0.048202160493827174
+    },
+    {
+      "seed": 15,
+      "C": 0.3,
+      "conditional_minus_random": 0.04611882716049384
+    },
+    {
+      "seed": 15,
+      "C": 1.0,
+      "conditional_minus_random": 0.04611882716049384
+    },
+    {
+      "seed": 15,
+      "C": 3.0,
+      "conditional_minus_random": 0.035933641975308656
+    },
+    {
+      "seed": 15,
+      "C": 10.0,
+      "conditional_minus_random": 0.035933641975308656
+    },
+    {
+      "seed": 16,
+      "C": 0.03,
+      "conditional_minus_random": 0.031597222222222235
+    },
+    {
+      "seed": 16,
+      "C": 0.1,
+      "conditional_minus_random": 0.037152777777777785
+    },
+    {
+      "seed": 16,
+      "C": 0.3,
+      "conditional_minus_random": 0.037152777777777785
+    },
+    {
+      "seed": 16,
+      "C": 1.0,
+      "conditional_minus_random": 0.039930555555555566
+    },
+    {
+      "seed": 16,
+      "C": 3.0,
+      "conditional_minus_random": 0.04270833333333335
+    },
+    {
+      "seed": 16,
+      "C": 10.0,
+      "conditional_minus_random": 0.039236111111111124
+    },
+    {
+      "seed": 17,
+      "C": 0.03,
+      "conditional_minus_random": 0.020995370370370383
+    },
+    {
+      "seed": 17,
+      "C": 0.1,
+      "conditional_minus_random": 0.03280092592592594
+    },
+    {
+      "seed": 17,
+      "C": 0.3,
+      "conditional_minus_random": 0.03835648148148149
+    },
+    {
+      "seed": 17,
+      "C": 1.0,
+      "conditional_minus_random": 0.032800925925925935
+    },
+    {
+      "seed": 17,
+      "C": 3.0,
+      "conditional_minus_random": 0.025856481481481494
+    },
+    {
+      "seed": 17,
+      "C": 10.0,
+      "conditional_minus_random": 0.016828703703703717
+    },
+    {
+      "seed": 18,
+      "C": 0.03,
+      "conditional_minus_random": 0.04062500000000001
+    },
+    {
+      "seed": 18,
+      "C": 0.1,
+      "conditional_minus_random": 0.04131944444444446
+    },
+    {
+      "seed": 18,
+      "C": 0.3,
+      "conditional_minus_random": 0.0357638888888889
+    },
+    {
+      "seed": 18,
+      "C": 1.0,
+      "conditional_minus_random": 0.03506944444444446
+    },
+    {
+      "seed": 18,
+      "C": 3.0,
+      "conditional_minus_random": 0.03159722222222224
+    },
+    {
+      "seed": 18,
+      "C": 10.0,
+      "conditional_minus_random": 0.026041666666666678
+    },
+    {
+      "seed": 19,
+      "C": 0.03,
+      "conditional_minus_random": 0.026562500000000006
+    },
+    {
+      "seed": 19,
+      "C": 0.1,
+      "conditional_minus_random": 0.037673611111111116
+    },
+    {
+      "seed": 19,
+      "C": 0.3,
+      "conditional_minus_random": 0.03466435185185186
+    },
+    {
+      "seed": 19,
+      "C": 1.0,
+      "conditional_minus_random": 0.04484953703703704
+    },
+    {
+      "seed": 19,
+      "C": 3.0,
+      "conditional_minus_random": 0.04207175925925927
+    },
+    {
+      "seed": 19,
+      "C": 10.0,
+      "conditional_minus_random": 0.03813657407407409
+    }
+  ],
+  "by_c": {
+    "0.03": {
+      "mean": 0.02711130401234569,
+      "std": 0.011606051091164232,
+      "min": 0.004668209876543223,
+      "max": 0.042997685185185194,
+      "positive_fraction": 1.0
+    },
+    "0.1": {
+      "mean": 0.033222415123456805,
+      "std": 0.00954380194188394,
+      "min": 0.017530864197530877,
+      "max": 0.048202160493827174,
+      "positive_fraction": 1.0
+    },
+    "0.3": {
+      "mean": 0.03253954475308644,
+      "std": 0.008619193165613662,
+      "min": 0.014521604938271617,
+      "max": 0.04924768518518519,
+      "positive_fraction": 1.0
+    },
+    "1.0": {
+      "mean": 0.03542148919753088,
+      "std": 0.00995608999983945,
+      "min": 0.0045679012345679155,
+      "max": 0.05549768518518519,
+      "positive_fraction": 1.0
+    },
+    "3.0": {
+      "mean": 0.03433352623456791,
+      "std": 0.010292893712987599,
+      "min": 0.009197530864197546,
+      "max": 0.05271990740740742,
+      "positive_fraction": 1.0
+    },
+    "10.0": {
+      "mean": 0.03287519290123458,
+      "std": 0.012069136883984151,
+      "min": 0.001095679012345693,
+      "max": 0.04924768518518519,
+      "positive_fraction": 1.0
+    }
+  },
+  "overall": {
+    "mean": 0.03258391203703705,
+    "std": 0.010530652561829688,
+    "min": 0.001095679012345693,
+    "max": 0.05549768518518519,
+    "positive_fraction": 1.0
+  }
+}

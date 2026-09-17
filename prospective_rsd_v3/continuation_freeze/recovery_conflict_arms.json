@@ -1,0 +1,207 @@
+{
+  "status": "FROZEN_CONFLICT_ARMS_FROM_STRICT_HELDOUT",
+  "n_arms": 20,
+  "definition": "Heldout arms whose strict sequential replay stopped at a source-code conflict (fatal=sequential_replay_failed) in both the Codex and Claude runs; the set and conflict signatures are identical across consumers because replay is deterministic.",
+  "arms": [
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2011",
+      "candidate_id": "cand_5b71d4db8611",
+      "state_level": "low",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2011",
+      "candidate_id": "cand_df8435d47e6a",
+      "state_level": "high",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2027",
+      "candidate_id": "cand_5b71d4db8611",
+      "state_level": "low",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2027",
+      "candidate_id": "cand_df8435d47e6a",
+      "state_level": "high",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2229",
+      "candidate_id": "cand_5b71d4db8611",
+      "state_level": "low",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "kinto__kinto-1814",
+      "future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-2229",
+      "candidate_id": "cand_df8435d47e6a",
+      "state_level": "high",
+      "replay_conflict_commit": "ea5f66dd4441447292ce26a068bdb690b7de7496",
+      "replay_conflict_files": [
+        "kinto/core/authorization.py"
+      ]
+    },
+    {
+      "anchor_id": "pymodbus-dev__pymodbus-1533",
+      "future_pair_id": "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665",
+      "candidate_id": "cand_28eeacd72e1b",
+      "state_level": "high",
+      "replay_conflict_commit": "ea1b219459e2aead24643663cae5f6e8758e9d66",
+      "replay_conflict_files": [
+        "pymodbus/pdu/diag_message.py"
+      ]
+    },
+    {
+      "anchor_id": "pymodbus-dev__pymodbus-1533",
+      "future_pair_id": "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665",
+      "candidate_id": "cand_efdbb4a1bdb9",
+      "state_level": "low",
+      "replay_conflict_commit": "90ac23436cb88e570ddbf77fae4c71a5170e4fc5",
+      "replay_conflict_files": [
+        "test/pdu/test_diag_messages.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102",
+      "candidate_id": "cand_53015b433733",
+      "state_level": "high",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102",
+      "candidate_id": "cand_c66d2c6b82e3",
+      "state_level": "low",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93",
+      "candidate_id": "cand_53015b433733",
+      "state_level": "high",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93",
+      "candidate_id": "cand_c66d2c6b82e3",
+      "state_level": "low",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95",
+      "candidate_id": "cand_53015b433733",
+      "state_level": "high",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    },
+    {
+      "anchor_id": "researchobject__ro-crate-py-69",
+      "future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95",
+      "candidate_id": "cand_c66d2c6b82e3",
+      "state_level": "low",
+      "replay_conflict_commit": "6e6284634c2b7c876c88dee414633cb52375d858",
+      "replay_conflict_files": [
+        "rocrate/rocrate.py"
+      ]
+    }
+  ]
+}

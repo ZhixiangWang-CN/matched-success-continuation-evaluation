@@ -1,0 +1,8 @@
+{
+  "design": {
+    "future_regression_cap": 20,
+    "selection_arm": "historical only"
+  },
+  "protocol_id": "e25afa410cf83286a760289e5e5cba8a0b0762cf3ffbb84190f4cbce3c09c274",
+  "status": "FROZEN_BEFORE_SYMMETRIC_PREFLIGHT_RESULTS"
+}

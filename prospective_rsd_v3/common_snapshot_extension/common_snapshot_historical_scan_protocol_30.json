@@ -1,0 +1,29 @@
+{
+  "candidate_generation_and_future_rollout": "Remain exactly as frozen in Protocol 29 and begin only after this historical-only selection is sealed.",
+  "candidate_outcomes_available_at_freeze": 0,
+  "date": "2026-09-10",
+  "pairs_sha256": "d6b4742ad8cc4af0db16918b4d9b2f4652bfce35738f60fe7eac503bc701cf2b",
+  "population": "All 29 repositories outside the prior five whose complete future set was structurally valid in the earlier multi-future corpus; Protocol 29 hash-selected 26 of these.",
+  "protocol_id": "ed4ee0d67d7f82b75b97c19becd94c5265fb208843e9d252e5bbac912946b149",
+  "relationship_to_protocol_29": {
+    "motivation": "The single-future screen was too sparse to meet the predeclared 15-repository threshold.",
+    "observed_before_freeze": "Protocol 29 historical-only preflight: 2/26 repositories passed for one hash-selected future.",
+    "unchanged": "Strict historical-only feasibility requirements and exclusion of candidate future outcomes."
+  },
+  "scan": {
+    "future_pairs": 137,
+    "repositories": 29,
+    "selection_within_repository": "Among strictly eligible historical arms, select minimum SHA256(common-snapshot-historical-scan-v1-20260910:pair_id)."
+  },
+  "status": "FROZEN_BEFORE_REMAINING_HISTORICAL_SCAN_AND_ANY_CANDIDATE_OUTCOMES",
+  "strict_gate": [
+    "historical patch applies",
+    "current FAIL_TO_PASS passes",
+    "future maintainer patch applies",
+    "future tests apply",
+    "future FAIL_TO_PASS passes",
+    "up to 20 future PASS_TO_PASS pass",
+    "current FAIL_TO_PASS remains passing"
+  ],
+  "target": "retain at most 25 new repositories; combined with the prior five, continue only if total repository count is at least 15"
+}

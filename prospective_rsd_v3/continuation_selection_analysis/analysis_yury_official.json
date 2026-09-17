@@ -1,0 +1,141 @@
+{
+  "consumer": "qwen3_coder_30b_a3b_bf16",
+  "coverage": {
+    "current_preservation": {
+      "true": 384
+    },
+    "expected_rows": 384,
+    "families": 6,
+    "futures": 12,
+    "repeats": 3,
+    "rows": 384,
+    "states": 64
+  },
+  "families": [
+    {
+      "continuation_minus_random": 0.0,
+      "continuation_minus_shortest": 0.0,
+      "continuation_regret": 0.0,
+      "continuation_selected_sha256": "f419ab1b670aa1938823321bb97b8daaaf01553b1dd1dd1214fb3c0ce6585a92",
+      "continuation_value": 1.0,
+      "current_success_random_value": 1.0,
+      "family": "cache",
+      "future_values": {
+        "contains_key": 1.0,
+        "update_many": 1.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 9,
+      "shortest_selected_sha256": "d7ffc042dad5f38d839465efd5b8ced4c2e2c407c3457439ebf697fb855e7719",
+      "shortest_value": 1.0
+    },
+    {
+      "continuation_minus_random": 0.20512820512820507,
+      "continuation_minus_shortest": 0.33333333333333337,
+      "continuation_regret": 0.0,
+      "continuation_selected_sha256": "db151d39e7ffffed0e500aab48bddbfac2f14bf9da60bed5c808d768e32e2c30",
+      "continuation_value": 1.0,
+      "current_success_random_value": 0.7948717948717949,
+      "family": "events",
+      "future_values": {
+        "first": 1.0,
+        "replace_latest": 1.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 13,
+      "shortest_selected_sha256": "c4c82166d3f80d56df58636b3a6212afa23e12d1e676dcdbf2c6ab817e5c1e01",
+      "shortest_value": 0.6666666666666666
+    },
+    {
+      "continuation_minus_random": -0.3125,
+      "continuation_minus_shortest": -0.5,
+      "continuation_regret": 0.5,
+      "continuation_selected_sha256": "2533e735a6decdb3ac7b02bf38dc89f5ad5342be34902d5964b2da64f49e7295",
+      "continuation_value": 0.5,
+      "current_success_random_value": 0.8125,
+      "family": "flags",
+      "future_values": {
+        "delete_flag": 1.0,
+        "enabled_flags": 0.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 8,
+      "shortest_selected_sha256": "45f4dd74f59bcaf7ac982fd1fe9f80253766a5bf78954db1e800112efeb72d20",
+      "shortest_value": 1.0
+    },
+    {
+      "continuation_minus_random": 0.06666666666666665,
+      "continuation_minus_shortest": 0.5,
+      "continuation_regret": 0.0,
+      "continuation_selected_sha256": "37534ad8ca1eb5d84500858c155fbd5d8ca8c988a5a2c124c18b1436cf9a014d",
+      "continuation_value": 1.0,
+      "current_success_random_value": 0.9333333333333333,
+      "family": "permissions",
+      "future_values": {
+        "grant": 1.0,
+        "roles_for": 1.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 15,
+      "shortest_selected_sha256": "8dfe38799b626be08900b802827543c95d51e968b983c0028b32fca7eb90db09",
+      "shortest_value": 0.5
+    },
+    {
+      "continuation_minus_random": 0.6388888888888888,
+      "continuation_minus_shortest": 1.0,
+      "continuation_regret": 0.0,
+      "continuation_selected_sha256": "b573a8c31c9ae73e671d583c0c3174d754f191f2e2fe13dd3a87f7b91c923a2b",
+      "continuation_value": 1.0,
+      "current_success_random_value": 0.36111111111111116,
+      "family": "pricing",
+      "future_values": {
+        "discounts_view": 1.0,
+        "remove_plan": 1.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 12,
+      "shortest_selected_sha256": "7eee24fa16be1d67780389fa6c105544f7e3fb6ce04e0a4c390a9b31865e2637",
+      "shortest_value": 0.0
+    },
+    {
+      "continuation_minus_random": 0.0,
+      "continuation_minus_shortest": 0.0,
+      "continuation_regret": 0.0,
+      "continuation_selected_sha256": "b62e6453a9dcbe0dcd8b8379ce5e821e4cdd6290f6f3f62103ae35ae5e5402e2",
+      "continuation_value": 1.0,
+      "current_success_random_value": 1.0,
+      "family": "router",
+      "future_values": {
+        "paths_for": 1.0,
+        "rename_route": 1.0
+      },
+      "heldout_oracle_value": 1.0,
+      "n_candidates": 7,
+      "shortest_selected_sha256": "00e8bca1bd12408d14e529d80318b1f6144cc9bc3998f4fe144f84284813e3ac",
+      "shortest_value": 1.0
+    }
+  ],
+  "primary": {
+    "claim_gate_pass": false,
+    "continuation_selected_value": 0.9166666666666666,
+    "current_success_random_value": 0.8169693732193734,
+    "effect": 0.09969729344729328,
+    "family_cluster_bootstrap_95_ci": [
+      -0.11095085470085471,
+      0.3527777777777777
+    ],
+    "random_selection_combinations": 1179360,
+    "random_selection_null_method": "exact enumeration over one uniformly chosen current-success state per family",
+    "random_selection_p_one_sided": 0.23808825287592178
+  },
+  "protocol": "continuation_aware_selection_v1",
+  "static_baseline": {
+    "effect": 0.22222222222222232,
+    "family_cluster_bootstrap_95_ci": [
+      -0.16666666666666666,
+      0.5833333333333334
+    ],
+    "shortest_value": 0.6944444444444443
+  },
+  "warning": "Held-out outcomes are prospective relative to this frozen protocol, but the task suite and analysis were designed after earlier project results were known. The experiment is confirmatory for the frozen panel, not a prevalence estimate."
+}

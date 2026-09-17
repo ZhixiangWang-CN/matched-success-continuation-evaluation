@@ -1,0 +1,1412 @@
+{
+  "feature_names": [
+    "added_symbols",
+    "argument_surface_delta_abs",
+    "changed_classes",
+    "changed_symbols",
+    "complexity_delta_abs",
+    "complexity_delta_max",
+    "complexity_delta_sum",
+    "cross_file_symbol_exposure",
+    "fan_in_per_changed_symbol",
+    "global_assignment_delta_abs",
+    "parseable_after_files",
+    "parseable_before_files",
+    "public_changed_fraction",
+    "public_changed_symbols",
+    "python_files",
+    "reference_scan_timeout",
+    "referenced_changed_symbols",
+    "removed_symbols",
+    "source_reference_max",
+    "source_reference_sum",
+    "symbols_after",
+    "symbols_before",
+    "test_reference_max",
+    "test_reference_sum",
+    "test_referenced_changed_symbols",
+    "test_refs_per_changed_symbol",
+    "touches_package_init",
+    "uncovered_changed_symbols"
+  ],
+  "train_n": 138,
+  "train_positives": 19,
+  "test_n": 71,
+  "test_positives": 9,
+  "models": {
+    "size_only": {
+      "discovery_nested_oof": {
+        "average_precision": 0.27859971705741965,
+        "roc_auc": 0.6753648827952233,
+        "precision_at_prevalence_k": 0.3684210526315789,
+        "recall_at_prevalence_k": 0.3684210526315789,
+        "k": 19
+      },
+      "outer_selected_c": [
+        0.3,
+        0.3,
+        0.01,
+        1.0,
+        0.3
+      ],
+      "frozen_c": 0.1,
+      "confirmatory": {
+        "average_precision": 0.25485369450377726,
+        "roc_auc": 0.6836917562724014,
+        "precision_at_prevalence_k": 0.2222222222222222,
+        "recall_at_prevalence_k": 0.2222222222222222,
+        "k": 9
+      },
+      "confirmatory_ranking": [
+        {
+          "rank": 1,
+          "pair_id": "quora__pyanalyze-653__TO__quora__pyanalyze-658",
+          "label": 0,
+          "score": 0.8205195941802583
+        },
+        {
+          "rank": 2,
+          "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128",
+          "label": 1,
+          "score": 0.7974849828577305
+        },
+        {
+          "rank": 3,
+          "pair_id": "apiflask__apiflask-448__TO__apiflask__apiflask-550",
+          "label": 0,
+          "score": 0.7546274261021809
+        },
+        {
+          "rank": 4,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.7379851225140747
+        },
+        {
+          "rank": 5,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.7379851225140747
+        },
+        {
+          "rank": 6,
+          "pair_id": "alteryx__woodwork-651__TO__alteryx__woodwork-685",
+          "label": 1,
+          "score": 0.7343263912067237
+        },
+        {
+          "rank": 7,
+          "pair_id": "elastic__curator-1158__TO__elastic__curator-1221",
+          "label": 0,
+          "score": 0.7250522195971134
+        },
+        {
+          "rank": 8,
+          "pair_id": "keras-team__keras-19799__TO__keras-team__keras-20125",
+          "label": 0,
+          "score": 0.6279077906652372
+        },
+        {
+          "rank": 9,
+          "pair_id": "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775",
+          "label": 0,
+          "score": 0.6079940913056977
+        },
+        {
+          "rank": 10,
+          "pair_id": "yt-project__unyt-31__TO__yt-project__unyt-58",
+          "label": 0,
+          "score": 0.5915693506044126
+        },
+        {
+          "rank": 11,
+          "pair_id": "pallets__jinja-1449__TO__pallets__jinja-1664",
+          "label": 0,
+          "score": 0.5821709946128825
+        },
+        {
+          "rank": 12,
+          "pair_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484",
+          "label": 1,
+          "score": 0.565081923066612
+        },
+        {
+          "rank": 13,
+          "pair_id": "yukinarit__pyserde-354__TO__yukinarit__pyserde-389",
+          "label": 0,
+          "score": 0.560534060990026
+        },
+        {
+          "rank": 14,
+          "pair_id": "aws-cloudformation__cfn-lint-3854__TO__aws-cloudformation__cfn-lint-3866",
+          "label": 0,
+          "score": 0.5078551441367486
+        },
+        {
+          "rank": 15,
+          "pair_id": "zalando__patroni-2398__TO__zalando__patroni-2724",
+          "label": 0,
+          "score": 0.5071046325418307
+        },
+        {
+          "rank": 16,
+          "pair_id": "stac-utils__pystac-511__TO__stac-utils__pystac-900",
+          "label": 0,
+          "score": 0.5046763051170307
+        },
+        {
+          "rank": 17,
+          "pair_id": "tobikodata__sqlmesh-2537__TO__tobikodata__sqlmesh-2903",
+          "label": 0,
+          "score": 0.5032597418013401
+        },
+        {
+          "rank": 18,
+          "pair_id": "qiskit__qiskit-terra-7952__TO__qiskit__qiskit-terra-7970",
+          "label": 0,
+          "score": 0.4989949725093469
+        },
+        {
+          "rank": 19,
+          "pair_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190",
+          "label": 1,
+          "score": 0.48260873485454214
+        },
+        {
+          "rank": 20,
+          "pair_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503",
+          "label": 1,
+          "score": 0.48202474688591973
+        },
+        {
+          "rank": 21,
+          "pair_id": "pennylaneai__pennylane-7121__TO__pennylaneai__pennylane-7164",
+          "label": 0,
+          "score": 0.4689252913818631
+        },
+        {
+          "rank": 22,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.4659388962490892
+        },
+        {
+          "rank": 23,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-651",
+          "label": 0,
+          "score": 0.4659388962490892
+        },
+        {
+          "rank": 24,
+          "pair_id": "alteryx__woodwork-646__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.4577517846267653
+        },
+        {
+          "rank": 25,
+          "pair_id": "jsonpickle__jsonpickle-434__TO__jsonpickle__jsonpickle-469",
+          "label": 0,
+          "score": 0.42489907374103436
+        },
+        {
+          "rank": 26,
+          "pair_id": "wntrblm__nox-688__TO__wntrblm__nox-804",
+          "label": 0,
+          "score": 0.4220576346629676
+        },
+        {
+          "rank": 27,
+          "pair_id": "xknx__xknx-1066__TO__xknx__xknx-1190",
+          "label": 0,
+          "score": 0.41532801441264205
+        },
+        {
+          "rank": 28,
+          "pair_id": "pytest-dev__pyfakefs-975__TO__pytest-dev__pyfakefs-978",
+          "label": 0,
+          "score": 0.39945009253370295
+        },
+        {
+          "rank": 29,
+          "pair_id": "rigetticomputing__pyquil-156__TO__rigetticomputing__pyquil-166",
+          "label": 0,
+          "score": 0.3978391744519005
+        },
+        {
+          "rank": 30,
+          "pair_id": "neogeny__tatsu-83__TO__neogeny__tatsu-101",
+          "label": 1,
+          "score": 0.39562436318556976
+        },
+        {
+          "rank": 31,
+          "pair_id": "pypa__packaging-29__TO__pypa__packaging-47",
+          "label": 0,
+          "score": 0.3893703651708651
+        },
+        {
+          "rank": 32,
+          "pair_id": "pyccel__pyccel-2029__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.36587613077224984
+        },
+        {
+          "rank": 33,
+          "pair_id": "alteryx__evalml-4179__TO__alteryx__evalml-4258",
+          "label": 0,
+          "score": 0.3628728894943589
+        },
+        {
+          "rank": 34,
+          "pair_id": "reata__sqllineage-223__TO__reata__sqllineage-235",
+          "label": 1,
+          "score": 0.358538373033172
+        },
+        {
+          "rank": 35,
+          "pair_id": "narwhals-dev__narwhals-2176__TO__narwhals-dev__narwhals-2224",
+          "label": 0,
+          "score": 0.34781605517513103
+        },
+        {
+          "rank": 36,
+          "pair_id": "pypa__pipx-1284__TO__pypa__pipx-1343",
+          "label": 0,
+          "score": 0.3357299226162205
+        },
+        {
+          "rank": 37,
+          "pair_id": "hypothesisworks__hypothesis-2874__TO__hypothesisworks__hypothesis-2970",
+          "label": 0,
+          "score": 0.33267088351541
+        },
+        {
+          "rank": 38,
+          "pair_id": "python-markdown__markdown-1050__TO__python-markdown__markdown-1072",
+          "label": 0,
+          "score": 0.3291555529457852
+        },
+        {
+          "rank": 39,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.31216512392143464
+        },
+        {
+          "rank": 40,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.31216512392143464
+        },
+        {
+          "rank": 41,
+          "pair_id": "pyccel__pyccel-1724__TO__pyccel__pyccel-1780",
+          "label": 0,
+          "score": 0.31170078525547257
+        },
+        {
+          "rank": 42,
+          "pair_id": "pyccel__pyccel-2063__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.307961701572376
+        },
+        {
+          "rank": 43,
+          "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88",
+          "label": 1,
+          "score": 0.29673767785767985
+        },
+        {
+          "rank": 44,
+          "pair_id": "sdv-dev__rdt-942__TO__sdv-dev__rdt-963",
+          "label": 0,
+          "score": 0.2960172468468551
+        },
+        {
+          "rank": 45,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.2920547452564501
+        },
+        {
+          "rank": 46,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.2920547452564501
+        },
+        {
+          "rank": 47,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.2920547452564501
+        },
+        {
+          "rank": 48,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.2920547452564501
+        },
+        {
+          "rank": 49,
+          "pair_id": "wtforms__wtforms-688__TO__wtforms__wtforms-694",
+          "label": 0,
+          "score": 0.2811452535789539
+        },
+        {
+          "rank": 50,
+          "pair_id": "theacodes__nox-522__TO__theacodes__nox-543",
+          "label": 0,
+          "score": 0.2758021023399885
+        },
+        {
+          "rank": 51,
+          "pair_id": "kinto__kinto-2011__TO__kinto__kinto-2027",
+          "label": 0,
+          "score": 0.27064430771573733
+        },
+        {
+          "rank": 52,
+          "pair_id": "astropenguin__xarray-dataclasses-33__TO__astropenguin__xarray-dataclasses-51",
+          "label": 0,
+          "score": 0.2634776454191333
+        },
+        {
+          "rank": 53,
+          "pair_id": "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-30",
+          "label": 0,
+          "score": 0.2625355079531919
+        },
+        {
+          "rank": 54,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.2486050277078401
+        },
+        {
+          "rank": 55,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.2486050277078401
+        },
+        {
+          "rank": 56,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2019",
+          "label": 1,
+          "score": 0.2486050277078401
+        },
+        {
+          "rank": 57,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.2486050277078401
+        },
+        {
+          "rank": 58,
+          "pair_id": "pandas-dev__pandas-58231__TO__pandas-dev__pandas-59144",
+          "label": 0,
+          "score": 0.2467255840573625
+        },
+        {
+          "rank": 59,
+          "pair_id": "natcap__invest-728__TO__natcap__invest-787",
+          "label": 0,
+          "score": 0.2401181389186474
+        },
+        {
+          "rank": 60,
+          "pair_id": "openmdao__openmdao-3248__TO__openmdao__openmdao-3255",
+          "label": 0,
+          "score": 0.23911006945260502
+        },
+        {
+          "rank": 61,
+          "pair_id": "python-semver__python-semver-261__TO__python-semver__python-semver-264",
+          "label": 0,
+          "score": 0.22366441982808677
+        },
+        {
+          "rank": 62,
+          "pair_id": "pyjanitor-devs__pyjanitor-991__TO__pyjanitor-devs__pyjanitor-1136",
+          "label": 0,
+          "score": 0.21521995656279813
+        },
+        {
+          "rank": 63,
+          "pair_id": "kayak__pypika-181__TO__kayak__pypika-185",
+          "label": 0,
+          "score": 0.21421376264127107
+        },
+        {
+          "rank": 64,
+          "pair_id": "pybamm-team__pybamm-669__TO__pybamm-team__pybamm-819",
+          "label": 0,
+          "score": 0.20242781086412387
+        },
+        {
+          "rank": 65,
+          "pair_id": "textualize__rich-2219__TO__textualize__rich-2226",
+          "label": 0,
+          "score": 0.20093580024365976
+        },
+        {
+          "rank": 66,
+          "pair_id": "kinto__kinto-http.py-133__TO__kinto__kinto-http.py-189",
+          "label": 0,
+          "score": 0.18960136217481385
+        },
+        {
+          "rank": 67,
+          "pair_id": "jazzband__pip-tools-873__TO__jazzband__pip-tools-909",
+          "label": 0,
+          "score": 0.18311414853153946
+        },
+        {
+          "rank": 68,
+          "pair_id": "benchopt__benchopt-588__TO__benchopt__benchopt-723",
+          "label": 0,
+          "score": 0.18146886273592588
+        },
+        {
+          "rank": 69,
+          "pair_id": "enthought__traits-1172__TO__enthought__traits-1384",
+          "label": 0,
+          "score": 0.12766178816702817
+        },
+        {
+          "rank": 70,
+          "pair_id": "agnostiqhq__covalent-1356__TO__agnostiqhq__covalent-1622",
+          "label": 0,
+          "score": 0.1199341881011103
+        },
+        {
+          "rank": 71,
+          "pair_id": "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-30",
+          "label": 0,
+          "score": 0.03572128906641574
+        }
+      ]
+    },
+    "repository_only": {
+      "discovery_nested_oof": {
+        "average_precision": 0.16027590162679073,
+        "roc_auc": 0.49977885891198587,
+        "precision_at_prevalence_k": 0.21052631578947367,
+        "recall_at_prevalence_k": 0.21052631578947367,
+        "k": 19
+      },
+      "outer_selected_c": [
+        1.0,
+        0.01,
+        0.01,
+        0.03,
+        0.01
+      ],
+      "frozen_c": 0.03,
+      "confirmatory": {
+        "average_precision": 0.24085166230234784,
+        "roc_auc": 0.49551971326164873,
+        "precision_at_prevalence_k": 0.1111111111111111,
+        "recall_at_prevalence_k": 0.1111111111111111,
+        "k": 9
+      },
+      "confirmatory_ranking": [
+        {
+          "rank": 1,
+          "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128",
+          "label": 1,
+          "score": 0.8653970956491763
+        },
+        {
+          "rank": 2,
+          "pair_id": "quora__pyanalyze-653__TO__quora__pyanalyze-658",
+          "label": 0,
+          "score": 0.7870481760559506
+        },
+        {
+          "rank": 3,
+          "pair_id": "xknx__xknx-1066__TO__xknx__xknx-1190",
+          "label": 0,
+          "score": 0.7492971257312421
+        },
+        {
+          "rank": 4,
+          "pair_id": "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775",
+          "label": 0,
+          "score": 0.714755529727089
+        },
+        {
+          "rank": 5,
+          "pair_id": "keras-team__keras-19799__TO__keras-team__keras-20125",
+          "label": 0,
+          "score": 0.6718194125511866
+        },
+        {
+          "rank": 6,
+          "pair_id": "alteryx__woodwork-646__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.6372353825347131
+        },
+        {
+          "rank": 7,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.6324420750461033
+        },
+        {
+          "rank": 8,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.6324420750461033
+        },
+        {
+          "rank": 9,
+          "pair_id": "apiflask__apiflask-448__TO__apiflask__apiflask-550",
+          "label": 0,
+          "score": 0.5729200132306771
+        },
+        {
+          "rank": 10,
+          "pair_id": "elastic__curator-1158__TO__elastic__curator-1221",
+          "label": 0,
+          "score": 0.5524806663002599
+        },
+        {
+          "rank": 11,
+          "pair_id": "yt-project__unyt-31__TO__yt-project__unyt-58",
+          "label": 0,
+          "score": 0.5500430342727947
+        },
+        {
+          "rank": 12,
+          "pair_id": "stac-utils__pystac-511__TO__stac-utils__pystac-900",
+          "label": 0,
+          "score": 0.5442159844416374
+        },
+        {
+          "rank": 13,
+          "pair_id": "benchopt__benchopt-588__TO__benchopt__benchopt-723",
+          "label": 0,
+          "score": 0.5418800362693704
+        },
+        {
+          "rank": 14,
+          "pair_id": "neogeny__tatsu-83__TO__neogeny__tatsu-101",
+          "label": 1,
+          "score": 0.5408771924608794
+        },
+        {
+          "rank": 15,
+          "pair_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484",
+          "label": 1,
+          "score": 0.5330394810671109
+        },
+        {
+          "rank": 16,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-651",
+          "label": 0,
+          "score": 0.5071815874740322
+        },
+        {
+          "rank": 17,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.5071815874740322
+        },
+        {
+          "rank": 18,
+          "pair_id": "wntrblm__nox-688__TO__wntrblm__nox-804",
+          "label": 0,
+          "score": 0.4972981205429733
+        },
+        {
+          "rank": 19,
+          "pair_id": "kinto__kinto-2011__TO__kinto__kinto-2027",
+          "label": 0,
+          "score": 0.49097276659572536
+        },
+        {
+          "rank": 20,
+          "pair_id": "pybamm-team__pybamm-669__TO__pybamm-team__pybamm-819",
+          "label": 0,
+          "score": 0.48831070766811346
+        },
+        {
+          "rank": 21,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2019",
+          "label": 1,
+          "score": 0.4734543866515656
+        },
+        {
+          "rank": 22,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.4734543866515656
+        },
+        {
+          "rank": 23,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.4734543866515656
+        },
+        {
+          "rank": 24,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.4734543866515656
+        },
+        {
+          "rank": 25,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.47280288869998593
+        },
+        {
+          "rank": 26,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.47280288869998593
+        },
+        {
+          "rank": 27,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.47280288869998593
+        },
+        {
+          "rank": 28,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.47280288869998593
+        },
+        {
+          "rank": 29,
+          "pair_id": "sdv-dev__rdt-942__TO__sdv-dev__rdt-963",
+          "label": 0,
+          "score": 0.46703917525252786
+        },
+        {
+          "rank": 30,
+          "pair_id": "reata__sqllineage-223__TO__reata__sqllineage-235",
+          "label": 1,
+          "score": 0.46497078156694666
+        },
+        {
+          "rank": 31,
+          "pair_id": "rigetticomputing__pyquil-156__TO__rigetticomputing__pyquil-166",
+          "label": 0,
+          "score": 0.4588842490002021
+        },
+        {
+          "rank": 32,
+          "pair_id": "yukinarit__pyserde-354__TO__yukinarit__pyserde-389",
+          "label": 0,
+          "score": 0.44873495300785576
+        },
+        {
+          "rank": 33,
+          "pair_id": "aws-cloudformation__cfn-lint-3854__TO__aws-cloudformation__cfn-lint-3866",
+          "label": 0,
+          "score": 0.44603598067595973
+        },
+        {
+          "rank": 34,
+          "pair_id": "pyccel__pyccel-2063__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.43744976700948224
+        },
+        {
+          "rank": 35,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.43716802601583593
+        },
+        {
+          "rank": 36,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.43716802601583593
+        },
+        {
+          "rank": 37,
+          "pair_id": "pandas-dev__pandas-58231__TO__pandas-dev__pandas-59144",
+          "label": 0,
+          "score": 0.4281223864721889
+        },
+        {
+          "rank": 38,
+          "pair_id": "tobikodata__sqlmesh-2537__TO__tobikodata__sqlmesh-2903",
+          "label": 0,
+          "score": 0.4122100315156245
+        },
+        {
+          "rank": 39,
+          "pair_id": "theacodes__nox-522__TO__theacodes__nox-543",
+          "label": 0,
+          "score": 0.4121939870648874
+        },
+        {
+          "rank": 40,
+          "pair_id": "narwhals-dev__narwhals-2176__TO__narwhals-dev__narwhals-2224",
+          "label": 0,
+          "score": 0.4107487980339857
+        },
+        {
+          "rank": 41,
+          "pair_id": "jazzband__pip-tools-873__TO__jazzband__pip-tools-909",
+          "label": 0,
+          "score": 0.39515373762421907
+        },
+        {
+          "rank": 42,
+          "pair_id": "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-30",
+          "label": 0,
+          "score": 0.3859198867210348
+        },
+        {
+          "rank": 43,
+          "pair_id": "astropenguin__xarray-dataclasses-33__TO__astropenguin__xarray-dataclasses-51",
+          "label": 0,
+          "score": 0.3858108712731549
+        },
+        {
+          "rank": 44,
+          "pair_id": "zalando__patroni-2398__TO__zalando__patroni-2724",
+          "label": 0,
+          "score": 0.3777383576071644
+        },
+        {
+          "rank": 45,
+          "pair_id": "natcap__invest-728__TO__natcap__invest-787",
+          "label": 0,
+          "score": 0.3763820335815843
+        },
+        {
+          "rank": 46,
+          "pair_id": "alteryx__evalml-4179__TO__alteryx__evalml-4258",
+          "label": 0,
+          "score": 0.37354523670307677
+        },
+        {
+          "rank": 47,
+          "pair_id": "python-markdown__markdown-1050__TO__python-markdown__markdown-1072",
+          "label": 0,
+          "score": 0.3714625442359821
+        },
+        {
+          "rank": 48,
+          "pair_id": "kinto__kinto-http.py-133__TO__kinto__kinto-http.py-189",
+          "label": 0,
+          "score": 0.369282706742036
+        },
+        {
+          "rank": 49,
+          "pair_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190",
+          "label": 1,
+          "score": 0.36593932824758596
+        },
+        {
+          "rank": 50,
+          "pair_id": "qiskit__qiskit-terra-7952__TO__qiskit__qiskit-terra-7970",
+          "label": 0,
+          "score": 0.36487696504916334
+        },
+        {
+          "rank": 51,
+          "pair_id": "kayak__pypika-181__TO__kayak__pypika-185",
+          "label": 0,
+          "score": 0.3564136447463818
+        },
+        {
+          "rank": 52,
+          "pair_id": "hypothesisworks__hypothesis-2874__TO__hypothesisworks__hypothesis-2970",
+          "label": 0,
+          "score": 0.35611243114415264
+        },
+        {
+          "rank": 53,
+          "pair_id": "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-30",
+          "label": 0,
+          "score": 0.3560441994869649
+        },
+        {
+          "rank": 54,
+          "pair_id": "pallets__jinja-1449__TO__pallets__jinja-1664",
+          "label": 0,
+          "score": 0.35210787806307303
+        },
+        {
+          "rank": 55,
+          "pair_id": "pyccel__pyccel-1724__TO__pyccel__pyccel-1780",
+          "label": 0,
+          "score": 0.35199619354575445
+        },
+        {
+          "rank": 56,
+          "pair_id": "python-semver__python-semver-261__TO__python-semver__python-semver-264",
+          "label": 0,
+          "score": 0.34911355583606224
+        },
+        {
+          "rank": 57,
+          "pair_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503",
+          "label": 1,
+          "score": 0.34894860818665935
+        },
+        {
+          "rank": 58,
+          "pair_id": "pytest-dev__pyfakefs-975__TO__pytest-dev__pyfakefs-978",
+          "label": 0,
+          "score": 0.3470434701262988
+        },
+        {
+          "rank": 59,
+          "pair_id": "pennylaneai__pennylane-7121__TO__pennylaneai__pennylane-7164",
+          "label": 0,
+          "score": 0.3400995408240763
+        },
+        {
+          "rank": 60,
+          "pair_id": "openmdao__openmdao-3248__TO__openmdao__openmdao-3255",
+          "label": 0,
+          "score": 0.3362217968907697
+        },
+        {
+          "rank": 61,
+          "pair_id": "wtforms__wtforms-688__TO__wtforms__wtforms-694",
+          "label": 0,
+          "score": 0.3355623343839731
+        },
+        {
+          "rank": 62,
+          "pair_id": "pyccel__pyccel-2029__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.3333804732796851
+        },
+        {
+          "rank": 63,
+          "pair_id": "pyjanitor-devs__pyjanitor-991__TO__pyjanitor-devs__pyjanitor-1136",
+          "label": 0,
+          "score": 0.33023042956934295
+        },
+        {
+          "rank": 64,
+          "pair_id": "pypa__pipx-1284__TO__pypa__pipx-1343",
+          "label": 0,
+          "score": 0.32985609386448705
+        },
+        {
+          "rank": 65,
+          "pair_id": "jsonpickle__jsonpickle-434__TO__jsonpickle__jsonpickle-469",
+          "label": 0,
+          "score": 0.322241872279549
+        },
+        {
+          "rank": 66,
+          "pair_id": "textualize__rich-2219__TO__textualize__rich-2226",
+          "label": 0,
+          "score": 0.31990622578783057
+        },
+        {
+          "rank": 67,
+          "pair_id": "enthought__traits-1172__TO__enthought__traits-1384",
+          "label": 0,
+          "score": 0.3171560367349778
+        },
+        {
+          "rank": 68,
+          "pair_id": "alteryx__woodwork-651__TO__alteryx__woodwork-685",
+          "label": 1,
+          "score": 0.3152513237444528
+        },
+        {
+          "rank": 69,
+          "pair_id": "agnostiqhq__covalent-1356__TO__agnostiqhq__covalent-1622",
+          "label": 0,
+          "score": 0.30266028759935176
+        },
+        {
+          "rank": 70,
+          "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88",
+          "label": 1,
+          "score": 0.30136667995894956
+        },
+        {
+          "rank": 71,
+          "pair_id": "pypa__packaging-29__TO__pypa__packaging-47",
+          "label": 0,
+          "score": 0.270821908971736
+        }
+      ]
+    },
+    "size_plus_repository": {
+      "discovery_nested_oof": {
+        "average_precision": 0.1883802546439996,
+        "roc_auc": 0.5422379478107032,
+        "precision_at_prevalence_k": 0.21052631578947367,
+        "recall_at_prevalence_k": 0.21052631578947367,
+        "k": 19
+      },
+      "outer_selected_c": [
+        0.3,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "frozen_c": 0.01,
+      "confirmatory": {
+        "average_precision": 0.2576736776786789,
+        "roc_auc": 0.5851254480286738,
+        "precision_at_prevalence_k": 0.1111111111111111,
+        "recall_at_prevalence_k": 0.1111111111111111,
+        "k": 9
+      },
+      "confirmatory_ranking": [
+        {
+          "rank": 1,
+          "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128",
+          "label": 1,
+          "score": 0.8009124069258114
+        },
+        {
+          "rank": 2,
+          "pair_id": "quora__pyanalyze-653__TO__quora__pyanalyze-658",
+          "label": 0,
+          "score": 0.7613025532411991
+        },
+        {
+          "rank": 3,
+          "pair_id": "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775",
+          "label": 0,
+          "score": 0.6764926558630981
+        },
+        {
+          "rank": 4,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.6629735132390157
+        },
+        {
+          "rank": 5,
+          "pair_id": "pyccel__pyccel-2030__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.6629735132390157
+        },
+        {
+          "rank": 6,
+          "pair_id": "xknx__xknx-1066__TO__xknx__xknx-1190",
+          "label": 0,
+          "score": 0.65933691923187
+        },
+        {
+          "rank": 7,
+          "pair_id": "keras-team__keras-19799__TO__keras-team__keras-20125",
+          "label": 0,
+          "score": 0.6571251844136808
+        },
+        {
+          "rank": 8,
+          "pair_id": "elastic__curator-1158__TO__elastic__curator-1221",
+          "label": 0,
+          "score": 0.6009464097105165
+        },
+        {
+          "rank": 9,
+          "pair_id": "apiflask__apiflask-448__TO__apiflask__apiflask-550",
+          "label": 0,
+          "score": 0.5995428070195893
+        },
+        {
+          "rank": 10,
+          "pair_id": "alteryx__woodwork-646__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.573647809929557
+        },
+        {
+          "rank": 11,
+          "pair_id": "yt-project__unyt-31__TO__yt-project__unyt-58",
+          "label": 0,
+          "score": 0.572414441100191
+        },
+        {
+          "rank": 12,
+          "pair_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484",
+          "label": 1,
+          "score": 0.5420536924674932
+        },
+        {
+          "rank": 13,
+          "pair_id": "stac-utils__pystac-511__TO__stac-utils__pystac-900",
+          "label": 0,
+          "score": 0.5308828602924526
+        },
+        {
+          "rank": 14,
+          "pair_id": "neogeny__tatsu-83__TO__neogeny__tatsu-101",
+          "label": 1,
+          "score": 0.5224921932064843
+        },
+        {
+          "rank": 15,
+          "pair_id": "yukinarit__pyserde-354__TO__yukinarit__pyserde-389",
+          "label": 0,
+          "score": 0.5053258971181992
+        },
+        {
+          "rank": 16,
+          "pair_id": "aws-cloudformation__cfn-lint-3854__TO__aws-cloudformation__cfn-lint-3866",
+          "label": 0,
+          "score": 0.5034667574929077
+        },
+        {
+          "rank": 17,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-685",
+          "label": 0,
+          "score": 0.4911317628013504
+        },
+        {
+          "rank": 18,
+          "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-651",
+          "label": 0,
+          "score": 0.4911317628013504
+        },
+        {
+          "rank": 19,
+          "pair_id": "tobikodata__sqlmesh-2537__TO__tobikodata__sqlmesh-2903",
+          "label": 0,
+          "score": 0.48943108736357266
+        },
+        {
+          "rank": 20,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.48282048588459897
+        },
+        {
+          "rank": 21,
+          "pair_id": "pyccel__pyccel-2038__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.48282048588459897
+        },
+        {
+          "rank": 22,
+          "pair_id": "wntrblm__nox-688__TO__wntrblm__nox-804",
+          "label": 0,
+          "score": 0.47973105678868083
+        },
+        {
+          "rank": 23,
+          "pair_id": "rigetticomputing__pyquil-156__TO__rigetticomputing__pyquil-166",
+          "label": 0,
+          "score": 0.4754184574542932
+        },
+        {
+          "rank": 24,
+          "pair_id": "reata__sqllineage-223__TO__reata__sqllineage-235",
+          "label": 1,
+          "score": 0.4650756911315655
+        },
+        {
+          "rank": 25,
+          "pair_id": "benchopt__benchopt-588__TO__benchopt__benchopt-723",
+          "label": 0,
+          "score": 0.46154142615464283
+        },
+        {
+          "rank": 26,
+          "pair_id": "qiskit__qiskit-terra-7952__TO__qiskit__qiskit-terra-7970",
+          "label": 0,
+          "score": 0.4573952976895653
+        },
+        {
+          "rank": 27,
+          "pair_id": "sdv-dev__rdt-942__TO__sdv-dev__rdt-963",
+          "label": 0,
+          "score": 0.4571109715806388
+        },
+        {
+          "rank": 28,
+          "pair_id": "pandas-dev__pandas-58231__TO__pandas-dev__pandas-59144",
+          "label": 0,
+          "score": 0.4571005461707799
+        },
+        {
+          "rank": 29,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.45410295706873416
+        },
+        {
+          "rank": 30,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.45410295706873416
+        },
+        {
+          "rank": 31,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.45410295706873416
+        },
+        {
+          "rank": 32,
+          "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.45410295706873416
+        },
+        {
+          "rank": 33,
+          "pair_id": "narwhals-dev__narwhals-2176__TO__narwhals-dev__narwhals-2224",
+          "label": 0,
+          "score": 0.4535501638225891
+        },
+        {
+          "rank": 34,
+          "pair_id": "pyccel__pyccel-2063__TO__pyccel__pyccel-2118",
+          "label": 0,
+          "score": 0.4502107686680771
+        },
+        {
+          "rank": 35,
+          "pair_id": "alteryx__woodwork-651__TO__alteryx__woodwork-685",
+          "label": 1,
+          "score": 0.44746558927779184
+        },
+        {
+          "rank": 36,
+          "pair_id": "pallets__jinja-1449__TO__pallets__jinja-1664",
+          "label": 0,
+          "score": 0.44620674643514235
+        },
+        {
+          "rank": 37,
+          "pair_id": "pybamm-team__pybamm-669__TO__pybamm-team__pybamm-819",
+          "label": 0,
+          "score": 0.4447771375662292
+        },
+        {
+          "rank": 38,
+          "pair_id": "zalando__patroni-2398__TO__zalando__patroni-2724",
+          "label": 0,
+          "score": 0.44219459830509145
+        },
+        {
+          "rank": 39,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.4411738852420506
+        },
+        {
+          "rank": 40,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2038",
+          "label": 0,
+          "score": 0.4411738852420506
+        },
+        {
+          "rank": 41,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2019",
+          "label": 1,
+          "score": 0.4411738852420506
+        },
+        {
+          "rank": 42,
+          "pair_id": "pyccel__pyccel-1923__TO__pyccel__pyccel-2030",
+          "label": 0,
+          "score": 0.4411738852420506
+        },
+        {
+          "rank": 43,
+          "pair_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503",
+          "label": 1,
+          "score": 0.43624720203459433
+        },
+        {
+          "rank": 44,
+          "pair_id": "pennylaneai__pennylane-7121__TO__pennylaneai__pennylane-7164",
+          "label": 0,
+          "score": 0.43439686056808074
+        },
+        {
+          "rank": 45,
+          "pair_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190",
+          "label": 1,
+          "score": 0.4304415642372595
+        },
+        {
+          "rank": 46,
+          "pair_id": "kinto__kinto-2011__TO__kinto__kinto-2027",
+          "label": 0,
+          "score": 0.42572795020922477
+        },
+        {
+          "rank": 47,
+          "pair_id": "alteryx__evalml-4179__TO__alteryx__evalml-4258",
+          "label": 0,
+          "score": 0.42204106318529494
+        },
+        {
+          "rank": 48,
+          "pair_id": "theacodes__nox-522__TO__theacodes__nox-543",
+          "label": 0,
+          "score": 0.4118153987827581
+        },
+        {
+          "rank": 49,
+          "pair_id": "hypothesisworks__hypothesis-2874__TO__hypothesisworks__hypothesis-2970",
+          "label": 0,
+          "score": 0.4112956388749232
+        },
+        {
+          "rank": 50,
+          "pair_id": "pytest-dev__pyfakefs-975__TO__pytest-dev__pyfakefs-978",
+          "label": 0,
+          "score": 0.40476390479818136
+        },
+        {
+          "rank": 51,
+          "pair_id": "python-markdown__markdown-1050__TO__python-markdown__markdown-1072",
+          "label": 0,
+          "score": 0.3956333642371804
+        },
+        {
+          "rank": 52,
+          "pair_id": "jsonpickle__jsonpickle-434__TO__jsonpickle__jsonpickle-469",
+          "label": 0,
+          "score": 0.3915660164217619
+        },
+        {
+          "rank": 53,
+          "pair_id": "astropenguin__xarray-dataclasses-33__TO__astropenguin__xarray-dataclasses-51",
+          "label": 0,
+          "score": 0.38476456685244576
+        },
+        {
+          "rank": 54,
+          "pair_id": "pyccel__pyccel-1724__TO__pyccel__pyccel-1780",
+          "label": 0,
+          "score": 0.3794205885089002
+        },
+        {
+          "rank": 55,
+          "pair_id": "natcap__invest-728__TO__natcap__invest-787",
+          "label": 0,
+          "score": 0.3790472394101694
+        },
+        {
+          "rank": 56,
+          "pair_id": "pypa__packaging-29__TO__pypa__packaging-47",
+          "label": 0,
+          "score": 0.3754929617815826
+        },
+        {
+          "rank": 57,
+          "pair_id": "pypa__pipx-1284__TO__pypa__pipx-1343",
+          "label": 0,
+          "score": 0.3736110681566764
+        },
+        {
+          "rank": 58,
+          "pair_id": "pyccel__pyccel-2029__TO__pyccel__pyccel-2063",
+          "label": 0,
+          "score": 0.3735383612929
+        },
+        {
+          "rank": 59,
+          "pair_id": "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-30",
+          "label": 0,
+          "score": 0.3731458679260002
+        },
+        {
+          "rank": 60,
+          "pair_id": "jazzband__pip-tools-873__TO__jazzband__pip-tools-909",
+          "label": 0,
+          "score": 0.37248788270152927
+        },
+        {
+          "rank": 61,
+          "pair_id": "openmdao__openmdao-3248__TO__openmdao__openmdao-3255",
+          "label": 0,
+          "score": 0.37042282473262755
+        },
+        {
+          "rank": 62,
+          "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88",
+          "label": 1,
+          "score": 0.3649737715879916
+        },
+        {
+          "rank": 63,
+          "pair_id": "kayak__pypika-181__TO__kayak__pypika-185",
+          "label": 0,
+          "score": 0.3620638381316791
+        },
+        {
+          "rank": 64,
+          "pair_id": "wtforms__wtforms-688__TO__wtforms__wtforms-694",
+          "label": 0,
+          "score": 0.3615683864988971
+        },
+        {
+          "rank": 65,
+          "pair_id": "python-semver__python-semver-261__TO__python-semver__python-semver-264",
+          "label": 0,
+          "score": 0.36103748492042836
+        },
+        {
+          "rank": 66,
+          "pair_id": "kinto__kinto-http.py-133__TO__kinto__kinto-http.py-189",
+          "label": 0,
+          "score": 0.35017894151049106
+        },
+        {
+          "rank": 67,
+          "pair_id": "pyjanitor-devs__pyjanitor-991__TO__pyjanitor-devs__pyjanitor-1136",
+          "label": 0,
+          "score": 0.3404992856868114
+        },
+        {
+          "rank": 68,
+          "pair_id": "textualize__rich-2219__TO__textualize__rich-2226",
+          "label": 0,
+          "score": 0.3304287834312464
+        },
+        {
+          "rank": 69,
+          "pair_id": "enthought__traits-1172__TO__enthought__traits-1384",
+          "label": 0,
+          "score": 0.30455093452781584
+        },
+        {
+          "rank": 70,
+          "pair_id": "agnostiqhq__covalent-1356__TO__agnostiqhq__covalent-1622",
+          "label": 0,
+          "score": 0.29320594681697965
+        },
+        {
+          "rank": 71,
+          "pair_id": "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-30",
+          "label": 0,
+          "score": 0.26881900748153703
+        }
+      ]
+    }
+  },
+  "heldout_improvement_over_size": {
+    "repository_only": {
+      "observed_ap_delta": -0.014002032201429426,
+      "bootstrap_95_ci": [
+        -0.23671859565880324,
+        0.12802955747955758
+      ],
+      "one_sided_bootstrap_p_le_zero": 0.7046
+    },
+    "size_plus_repository": {
+      "observed_ap_delta": 0.002819983174901619,
+      "bootstrap_95_ci": [
+        -0.2004642415125475,
+        0.13070279038469798
+      ],
+      "one_sided_bootstrap_p_le_zero": 0.6528
+    }
+  }
+}

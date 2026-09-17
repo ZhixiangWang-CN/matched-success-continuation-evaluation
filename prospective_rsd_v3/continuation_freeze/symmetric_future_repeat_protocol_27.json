@@ -1,0 +1,44 @@
+{
+  "status": "FROZEN_BEFORE_ANY_SYMMETRIC_REPEAT_OUTCOMES",
+  "date": "2026-09-10",
+  "protocol_id": "symmetric-future-repeat-27",
+  "objective": "Measure stochastic stability of the common-snapshot symmetric continuation result without changing tasks, states, prompts, endpoints, or eligibility.",
+  "relationship_to_protocol_26": {
+    "original_valid_repeat": 0,
+    "new_repeat_indices": [1, 2],
+    "total_repeats_per_state_after_completion": 3,
+    "frozen_after_repeat_0_results": true,
+    "selection_or_endpoint_changes": false
+  },
+  "frozen_manifest": "symmetric_future_eligible_manifest_26.json",
+  "eligibility": {
+    "minimum_eligible_future_pairs": 3,
+    "eligible_future_pairs": 5,
+    "rule": "Inherited unchanged from protocol 26; no repeat outcome can alter inclusion."
+  },
+  "design": {
+    "future_pairs": 5,
+    "states_per_pair": 3,
+    "new_valid_rollouts": 30,
+    "consumer": "Codex CLI gpt-5.6-sol, medium reasoning, ephemeral session",
+    "same_prompt_and_hidden_verifiers_as_protocol_26": true,
+    "common_snapshot": "current.base_commit",
+    "future_history_replay": false,
+    "network_inside_container": false,
+    "early_stopping": false
+  },
+  "validity": {
+    "valid_session": "agent session reaches evaluation and both future and prior verifiers have an observed result",
+    "infrastructure_or_setup_failure": "quarantine and rerun the identical key",
+    "behavioral_failure": "retain as an outcome",
+    "required_unique_keys": "5 pairs x 3 states x 2 new repeats"
+  },
+  "analysis": {
+    "primary_endpoint": "joint future success with prior-task preservation",
+    "primary_estimand": "within-pair mean candidate success minus historical success, averaging s0/s1 and all three repeats",
+    "uncertainty_unit": "future pair",
+    "secondary_endpoints": ["future-only success", "prior-task preservation", "tool calls", "wall-clock seconds", "edit size"],
+    "interpretation": "The repeat panel estimates stability on the frozen five-pair sample; it does not enlarge repository coverage."
+  },
+  "claude": "deferred; when available it will use the unchanged protocol-26 manifest and task interface."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_BEFORE_SYMMETRIC_PREFLIGHT_RESULTS",
+  "date": "2026-09-09",
+  "objective": "Identify real future tasks that can be executed directly from matched successful states at the same earlier repository snapshot, without replaying history authored on the historical branch.",
+  "inputs": {
+    "pairs": "recovery_curve_pairs_17.jsonl",
+    "candidates": "recovery_curve_candidates_17.jsonl",
+    "arms": "recovery_curve_arms_17.json"
+  },
+  "design": {
+    "state_snapshot": "current.base_commit for every arm",
+    "states": ["historical maintainer current-task patch", "frozen candidate s0", "frozen candidate s1"],
+    "future_history_replay": false,
+    "future_task": "the frozen later issue specification and verifier, backported to the common current snapshot",
+    "network": "disabled inside containers",
+    "future_regression_cap": 20
+  },
+  "eligibility_rule": {
+    "unit": "future pair",
+    "required_states": ["historical", "s0", "s1"],
+    "requirements_for_every_state": [
+      "state patch applies",
+      "current FAIL_TO_PASS verifier applies and passes",
+      "frozen future maintainer patch applies at the common snapshot",
+      "future test patch applies",
+      "future FAIL_TO_PASS tests pass after the future maintainer patch",
+      "up to 20 frozen future PASS_TO_PASS tests pass",
+      "current FAIL_TO_PASS tests still pass after the future maintainer patch"
+    ],
+    "selection_uses_agent_outcomes": false
+  },
+  "next_stage": "Freeze the eligible future-pair list and run the same future-agent prompt independently from all three matched states. If fewer than three future pairs survive, report the feasibility failure and do not claim a symmetric replication."
+}

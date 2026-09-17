@@ -1,0 +1,34 @@
+{
+  "status": "CLAUDE_SECOND_CONSUMER_CALIBRATION_FROZEN_BEFORE_FORMAL_RUN",
+  "consumer": {
+    "agent": "Claude Code CLI",
+    "model": "opus",
+    "reasoning_effort": "high",
+    "session_persistence": false,
+    "working_directory": "remote authenticated CLI with repository access only through the restricted HTTP proxy"
+  },
+  "data_access": "Issue statement and live isolated repository only; hidden tests applied after consumer exit; WebSearch, WebFetch, Read, Edit, Write, Glob, and Grep tools disabled",
+  "environment": "Fresh yury Docker container per session; container network disconnected; authenticated CLI on nugpu; token-authenticated reverse tunnel",
+  "protocol": {
+    "anchors": 5,
+    "sessions_per_anchor": 3,
+    "total_historical_controls": 15,
+    "workers": 1,
+    "timeout_seconds": 1800,
+    "pilot_policy": "Authentication checks and all earlier expired-auth/setup pilots are excluded from calibration statistics"
+  },
+  "go_gate": {
+    "historical_control_success": ">=30%",
+    "code_changing_rollouts": ">=80%",
+    "invalid_tool_actions": "<5%"
+  },
+  "hashes_sha256": {
+    "runner": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+    "container_proxy": "8dcf40eeddeae81742e28dc6827f2c6725d97b576ac4b6abe318287f99bd3ca8",
+    "proxy_server": "e2132f5908e6aa857f013f9c12eaa5052a2a7882db7c25714462c482bca33dfe",
+    "remote_http_client": "c7ef849630c6a0184ab577f46dcca2540c4090a6c06434cf0c6006be6318f77c",
+    "anchor_manifest": "4c49edcf72a65570a38fe3d5608c8fabc740708c9cc254d4248f015de544bdc2",
+    "pair_manifest": "691d8567b682deee20e877f3b889089acdad87e8e50d57fe5746c89e5b83953a"
+  },
+  "heldout_status": "NOT_USED_FOR_CALIBRATION"
+}

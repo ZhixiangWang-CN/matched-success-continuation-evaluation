@@ -1,0 +1,43 @@
+{
+  "candidate_choice": "lowest attempt index among current-success candidates; never inspect future behavior",
+  "candidate_outcomes_available_at_freeze": 0,
+  "combined_repositories": 17,
+  "current_success_gate": [
+    "nonempty implementation diff",
+    "no test-file edits",
+    "current FAIL_TO_PASS passes",
+    "up to 20 current PASS_TO_PASS tests pass",
+    "unique normalized patch hash"
+  ],
+  "date": "2026-09-10",
+  "future_rollout": {
+    "consumer": "gpt-5.6-sol",
+    "effort": "medium",
+    "inference": "average repeats within state, then paired repository effects; exact sign-flip and repository bootstrap",
+    "primary": "joint future success with current FAIL_TO_PASS preservation",
+    "repeats_per_state": 3,
+    "states": [
+      "historical",
+      "selected current-success candidate"
+    ]
+  },
+  "go_rule": "report the expanded panel only when at least ten of the twelve new repositories yield a current-success candidate, preserving at least fifteen total repositories",
+  "historical_analysis_sha256": {
+    "protocol_30": "17af602147e88b01650ea53a735929e773f657529e51a5917097eeb59c761da2",
+    "protocol_31": "b45e1c49d7a987a24563cbf9b66da2428c11d7b465b75145e912edff101a1760"
+  },
+  "new_repositories": 12,
+  "objective": "Extend common-snapshot continuation from five to seventeen repository-disjoint anchors.",
+  "pairs_sha256": "1a3b34ad4598401460b1cd98ad499173f1cd0c86b9580f691297f581ab87cf5b",
+  "producer": {
+    "agent": "Codex",
+    "effort": "medium",
+    "independent_attempts_per_anchor": 2,
+    "information_boundary": "current issue and current repository snapshot only",
+    "model": "gpt-5.6-sol",
+    "network_in_container": false
+  },
+  "protocol_id": "6dfb16eea8ea5f4d9c00ad7522042c966dd86804742bdcd61fb787d1aeded20b",
+  "relationship": "Twelve new anchors are the deterministic within-repository selections from completed historical-only Protocols 30 and 31; the prior five remain unchanged.",
+  "status": "FROZEN_BEFORE_ANY_EXTENSION_AGENT_OUTCOMES"
+}

@@ -1,0 +1,170 @@
+{
+  "dataset": "PrimeIntellect/SWE-rebench-V2-Filtered-Verified",
+  "rows_scanned": 6272,
+  "language_counts": {
+    "ts": 734,
+    "js": 811,
+    "python": 1952,
+    "rust": 477,
+    "go": 1241,
+    "r": 51,
+    "kotlin": 215,
+    "java": 324,
+    "php": 237,
+    "swift": 64,
+    "elixir": 84,
+    "scala": 58,
+    "ocaml": 2,
+    "lua": 5,
+    "c": 13,
+    "dart": 4
+  },
+  "candidate_sequences": 437,
+  "selected_sequences": 50,
+  "selected_repos": 50,
+  "future_pairs": 233,
+  "min_futures": 3,
+  "max_futures": 5,
+  "top_sequences": [
+    {
+      "sequence_id": "alteryx__woodwork-651__CONTINUATIONS",
+      "repo": "alteryx/woodwork",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 101.50742379453166
+    },
+    {
+      "sequence_id": "pyccel__pyccel-2003__CONTINUATIONS",
+      "repo": "pyccel/pyccel",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 97.66095725250342
+    },
+    {
+      "sequence_id": "pytest-dev__pyfakefs-903__CONTINUATIONS",
+      "repo": "pytest-dev/pyfakefs",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 90.62083012654247
+    },
+    {
+      "sequence_id": "wtforms__wtforms-548__CONTINUATIONS",
+      "repo": "wtforms/wtforms",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 90.52645650929172
+    },
+    {
+      "sequence_id": "pandas-dev__pandas-56419__CONTINUATIONS",
+      "repo": "pandas-dev/pandas",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 89.44469983699182
+    },
+    {
+      "sequence_id": "hypothesisworks__hypothesis-3279__CONTINUATIONS",
+      "repo": "HypothesisWorks/hypothesis",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 86.89404695699153
+    },
+    {
+      "sequence_id": "kinto__kinto-http.py-131__CONTINUATIONS",
+      "repo": "Kinto/kinto-http.py",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 86.44120760307102
+    },
+    {
+      "sequence_id": "getmoto__moto-5870__CONTINUATIONS",
+      "repo": "getmoto/moto",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 85.97452760396052
+    },
+    {
+      "sequence_id": "apiflask__apiflask-322__CONTINUATIONS",
+      "repo": "apiflask/apiflask",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 85.89828818302162
+    },
+    {
+      "sequence_id": "pallets__click-1805__CONTINUATIONS",
+      "repo": "pallets/click",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 85.33656388884786
+    },
+    {
+      "sequence_id": "pycqa__pyflakes-484__CONTINUATIONS",
+      "repo": "PyCQA/pyflakes",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 83.37651993810984
+    },
+    {
+      "sequence_id": "alteryx__evalml-1302__CONTINUATIONS",
+      "repo": "alteryx/evalml",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 80.94646283082453
+    },
+    {
+      "sequence_id": "quora__pyanalyze-344__CONTINUATIONS",
+      "repo": "quora/pyanalyze",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 80.31682672331505
+    },
+    {
+      "sequence_id": "yt-project__unyt-58__CONTINUATIONS",
+      "repo": "yt-project/unyt",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 80.24567629047674
+    },
+    {
+      "sequence_id": "cloudpipe__cloudpickle-153__CONTINUATIONS",
+      "repo": "cloudpipe/cloudpickle",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 80.15179550665306
+    },
+    {
+      "sequence_id": "elastic__curator-603__CONTINUATIONS",
+      "repo": "elastic/curator",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 79.68636741119577
+    },
+    {
+      "sequence_id": "narwhals-dev__narwhals-1814__CONTINUATIONS",
+      "repo": "narwhals-dev/narwhals",
+      "futures": 5,
+      "anchor_related": 4,
+      "score": 79.15046507065854
+    },
+    {
+      "sequence_id": "stfc__psyclone-2084__CONTINUATIONS",
+      "repo": "stfc/PSyclone",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 77.99552630081003
+    },
+    {
+      "sequence_id": "kayak__pypika-127__CONTINUATIONS",
+      "repo": "kayak/pypika",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 77.93335705008245
+    },
+    {
+      "sequence_id": "stac-utils__pystac-511__CONTINUATIONS",
+      "repo": "stac-utils/pystac",
+      "futures": 5,
+      "anchor_related": 5,
+      "score": 77.33801279392185
+    }
+  ]
+}

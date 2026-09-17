@@ -1,0 +1,74 @@
+{
+  "families": [
+    {
+      "family": "cache",
+      "n_candidates": 9,
+      "critic_value": 1.0,
+      "random_expected_value": 0.8333333333333335,
+      "shortest_value": 0.8333333333333334,
+      "oracle_value": 1.0,
+      "critic_regret": 0.0,
+      "random_regret": 0.16666666666666652,
+      "shortest_regret": 0.16666666666666663
+    },
+    {
+      "family": "events",
+      "n_candidates": 13,
+      "critic_value": 0.41666666666666663,
+      "random_expected_value": 0.5737179487179487,
+      "shortest_value": 0.5,
+      "oracle_value": 1.0,
+      "critic_regret": 0.5833333333333334,
+      "random_regret": 0.4262820512820513,
+      "shortest_regret": 0.5
+    },
+    {
+      "family": "flags",
+      "n_candidates": 8,
+      "critic_value": 0.33333333333333337,
+      "random_expected_value": 0.38020833333333337,
+      "shortest_value": 0.33333333333333337,
+      "oracle_value": 0.5,
+      "critic_regret": 0.16666666666666663,
+      "random_regret": 0.11979166666666663,
+      "shortest_regret": 0.16666666666666663
+    },
+    {
+      "family": "permissions",
+      "n_candidates": 15,
+      "critic_value": 0.6666666666666667,
+      "random_expected_value": 0.5055555555555556,
+      "shortest_value": 0.41666666666666663,
+      "oracle_value": 0.6666666666666667,
+      "critic_regret": 0.0,
+      "random_regret": 0.1611111111111111,
+      "shortest_regret": 0.2500000000000001
+    },
+    {
+      "family": "pricing",
+      "n_candidates": 12,
+      "critic_value": 0.33333333333333337,
+      "random_expected_value": 0.4375,
+      "shortest_value": 0.41666666666666663,
+      "oracle_value": 0.6666666666666667,
+      "critic_regret": 0.33333333333333337,
+      "random_regret": 0.22916666666666674,
+      "shortest_regret": 0.2500000000000001
+    },
+    {
+      "family": "router",
+      "n_candidates": 7,
+      "critic_value": 1.0,
+      "random_expected_value": 0.9107142857142857,
+      "shortest_value": 0.8333333333333334,
+      "oracle_value": 1.0,
+      "critic_regret": 0.0,
+      "random_regret": 0.0892857142857143,
+      "shortest_regret": 0.16666666666666663
+    }
+  ],
+  "mean_critic_value": 0.6250000000000001,
+  "mean_random_value": 0.6068382427757427,
+  "mean_shortest_value": 0.5555555555555556,
+  "mean_oracle_value": 0.8055555555555557
+}

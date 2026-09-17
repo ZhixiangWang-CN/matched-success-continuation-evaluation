@@ -1,0 +1,16 @@
+{
+  "status": "CLAUDE_CALIBRATION_INPUT_PATH_CORRECTION_BEFORE_ANY_ROLLOUT",
+  "supersedes_for_anchor_input_only": "claude_calibration_amendment_9.json",
+  "reason": "The first launch pointed --anchors at the 24-anchor discovery manifest, whose records do not contain audit_future_pair_id. The runner exited with KeyError before starting the proxy tunnel, creating a container, or executing a consumer rollout.",
+  "correct_anchor_input": "prospective_rsd_v3/continuation_freeze/eligible_anchors.json",
+  "correct_anchor_input_sha256": "596bae9b5f613591309b7df8a8f2b45f5fa113d424ee05d979217bdfbf2668c9",
+  "unchanged": [
+    "consumer model and reasoning effort",
+    "five eligible anchors",
+    "three historical-control sessions per anchor",
+    "go/no-go thresholds",
+    "executor and proxy hashes",
+    "no held-out outcomes used"
+  ],
+  "formal_results_created_by_failed_launch": 0
+}

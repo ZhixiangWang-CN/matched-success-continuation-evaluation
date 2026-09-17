@@ -1,0 +1,152 @@
+{
+  "raw_rows": 36,
+  "matched_pairs": 10,
+  "clean_only_wins": 4,
+  "debt_only_wins": 0,
+  "both_success": 0,
+  "both_fail": 6,
+  "one_sided_exact_sign_p": 0.0625,
+  "clean_state_status": {
+    "applied": 7,
+    "already_present": 3
+  },
+  "sequences": [
+    {
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "future_tasks": 3,
+      "debt_successes": 0,
+      "clean_successes": 1,
+      "clean_only_wins": 1,
+      "debt_only_wins": 0
+    },
+    {
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "future_tasks": 4,
+      "debt_successes": 0,
+      "clean_successes": 1,
+      "clean_only_wins": 1,
+      "debt_only_wins": 0
+    },
+    {
+      "sequence_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484__MULTIFUTURE",
+      "repo": "PyCQA/pyflakes",
+      "future_tasks": 1,
+      "debt_successes": 0,
+      "clean_successes": 0,
+      "clean_only_wins": 0,
+      "debt_only_wins": 0
+    },
+    {
+      "sequence_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190__MULTIFUTURE",
+      "repo": "PyCQA/docformatter",
+      "future_tasks": 1,
+      "debt_successes": 0,
+      "clean_successes": 1,
+      "clean_only_wins": 1,
+      "debt_only_wins": 0
+    },
+    {
+      "sequence_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503__MULTIFUTURE",
+      "repo": "tornadoweb/tornado",
+      "future_tasks": 1,
+      "debt_successes": 0,
+      "clean_successes": 1,
+      "clean_only_wins": 1,
+      "debt_only_wins": 0
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-123",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "position": 1,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "position": 3,
+      "debt_success": false,
+      "clean_success": true,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "position": 1,
+      "debt_success": false,
+      "clean_success": true,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-101",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "position": 3,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "already_present"
+    },
+    {
+      "pair_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484",
+      "sequence_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-484__MULTIFUTURE",
+      "repo": "PyCQA/pyflakes",
+      "position": 2,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-126",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "position": 2,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190",
+      "sequence_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190__MULTIFUTURE",
+      "repo": "PyCQA/docformatter",
+      "position": 1,
+      "debt_success": false,
+      "clean_success": true,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503",
+      "sequence_id": "tornadoweb__tornado-3477__TO__tornadoweb__tornado-3503__MULTIFUTURE",
+      "repo": "tornadoweb/tornado",
+      "position": 3,
+      "debt_success": false,
+      "clean_success": true,
+      "clean_state_status": "applied"
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-93",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "position": 2,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "already_present"
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-105",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "position": 4,
+      "debt_success": false,
+      "clean_success": false,
+      "clean_state_status": "already_present"
+    }
+  ]
+}

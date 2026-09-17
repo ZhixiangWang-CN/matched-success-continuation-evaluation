@@ -1,0 +1,288 @@
+{
+  "dataset": "PrimeIntellect/SWE-rebench-V2-Filtered-Verified",
+  "rows_scanned": 6272,
+  "excluded_repositories": 0,
+  "excluded_instances": 400,
+  "required_file_overlap": true,
+  "language_counts": {
+    "ts": 734,
+    "js": 811,
+    "python": 1952,
+    "rust": 477,
+    "go": 1241,
+    "r": 51,
+    "kotlin": 215,
+    "java": 324,
+    "php": 237,
+    "swift": 64,
+    "elixir": 84,
+    "scala": 58,
+    "ocaml": 2,
+    "lua": 5,
+    "c": 13,
+    "dart": 4
+  },
+  "eligible_python_repos": 379,
+  "candidate_pairs": 1912,
+  "selected_pairs": 100,
+  "selected_repos": 75,
+  "top_pairs": [
+    {
+      "pair_id": "pyccel__pyccel-2019__TO__pyccel__pyccel-2118",
+      "repo": "pyccel/pyccel",
+      "gap_days": 64.2637037037037,
+      "overlap_files": [
+        "CHANGELOG.md",
+        "docs/builtin-functions.md",
+        "pyccel/codegen/printing/ccode.py",
+        "pyccel/codegen/printing/fcode.py"
+      ],
+      "selection_score": 85.49825116592032
+    },
+    {
+      "pair_id": "aio-libs__aiohttp-8745__TO__aio-libs__aiohttp-8746",
+      "repo": "aio-libs/aiohttp",
+      "gap_days": 9.259259259259259e-05,
+      "overlap_files": [
+        "CHANGES/8736.misc.rst",
+        "CHANGES/8742.bugfix.rst",
+        "aiohttp/client_reqrep.py",
+        "aiohttp/http_websocket.py"
+      ],
+      "selection_score": 84.78192592935507
+    },
+    {
+      "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-651",
+      "repo": "alteryx/woodwork",
+      "gap_days": 3.8113425925925926,
+      "overlap_files": [
+        "docs/source/api_reference.rst",
+        "docs/source/release_notes.rst",
+        "woodwork/table_accessor.py"
+      ],
+      "selection_score": 64.55421906364114
+    },
+    {
+      "pair_id": "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775",
+      "repo": "MarketSquare/robotframework-robocop",
+      "gap_days": 113.97414351851852,
+      "overlap_files": [
+        "docs/user_guide.rst",
+        "robocop/config.py",
+        "robocop/run.py"
+      ],
+      "selection_score": 61.57723418870898
+    },
+    {
+      "pair_id": "neogeny__tatsu-83__TO__neogeny__tatsu-101",
+      "repo": "neogeny/TatSu",
+      "gap_days": 220.20575231481482,
+      "overlap_files": [
+        "grammar/tatsu.ebnf",
+        "tatsu/bootstrap.py",
+        "tatsu/parser_semantics.py"
+      ],
+      "selection_score": 61.43772538052007
+    },
+    {
+      "pair_id": "pallets__click-1614__TO__pallets__click-1615",
+      "repo": "pallets/click",
+      "gap_days": 0.04923611111111111,
+      "overlap_files": [
+        "CHANGES.rst",
+        "src/click/core.py"
+      ],
+      "selection_score": 45.9225500910594
+    },
+    {
+      "pair_id": "pytest-dev__pyfakefs-975__TO__pytest-dev__pyfakefs-978",
+      "repo": "pytest-dev/pyfakefs",
+      "gap_days": 1.0527430555555555,
+      "overlap_files": [
+        "CHANGES.md",
+        "pyfakefs/fake_os.py"
+      ],
+      "selection_score": 45.358658420315734
+    },
+    {
+      "pair_id": "quora__pyanalyze-653__TO__quora__pyanalyze-658",
+      "repo": "quora/pyanalyze",
+      "gap_days": 1.4935185185185185,
+      "overlap_files": [
+        "docs/changelog.md",
+        "pyanalyze/name_check_visitor.py"
+      ],
+      "selection_score": 44.86104418184533
+    },
+    {
+      "pair_id": "python-semver__python-semver-261__TO__python-semver__python-semver-264",
+      "repo": "python-semver/python-semver",
+      "gap_days": 1.9090162037037037,
+      "overlap_files": [
+        "CHANGELOG.rst",
+        "semver.py"
+      ],
+      "selection_score": 44.740748040244185
+    },
+    {
+      "pair_id": "pybamm-team__pybamm-669__TO__pybamm-team__pybamm-819",
+      "repo": "pybamm-team/PyBaMM",
+      "gap_days": 116.88613425925926,
+      "overlap_files": [
+        "CHANGELOG.md",
+        "pybamm/parameters/parameter_values.py"
+      ],
+      "selection_score": 44.63822464425305
+    },
+    {
+      "pair_id": "stfc__psyclone-1894__TO__stfc__psyclone-1900",
+      "repo": "stfc/PSyclone",
+      "gap_days": 4.117673611111111,
+      "overlap_files": [
+        "changelog",
+        "src/psyclone/psyir/nodes/array_mixin.py"
+      ],
+      "selection_score": 44.612840029629645
+    },
+    {
+      "pair_id": "pandas-dev__pandas-58231__TO__pandas-dev__pandas-59144",
+      "repo": "pandas-dev/pandas",
+      "gap_days": 77.35524305555556,
+      "overlap_files": [
+        "ci/code_checks.sh",
+        "doc/source/whatsnew/v3.0.0.rst"
+      ],
+      "selection_score": 44.529997692040595
+    },
+    {
+      "pair_id": "apiflask__apiflask-448__TO__apiflask__apiflask-550",
+      "repo": "apiflask/apiflask",
+      "gap_days": 240.16929398148147,
+      "overlap_files": [
+        "CHANGES.md",
+        "docs/openapi.md"
+      ],
+      "selection_score": 44.17960067877496
+    },
+    {
+      "pair_id": "pallets__werkzeug-2194__TO__pallets__werkzeug-2206",
+      "repo": "pallets/werkzeug",
+      "gap_days": 11.602905092592593,
+      "overlap_files": [
+        "CHANGES.rst",
+        "src/werkzeug/datastructures.py"
+      ],
+      "selection_score": 43.89185811977114
+    },
+    {
+      "pair_id": "pennylaneai__pennylane-7121__TO__pennylaneai__pennylane-7164",
+      "repo": "PennyLaneAI/pennylane",
+      "gap_days": 10.085787037037036,
+      "overlap_files": [
+        "doc/releases/changelog-dev.md",
+        "pennylane/operation.py"
+      ],
+      "selection_score": 43.87146892741468
+    },
+    {
+      "pair_id": "qiskit__qiskit-11206__TO__qiskit__qiskit-11272",
+      "repo": "Qiskit/qiskit",
+      "gap_days": 11.071168981481481,
+      "overlap_files": [
+        "qiskit/circuit/quantumcircuit.py",
+        "releasenotes/notes/fix-circuit-barrier-c696eabae1dcc6c2.yaml"
+      ],
+      "selection_score": 43.764344095532856
+    },
+    {
+      "pair_id": "kinto__kinto-http.py-133__TO__kinto__kinto-http.py-189",
+      "repo": "Kinto/kinto-http.py",
+      "gap_days": 568.504849537037,
+      "overlap_files": [
+        "CHANGELOG.rst",
+        "README.rst"
+      ],
+      "selection_score": 43.7381861613757
+    },
+    {
+      "pair_id": "python-attrs__attrs-1107__TO__python-attrs__attrs-1321",
+      "repo": "python-attrs/attrs",
+      "gap_days": 520.9130902777778,
+      "overlap_files": [
+        "docs/examples.md",
+        "src/attr/_next_gen.py"
+      ],
+      "selection_score": 43.58299913575976
+    },
+    {
+      "pair_id": "wtforms__wtforms-688__TO__wtforms__wtforms-694",
+      "repo": "wtforms/wtforms",
+      "gap_days": 33.77798611111111,
+      "overlap_files": [
+        "CHANGES.rst",
+        "src/wtforms/fields/core.py"
+      ],
+      "selection_score": 43.10081231711894
+    },
+    {
+      "pair_id": "python-markdown__markdown-1050__TO__python-markdown__markdown-1072",
+      "repo": "Python-Markdown/markdown",
+      "gap_days": 30.277395833333333,
+      "overlap_files": [
+        "docs/change_log/index.md",
+        "markdown/extensions/md_in_html.py"
+      ],
+      "selection_score": 43.07768347295897
+    },
+    {
+      "pair_id": "alteryx__evalml-4179__TO__alteryx__evalml-4258",
+      "repo": "alteryx/evalml",
+      "gap_days": 86.88255787037038,
+      "overlap_files": [
+        "docs/source/release_notes.rst",
+        "evalml/pipelines/pipeline_base.py"
+      ],
+      "selection_score": 42.299198917206304
+    },
+    {
+      "pair_id": "hypothesisworks__hypothesis-2874__TO__hypothesisworks__hypothesis-2970",
+      "repo": "HypothesisWorks/hypothesis",
+      "gap_days": 86.99099537037037,
+      "overlap_files": [
+        "AUTHORS.rst",
+        "hypothesis-python/RELEASE.rst"
+      ],
+      "selection_score": 42.24121241287527
+    },
+    {
+      "pair_id": "ntnu-ihb__pythonfmu-24__TO__ntnu-ihb__pythonfmu-30",
+      "repo": "NTNU-IHB/PythonFMU",
+      "gap_days": 0.21719907407407407,
+      "overlap_files": [
+        "pythonfmu/fmi2slave.py",
+        "pythonfmu/pythonfmu-export/cpp/PyObjectWrapper.cpp"
+      ],
+      "selection_score": 42.22775809732892
+    },
+    {
+      "pair_id": "elastic__curator-1158__TO__elastic__curator-1221",
+      "repo": "elastic/curator",
+      "gap_days": 77.30940972222223,
+      "overlap_files": [
+        "curator/actions.py",
+        "docs/Changelog.rst"
+      ],
+      "selection_score": 41.998465783177465
+    },
+    {
+      "pair_id": "agnostiqhq__covalent-1356__TO__agnostiqhq__covalent-1622",
+      "repo": "AgnostiqHQ/covalent",
+      "gap_days": 199.9082060185185,
+      "overlap_files": [
+        "CHANGELOG.md",
+        "covalent_dispatcher/_cli/service.py"
+      ],
+      "selection_score": 41.712721506183186
+    }
+  ]
+}

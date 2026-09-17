@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_ANY_SYMMETRIC_AGENT_OUTCOMES",
+  "date": "2026-09-09",
+  "protocol_id": "923c32578531cd20e8b43f86856cb0af5b6ef45cd33dd350e446b438f5d9ac3a",
+  "selection_rule": "Include a future pair if and only if its historical state satisfies every deterministic oracle-feasibility requirement in protocol 26. Candidate-state diagnostic outcomes are ignored.",
+  "eligible_future_pair_ids": [
+    "alteryx__woodwork-640__TO__alteryx__woodwork-666",
+    "getmoto__moto-5835__TO__getmoto__moto-5865",
+    "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+    "kinto__kinto-1814__TO__kinto__kinto-2027",
+    "python-markdown__markdown-984__TO__python-markdown__markdown-995"
+  ],
+  "sample": {
+    "eligible_future_pairs": 5,
+    "matched_states_per_pair": 3,
+    "planned_codex_rollouts": 15,
+    "repositories": 5
+  },
+  "completed_diagnostic_audit": {
+    "state_rows": 72,
+    "eligible_state_rows_under_stricter_protocol_25": 13,
+    "future_gold_apply_failures": 53,
+    "future_fail_to_pass_failures_after_gold": 3,
+    "future_test_apply_failures": 2,
+    "state_apply_failures": 1,
+    "pairs_where_all_three_states_passed_stricter_protocol_25": 4,
+    "note": "These candidate-state diagnostics are outcomes and were not used to select the five future pairs."
+  }
+}

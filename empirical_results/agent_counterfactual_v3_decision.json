@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "observed": {
+    "candidates": 8,
+    "probes": 8
+  },
+  "candidate_success": 3,
+  "candidate_unique_by_pair": {
+    "pallets__werkzeug-2979__TO__pallets__werkzeug-2995": 0,
+    "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88": 1
+  },
+  "valid_probes": 1,
+  "valid_probes_by_pair": {
+    "pallets__werkzeug-2979__TO__pallets__werkzeug-2995": 1,
+    "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88": 0
+  },
+  "criteria": {
+    "candidate_yield_at_least_4_of_8": false,
+    "diversity_two_each_or_three_plus_one": false,
+    "probe_yield_at_least_2_and_one_each": false
+  },
+  "decision": "NO_GO"
+}

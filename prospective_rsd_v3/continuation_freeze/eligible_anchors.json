@@ -1,0 +1,57 @@
+[
+  {
+    "anchor_id": "getmoto__moto-5835",
+    "pair_id": "getmoto__moto-5835__TO__getmoto__moto-5843",
+    "unique_candidate_count": 10,
+    "audit_future_pair_id": "getmoto__moto-5835__TO__getmoto__moto-5843",
+    "heldout_future_pair_ids": [
+      "getmoto__moto-5835__TO__getmoto__moto-5865",
+      "getmoto__moto-5835__TO__getmoto__moto-5870",
+      "getmoto__moto-5835__TO__getmoto__moto-5873"
+    ]
+  },
+  {
+    "anchor_id": "jsonpickle__jsonpickle-342",
+    "pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385",
+    "unique_candidate_count": 5,
+    "audit_future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385",
+    "heldout_future_pair_ids": [
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469"
+    ]
+  },
+  {
+    "anchor_id": "kinto__kinto-1814",
+    "pair_id": "kinto__kinto-1814__TO__kinto__kinto-1910",
+    "unique_candidate_count": 8,
+    "audit_future_pair_id": "kinto__kinto-1814__TO__kinto__kinto-1910",
+    "heldout_future_pair_ids": [
+      "kinto__kinto-1814__TO__kinto__kinto-2011",
+      "kinto__kinto-1814__TO__kinto__kinto-2027",
+      "kinto__kinto-1814__TO__kinto__kinto-2229"
+    ]
+  },
+  {
+    "anchor_id": "pymodbus-dev__pymodbus-1533",
+    "pair_id": "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1659",
+    "unique_candidate_count": 3,
+    "audit_future_pair_id": "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1659",
+    "heldout_future_pair_ids": [
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1671",
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1987",
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665"
+    ]
+  },
+  {
+    "anchor_id": "researchobject__ro-crate-py-69",
+    "pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-76",
+    "unique_candidate_count": 9,
+    "audit_future_pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-76",
+    "heldout_future_pair_ids": [
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93",
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95",
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102"
+    ]
+  }
+]

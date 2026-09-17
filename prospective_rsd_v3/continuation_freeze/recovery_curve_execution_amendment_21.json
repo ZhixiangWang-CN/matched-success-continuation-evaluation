@@ -1,0 +1,11 @@
+{
+  "status": "AUTHENTICATION_FAILURE_QUARANTINED",
+  "recorded_at_utc": "2026-09-06T03:37:00Z",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "event": "The yury Claude CLI returned 'Not logged in' before making any tool call.",
+  "affected_rows": 26,
+  "valid_recovery_rollouts": 0,
+  "action": "The process was stopped immediately. Its append-only JSONL and log were renamed with preauth_20260906T0336Z and excluded from all analysis. Claude execution moves to authenticated nugpu and independently restarts every affected curve key.",
+  "scientific_protocol_changed": false,
+  "replacement_rule": "Only fresh nugpu rows with the frozen protocol_id enter the Claude curve. No quarantined row is eligible for replacement or deduplication."
+}

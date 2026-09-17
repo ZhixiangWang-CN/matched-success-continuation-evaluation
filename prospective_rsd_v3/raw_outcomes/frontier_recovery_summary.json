@@ -1,0 +1,899 @@
+{
+  "codex": {
+    "complete": true,
+    "conflict_arms": 20,
+    "recovery_rows": 20,
+    "recovery": {
+      "recovered": 13,
+      "verified": 11,
+      "arms": 20,
+      "verified_not_applicable": 2,
+      "verified_failed": 0,
+      "rounds_per_recovered_arm": {
+        "1": 6,
+        "2": 5,
+        "3": 2
+      },
+      "fatal_reasons": {
+        "recovery_rounds_exhausted": 7
+      },
+      "mean_recovery_tool_calls": 19.153846153846153,
+      "mean_recovery_agent_seconds": 260.9892639013437,
+      "mean_attempt_tool_calls_all_arms": 25.35,
+      "mean_attempt_agent_seconds_all_arms": 389.3388389587402,
+      "mean_attempt_rounds_all_arms": 2.15,
+      "mean_exhausted_tool_calls": 36.857142857142854,
+      "mean_exhausted_agent_seconds": 627.7023354939053,
+      "mean_resolution_lines": 1036.076923076923,
+      "mean_upstream_commit_lines": 1031.4615384615386,
+      "mean_future_tool_calls_after_recovery": 14.0,
+      "invalid_actions": 0
+    },
+    "states": {
+      "low": {
+        "conflict_arms": 10,
+        "recovered": 7,
+        "verified": 6,
+        "success_after_recovery": 5,
+        "conditional_success_given_recovery": 0.7142857142857143,
+        "strict_successes_over_15": 2,
+        "recovery_inclusive_successes_over_15": 7
+      },
+      "high": {
+        "conflict_arms": 10,
+        "recovered": 6,
+        "verified": 5,
+        "success_after_recovery": 4,
+        "conditional_success_given_recovery": 0.6666666666666666,
+        "strict_successes_over_15": 2,
+        "recovery_inclusive_successes_over_15": 6
+      },
+      "historical": {
+        "successes_over_15": 7
+      }
+    },
+    "paired_recovery_inclusive": {
+      "historical_vs_low": {
+        "pairs": 15,
+        "debt": 1,
+        "benefit": 1,
+        "ties": 13,
+        "exact_two_sided_p": 1.0
+      },
+      "historical_vs_high": {
+        "pairs": 15,
+        "debt": 2,
+        "benefit": 1,
+        "ties": 12,
+        "exact_two_sided_p": 1.0
+      },
+      "low_vs_high": {
+        "pairs": 15,
+        "debt": 1,
+        "benefit": 0,
+        "ties": 14,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    "anchors": {
+      "getmoto__moto-5835": {
+        "historical": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 2,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 2,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "jsonpickle__jsonpickle-342": {
+        "historical": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "kinto__kinto-1814": {
+        "historical": {
+          "strict_successes": 3,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 3
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 3
+        }
+      },
+      "pymodbus-dev__pymodbus-1533": {
+        "historical": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 1,
+          "recovered": 1,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 1,
+          "recovered": 1,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "researchobject__ro-crate-py-69": {
+        "historical": {
+          "strict_successes": 2,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 2
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 2,
+          "verified": 2,
+          "success_after_recovery": 1
+        }
+      }
+    },
+    "arm_outcomes": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2011|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2011|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2027|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2027|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2229|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2229|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": null
+      },
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665|low": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93|high": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93|low": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 3,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 2,
+        "fatal": null
+      }
+    }
+  },
+  "claude": {
+    "complete": true,
+    "conflict_arms": 20,
+    "recovery_rows": 20,
+    "recovery": {
+      "recovered": 14,
+      "verified": 12,
+      "arms": 20,
+      "verified_not_applicable": 2,
+      "verified_failed": 0,
+      "rounds_per_recovered_arm": {
+        "1": 9,
+        "3": 2,
+        "2": 3
+      },
+      "fatal_reasons": {
+        "recovery_rounds_exhausted": 6
+      },
+      "mean_recovery_tool_calls": 25.571428571428573,
+      "mean_recovery_agent_seconds": 361.07682035650527,
+      "mean_attempt_tool_calls_all_arms": 34.45,
+      "mean_attempt_agent_seconds_all_arms": 511.0720761179924,
+      "mean_attempt_rounds_all_arms": 1.95,
+      "mean_exhausted_tool_calls": 55.166666666666664,
+      "mean_exhausted_agent_seconds": 861.061006228129,
+      "mean_resolution_lines": 851.5,
+      "mean_upstream_commit_lines": 849.5714285714286,
+      "mean_future_tool_calls_after_recovery": 14.357142857142858,
+      "invalid_actions": 0
+    },
+    "states": {
+      "low": {
+        "conflict_arms": 10,
+        "recovered": 7,
+        "verified": 6,
+        "success_after_recovery": 4,
+        "conditional_success_given_recovery": 0.5714285714285714,
+        "strict_successes_over_15": 2,
+        "recovery_inclusive_successes_over_15": 6
+      },
+      "high": {
+        "conflict_arms": 10,
+        "recovered": 7,
+        "verified": 6,
+        "success_after_recovery": 4,
+        "conditional_success_given_recovery": 0.5714285714285714,
+        "strict_successes_over_15": 1,
+        "recovery_inclusive_successes_over_15": 5
+      },
+      "historical": {
+        "successes_over_15": 6
+      }
+    },
+    "paired_recovery_inclusive": {
+      "historical_vs_low": {
+        "pairs": 15,
+        "debt": 1,
+        "benefit": 1,
+        "ties": 13,
+        "exact_two_sided_p": 1.0
+      },
+      "historical_vs_high": {
+        "pairs": 15,
+        "debt": 1,
+        "benefit": 0,
+        "ties": 14,
+        "exact_two_sided_p": 1.0
+      },
+      "low_vs_high": {
+        "pairs": 15,
+        "debt": 1,
+        "benefit": 0,
+        "ties": 14,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    "anchors": {
+      "getmoto__moto-5835": {
+        "historical": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 2,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "jsonpickle__jsonpickle-342": {
+        "historical": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "kinto__kinto-1814": {
+        "historical": {
+          "strict_successes": 3,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 3
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 3
+        }
+      },
+      "pymodbus-dev__pymodbus-1533": {
+        "historical": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 1,
+          "recovered": 1,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 1,
+          "recovered": 1,
+          "verified": 0,
+          "success_after_recovery": 0
+        }
+      },
+      "researchobject__ro-crate-py-69": {
+        "historical": {
+          "strict_successes": 1,
+          "arms": 3,
+          "conflicts": 0,
+          "recovered": 0,
+          "verified": 0,
+          "success_after_recovery": 0
+        },
+        "low": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 1
+        },
+        "high": {
+          "strict_successes": 0,
+          "arms": 3,
+          "conflicts": 3,
+          "recovered": 3,
+          "verified": 3,
+          "success_after_recovery": 1
+        }
+      }
+    },
+    "arm_outcomes": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": {
+        "recovered": false,
+        "verified": false,
+        "success": false,
+        "rounds": 3,
+        "fatal": "recovery_rounds_exhausted"
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2011|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2011|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2027|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2027|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2229|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "kinto__kinto-1814__TO__kinto__kinto-2229|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 2,
+        "fatal": null
+      },
+      "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-2665|low": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 3,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|low": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93|high": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 2,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-93|low": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 1,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95|high": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 3,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-95|low": {
+        "recovered": true,
+        "verified": true,
+        "success": false,
+        "rounds": 1,
+        "fatal": null
+      }
+    }
+  },
+  "strict_cross_consumer": {
+    "all_arms": 45,
+    "all_agree": 43,
+    "executed_arms": 25,
+    "executed_agree": 23,
+    "mechanically_identical_conflict_arms": 20
+  },
+  "recovery_cross_consumer": {
+    "shared_arms": 20,
+    "recovery_agree": 19,
+    "success_agree": 17
+  },
+  "extended_budget_codex": {
+    "complete": true,
+    "exhausted_arms": 7,
+    "rows": 7,
+    "recovered": 7,
+    "verified": 1,
+    "verified_not_applicable": 6,
+    "success": 4,
+    "future_regression_failed_after_recovery": 2,
+    "future_oracle_failed_after_recovery": 1,
+    "rounds_used": {
+      "6": 6,
+      "1": 1
+    },
+    "fatal_reasons": {},
+    "mean_recovery_tool_calls": 63.57142857142857,
+    "mean_recovery_agent_seconds": 933.1662788050515,
+    "distinct_conflict_commits_per_arm": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": 6,
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|high": 1
+    },
+    "arm_outcomes": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 6,
+        "fatal": null
+      },
+      "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-102|high": {
+        "recovered": true,
+        "verified": true,
+        "success": true,
+        "rounds": 1,
+        "fatal": null
+      }
+    },
+    "by_anchor": {
+      "jsonpickle__jsonpickle-342": {
+        "arms": 6,
+        "recovered": 6,
+        "success": 3
+      },
+      "researchobject__ro-crate-py-69": {
+        "arms": 1,
+        "recovered": 1,
+        "success": 1
+      }
+    },
+    "states_if_extended": {
+      "low": {
+        "additional_successes": 2
+      },
+      "high": {
+        "additional_successes": 2
+      }
+    }
+  },
+  "extended_budget_claude": {
+    "complete": true,
+    "exhausted_arms": 6,
+    "rows": 6,
+    "recovered": 6,
+    "verified": 0,
+    "verified_not_applicable": 6,
+    "success": 3,
+    "future_regression_failed_after_recovery": 2,
+    "future_oracle_failed_after_recovery": 1,
+    "rounds_used": {
+      "6": 4,
+      "8": 2
+    },
+    "fatal_reasons": {},
+    "mean_recovery_tool_calls": 128.16666666666666,
+    "mean_recovery_agent_seconds": 1961.8221211036046,
+    "distinct_conflict_commits_per_arm": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": 6,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": 8,
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": 8
+    },
+    "arm_outcomes": {
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393|low": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|high": {
+        "recovered": true,
+        "verified": false,
+        "success": false,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455|low": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 6,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|high": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 8,
+        "fatal": null
+      },
+      "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469|low": {
+        "recovered": true,
+        "verified": false,
+        "success": true,
+        "rounds": 8,
+        "fatal": null
+      }
+    },
+    "by_anchor": {
+      "jsonpickle__jsonpickle-342": {
+        "arms": 6,
+        "recovered": 6,
+        "success": 3
+      }
+    },
+    "states_if_extended": {
+      "low": {
+        "additional_successes": 2
+      },
+      "high": {
+        "additional_successes": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "n_pairs": 128,
+  "scenarios": {
+    "uniform": {
+      "n": 128,
+      "clean_success": 0.53125,
+      "debt_success": 0.328125,
+      "state_debt": 0.203125,
+      "clean_only": 28,
+      "debt_only_rank_reversals": 2,
+      "discordant_clean_share": 0.9333333333333333
+    },
+    "extension": {
+      "n": 60,
+      "clean_success": 0.6666666666666666,
+      "debt_success": 0.43333333333333335,
+      "state_debt": 0.23333333333333334,
+      "clean_only": 14,
+      "debt_only_rank_reversals": 0,
+      "discordant_clean_share": 1.0
+    },
+    "maintenance": {
+      "n": 16,
+      "clean_success": 0.6875,
+      "debt_success": 0.375,
+      "state_debt": 0.3125,
+      "clean_only": 6,
+      "debt_only_rank_reversals": 1,
+      "discordant_clean_share": 0.8571428571428571
+    },
+    "governance_recovery": {
+      "n": 52,
+      "clean_success": 0.3269230769230769,
+      "debt_success": 0.19230769230769232,
+      "state_debt": 0.1346153846153846,
+      "clean_only": 8,
+      "debt_only_rank_reversals": 1,
+      "discordant_clean_share": 0.8888888888888888
+    }
+  },
+  "models": {
+    "qwen25_7b": {
+      "clean": {
+        "mean": 0.53125,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      },
+      "debt": {
+        "mean": 0.328125,
+        "cvar25_continuation": 0.0,
+        "worst_task": 0.0
+      }
+    }
+  }
+}

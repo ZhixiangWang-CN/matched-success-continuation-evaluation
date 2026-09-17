@@ -1,0 +1,388 @@
+{
+  "label": "mean empirical future failure; no provenance/action features",
+  "n_terminal_states": 20,
+  "leave_family_out_state_text": {
+    "n_states": 20,
+    "mae": 0.16876201800087348,
+    "spearman": 0.47196115895080504,
+    "pairwise_accuracy": 0.8,
+    "pairs": [
+      {
+        "domain": "coding",
+        "family": "cache",
+        "correct": true,
+        "predicted_gap": 0.10511227276392587,
+        "true_gap": 0.36666666666666664
+      },
+      {
+        "domain": "coding",
+        "family": "events",
+        "correct": false,
+        "predicted_gap": -0.195555646001007,
+        "true_gap": 0.33333333333333337
+      },
+      {
+        "domain": "coding",
+        "family": "flags",
+        "correct": true,
+        "predicted_gap": 0.19852163522474314,
+        "true_gap": 0.23333333333333334
+      },
+      {
+        "domain": "coding",
+        "family": "permissions",
+        "correct": true,
+        "predicted_gap": 0.16134428626262132,
+        "true_gap": 0.19999999999999996
+      },
+      {
+        "domain": "coding",
+        "family": "pricing",
+        "correct": true,
+        "predicted_gap": 0.1370393082711181,
+        "true_gap": 0.4333333333333333
+      },
+      {
+        "domain": "coding",
+        "family": "router",
+        "correct": true,
+        "predicted_gap": 0.19804118947364613,
+        "true_gap": 0.08333333333333331
+      },
+      {
+        "domain": "enterprise",
+        "family": "customers",
+        "correct": true,
+        "predicted_gap": 0.0012356986465469344,
+        "true_gap": 0.14583333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "inventory",
+        "correct": true,
+        "predicted_gap": 0.0027381110715437584,
+        "true_gap": 0.0625
+      },
+      {
+        "domain": "enterprise",
+        "family": "orders",
+        "correct": true,
+        "predicted_gap": -0.09979019850463133,
+        "true_gap": -0.02083333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "settings",
+        "correct": false,
+        "predicted_gap": -0.12057686831208347,
+        "true_gap": 0.10416666666666663
+      }
+    ]
+  },
+  "leave_family_out_numeric_only": {
+    "n_states": 20,
+    "mae": 0.1662794008967972,
+    "spearman": 0.4840048248889436,
+    "pairwise_accuracy": 0.8,
+    "pairs": [
+      {
+        "domain": "coding",
+        "family": "cache",
+        "correct": true,
+        "predicted_gap": 0.12163078555923057,
+        "true_gap": 0.36666666666666664
+      },
+      {
+        "domain": "coding",
+        "family": "events",
+        "correct": false,
+        "predicted_gap": -0.2008836206704117,
+        "true_gap": 0.33333333333333337
+      },
+      {
+        "domain": "coding",
+        "family": "flags",
+        "correct": true,
+        "predicted_gap": 0.2048374861536688,
+        "true_gap": 0.23333333333333334
+      },
+      {
+        "domain": "coding",
+        "family": "permissions",
+        "correct": true,
+        "predicted_gap": 0.15565865067578394,
+        "true_gap": 0.19999999999999996
+      },
+      {
+        "domain": "coding",
+        "family": "pricing",
+        "correct": true,
+        "predicted_gap": 0.13477475908266645,
+        "true_gap": 0.4333333333333333
+      },
+      {
+        "domain": "coding",
+        "family": "router",
+        "correct": true,
+        "predicted_gap": 0.19411606025241163,
+        "true_gap": 0.08333333333333331
+      },
+      {
+        "domain": "enterprise",
+        "family": "customers",
+        "correct": true,
+        "predicted_gap": 0.001272404528749549,
+        "true_gap": 0.14583333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "inventory",
+        "correct": true,
+        "predicted_gap": 6.648883760607127e-05,
+        "true_gap": 0.0625
+      },
+      {
+        "domain": "enterprise",
+        "family": "orders",
+        "correct": true,
+        "predicted_gap": -0.11172068885144504,
+        "true_gap": -0.02083333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "settings",
+        "correct": false,
+        "predicted_gap": -0.12750785134033005,
+        "true_gap": 0.10416666666666663
+      }
+    ]
+  },
+  "train_coding_test_enterprise": {
+    "n_states": 8,
+    "mae": 0.2515403937609203,
+    "spearman": 0.6987951807228915,
+    "pairwise_accuracy": 0.5,
+    "pairs": [
+      {
+        "domain": "enterprise",
+        "family": "customers",
+        "correct": false,
+        "predicted_gap": 0.0,
+        "true_gap": 0.14583333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "inventory",
+        "correct": true,
+        "predicted_gap": 0.00036555629370282894,
+        "true_gap": 0.0625
+      },
+      {
+        "domain": "enterprise",
+        "family": "orders",
+        "correct": true,
+        "predicted_gap": -0.002032197452401463,
+        "true_gap": -0.02083333333333337
+      },
+      {
+        "domain": "enterprise",
+        "family": "settings",
+        "correct": false,
+        "predicted_gap": -0.0022272880739430123,
+        "true_gap": 0.10416666666666663
+      }
+    ]
+  },
+  "train_enterprise_test_coding": {
+    "n_states": 12,
+    "mae": 0.173708759634694,
+    "spearman": -0.08070225116958794,
+    "pairwise_accuracy": 0.3333333333333333,
+    "pairs": [
+      {
+        "domain": "coding",
+        "family": "cache",
+        "correct": true,
+        "predicted_gap": 0.0009612324887267043,
+        "true_gap": 0.36666666666666664
+      },
+      {
+        "domain": "coding",
+        "family": "events",
+        "correct": false,
+        "predicted_gap": -0.0012153181369972677,
+        "true_gap": 0.33333333333333337
+      },
+      {
+        "domain": "coding",
+        "family": "flags",
+        "correct": true,
+        "predicted_gap": 4.354635032788323e-06,
+        "true_gap": 0.23333333333333334
+      },
+      {
+        "domain": "coding",
+        "family": "permissions",
+        "correct": false,
+        "predicted_gap": -0.0011050160161654166,
+        "true_gap": 0.19999999999999996
+      },
+      {
+        "domain": "coding",
+        "family": "pricing",
+        "correct": false,
+        "predicted_gap": -0.001600602900751702,
+        "true_gap": 0.4333333333333333
+      },
+      {
+        "domain": "coding",
+        "family": "router",
+        "correct": false,
+        "predicted_gap": -0.00450702180900886,
+        "true_gap": 0.08333333333333331
+      }
+    ]
+  },
+  "states": [
+    {
+      "domain": "coding",
+      "family": "pricing",
+      "state": "clean",
+      "y": 0.23333333333333334,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "pricing",
+      "state": "debt",
+      "y": 0.6666666666666666,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "flags",
+      "state": "clean",
+      "y": 0.38333333333333336,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "flags",
+      "state": "debt",
+      "y": 0.6166666666666667,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "permissions",
+      "state": "clean",
+      "y": 0.4666666666666667,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "permissions",
+      "state": "debt",
+      "y": 0.6666666666666666,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "events",
+      "state": "clean",
+      "y": 0.31666666666666665,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "events",
+      "state": "debt",
+      "y": 0.65,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "router",
+      "state": "clean",
+      "y": 0.26666666666666666,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "router",
+      "state": "debt",
+      "y": 0.35,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "cache",
+      "state": "clean",
+      "y": 0.23333333333333334,
+      "n": 60
+    },
+    {
+      "domain": "coding",
+      "family": "cache",
+      "state": "debt",
+      "y": 0.6,
+      "n": 60
+    },
+    {
+      "domain": "enterprise",
+      "family": "customers",
+      "state": "clean",
+      "y": 0.3333333333333333,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "customers",
+      "state": "debt",
+      "y": 0.4791666666666667,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "orders",
+      "state": "clean",
+      "y": 0.8333333333333334,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "orders",
+      "state": "debt",
+      "y": 0.8125,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "settings",
+      "state": "clean",
+      "y": 0.6875,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "settings",
+      "state": "debt",
+      "y": 0.7916666666666666,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "inventory",
+      "state": "clean",
+      "y": 0.7708333333333334,
+      "n": 48
+    },
+    {
+      "domain": "enterprise",
+      "family": "inventory",
+      "state": "debt",
+      "y": 0.8333333333333334,
+      "n": 48
+    }
+  ]
+}

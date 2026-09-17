@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_RECOVERY_CURVE_OUTCOMES",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "purpose": "Self-contained projections of the already-frozen source manifests for server execution; no rows or fields were changed.",
+  "pairs": {
+    "file": "recovery_curve_pairs_17.jsonl",
+    "rows": 24,
+    "sha256": "296b465bb66aab732b2d8430d6d00715338a16093ca8f6a2c9b350ca2cdd4142"
+  },
+  "candidates": {
+    "file": "recovery_curve_candidates_17.jsonl",
+    "rows": 16,
+    "sha256": "31c2f855e40d4dd4e9d0848d3082af964c6897a006013f693bbf46840c64a16f"
+  }
+}

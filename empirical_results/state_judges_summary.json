@@ -1,0 +1,75 @@
+{
+  "n": 300,
+  "models": {
+    "gemma2_9b": {
+      "accuracy": 0.8,
+      "choose_B_rate": 0.7,
+      "invalid_rate": 0.0,
+      "accuracy_by_order": {
+        "clean_first": 0.6,
+        "debt_first": 1.0
+      },
+      "accuracy_by_domain": {
+        "coding": 0.6666666666666666,
+        "enterprise": 1.0
+      },
+      "reversal_semantic_consistency": 0.6
+    },
+    "llama3_8b": {
+      "accuracy": 0.7666666666666667,
+      "choose_B_rate": 0.6666666666666666,
+      "invalid_rate": 0.0,
+      "accuracy_by_order": {
+        "clean_first": 0.6,
+        "debt_first": 0.9333333333333333
+      },
+      "accuracy_by_domain": {
+        "coding": 0.6666666666666666,
+        "enterprise": 0.9166666666666666
+      },
+      "reversal_semantic_consistency": 0.6
+    },
+    "phi35": {
+      "accuracy": 0.7666666666666667,
+      "choose_B_rate": 0.7333333333333333,
+      "invalid_rate": 0.0,
+      "accuracy_by_order": {
+        "clean_first": 0.5333333333333333,
+        "debt_first": 1.0
+      },
+      "accuracy_by_domain": {
+        "coding": 0.75,
+        "enterprise": 0.7916666666666666
+      },
+      "reversal_semantic_consistency": 0.5333333333333333
+    },
+    "qwen25_72b": {
+      "accuracy": 0.9,
+      "choose_B_rate": 0.6,
+      "invalid_rate": 0.0,
+      "accuracy_by_order": {
+        "clean_first": 0.8,
+        "debt_first": 1.0
+      },
+      "accuracy_by_domain": {
+        "coding": 0.9166666666666666,
+        "enterprise": 0.875
+      },
+      "reversal_semantic_consistency": 0.8
+    },
+    "qwen25_7b": {
+      "accuracy": 0.7,
+      "choose_B_rate": 0.8,
+      "invalid_rate": 0.0,
+      "accuracy_by_order": {
+        "clean_first": 0.4,
+        "debt_first": 1.0
+      },
+      "accuracy_by_domain": {
+        "coding": 0.5833333333333334,
+        "enterprise": 0.875
+      },
+      "reversal_semantic_consistency": 0.4
+    }
+  }
+}

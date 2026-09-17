@@ -1,0 +1,29 @@
+{
+  "candidate_outcomes_available_at_freeze": 0,
+  "date": "2026-09-10",
+  "pair_inclusion": "Only pairs already marked eligible by the earlier structural validation; this precedes the stricter common-snapshot historical replay.",
+  "pairs_sha256": "01a82ae6c98dcc2a26114ab07a2d0a98e5b07147601422676ea8a51e878c5143",
+  "population": "The nine repositories in the earlier multi-future corpus with at least three structurally valid futures but not an entirely valid future set.",
+  "protocol_id": "e25afa410cf83286a760289e5e5cba8a0b0762cf3ffbb84190f4cbce3c09c274",
+  "relationship_to_protocol_30": {
+    "motivation": "Evaluate the previously identified broader cohort without inspecting any candidate-state outcome.",
+    "observed_before_freeze": "Protocol 30 found nine new historically eligible repositories, yielding 14 repositories after combining the prior five, one below the predeclared threshold.",
+    "unchanged": "Strict historical-only feasibility gate, hash-based within-repository selection, candidate producer, and future rollout protocol."
+  },
+  "scan": {
+    "future_pairs": 31,
+    "repositories": 9,
+    "selection_within_repository": "Among strictly eligible historical arms, select minimum SHA256(common-snapshot-broadened-historical-scan-v1-20260910:pair_id)."
+  },
+  "status": "FROZEN_BEFORE_BROADENED_HISTORICAL_SCAN_AND_ANY_CANDIDATE_OUTCOMES",
+  "stopping_rule": "Combine with the prior five and Protocol 30 repositories; proceed only if at least 15 repository-disjoint anchors are available.",
+  "strict_gate": [
+    "historical patch applies",
+    "current FAIL_TO_PASS passes",
+    "future maintainer patch applies",
+    "future tests apply",
+    "future FAIL_TO_PASS passes",
+    "up to 20 future PASS_TO_PASS pass",
+    "current FAIL_TO_PASS remains passing"
+  ]
+}

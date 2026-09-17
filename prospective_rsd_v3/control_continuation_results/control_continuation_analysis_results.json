@@ -1,0 +1,2707 @@
+{
+  "status": "FROZEN_CLAUDE_428_COMPLETE_CASE_ANALYSIS",
+  "primary_population": "428 consumer-matched canonical keys per consumer",
+  "codex_sensitivity_population": "all 437 Codex keys",
+  "analysis_seed": 20260907,
+  "bootstrap_replicates": 100000,
+  "formal_results_sha256": "84d81074aacaf69a2ebeb64737f51db58eddf77eac6e055eaf9eb4cc6cc5cc9e",
+  "analysis_script_sha256": "359aa30aa436fca8df0747dc0a0146e133733651fcb166e9672750a597df4a9b",
+  "historical_excess_recovery": {
+    "codex": {
+      "0": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.2608695652173913,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.5454545454545454,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.2608695652173913,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.391304347826087,
+          "candidate_mean": 0.6521739130434783,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "1": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.24637681159420288,
+          "cluster_bootstrap_ci_low": 0.06944444444444443,
+          "cluster_bootstrap_ci_high": 0.44927536231884047,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.2463768115942029,
+            "two_sided_p": 0.125,
+            "one_sided_greater_p": 0.0625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.22222222222222218,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.44444444444444436,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.3333333333333333,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.888888888888889
+            }
+          },
+          "historical_mean": 0.2608695652173913,
+          "candidate_mean": 0.5072463768115942,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 0.2608695652173913,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.5454545454545454,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.2608695652173913,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.391304347826087,
+          "candidate_mean": 0.6521739130434783,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": 3.108695652173913,
+          "cluster_bootstrap_ci_low": 0.5289855072463768,
+          "cluster_bootstrap_ci_high": 5.9275362318840585,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 3.108695652173913,
+            "two_sided_p": 0.09375,
+            "one_sided_greater_p": 0.046875,
+            "repository_differences": {
+              "alteryx__woodwork-640": 2.0,
+              "cloudpipe__cloudpickle-57": 1.8333333333333333,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 4.0,
+              "kinto__kinto-1814": 6.888888888888889,
+              "pymodbus-dev__pymodbus-1533": -1.5555555555555554,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 11.333333333333334
+            }
+          },
+          "historical_mean": 3.6376811594202905,
+          "candidate_mean": 6.746376811594202,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": 75.78209654662919,
+          "cluster_bootstrap_ci_low": 26.633335412412453,
+          "cluster_bootstrap_ci_high": 130.48584297083426,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 75.7820965466292,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 124.73169539372125,
+              "cloudpipe__cloudpickle-57": 1.0953438149558157,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 101.22808151774935,
+              "kinto__kinto-1814": 161.43197415934668,
+              "pymodbus-dev__pymodbus-1533": 17.61567208502028,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 216.47053835127087
+            }
+          },
+          "historical_mean": 54.84562770525614,
+          "candidate_mean": 130.62772425188535,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "3": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.2463768115942029,
+          "cluster_bootstrap_ci_low": 0.023809523809523808,
+          "cluster_bootstrap_ci_high": 0.5208333333333334,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.24637681159420288,
+            "two_sided_p": 0.125,
+            "one_sided_greater_p": 0.0625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.08333333333333334,
+              "cloudpipe__cloudpickle-57": 0.6666666666666666,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 1.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.16666666666666666
+            }
+          },
+          "historical_mean": 0.043478260869565216,
+          "candidate_mean": 0.2898550724637681,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 0.6884057971014492,
+          "cluster_bootstrap_ci_low": 0.1875,
+          "cluster_bootstrap_ci_high": 1.2463768115942029,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.6884057971014492,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.08333333333333337,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 1.5555555555555554,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.16666666666666663,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 2.5
+            }
+          },
+          "historical_mean": 0.8695652173913045,
+          "candidate_mean": 1.5579710144927537,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": 9.623188405797102,
+          "cluster_bootstrap_ci_low": 2.1956521739130435,
+          "cluster_bootstrap_ci_high": 18.07246376811594,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 9.623188405797102,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": 11.75,
+              "cloudpipe__cloudpickle-57": -4.0555555555555545,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 26.499999999999996,
+              "kinto__kinto-1814": 6.722222222222221,
+              "pymodbus-dev__pymodbus-1533": 4.277777777777778,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 32.5
+            }
+          },
+          "historical_mean": 7.985507246376812,
+          "candidate_mean": 17.608695652173914,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": 143.57219643350965,
+          "cluster_bootstrap_ci_low": 31.776395493083527,
+          "cluster_bootstrap_ci_high": 270.3024874960167,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 143.5721964335096,
+            "two_sided_p": 0.09375,
+            "one_sided_greater_p": 0.046875,
+            "repository_differences": {
+              "alteryx__woodwork-640": 226.13826982180277,
+              "cloudpipe__cloudpickle-57": -45.379393325911614,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 382.4356883896722,
+              "kinto__kinto-1814": 125.65999212529924,
+              "pymodbus-dev__pymodbus-1533": 16.09019100666045,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 471.15484791331824
+            }
+          },
+          "historical_mean": 118.87509160110918,
+          "candidate_mean": 262.44728803461874,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "6": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.06521739130434782,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.1590909090909091,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.06521739130434782,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.16666666666666666,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.3333333333333333,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.06521739130434782,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 1.5507246376811594,
+          "cluster_bootstrap_ci_low": 0.4848484848484849,
+          "cluster_bootstrap_ci_high": 2.7083333333333335,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 1.5507246376811594,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.41666666666666674,
+              "cloudpipe__cloudpickle-57": 3.2777777777777772,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 4.333333333333333,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.2777777777777778,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 2.7222222222222228
+            }
+          },
+          "historical_mean": 0.7971014492753624,
+          "candidate_mean": 2.347826086956522,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": 20.55072463768116,
+          "cluster_bootstrap_ci_low": 6.618055555555557,
+          "cluster_bootstrap_ci_high": 36.32638888888889,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 20.55072463768116,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 14.75,
+              "cloudpipe__cloudpickle-57": 40.833333333333336,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 60.22222222222223,
+              "kinto__kinto-1814": 7.888888888888889,
+              "pymodbus-dev__pymodbus-1533": 4.222222222222222,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 34.55555555555556
+            }
+          },
+          "historical_mean": 7.3768115942028984,
+          "candidate_mean": 27.927536231884055,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": 310.51197776068807,
+          "cluster_bootstrap_ci_low": 99.65077150199147,
+          "cluster_bootstrap_ci_high": 551.7450932523478,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 310.5119777606881,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 266.0428073008855,
+              "cloudpipe__cloudpickle-57": 522.2280638217926,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 965.6581633090972,
+              "kinto__kinto-1814": 102.62833584679498,
+              "pymodbus-dev__pymodbus-1533": 81.86244118213654,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 530.8529538048639
+            }
+          },
+          "historical_mean": 102.3232913259147,
+          "candidate_mean": 412.835269086603,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "10": {
+        "replay_failure": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 45,
+          "estimate": 1.5592592592592593,
+          "cluster_bootstrap_ci_low": 0.3992248062015503,
+          "cluster_bootstrap_ci_high": 2.8680555555555554,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 1.5592592592592591,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.16666666666666674,
+              "cloudpipe__cloudpickle-57": 3.3888888888888893,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 4.888888888888889,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.11111111111111109,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 2.6333333333333333
+            }
+          },
+          "historical_mean": 0.8985507246376813,
+          "candidate_mean": 2.4777777777777783,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 45,
+          "estimate": 19.796296296296294,
+          "cluster_bootstrap_ci_low": 5.190476190476191,
+          "cluster_bootstrap_ci_high": 37.25757575757575,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 19.796296296296294,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": 9.666666666666668,
+              "cloudpipe__cloudpickle-57": 33.55555555555555,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 66.61111111111111,
+              "kinto__kinto-1814": 8.777777777777779,
+              "pymodbus-dev__pymodbus-1533": -0.27777777777777796,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 40.03333333333333
+            }
+          },
+          "historical_mean": 9.594202898550725,
+          "candidate_mean": 29.603703703703705,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 45,
+          "estimate": 305.81187031798896,
+          "cluster_bootstrap_ci_low": 69.28836524486543,
+          "cluster_bootstrap_ci_high": 599.9673495919617,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 305.8118703179889,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 50.09110532204312,
+              "cloudpipe__cloudpickle-57": 484.66933994823034,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 1171.1270989312068,
+              "kinto__kinto-1814": 118.1298491689894,
+              "pymodbus-dev__pymodbus-1533": 17.958254138628647,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 561.9724979798
+            }
+          },
+          "historical_mean": 123.88822569708893,
+          "candidate_mean": 432.45316769723536,
+          "direction": "candidate_minus_historical"
+        }
+      }
+    },
+    "claude": {
+      "0": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.2608695652173913,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.5454545454545454,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.2608695652173913,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.391304347826087,
+          "candidate_mean": 0.6521739130434783,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "1": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.18840579710144925,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.43478260869565216,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.18840579710144925,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.44444444444444436,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.33333333333333337,
+          "candidate_mean": 0.5217391304347826,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": 0.2608695652173913,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.5454545454545454,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.2608695652173913,
+            "two_sided_p": 0.5,
+            "one_sided_greater_p": 0.25,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.391304347826087,
+          "candidate_mean": 0.6521739130434783,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": -5.195652173913045,
+          "cluster_bootstrap_ci_low": -10.810606060606059,
+          "cluster_bootstrap_ci_high": 0.26086956521739163,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -5.195652173913043,
+            "two_sided_p": 0.1875,
+            "one_sided_greater_p": 0.9375,
+            "repository_differences": {
+              "alteryx__woodwork-640": -14.833333333333332,
+              "cloudpipe__cloudpickle-57": -17.555555555555554,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -14.777777777777777,
+              "kinto__kinto-1814": 9.499999999999998,
+              "pymodbus-dev__pymodbus-1533": -7.111111111111111,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 7.043478260869565,
+          "candidate_mean": 1.847826086956522,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": -60.97420244804327,
+          "cluster_bootstrap_ci_low": -136.00934533278146,
+          "cluster_bootstrap_ci_high": 13.628386281538694,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -60.97420244804327,
+            "two_sided_p": 0.25,
+            "one_sided_greater_p": 0.890625,
+            "repository_differences": {
+              "alteryx__woodwork-640": -193.893388013045,
+              "cloudpipe__cloudpickle-57": -187.72602756818137,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -213.27839197052847,
+              "kinto__kinto-1814": 140.49086035622489,
+              "pymodbus-dev__pymodbus-1533": -85.84804255432552,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 8.154974977175394
+            }
+          },
+          "historical_mean": 98.68921872152796,
+          "candidate_mean": 37.715016273484714,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "3": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.4710144927536231,
+          "cluster_bootstrap_ci_low": 0.18115942028985504,
+          "cluster_bootstrap_ci_high": 0.7727272727272727,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.4710144927536231,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.75,
+              "cloudpipe__cloudpickle-57": 0.8888888888888888,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.8888888888888888,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.3333333333333333,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.028985507246376815,
+          "candidate_mean": 0.5,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": -0.27536231884057966,
+          "cluster_bootstrap_ci_low": -0.8181818181818182,
+          "cluster_bootstrap_ci_high": 0.2608695652173913,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.2753623188405797,
+            "two_sided_p": 0.53125,
+            "one_sided_greater_p": 0.84375,
+            "repository_differences": {
+              "alteryx__woodwork-640": -1.5,
+              "cloudpipe__cloudpickle-57": -2.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -1.0,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": -0.11111111111111109,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.9999999999999999,
+          "candidate_mean": 0.7246376811594203,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": -14.471014492753625,
+          "cluster_bootstrap_ci_low": -26.695652173913043,
+          "cluster_bootstrap_ci_high": -2.2463768115942027,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -14.471014492753625,
+            "two_sided_p": 0.1875,
+            "one_sided_greater_p": 0.9375,
+            "repository_differences": {
+              "alteryx__woodwork-640": -44.666666666666664,
+              "cloudpipe__cloudpickle-57": -59.77777777777778,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -23.666666666666668,
+              "kinto__kinto-1814": 10.277777777777779,
+              "pymodbus-dev__pymodbus-1533": -8.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 18.27536231884058,
+          "candidate_mean": 3.804347826086957,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": -167.36815469679624,
+          "cluster_bootstrap_ci_low": -303.9873895943165,
+          "cluster_bootstrap_ci_high": -26.427273919616926,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -167.36815469679627,
+            "two_sided_p": 0.1875,
+            "one_sided_greater_p": 0.921875,
+            "repository_differences": {
+              "alteryx__woodwork-640": -611.1995222369831,
+              "cloudpipe__cloudpickle-57": -636.6317290067672,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -261.8636131154166,
+              "kinto__kinto-1814": 153.08639346228705,
+              "pymodbus-dev__pymodbus-1533": -137.74223669370016,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 7.461680836147732
+            }
+          },
+          "historical_mean": 239.41316042084628,
+          "candidate_mean": 72.04500572404999,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "6": {
+        "replay_failure": {
+          "n_paired_arms": 46,
+          "estimate": 0.4927536231884058,
+          "cluster_bootstrap_ci_low": 0.1884057971014493,
+          "cluster_bootstrap_ci_high": 0.8030303030303031,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.4927536231884058,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.75,
+              "cloudpipe__cloudpickle-57": 1.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.9444444444444445,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.3333333333333333,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.4927536231884058,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 46,
+          "estimate": -0.24637681159420288,
+          "cluster_bootstrap_ci_low": -0.7348484848484848,
+          "cluster_bootstrap_ci_high": 0.25,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.24637681159420288,
+            "two_sided_p": 0.5625,
+            "one_sided_greater_p": 0.75,
+            "repository_differences": {
+              "alteryx__woodwork-640": -1.75,
+              "cloudpipe__cloudpickle-57": -2.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -0.38888888888888884,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": -0.3333333333333333,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 0.7536231884057972,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 46,
+          "estimate": -14.115942028985506,
+          "cluster_bootstrap_ci_low": -24.780303030303028,
+          "cluster_bootstrap_ci_high": -2.506944444444444,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -14.115942028985506,
+            "two_sided_p": 0.125,
+            "one_sided_greater_p": 0.96875,
+            "repository_differences": {
+              "alteryx__woodwork-640": -47.75,
+              "cloudpipe__cloudpickle-57": -56.333333333333336,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -16.277777777777775,
+              "kinto__kinto-1814": 9.111111111111112,
+              "pymodbus-dev__pymodbus-1533": -12.888888888888888,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 18.02898550724638,
+          "candidate_mean": 3.91304347826087,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 46,
+          "estimate": -140.8444970898006,
+          "cluster_bootstrap_ci_low": -259.24415141430455,
+          "cluster_bootstrap_ci_high": -10.973286281029383,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -140.84449708980063,
+            "two_sided_p": 0.1875,
+            "one_sided_greater_p": 0.921875,
+            "repository_differences": {
+              "alteryx__woodwork-640": -524.346898496151,
+              "cloudpipe__cloudpickle-57": -573.8724567095438,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -153.41871003309885,
+              "kinto__kinto-1814": 162.02872215376956,
+              "pymodbus-dev__pymodbus-1533": -171.82950429121652,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 6.848736855718826
+            }
+          },
+          "historical_mean": 215.71917718044227,
+          "candidate_mean": 74.8746800906416,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "10": {
+        "replay_failure": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_sessions": {
+          "n_paired_arms": 45,
+          "estimate": 1.3925925925925926,
+          "cluster_bootstrap_ci_low": 0.3181818181818182,
+          "cluster_bootstrap_ci_high": 2.651515151515152,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 1.3925925925925926,
+            "two_sided_p": 0.0625,
+            "one_sided_greater_p": 0.03125,
+            "repository_differences": {
+              "alteryx__woodwork-640": -0.16666666666666652,
+              "cloudpipe__cloudpickle-57": 3.1666666666666665,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 4.777777777777778,
+              "kinto__kinto-1814": 1.0,
+              "pymodbus-dev__pymodbus-1533": 0.27777777777777773,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 1.6
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 2.414814814814815,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_tool_calls": {
+          "n_paired_arms": 45,
+          "estimate": 29.2037037037037,
+          "cluster_bootstrap_ci_low": 5.570921985815603,
+          "cluster_bootstrap_ci_high": 57.4645390070922,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 29.20370370370371,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 3.9166666666666643,
+              "cloudpipe__cloudpickle-57": 65.05555555555556,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 107.72222222222221,
+              "kinto__kinto-1814": 13.055555555555555,
+              "pymodbus-dev__pymodbus-1533": 4.111111111111112,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 31.766666666666662
+            }
+          },
+          "historical_mean": 18.6231884057971,
+          "candidate_mean": 48.24074074074075,
+          "direction": "candidate_minus_historical"
+        },
+        "recovery_agent_seconds": {
+          "n_paired_arms": 45,
+          "estimate": 412.1975609311351,
+          "cluster_bootstrap_ci_low": 89.53196517626445,
+          "cluster_bootstrap_ci_high": 824.6053974529108,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 412.1975609311351,
+            "two_sided_p": 0.03125,
+            "one_sided_greater_p": 0.015625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 250.01340343554813,
+              "cloudpipe__cloudpickle-57": 773.1957589917712,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 1599.4820046159957,
+              "kinto__kinto-1814": 126.00282389587825,
+              "pymodbus-dev__pymodbus-1533": 35.60544612672595,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 468.62408527533205
+            }
+          },
+          "historical_mean": 221.93406502751338,
+          "candidate_mean": 639.0634940703709,
+          "direction": "candidate_minus_historical"
+        }
+      }
+    }
+  },
+  "downstream_continuation_debt": {
+    "codex": {
+      "pooled": {
+        "replay_success": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 45,
+          "estimate": -0.007407407407407407,
+          "cluster_bootstrap_ci_low": -0.022222222222222223,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.007407407407407407,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -0.05555555555555555,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5555555555555556,
+          "candidate_mean": 0.5629629629629629,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.37777777777777777,
+          "candidate_mean": 0.37777777777777777,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 45,
+          "estimate": -0.007407407407407407,
+          "cluster_bootstrap_ci_low": -0.022222222222222223,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.007407407407407407,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -0.05555555555555555,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5555555555555556,
+          "candidate_mean": 0.5629629629629629,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "s0": {
+        "replay_success": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5652173913043478,
+          "candidate_mean": 0.5652173913043478,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.391304347826087,
+          "candidate_mean": 0.391304347826087,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5652173913043478,
+          "candidate_mean": 0.5652173913043478,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "s1": {
+        "replay_success": {
+          "n_paired_arms": 22,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 22,
+          "estimate": -0.01515151515151515,
+          "cluster_bootstrap_ci_low": -0.045454545454545456,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.01515151515151515,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -0.1111111111111111,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5454545454545454,
+          "candidate_mean": 0.5606060606060606,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 22,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.36363636363636365,
+          "candidate_mean": 0.36363636363636365,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 22,
+          "estimate": -0.01515151515151515,
+          "cluster_bootstrap_ci_low": -0.045454545454545456,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.01515151515151515,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": -0.1111111111111111,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5454545454545454,
+          "candidate_mean": 0.5606060606060606,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 22,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      }
+    },
+    "claude": {
+      "pooled": {
+        "replay_success": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 45,
+          "estimate": 0.04444444444444443,
+          "cluster_bootstrap_ci_low": -0.015151515151515159,
+          "cluster_bootstrap_ci_high": 0.10370370370370371,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.04444444444444444,
+            "two_sided_p": 0.40625,
+            "one_sided_greater_p": 0.203125,
+            "repository_differences": {
+              "alteryx__woodwork-640": -0.08333333333333334,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.05555555555555556,
+              "jsonpickle__jsonpickle-342": 0.16666666666666666,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": -0.05555555555555555,
+              "researchobject__ro-crate-py-69": 0.13333333333333333
+            }
+          },
+          "historical_mean": 0.5925925925925927,
+          "candidate_mean": 0.548148148148148,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 45,
+          "estimate": -2.4671622769447924e-18,
+          "cluster_bootstrap_ci_low": -0.02898550724637681,
+          "cluster_bootstrap_ci_high": 0.03875968992248062,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -1.2335811384723962e-18,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 0.625,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.05555555555555556,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": -0.05555555555555555,
+              "researchobject__ro-crate-py-69": 0.13333333333333333
+            }
+          },
+          "historical_mean": 0.3703703703703703,
+          "candidate_mean": 0.3703703703703703,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 45,
+          "estimate": 0.04444444444444443,
+          "cluster_bootstrap_ci_low": -0.015151515151515159,
+          "cluster_bootstrap_ci_high": 0.10370370370370371,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.04444444444444444,
+            "two_sided_p": 0.40625,
+            "one_sided_greater_p": 0.203125,
+            "repository_differences": {
+              "alteryx__woodwork-640": -0.08333333333333334,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.05555555555555556,
+              "jsonpickle__jsonpickle-342": 0.16666666666666666,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": -0.05555555555555555,
+              "researchobject__ro-crate-py-69": 0.13333333333333333
+            }
+          },
+          "historical_mean": 0.5925925925925927,
+          "candidate_mean": 0.548148148148148,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 45,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "s0": {
+        "replay_success": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 23,
+          "estimate": 0.05797101449275361,
+          "cluster_bootstrap_ci_low": -0.015151515151515155,
+          "cluster_bootstrap_ci_high": 0.13043478260869565,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.05797101449275362,
+            "two_sided_p": 0.375,
+            "one_sided_greater_p": 0.1875,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.11111111111111112,
+              "jsonpickle__jsonpickle-342": 0.1111111111111111,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.2222222222222222
+            }
+          },
+          "historical_mean": 0.5942028985507246,
+          "candidate_mean": 0.5362318840579711,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 23,
+          "estimate": 0.014492753623188403,
+          "cluster_bootstrap_ci_low": -0.043478260869565216,
+          "cluster_bootstrap_ci_high": 0.08695652173913043,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.014492753623188403,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 0.5,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.11111111111111112,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.2222222222222222
+            }
+          },
+          "historical_mean": 0.3768115942028985,
+          "candidate_mean": 0.3623188405797101,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 23,
+          "estimate": 0.05797101449275361,
+          "cluster_bootstrap_ci_low": -0.015151515151515155,
+          "cluster_bootstrap_ci_high": 0.13043478260869565,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.05797101449275362,
+            "two_sided_p": 0.375,
+            "one_sided_greater_p": 0.1875,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": -0.11111111111111112,
+              "jsonpickle__jsonpickle-342": 0.1111111111111111,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.2222222222222222
+            }
+          },
+          "historical_mean": 0.5942028985507246,
+          "candidate_mean": 0.5362318840579711,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 23,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      },
+      "s1": {
+        "replay_success": {
+          "n_paired_arms": 22,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 1.0,
+          "candidate_mean": 1.0,
+          "direction": "historical_minus_candidate"
+        },
+        "end_to_end_future_certified": {
+          "n_paired_arms": 22,
+          "estimate": 0.030303030303030297,
+          "cluster_bootstrap_ci_low": -0.03508771929824562,
+          "cluster_bootstrap_ci_high": 0.09722222222222221,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.030303030303030297,
+            "two_sided_p": 0.75,
+            "one_sided_greater_p": 0.375,
+            "repository_differences": {
+              "alteryx__woodwork-640": -0.16666666666666669,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.2222222222222222,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": -0.1111111111111111,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5909090909090909,
+          "candidate_mean": 0.5606060606060606,
+          "direction": "historical_minus_candidate"
+        },
+        "joint_prior_future_certified": {
+          "n_paired_arms": 22,
+          "estimate": -0.01515151515151515,
+          "cluster_bootstrap_ci_low": -0.041666666666666664,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": -0.01515151515151515,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": -0.1111111111111111,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.3636363636363636,
+          "candidate_mean": 0.37878787878787873,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_success_conditional": {
+          "n_paired_arms": 22,
+          "estimate": 0.030303030303030297,
+          "cluster_bootstrap_ci_low": -0.03333333333333334,
+          "cluster_bootstrap_ci_high": 0.09722222222222222,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.030303030303030297,
+            "two_sided_p": 0.75,
+            "one_sided_greater_p": 0.375,
+            "repository_differences": {
+              "alteryx__woodwork-640": -0.16666666666666669,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.2222222222222222,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.2222222222222222,
+              "python-markdown__markdown-984": -0.1111111111111111,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.5909090909090909,
+          "candidate_mean": 0.5606060606060606,
+          "direction": "historical_minus_candidate"
+        },
+        "downstream_verifier_missing_given_replay": {
+          "n_paired_arms": 22,
+          "estimate": 0.0,
+          "cluster_bootstrap_ci_low": 0.0,
+          "cluster_bootstrap_ci_high": 0.0,
+          "exact_repository_sign_flip": {
+            "n_repository_clusters": 8,
+            "observed": 0.0,
+            "two_sided_p": 1.0,
+            "one_sided_greater_p": 1.0,
+            "repository_differences": {
+              "alteryx__woodwork-640": 0.0,
+              "cloudpipe__cloudpickle-57": 0.0,
+              "getmoto__moto-5835": 0.0,
+              "jsonpickle__jsonpickle-342": 0.0,
+              "kinto__kinto-1814": 0.0,
+              "pymodbus-dev__pymodbus-1533": 0.0,
+              "python-markdown__markdown-984": 0.0,
+              "researchobject__ro-crate-py-69": 0.0
+            }
+          },
+          "historical_mean": 0.0,
+          "candidate_mean": 0.0,
+          "direction": "candidate_minus_historical"
+        }
+      }
+    }
+  },
+  "codex_full_437_sensitivity": {
+    "historical_excess_recovery": {
+      "codex": {
+        "0": {
+          "replay_failure": {
+            "n_paired_arms": 46,
+            "estimate": 0.2608695652173913,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.5454545454545454,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.2608695652173913,
+              "two_sided_p": 0.5,
+              "one_sided_greater_p": 0.25,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 1.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 1.0
+              }
+            },
+            "historical_mean": 0.391304347826087,
+            "candidate_mean": 0.6521739130434783,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_sessions": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_tool_calls": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_agent_seconds": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "1": {
+          "replay_failure": {
+            "n_paired_arms": 46,
+            "estimate": 0.24637681159420288,
+            "cluster_bootstrap_ci_low": 0.06944444444444443,
+            "cluster_bootstrap_ci_high": 0.44927536231884047,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.2463768115942029,
+              "two_sided_p": 0.125,
+              "one_sided_greater_p": 0.0625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.22222222222222218,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.44444444444444436,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.3333333333333333,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.888888888888889
+              }
+            },
+            "historical_mean": 0.2608695652173913,
+            "candidate_mean": 0.5072463768115942,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_sessions": {
+            "n_paired_arms": 46,
+            "estimate": 0.2608695652173913,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.5454545454545454,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.2608695652173913,
+              "two_sided_p": 0.5,
+              "one_sided_greater_p": 0.25,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 1.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 1.0
+              }
+            },
+            "historical_mean": 0.391304347826087,
+            "candidate_mean": 0.6521739130434783,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_tool_calls": {
+            "n_paired_arms": 46,
+            "estimate": 3.108695652173913,
+            "cluster_bootstrap_ci_low": 0.5289855072463768,
+            "cluster_bootstrap_ci_high": 5.9275362318840585,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 3.108695652173913,
+              "two_sided_p": 0.09375,
+              "one_sided_greater_p": 0.046875,
+              "repository_differences": {
+                "alteryx__woodwork-640": 2.0,
+                "cloudpipe__cloudpickle-57": 1.8333333333333333,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 4.0,
+                "kinto__kinto-1814": 6.888888888888889,
+                "pymodbus-dev__pymodbus-1533": -1.5555555555555554,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 11.333333333333334
+              }
+            },
+            "historical_mean": 3.6376811594202905,
+            "candidate_mean": 6.746376811594202,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_agent_seconds": {
+            "n_paired_arms": 46,
+            "estimate": 75.78209654662919,
+            "cluster_bootstrap_ci_low": 26.633335412412453,
+            "cluster_bootstrap_ci_high": 130.48584297083426,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 75.7820965466292,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 124.73169539372125,
+                "cloudpipe__cloudpickle-57": 1.0953438149558157,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 101.22808151774935,
+                "kinto__kinto-1814": 161.43197415934668,
+                "pymodbus-dev__pymodbus-1533": 17.61567208502028,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 216.47053835127087
+              }
+            },
+            "historical_mean": 54.84562770525614,
+            "candidate_mean": 130.62772425188535,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "3": {
+          "replay_failure": {
+            "n_paired_arms": 46,
+            "estimate": 0.2463768115942029,
+            "cluster_bootstrap_ci_low": 0.023809523809523808,
+            "cluster_bootstrap_ci_high": 0.5208333333333334,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.24637681159420288,
+              "two_sided_p": 0.125,
+              "one_sided_greater_p": 0.0625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.08333333333333334,
+                "cloudpipe__cloudpickle-57": 0.6666666666666666,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 1.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.16666666666666666
+              }
+            },
+            "historical_mean": 0.043478260869565216,
+            "candidate_mean": 0.2898550724637681,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_sessions": {
+            "n_paired_arms": 46,
+            "estimate": 0.6884057971014492,
+            "cluster_bootstrap_ci_low": 0.1875,
+            "cluster_bootstrap_ci_high": 1.2463768115942029,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.6884057971014492,
+              "two_sided_p": 0.0625,
+              "one_sided_greater_p": 0.03125,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.08333333333333337,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 1.5555555555555554,
+                "kinto__kinto-1814": 1.0,
+                "pymodbus-dev__pymodbus-1533": 0.16666666666666663,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 2.5
+              }
+            },
+            "historical_mean": 0.8695652173913045,
+            "candidate_mean": 1.5579710144927537,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_tool_calls": {
+            "n_paired_arms": 46,
+            "estimate": 9.623188405797102,
+            "cluster_bootstrap_ci_low": 2.1956521739130435,
+            "cluster_bootstrap_ci_high": 18.07246376811594,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 9.623188405797102,
+              "two_sided_p": 0.0625,
+              "one_sided_greater_p": 0.03125,
+              "repository_differences": {
+                "alteryx__woodwork-640": 11.75,
+                "cloudpipe__cloudpickle-57": -4.0555555555555545,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 26.499999999999996,
+                "kinto__kinto-1814": 6.722222222222221,
+                "pymodbus-dev__pymodbus-1533": 4.277777777777778,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 32.5
+              }
+            },
+            "historical_mean": 7.985507246376812,
+            "candidate_mean": 17.608695652173914,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_agent_seconds": {
+            "n_paired_arms": 46,
+            "estimate": 143.57219643350965,
+            "cluster_bootstrap_ci_low": 31.776395493083527,
+            "cluster_bootstrap_ci_high": 270.3024874960167,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 143.5721964335096,
+              "two_sided_p": 0.09375,
+              "one_sided_greater_p": 0.046875,
+              "repository_differences": {
+                "alteryx__woodwork-640": 226.13826982180277,
+                "cloudpipe__cloudpickle-57": -45.379393325911614,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 382.4356883896722,
+                "kinto__kinto-1814": 125.65999212529924,
+                "pymodbus-dev__pymodbus-1533": 16.09019100666045,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 471.15484791331824
+              }
+            },
+            "historical_mean": 118.87509160110918,
+            "candidate_mean": 262.44728803461874,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "6": {
+          "replay_failure": {
+            "n_paired_arms": 46,
+            "estimate": 0.06521739130434782,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.1590909090909091,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.06521739130434782,
+              "two_sided_p": 0.5,
+              "one_sided_greater_p": 0.25,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.16666666666666666,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.3333333333333333,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.06521739130434782,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_sessions": {
+            "n_paired_arms": 46,
+            "estimate": 1.5507246376811594,
+            "cluster_bootstrap_ci_low": 0.4848484848484849,
+            "cluster_bootstrap_ci_high": 2.7083333333333335,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 1.5507246376811594,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.41666666666666674,
+                "cloudpipe__cloudpickle-57": 3.2777777777777772,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 4.333333333333333,
+                "kinto__kinto-1814": 1.0,
+                "pymodbus-dev__pymodbus-1533": 0.2777777777777778,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 2.7222222222222228
+              }
+            },
+            "historical_mean": 0.7971014492753624,
+            "candidate_mean": 2.347826086956522,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_tool_calls": {
+            "n_paired_arms": 46,
+            "estimate": 20.55072463768116,
+            "cluster_bootstrap_ci_low": 6.618055555555557,
+            "cluster_bootstrap_ci_high": 36.32638888888889,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 20.55072463768116,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 14.75,
+                "cloudpipe__cloudpickle-57": 40.833333333333336,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 60.22222222222223,
+                "kinto__kinto-1814": 7.888888888888889,
+                "pymodbus-dev__pymodbus-1533": 4.222222222222222,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 34.55555555555556
+              }
+            },
+            "historical_mean": 7.3768115942028984,
+            "candidate_mean": 27.927536231884055,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_agent_seconds": {
+            "n_paired_arms": 46,
+            "estimate": 310.51197776068807,
+            "cluster_bootstrap_ci_low": 99.65077150199147,
+            "cluster_bootstrap_ci_high": 551.7450932523478,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 310.5119777606881,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 266.0428073008855,
+                "cloudpipe__cloudpickle-57": 522.2280638217926,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 965.6581633090972,
+                "kinto__kinto-1814": 102.62833584679498,
+                "pymodbus-dev__pymodbus-1533": 81.86244118213654,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 530.8529538048639
+              }
+            },
+            "historical_mean": 102.3232913259147,
+            "candidate_mean": 412.835269086603,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "10": {
+          "replay_failure": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_sessions": {
+            "n_paired_arms": 46,
+            "estimate": 1.5942028985507246,
+            "cluster_bootstrap_ci_low": 0.4318181818181819,
+            "cluster_bootstrap_ci_high": 2.875,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 1.5942028985507246,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.16666666666666674,
+                "cloudpipe__cloudpickle-57": 3.3888888888888893,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 4.888888888888889,
+                "kinto__kinto-1814": 1.0,
+                "pymodbus-dev__pymodbus-1533": 0.11111111111111109,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 2.722222222222222
+              }
+            },
+            "historical_mean": 0.8985507246376813,
+            "candidate_mean": 2.492753623188406,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_tool_calls": {
+            "n_paired_arms": 46,
+            "estimate": 20.19565217391304,
+            "cluster_bootstrap_ci_low": 5.190476190476191,
+            "cluster_bootstrap_ci_high": 37.29710144927535,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 20.195652173913043,
+              "two_sided_p": 0.0625,
+              "one_sided_greater_p": 0.03125,
+              "repository_differences": {
+                "alteryx__woodwork-640": 9.666666666666668,
+                "cloudpipe__cloudpickle-57": 33.55555555555555,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 66.61111111111111,
+                "kinto__kinto-1814": 8.777777777777779,
+                "pymodbus-dev__pymodbus-1533": -0.27777777777777796,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 39.72222222222222
+              }
+            },
+            "historical_mean": 9.594202898550725,
+            "candidate_mean": 29.789855072463773,
+            "direction": "candidate_minus_historical"
+          },
+          "recovery_agent_seconds": {
+            "n_paired_arms": 46,
+            "estimate": 317.30074469593995,
+            "cluster_bootstrap_ci_low": 74.60063120593195,
+            "cluster_bootstrap_ci_high": 606.8089761146601,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 317.3007446959399,
+              "two_sided_p": 0.03125,
+              "one_sided_greater_p": 0.015625,
+              "repository_differences": {
+                "alteryx__woodwork-640": 50.09110532204312,
+                "cloudpipe__cloudpickle-57": 484.66933994823034,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 1171.1270989312068,
+                "kinto__kinto-1814": 118.1298491689894,
+                "pymodbus-dev__pymodbus-1533": 17.958254138628647,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 607.3604302671221
+              }
+            },
+            "historical_mean": 123.88822569708893,
+            "candidate_mean": 441.18897039302874,
+            "direction": "candidate_minus_historical"
+          }
+        }
+      }
+    },
+    "downstream_continuation_debt": {
+      "codex": {
+        "pooled": {
+          "replay_success": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 1.0,
+            "candidate_mean": 1.0,
+            "direction": "historical_minus_candidate"
+          },
+          "end_to_end_future_certified": {
+            "n_paired_arms": 46,
+            "estimate": -0.007246376811594202,
+            "cluster_bootstrap_ci_low": -0.021739130434782608,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": -0.007246376811594202,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": -0.05555555555555555,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.572463768115942,
+            "direction": "historical_minus_candidate"
+          },
+          "joint_prior_future_certified": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.391304347826087,
+            "candidate_mean": 0.391304347826087,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_success_conditional": {
+            "n_paired_arms": 46,
+            "estimate": -0.007246376811594202,
+            "cluster_bootstrap_ci_low": -0.021739130434782608,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": -0.007246376811594202,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": -0.05555555555555555,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.572463768115942,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_verifier_missing_given_replay": {
+            "n_paired_arms": 46,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "s0": {
+          "replay_success": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 1.0,
+            "candidate_mean": 1.0,
+            "direction": "historical_minus_candidate"
+          },
+          "end_to_end_future_certified": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.5652173913043478,
+            "direction": "historical_minus_candidate"
+          },
+          "joint_prior_future_certified": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.391304347826087,
+            "candidate_mean": 0.391304347826087,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_success_conditional": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.5652173913043478,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_verifier_missing_given_replay": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          }
+        },
+        "s1": {
+          "replay_success": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 1.0,
+            "candidate_mean": 1.0,
+            "direction": "historical_minus_candidate"
+          },
+          "end_to_end_future_certified": {
+            "n_paired_arms": 23,
+            "estimate": -0.014492753623188404,
+            "cluster_bootstrap_ci_low": -0.043478260869565216,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": -0.014492753623188404,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": -0.1111111111111111,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.5797101449275361,
+            "direction": "historical_minus_candidate"
+          },
+          "joint_prior_future_certified": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.391304347826087,
+            "candidate_mean": 0.391304347826087,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_success_conditional": {
+            "n_paired_arms": 23,
+            "estimate": -0.014492753623188404,
+            "cluster_bootstrap_ci_low": -0.043478260869565216,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": -0.014492753623188404,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": -0.1111111111111111,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.5652173913043478,
+            "candidate_mean": 0.5797101449275361,
+            "direction": "historical_minus_candidate"
+          },
+          "downstream_verifier_missing_given_replay": {
+            "n_paired_arms": 23,
+            "estimate": 0.0,
+            "cluster_bootstrap_ci_low": 0.0,
+            "cluster_bootstrap_ci_high": 0.0,
+            "exact_repository_sign_flip": {
+              "n_repository_clusters": 8,
+              "observed": 0.0,
+              "two_sided_p": 1.0,
+              "one_sided_greater_p": 1.0,
+              "repository_differences": {
+                "alteryx__woodwork-640": 0.0,
+                "cloudpipe__cloudpickle-57": 0.0,
+                "getmoto__moto-5835": 0.0,
+                "jsonpickle__jsonpickle-342": 0.0,
+                "kinto__kinto-1814": 0.0,
+                "pymodbus-dev__pymodbus-1533": 0.0,
+                "python-markdown__markdown-984": 0.0,
+                "researchobject__ro-crate-py-69": 0.0
+              }
+            },
+            "historical_mean": 0.0,
+            "candidate_mean": 0.0,
+            "direction": "candidate_minus_historical"
+          }
+        }
+      }
+    }
+  },
+  "source_formal_results_sha256": "96916a7645060e59af33c44e1cf15bfeb67f9ffe0ac44ebcc5d00027d3957167",
+  "source_analysis_script_sha256": "359aa30aa436fca8df0747dc0a0146e133733651fcb166e9672750a597df4a9b",
+  "anonymous_packaging_note": "Hashes above bind the anonymized package inputs; source hashes are retained separately."
+}

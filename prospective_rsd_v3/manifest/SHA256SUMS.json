@@ -1,0 +1,7 @@
+{
+  "anchors.json": "4c49edcf72a65570a38fe3d5608c8fabc740708c9cc254d4248f015de544bdc2",
+  "freeze_metadata.json": "6e17ab8b7e3720b150684ed9bbee16b4a28b9091ce6e1002f49d8ff6cbc674e5",
+  "futures.jsonl": "691d8567b682deee20e877f3b889089acdad87e8e50d57fe5746c89e5b83953a",
+  "pairs.jsonl": "691d8567b682deee20e877f3b889089acdad87e8e50d57fe5746c89e5b83953a",
+  "verifiers.template.json": "6c5f355eddcbfb8830144de8835c4f666e29c4dbbbcd3785fe613e22fe5335a3"
+}

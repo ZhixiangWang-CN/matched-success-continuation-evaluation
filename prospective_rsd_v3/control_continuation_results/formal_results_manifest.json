@@ -1,0 +1,71 @@
+{
+  "combined_rows": 865,
+  "combined_unique_keys": 865,
+  "consumers": {
+    "claude": {
+      "candidate_rows": 129,
+      "coverage": 0.9794050343249427,
+      "expected_rows": 437,
+      "future_requested": 198,
+      "historical_rows": 299,
+      "infrastructure_errors": 0,
+      "missing_keys": [
+        "researchobject__ro-crate-py-69|s0|researchobject__ro-crate-py-102|claude|B10|R2|future",
+        "researchobject__ro-crate-py-69|s0|researchobject__ro-crate-py-93|claude|B10|R0|future",
+        "researchobject__ro-crate-py-69|s0|researchobject__ro-crate-py-93|claude|B10|R1|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-102|claude|B10|R0|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-93|claude|B10|R0|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-93|claude|B10|R2|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-95|claude|B10|R0|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-95|claude|B10|R1|future",
+        "researchobject__ro-crate-py-69|s1|researchobject__ro-crate-py-95|claude|B10|R2|future"
+      ],
+      "missing_rows": 9,
+      "rows": 428,
+      "source_files": {
+        "claude_shard0.jsonl": "006706186aaa375b030e66791a5d7489aadb584bfdaaccd0829a118a95a0b363",
+        "claude_shard1.jsonl": "65303543e1d42c4946ec8423066ceadfc6d4c728bde86a97f0568a5432dd675a",
+        "claude_shard2.jsonl": "bc61d71653fc03aaf401e7faf85998a3d884972b2dd61f36bec5356df9b4d401",
+        "claude_shard3.jsonl": "15351a6bbc3158ca2ae9a0e9b36c5eb5181be57fa67b5fca9af5699c37fa1984"
+      },
+      "unique_keys": 428
+    },
+    "codex": {
+      "candidate_rows": 138,
+      "coverage": 1.0,
+      "expected_rows": 437,
+      "future_requested": 207,
+      "historical_rows": 299,
+      "infrastructure_errors": 0,
+      "missing_keys": [],
+      "missing_rows": 0,
+      "rows": 437,
+      "source_files": {
+        "codex_shard0.jsonl": "29993359130a9438fbb4c5945123f9196b8d645e6d77c531d856c1593fe7597f",
+        "codex_shard1.jsonl": "594f231dc9cfc4a7340f6063849a950c25be30c1977a50928b16bec0088aeb5c",
+        "codex_shard2.jsonl": "ee5bdb23cf52bec116b936f094a6d555a788c8bfefbcced9c27cc489c24d5f16",
+        "codex_shard3.jsonl": "ff7c80cc79038637535cc368f3868deb70ed803b271cfdbef92912b54a0ac1ec"
+      },
+      "unique_keys": 437
+    }
+  },
+  "outputs": {
+    "claude_formal_428.jsonl": "040c98d985aeb2bdcf25f7de3f089014931374a47d6b2073f7cb2eba70fffcbf",
+    "codex_formal_437.jsonl": "c5e858544bba5f1e70db60de1f7f14101f8a38e26c79ca54f6a2efd9ce35250a",
+    "paired_formal_856.jsonl": "84d81074aacaf69a2ebeb64737f51db58eddf77eac6e055eaf9eb4cc6cc5cc9e"
+  },
+  "paired_canonical_keys": 428,
+  "paired_rows": 856,
+  "primary_analysis_population": "consumer-matched complete cases",
+  "protocol_id": "925a1a73de9742d763c15ed0f26e87130c03aaad617ef90e8f81a1a0153e6bae",
+  "protocol_sha256": "97e1b396878d36084d1c490bd361cecd1607303384d0e02a0c330b5bd7a98d66",
+  "sensitivity_analysis_population": "all 437 Codex rows",
+  "status": "FROZEN_VALIDATED_CLAUDE_428_COMPLETE_CASE_RESULTS",
+  "source_outputs_sha256": {
+    "claude_formal_428.jsonl": "040c98d985aeb2bdcf25f7de3f089014931374a47d6b2073f7cb2eba70fffcbf",
+    "codex_formal_437.jsonl": "a5f38813c973bcf797013d1d0e74273f69be270c351aee1d19f1dd2c65f3ca9f",
+    "combined_formal_865.jsonl": "398c41a4cd92b62a19c40b44710742cfa53e054b220be29169a9e995764bc07d",
+    "paired_formal_856.jsonl": "96916a7645060e59af33c44e1cf15bfeb67f9ffe0ac44ebcc5d00027d3957167"
+  },
+  "anonymous_packaging_note": "The raw source hashes are retained in source_outputs_sha256. The outputs field binds the path-scrubbed files distributed in this anonymous package. Scrubbing changes log text only and does not change any parsed endpoint or cost field."
+}

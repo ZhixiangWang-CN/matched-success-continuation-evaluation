@@ -1,0 +1,48 @@
+{
+  "amendment_id": 23,
+  "created_at_utc": "2026-09-06T05:37:30Z",
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4",
+  "scope": "execution infrastructure only; frozen arms, budgets, repeats, consumers, prompts, and outcome definitions are unchanged",
+  "incident": {
+    "host": "yury",
+    "rootful_docker_root": "/var/lib/docker",
+    "filesystem_state": "/var at 100% utilization",
+    "affected_raw_files": [
+      "server_staging/prospective_rsd_v3/recovery_curve/claude_mac_s0.jsonl",
+      "server_staging/prospective_rsd_v3/recovery_curve/claude_mac_s1.jsonl",
+      "server_staging/prospective_rsd_v3/recovery_curve/codex_mac_s0.jsonl",
+      "server_staging/prospective_rsd_v3/recovery_curve/codex_mac_s1.jsonl"
+    ],
+    "invalid_row_criteria": [
+      "fatal == setup_failed",
+      "fatal == replay_worktree_failed",
+      "row contains 'no space left on device'",
+      "row contains 'Not logged in'"
+    ]
+  },
+  "preservation": {
+    "raw_files_modified": false,
+    "valid_rows_seeded_into_v2": {
+      "claude": 383,
+      "codex": 86
+    },
+    "duplicate_curve_keys_after_seeding": 0
+  },
+  "remediation": {
+    "docker_mode": "rootless",
+    "host": "yury",
+    "data_root": "/data2/user/docker-rootless",
+    "service_state": "enabled and active",
+    "fresh_shell_context": "rootless",
+    "validation_image": "swerebenchv2/pycqa-pyflakes:410-f144487",
+    "validation_image_size_bytes": 2175447098,
+    "validation_container_output": "YURY_ROOTLESS_OK"
+  },
+  "resume_outputs": [
+    "server_staging/prospective_rsd_v3/recovery_curve/claude_valid_v2_s0.jsonl",
+    "server_staging/prospective_rsd_v3/recovery_curve/claude_valid_v2_s1.jsonl",
+    "server_staging/prospective_rsd_v3/recovery_curve/codex_valid_v2_s0.jsonl",
+    "server_staging/prospective_rsd_v3/recovery_curve/codex_valid_v2_s1.jsonl"
+  ],
+  "analysis_rule": "Only rows passing invalid_row_criteria filtering are eligible for scientific analysis; infrastructure failures are never counted as agent failures."
+}

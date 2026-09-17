@@ -1,0 +1,39 @@
+{
+  "combined_repository_count": 17,
+  "complete": true,
+  "eligible_pairs": 4,
+  "eligible_repositories": 3,
+  "expected_pairs": 31,
+  "failure_counts": {
+    "current_test": 16,
+    "eligible": 4,
+    "future_fail_to_pass": 2,
+    "future_gold_apply": 4,
+    "future_pass_to_pass": 2,
+    "state_apply_failed": 3
+  },
+  "input_sha256": {
+    "prospective_rsd_v3/continuation_freeze/common_snapshot_broadened_scan_pairs_31.jsonl": "01a82ae6c98dcc2a26114ab07a2d0a98e5b07147601422676ea8a51e878c5143",
+    "prospective_rsd_v3/continuation_freeze/common_snapshot_broadened_scan_protocol_31.json": "b1e56bbeba15cf459a09727ff0e374717e09efb196cce4a9b24d310e34383de3",
+    "prospective_rsd_v3/extension_historical_scan/protocol31_yury.jsonl": "117b89cf52cd19b90fba90f539e80a2117678e4912def918167fdc54a73c36e3",
+    "prospective_rsd_v3/extension_historical_scan/protocol31_yury_shard0.jsonl": "fb15c132b319a50c305dbb93449625a8041382516c58c18178bbf2e00c9f096c"
+  },
+  "observed_unique_pairs": 31,
+  "physical_rows": 31,
+  "protocol_id": "e25afa410cf83286a760289e5e5cba8a0b0762cf3ffbb84190f4cbce3c09c274",
+  "selected": [
+    {
+      "anchor_id": "alteryx__evalml-1302",
+      "pair_id": "alteryx__evalml-1302__TO__alteryx__evalml-1348"
+    },
+    {
+      "anchor_id": "pycqa__pyflakes-484",
+      "pair_id": "pycqa__pyflakes-484__TO__pycqa__pyflakes-619"
+    },
+    {
+      "anchor_id": "stfc__psyclone-2084",
+      "pair_id": "stfc__psyclone-2084__TO__stfc__psyclone-2191"
+    }
+  ],
+  "status": "GO"
+}

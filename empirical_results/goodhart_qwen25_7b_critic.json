@@ -1,0 +1,78 @@
+{
+  "training_states": 12,
+  "attack_states": [
+    {
+      "family": "pricing",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.599628817654704,
+      "actual_failure": 0.625
+    },
+    {
+      "family": "pricing",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.4250649174841262,
+      "actual_failure": 0.125
+    },
+    {
+      "family": "flags",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.6926223737568653,
+      "actual_failure": 0.375
+    },
+    {
+      "family": "flags",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.4428036032731285,
+      "actual_failure": 0.25
+    },
+    {
+      "family": "permissions",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.5965387151758927,
+      "actual_failure": 0.625
+    },
+    {
+      "family": "permissions",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.5032910120168603,
+      "actual_failure": 0.25
+    },
+    {
+      "family": "events",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.5136251450324443,
+      "actual_failure": 0.75
+    },
+    {
+      "family": "events",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.2769179714028966,
+      "actual_failure": 0.125
+    },
+    {
+      "family": "router",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.4169112453970059,
+      "actual_failure": 0.75
+    },
+    {
+      "family": "router",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.3459821009715321,
+      "actual_failure": 0.0
+    },
+    {
+      "family": "cache",
+      "state": "camouflaged_debt",
+      "predicted_failure": 0.602730212987733,
+      "actual_failure": 0.75
+    },
+    {
+      "family": "cache",
+      "state": "stigmatized_clean",
+      "predicted_failure": 0.34458803920314285,
+      "actual_failure": 0.0
+    }
+  ],
+  "attack_mae": 0.223069656821731
+}

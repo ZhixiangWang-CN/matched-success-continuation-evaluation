@@ -1,0 +1,7 @@
+family,n_candidates,continuation_value,current_success_random_value,shortest_value,continuation_minus_random,continuation_minus_shortest,continuation_regret
+cache,9,1.0,1.0,1.0,0.0,0.0,0.0
+events,13,1.0,0.7948717948717949,0.6666666666666666,0.20512820512820507,0.33333333333333337,0.0
+flags,8,0.5,0.8125,1.0,-0.3125,-0.5,0.5
+permissions,15,1.0,0.9333333333333333,0.5,0.06666666666666665,0.5,0.0
+pricing,12,1.0,0.36111111111111116,0.0,0.6388888888888888,1.0,0.0
+router,7,1.0,1.0,1.0,0.0,0.0,0.0

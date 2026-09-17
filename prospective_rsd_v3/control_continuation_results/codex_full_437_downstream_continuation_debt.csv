@@ -1,0 +1,16 @@
+agent,level,metric,n_paired_arms,estimate,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high,historical_mean,candidate_mean,direction
+codex,pooled,replay_success,46,0.0,0.0,0.0,1.0,1.0,historical_minus_candidate
+codex,pooled,end_to_end_future_certified,46,-0.007246376811594202,-0.021739130434782608,0.0,0.5652173913043478,0.572463768115942,historical_minus_candidate
+codex,pooled,joint_prior_future_certified,46,0.0,0.0,0.0,0.391304347826087,0.391304347826087,historical_minus_candidate
+codex,pooled,downstream_success_conditional,46,-0.007246376811594202,-0.021739130434782608,0.0,0.5652173913043478,0.572463768115942,historical_minus_candidate
+codex,pooled,downstream_verifier_missing_given_replay,46,0.0,0.0,0.0,0.0,0.0,candidate_minus_historical
+codex,s0,replay_success,23,0.0,0.0,0.0,1.0,1.0,historical_minus_candidate
+codex,s0,end_to_end_future_certified,23,0.0,0.0,0.0,0.5652173913043478,0.5652173913043478,historical_minus_candidate
+codex,s0,joint_prior_future_certified,23,0.0,0.0,0.0,0.391304347826087,0.391304347826087,historical_minus_candidate
+codex,s0,downstream_success_conditional,23,0.0,0.0,0.0,0.5652173913043478,0.5652173913043478,historical_minus_candidate
+codex,s0,downstream_verifier_missing_given_replay,23,0.0,0.0,0.0,0.0,0.0,candidate_minus_historical
+codex,s1,replay_success,23,0.0,0.0,0.0,1.0,1.0,historical_minus_candidate
+codex,s1,end_to_end_future_certified,23,-0.014492753623188404,-0.043478260869565216,0.0,0.5652173913043478,0.5797101449275361,historical_minus_candidate
+codex,s1,joint_prior_future_certified,23,0.0,0.0,0.0,0.391304347826087,0.391304347826087,historical_minus_candidate
+codex,s1,downstream_success_conditional,23,-0.014492753623188404,-0.043478260869565216,0.0,0.5652173913043478,0.5797101449275361,historical_minus_candidate
+codex,s1,downstream_verifier_missing_given_replay,23,0.0,0.0,0.0,0.0,0.0,candidate_minus_historical

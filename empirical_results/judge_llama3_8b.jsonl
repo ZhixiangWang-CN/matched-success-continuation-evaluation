@@ -1,0 +1,60 @@
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "clean_first", "sample": 0, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.35348335606977344}
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "clean_first", "sample": 1, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.06110694818198681}
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "clean_first", "sample": 2, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.05685623502358794}
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "debt_first", "sample": 0, "choice": "A", "gold": "B", "correct": false, "raw": "A", "generation_s": 0.056747364811599255}
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05757133523002267}
+{"model": "llama3_8b", "domain": "coding", "family": "pricing", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05499565787613392}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "clean_first", "sample": 0, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.06014058878645301}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "clean_first", "sample": 1, "choice": "A", "gold": "A", "correct": true, "raw": "I choose A.", "generation_s": 0.12383900210261345}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05650576017796993}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.0565783716738224}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05655462620779872}
+{"model": "llama3_8b", "domain": "coding", "family": "flags", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.056480483151972294}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "I choose A.", "generation_s": 0.12161291064694524}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "clean_first", "sample": 1, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.053955177776515484}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "I choose A.", "generation_s": 0.1208760249428451}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.053882066160440445}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.0538688157685101}
+{"model": "llama3_8b", "domain": "coding", "family": "permissions", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.053850602358579636}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "clean_first", "sample": 0, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.05435056006535888}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "clean_first", "sample": 1, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.0542831989005208}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "clean_first", "sample": 2, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.05436265096068382}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.054305650759488344}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.054297165013849735}
+{"model": "llama3_8b", "domain": "coding", "family": "events", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.0543051497079432}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "A.", "generation_s": 0.07583293505012989}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "clean_first", "sample": 1, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05333755584433675}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "clean_first", "sample": 2, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.05452094506472349}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05326773598790169}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.053199972957372665}
+{"model": "llama3_8b", "domain": "coding", "family": "router", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05325032398104668}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05407059285789728}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "clean_first", "sample": 1, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.053969237953424454}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05402230890467763}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05408714013174176}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05402025580406189}
+{"model": "llama3_8b", "domain": "coding", "family": "cache", "order": "debt_first", "sample": 2, "choice": "A", "gold": "B", "correct": false, "raw": "A", "generation_s": 0.05402445327490568}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "clean_first", "sample": 0, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.053259425796568394}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "clean_first", "sample": 1, "choice": "B", "gold": "A", "correct": false, "raw": "B", "generation_s": 0.0531407305970788}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05310356896370649}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.053053279872983694}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05310835503041744}
+{"model": "llama3_8b", "domain": "enterprise", "family": "customers", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05318853817880154}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.054314475040882826}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "clean_first", "sample": 1, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05600070022046566}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "A", "generation_s": 0.05431139376014471}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.054356614127755165}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05431020399555564}
+{"model": "llama3_8b", "domain": "enterprise", "family": "orders", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05435787094756961}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "A\n\nExplanation: State A preserves the", "generation_s": 0.18903536116704345}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "clean_first", "sample": 1, "choice": "A", "gold": "A", "correct": true, "raw": "A.\n\nSTATE A preserves the history of", "generation_s": 0.18890504678711295}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "A.\n\nSTATE A preserves the history of", "generation_s": 0.18862409889698029}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.056234240997582674}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05430973879992962}
+{"model": "llama3_8b", "domain": "enterprise", "family": "settings", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05409498093649745}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "clean_first", "sample": 0, "choice": "A", "gold": "A", "correct": true, "raw": "I choose A.\n\nThe difference between the", "generation_s": 0.18814282584935427}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "clean_first", "sample": 1, "choice": "A", "gold": "A", "correct": true, "raw": "STATE A.", "generation_s": 0.09823904698714614}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "clean_first", "sample": 2, "choice": "A", "gold": "A", "correct": true, "raw": "I choose A.", "generation_s": 0.12032099394127727}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "debt_first", "sample": 0, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.05317467590793967}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "debt_first", "sample": 1, "choice": "B", "gold": "B", "correct": true, "raw": "B", "generation_s": 0.053077058866620064}
+{"model": "llama3_8b", "domain": "enterprise", "family": "inventory", "order": "debt_first", "sample": 2, "choice": "B", "gold": "B", "correct": true, "raw": "I choose B.\n\nSTATE B has a", "generation_s": 0.18763149809092283}

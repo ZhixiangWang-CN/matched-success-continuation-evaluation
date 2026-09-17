@@ -1,0 +1,41 @@
+{
+  "status": "post-hoc exploratory; not the frozen primary claim gate",
+  "within_family": {
+    "n_states_in_nonsingleton_groups": 64,
+    "one_sided_within_group_permutation_p": 0.0002899971000289997,
+    "pearson_r": 0.37846466156771086,
+    "permutations": 100000
+  },
+  "within_family_producer": {
+    "n_states_in_nonsingleton_groups": 58,
+    "one_sided_within_group_permutation_p": 0.00866991330086699,
+    "pearson_r": 0.5319173172871436,
+    "permutations": 100000
+  },
+  "within_family_producer_leave_one_family_out": {
+    "cache": {
+      "n_states_in_nonsingleton_groups": 50,
+      "pearson_r": 0.5480658976390138
+    },
+    "events": {
+      "n_states_in_nonsingleton_groups": 45,
+      "pearson_r": 0.371681976284244
+    },
+    "flags": {
+      "n_states_in_nonsingleton_groups": 52,
+      "pearson_r": 0.5390914568102939
+    },
+    "permissions": {
+      "n_states_in_nonsingleton_groups": 43,
+      "pearson_r": 0.6471655528082656
+    },
+    "pricing": {
+      "n_states_in_nonsingleton_groups": 46,
+      "pearson_r": 0.584480123439487
+    },
+    "router": {
+      "n_states_in_nonsingleton_groups": 54,
+      "pearson_r": 0.533997565027468
+    }
+  }
+}

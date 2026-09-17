@@ -1,0 +1,57 @@
+{
+  "artifacts": {
+    "selectors": "d5d744dda58b5f43bee4e6b1729ddc8c2b4241261afc0af0a8ae59cf22400931",
+    "states": "dd9e95f6250ddde41e8b167db899bb1c5ee17f973b457620a9b7b1b681c5586f",
+    "task_definition_module": "7109c371783e2eed971fb373ca6e280761557e526dd238979136b7b315a1f0f6",
+    "tasks": "ead731273eca903f2456982fb59e08844834e4826bf07db2e13f58c02f27a230"
+  },
+  "candidate_gate": "unique source_sha256 among naturally produced states that pass the current verifier and have all 12 development consumer-by-future cells",
+  "claim_gate": "decision utility supported only if the primary effect is positive and one-sided random-selection p < 0.05; otherwise report a completed no-go",
+  "consumer": "Qwen3-Coder-30B-A3B-Instruct",
+  "consumer_disjoint_from_development": true,
+  "consumer_precision": "bfloat16, one independently loaded model per shard",
+  "counts": {
+    "families": 6,
+    "heldout_futures": 12,
+    "planned_rollouts": 384,
+    "states": 64
+  },
+  "development_panel": "four previously evaluated futures by three consumers; repeats collapsed within state-consumer-future before equal-cell averaging",
+  "execution_shards": 8,
+  "frozen_at_utc": "2026-09-11T05:18:30.346859+00:00",
+  "heldout_panel": "two previously unexecuted future tasks per family",
+  "inputs": {
+    "empirical_results/natural_producer_gemma2_9b.jsonl": "d39eede5f30984415061569d6e24900e07a989ebee0263a988692464e2242e97",
+    "empirical_results/natural_producer_llama3_8b.jsonl": "462caf3110e126a41b0b169b4ef8e74c79f4412f88d83053340facab17af7f3a",
+    "empirical_results/natural_producer_phi35.jsonl": "2edcc6c4a31ec56ac6217cdef762091d193ddcb49f656a50878e5b9d3121d14c",
+    "empirical_results/natural_producer_qwen25_72b.jsonl": "fd4c8f036b6e2869579aed697a943e0970e027da62d81cb0bab435d4af2a9a3e",
+    "empirical_results/natural_producer_qwen25_7b.jsonl": "f65529e7501b526df8b75b91f887e7cc97725c5f5e4854395783f25afe727626",
+    "empirical_results/natural_successor_llama3_8b.jsonl": "9ccbbfab2be026e52342b91479767b243a399b45dd176057883a5bbfa078d09a",
+    "empirical_results/natural_successor_qwen25_72b.jsonl": "3338efa94be00fabf272a5cc07f328d1e90d8d5c5cbc2a176874c31d6f666455",
+    "empirical_results/natural_successor_qwen25_7b.jsonl": "a401f92410e69cd9f3a42b45079485728f2473e6096f8e8404b4a4a6b203db1c"
+  },
+  "max_new_tokens": 900,
+  "primary_estimand": "equal-family mean heldout success of continuation-selected state minus within-family mean over all current-success candidates",
+  "primary_inference": "exact random-selection distribution over one candidate per family, enumerated when feasible; family-cluster bootstrap interval as sensitivity analysis",
+  "protocol": "continuation_aware_selection_v1",
+  "repeats": 3,
+  "scientific_status": "prospective held-out outcomes; development outcomes already observed",
+  "secondary_estimands": [
+    "continuation-selected minus static-shortest heldout success",
+    "family-specific selection effects",
+    "heldout regret relative to the post-hoc heldout oracle, reported only as an upper bound"
+  ],
+  "seeds": [
+    31001,
+    31002,
+    31003
+  ],
+  "selectors": {
+    "continuation": "maximum mean development continuation success within family; lexical SHA256 tie break",
+    "current_success": "uniform random choice among all eligible current-success states within family; evaluated as the exact mean over all candidates",
+    "static_shortest": "minimum source character count within family; lexical SHA256 tie break"
+  },
+  "success_gate": "all frozen state-by-future-by-repeat keys present exactly once and all current-task tests preserved in the submitted module",
+  "temperature": 0.2,
+  "top_p": 0.95
+}

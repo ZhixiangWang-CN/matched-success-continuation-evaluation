@@ -1,0 +1,242 @@
+[
+  {
+    "anchor_id": "ctfd__ctfd-263",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "ctfd__ctfd-263__TO__ctfd__ctfd-432",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "CTFd/CTFd",
+    "selection_hash": "0e2b2ff89c3ea2c78d655badcbfabf98f213912ffe78adac3b2be19923e35d0f"
+  },
+  {
+    "anchor_id": "apiflask__apiflask-322",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "apiflask__apiflask-322__TO__apiflask__apiflask-353",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "apiflask/apiflask",
+    "selection_hash": "133958ad0d9d81cc1bbf85410660ef1ce4ecf7ebb61334b225556b13701db11c"
+  },
+  {
+    "anchor_id": "kinto__kinto-1814",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "kinto__kinto-1814__TO__kinto__kinto-1910",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "Kinto/kinto",
+    "selection_hash": "145ed5b0dd8306a7b9099d38915b25e32e973a48a7176d8da2f89bbb5dcffec6"
+  },
+  {
+    "anchor_id": "agnostiqhq__covalent-1251",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "agnostiqhq__covalent-1251__TO__agnostiqhq__covalent-1356",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "AgnostiqHQ/covalent",
+    "selection_hash": "19664a3660ef9630f09ed200b13818b129b1380b761dcadcf9bdde5a3a786ee4"
+  },
+  {
+    "anchor_id": "pycqa__pyflakes-374",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "pycqa__pyflakes-374__TO__pycqa__pyflakes-410",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "PyCQA/pyflakes",
+    "selection_hash": "1eea23d7cc60a191443abc96dec7e0f7d1f1decdad369cba63292319046ef47c"
+  },
+  {
+    "anchor_id": "cloudpipe__cloudpickle-57",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "cloudpipe__cloudpickle-57__TO__cloudpipe__cloudpickle-72",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "cloudpipe/cloudpickle",
+    "selection_hash": "2a4900d011dd568a1870073f3dc5bddb469201c5c9d3fb373a6c8004925eccc7"
+  },
+  {
+    "anchor_id": "stac-utils__pystac-207",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "stac-utils__pystac-207__TO__stac-utils__pystac-511",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "stac-utils/pystac",
+    "selection_hash": "2a71e40a38753353e42ca8e19e0937d989a53018253010cd83914e77520c3604"
+  },
+  {
+    "anchor_id": "alteryx__woodwork-640",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "alteryx__woodwork-640__TO__alteryx__woodwork-651",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "alteryx/woodwork",
+    "selection_hash": "2caf7603e67dfdb765263a54d46a2da609637f49bd7c0efeb2be614f40cc575d"
+  },
+  {
+    "anchor_id": "textualize__rich-2031",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "textualize__rich-2031__TO__textualize__rich-2219",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "Textualize/rich",
+    "selection_hash": "353d580bab097ba239e0e962f7f3994e3b86d487341d7cb6a046aa2b9dbb6793"
+  },
+  {
+    "anchor_id": "wtforms__wtforms-548",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "wtforms__wtforms-548__TO__wtforms__wtforms-551",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "wtforms/wtforms",
+    "selection_hash": "369b86b51afd951adf3b2d052ef41afa36e1c4a73b53b5b3701ef0aa11ac322f"
+  },
+  {
+    "anchor_id": "narwhals-dev__narwhals-1715",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "narwhals-dev__narwhals-1715__TO__narwhals-dev__narwhals-1814",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "narwhals-dev/narwhals",
+    "selection_hash": "3860224415120953fb5b250c43832834cc0073ebf3cdef89c8989c9615fa9fa6"
+  },
+  {
+    "anchor_id": "yt-project__unyt-58",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "yt-project__unyt-58__TO__yt-project__unyt-59",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "yt-project/unyt",
+    "selection_hash": "3a421fa721f1fd65b2779a51b6261e1ab61b1f40827a6ed70448d58e21b60e71"
+  },
+  {
+    "anchor_id": "neogeny__tatsu-32",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "neogeny__tatsu-32__TO__neogeny__tatsu-35",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "neogeny/TatSu",
+    "selection_hash": "3e0f337edfc0f0569171411e9287350dc1c9b4f3b0b15a2acc0d47cdc6c1e0a5"
+  },
+  {
+    "anchor_id": "getmoto__moto-5835",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "getmoto__moto-5835__TO__getmoto__moto-5843",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "getmoto/moto",
+    "selection_hash": "3e97e2f5191821eee86ea9522a59aee00419b81b99985c6ddd046cf19663a830"
+  },
+  {
+    "anchor_id": "jsonpickle__jsonpickle-342",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-385",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "jsonpickle/jsonpickle",
+    "selection_hash": "453f6e6e9275362e10143d11e8ee33d21266f181070883da043bb86cdc6f43cd"
+  },
+  {
+    "anchor_id": "reata__sqllineage-223",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "reata__sqllineage-223__TO__reata__sqllineage-224",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "reata/sqllineage",
+    "selection_hash": "4fa02101be3ef8fc011ec0d3d94c64cf7077b8e91b3277671b7e94bc1ed16fcb"
+  },
+  {
+    "anchor_id": "python-markdown__markdown-984",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "python-markdown__markdown-984__TO__python-markdown__markdown-994",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "Python-Markdown/markdown",
+    "selection_hash": "553813834e01a2d65f4c4386ef8e8a61bed8650fc3bac7c106ad13be3697c7bc"
+  },
+  {
+    "anchor_id": "theacodes__nox-140",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "theacodes__nox-140__TO__theacodes__nox-267",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "theacodes/nox",
+    "selection_hash": "593bda236d0ca21becfbea980e1ff1600778dca06094c8dbf2fedd68aa62d0bb"
+  },
+  {
+    "anchor_id": "xknx__xknx-454",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "xknx__xknx-454__TO__xknx__xknx-832",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "XKNX/xknx",
+    "selection_hash": "5a7e9c3d3440c09c35ed1b9d355b82a686f0849a030a5c47c96b624dce47f4ff"
+  },
+  {
+    "anchor_id": "researchobject__ro-crate-py-69",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "researchobject__ro-crate-py-69__TO__researchobject__ro-crate-py-76",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "ResearchObject/ro-crate-py",
+    "selection_hash": "66ecfc9311399c8ce2902971a2d4a3cba0ae0f12454b6c5adf8454f7d894f108"
+  },
+  {
+    "anchor_id": "pymodbus-dev__pymodbus-1533",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "pymodbus-dev__pymodbus-1533__TO__pymodbus-dev__pymodbus-1659",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "pymodbus-dev/pymodbus",
+    "selection_hash": "68cd83da2340b1a2856c78fcf6c0edd604d27f5e0df36b0cb939a67291253370"
+  },
+  {
+    "anchor_id": "amaranth-lang__amaranth-664",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "amaranth-lang__amaranth-664__TO__amaranth-lang__amaranth-798",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "amaranth-lang/amaranth",
+    "selection_hash": "696b0df0fe0147a6a8551d66933ff2c63ae89dd39496ac9328d3280a9725edda"
+  },
+  {
+    "anchor_id": "enthought__traits-509",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "enthought__traits-509__TO__enthought__traits-541",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "enthought/traits",
+    "selection_hash": "6b1cf703131710c83ba30ca6b023399397b3a2e162831e25d10681adb7f1cef4"
+  },
+  {
+    "anchor_id": "stfc__psyclone-1914",
+    "audit_future_count": 1,
+    "future_count": 4,
+    "heldout_future_count": 3,
+    "pair_id": "stfc__psyclone-1914__TO__stfc__psyclone-2015",
+    "pairs": "/data/user/residual_state_iclr/prospective_rsd_v3/confirmatory_manifest/pairs.jsonl",
+    "repo": "stfc/PSyclone",
+    "selection_hash": "6c17545c3dd94347a164152e32376d627448741d44ab14db03e9d3aa1c7aa98a"
+  }
+]

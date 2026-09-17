@@ -1,0 +1,22 @@
+{
+  "status": "HELDOUT_EXECUTION_FROZEN",
+  "selection_sha256": "4210b48b320023beed529b9465ba2db4bab77e6feba1366f58c0eb0a89e894cb",
+  "replay_protocol_sha256": "44c02049e0bdc4f3af8a73b9ed7091a4f11f5ef87714604750c0142114d60471",
+  "consumer_runner_sha256": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+  "heldout_runner_sha256": "5a7ac7fd0203331e4eae53fefc0b5b376b048db5aca0c64066099710f131d2cb",
+  "container_proxy_sha256": "8dcf40eeddeae81742e28dc6827f2c6725d97b576ac4b6abe318287f99bd3ca8",
+  "consumer": "Codex CLI gpt-5.6-sol, medium reasoning, ephemeral session",
+  "design": {
+    "anchors": 5,
+    "heldout_futures_per_anchor": 3,
+    "states_per_future": ["historical", "low", "high"],
+    "total_arms": 45,
+    "workers": 2,
+    "timeout_seconds": 1800
+  },
+  "failure_semantics": {
+    "code_replay_conflict": "strict continuation failure and separately reported maintenance debt",
+    "metadata_replay_conflict": "upstream version accepted, recovery event counted, continuation proceeds",
+    "consumer_or_test_failure": "strict continuation failure"
+  }
+}

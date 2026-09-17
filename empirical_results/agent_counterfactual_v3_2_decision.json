@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "rows": 16,
+  "success": 9,
+  "unique_alternative_deltas": 9,
+  "seed_blocks": {
+    "candidates_seed_a": {
+      "rows": 8,
+      "success": 5
+    },
+    "candidates_seed_b": {
+      "rows": 8,
+      "success": 4
+    }
+  },
+  "criteria": {
+    "success_at_least_4_of_16": true,
+    "unique_alternative_deltas_at_least_3": true,
+    "each_seed_block_has_success": true
+  },
+  "decision": "GO"
+}

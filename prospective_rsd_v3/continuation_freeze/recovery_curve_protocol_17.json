@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_BEFORE_RECOVERY_CURVE_OUTCOMES",
+  "frozen_at_utc": "2026-09-06T03:15:00Z",
+  "objective": "Estimate an unbiased budgeted recovery curve by restarting every fixed state--future arm independently at every budget.",
+  "sample": {
+    "repository_count": 8,
+    "states_per_repository": 2,
+    "heldout_futures_per_state": 3,
+    "arm_count": 48,
+    "legacy_repository_count": 5,
+    "recovery_outcome_unopened_repository_count": 3
+  },
+  "budgets": [
+    0,
+    1,
+    3,
+    6,
+    10
+  ],
+  "budget_unit": "maximum number of source-conflict resolution sessions before replay is declared exhausted",
+  "independent_repeats": 3,
+  "restart_rule": "Every (arm,budget,repeat,consumer) starts from the same frozen current base and candidate patch in a fresh container; no state, transcript, or resolution is reused across budgets or repeats.",
+  "selection_rule": "Use both legacy low/high states and both unique gate-passing states from each newly eligible repository; use all three chronologically held-out futures. No recovery outcome enters selection.",
+  "consumers": [
+    {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "agent": "claude",
+      "model": "claude-opus-4-8",
+      "effort": "high"
+    }
+  ],
+  "primary_estimands": {
+    "A_B": "fraction of arms reaching the future base with current-task FAIL_TO_PASS preserved at budget B",
+    "K_B": "mean recovery tool calls and wall time over every attempted arm, including failures",
+    "delta_A": "paired within-arm A_B minus A_0"
+  },
+  "inference": "Repository-cluster bootstrap confidence intervals; report novel and legacy strata separately; raw empirical points are primary and isotonic smoothing is visualization-only.",
+  "multiplicity": "B=3 is the confirmatory budget; other nonzero budgets characterize curve shape and are reported with simultaneous repository-cluster bootstrap bands.",
+  "future_task_policy": "The budget sweep is recovery-only. A separately frozen endpoint experiment may estimate continuation after the curve is complete.",
+  "integration_commits": {
+    "alteryx__woodwork-640": "a55c98ff7f71022690862d3bbaa2c9ab8d32952d",
+    "cloudpipe__cloudpickle-57": "39044b7ddb60660d2852a62456563eac97933bfb",
+    "getmoto__moto-5835": "5d2f2bca8c3b3922127594835fad0c39345d6616",
+    "jsonpickle__jsonpickle-342": "2597331a3ae03baebc5723eb961ff8cfe7f1ac25",
+    "kinto__kinto-1814": "a5203ffd8cf6cbdb5f9cb37c9b86c3ef93ba5512",
+    "pymodbus-dev__pymodbus-1533": "369d45e7efb1c682077e58e71e63f94745d91bdc",
+    "python-markdown__markdown-984": "dbb9b3d766e847f1909fa0c92c6b997f0e7c868d",
+    "researchobject__ro-crate-py-69": "f0ebb5cdf26670d70b141cf0365175ac7ea09831"
+  },
+  "source_sha256": {
+    "pairs": "691d8567b682deee20e877f3b889089acdad87e8e50d57fe5746c89e5b83953a",
+    "candidate_gate": "f2ae95b22797ccb21213611564b47e769ddb2601eb9e572982255841909c0c79",
+    "legacy_selection": "4210b48b320023beed529b9465ba2db4bab77e6feba1366f58c0eb0a89e894cb",
+    "legacy_replay_protocol": "44c02049e0bdc4f3af8a73b9ed7091a4f11f5ef87714604750c0142114d60471",
+    "new_integration_map": "de1bd55acb1680bedd909ae417bb1b7ff86b55ab76d9ca830bae8db8a469411e"
+  },
+  "protocol_id": "409635ca6866dc49501c63f4ff2e310e10f5084ef6362db844b1c755db2fc6a4"
+}

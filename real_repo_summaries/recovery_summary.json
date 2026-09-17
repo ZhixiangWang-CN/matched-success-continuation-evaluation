@@ -1,0 +1,102 @@
+{
+  "raw_rows": 36,
+  "matched_mergeable_pairs": 8,
+  "positive_churn_reductions": 3,
+  "negative_churn_reductions": 0,
+  "ties": 5,
+  "one_sided_exact_sign_p": 0.125,
+  "debt_churn": 160,
+  "clean_churn": 119,
+  "debt_patch_lines": 365,
+  "clean_patch_lines": 277,
+  "pairs": [
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-123",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "debt_patch_lines": 28,
+      "clean_patch_lines": 28,
+      "patch_line_reduction": 0,
+      "debt_churn": 10,
+      "clean_churn": 10,
+      "churn_reduction": 0
+    },
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "debt_patch_lines": 42,
+      "clean_patch_lines": 0,
+      "patch_line_reduction": 42,
+      "debt_churn": 22,
+      "clean_churn": 0,
+      "churn_reduction": 22
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "debt_patch_lines": 30,
+      "clean_patch_lines": 0,
+      "patch_line_reduction": 30,
+      "debt_churn": 14,
+      "clean_churn": 0,
+      "churn_reduction": 14
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-101",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "debt_patch_lines": 13,
+      "clean_patch_lines": 13,
+      "patch_line_reduction": 0,
+      "debt_churn": 2,
+      "clean_churn": 2,
+      "churn_reduction": 0
+    },
+    {
+      "pair_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-126",
+      "sequence_id": "d0c-s4vage__pfp-121__TO__d0c-s4vage__pfp-128__MULTIFUTURE",
+      "repo": "d0c-s4vage/pfp",
+      "debt_patch_lines": 26,
+      "clean_patch_lines": 26,
+      "patch_line_reduction": 0,
+      "debt_churn": 8,
+      "clean_churn": 8,
+      "churn_reduction": 0
+    },
+    {
+      "pair_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190",
+      "sequence_id": "pycqa__docformatter-182__TO__pycqa__docformatter-190__MULTIFUTURE",
+      "repo": "PyCQA/docformatter",
+      "debt_patch_lines": 16,
+      "clean_patch_lines": 0,
+      "patch_line_reduction": 16,
+      "debt_churn": 5,
+      "clean_churn": 0,
+      "churn_reduction": 5
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-93",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "debt_patch_lines": 20,
+      "clean_patch_lines": 20,
+      "patch_line_reduction": 0,
+      "debt_churn": 8,
+      "clean_churn": 8,
+      "churn_reduction": 0
+    },
+    {
+      "pair_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-105",
+      "sequence_id": "s-knibbs__dataclasses-jsonschema-85__TO__s-knibbs__dataclasses-jsonschema-88__MULTIFUTURE",
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "debt_patch_lines": 190,
+      "clean_patch_lines": 190,
+      "patch_line_reduction": 0,
+      "debt_churn": 91,
+      "clean_churn": 91,
+      "churn_reduction": 0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "candidate_choice": "lowest attempt index among current-success candidates; never inspect future behavior",
+  "current_success_gate": [
+    "nonempty implementation diff",
+    "no test-file edits",
+    "current FAIL_TO_PASS passes",
+    "up to 20 current PASS_TO_PASS tests pass",
+    "unique normalized patch hash"
+  ],
+  "date": "2026-09-10",
+  "final_eligibility": "both current-success states exist and historical-only future feasibility passes",
+  "future_rollout": {
+    "consumer": "gpt-5.6-sol",
+    "effort": "medium",
+    "inference": "average repeats within state, then paired repository effects; exact sign-flip and repository bootstrap",
+    "primary": "joint future success with current FAIL_TO_PASS preservation",
+    "repeats_per_state": 3
+  },
+  "go_rule": "at least 15 repository-disjoint eligible futures; otherwise report a completed no-go",
+  "historical_only_future_feasibility": [
+    "historical patch applies and current FAIL_TO_PASS passes",
+    "future maintainer patch applies",
+    "future tests apply",
+    "future FAIL_TO_PASS passes",
+    "up to 20 future PASS_TO_PASS tests pass",
+    "current FAIL_TO_PASS remains passing"
+  ],
+  "objective": "Increase repository-level support for direct common-snapshot continuation effects.",
+  "pairs_sha256": "d2fc8c6bf7b3b6250d1954804d9b7f79b19f843d040f69ade773fad1d7bc4f04",
+  "pool_sha256": "409af9fa393206a779bb5eb4054ce35396a346eb2f5c9c6a12693f8aae1fbc02",
+  "producer": {
+    "agent": "Codex",
+    "effort": "medium",
+    "independent_attempts_per_anchor": 2,
+    "information_boundary": "current issue and current repository snapshot only",
+    "model": "gpt-5.6-sol",
+    "network_in_container": false
+  },
+  "protocol_id": "b9d9118236a411d935a457d768d5b740d02c74a7e46bf853b353e293e9143a40",
+  "selection": {
+    "future_identity": "minimum SHA256(common-snapshot-extension-v1-20260910:pair_id) within each selected repository",
+    "prohibited": [
+      "candidate future diagnostics",
+      "future-agent outcomes",
+      "effect direction",
+      "debt labels"
+    ],
+    "ranking": "SHA256(common-snapshot-extension-v1-20260910:lowercase_repo), first 26",
+    "repository_pool": "All historically valid multi-future repositories except the five prior common-snapshot repositories."
+  },
+  "status": "FROZEN_BEFORE_ANY_EXTENSION_AGENT_OUTCOMES",
+  "unit": "one historical and one independently produced current-success state crossed with one frozen future per repository"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "REPEAT_EXECUTOR_FROZEN_BEFORE_EXECUTION",
+  "repeat_panel_sha256": "d88d0db77c0825fa45cf9dc4776064d00e70e578de4b57f585863fd3aaa7356a",
+  "repeat_runner_sha256": "ab9d8368e587fe39761e9f2e863ae9db8158541003a91e3ae59a388adeef3c04",
+  "replay_protocol_sha256": "44c02049e0bdc4f3af8a73b9ed7091a4f11f5ef87714604750c0142114d60471",
+  "consumer_runner_sha256": "dafad59db47750b5fc5a1f9fb7ac83954874f88f560032d209c8682f5c8d80ad",
+  "execution": {
+    "stochastic_consumer": "Two additional independent Codex rollouts for each frozen historical/low/high state, producing three total with the existing formal rollout",
+    "deterministic_replay": "Three fresh replay executions for each frozen high-debt jsonpickle and Kinto state"
+  },
+  "selection": "Outcome-independent and frozen before held-out outcomes were available"
+}

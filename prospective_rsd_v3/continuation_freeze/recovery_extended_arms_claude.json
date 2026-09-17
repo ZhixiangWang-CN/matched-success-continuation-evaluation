@@ -1,0 +1,90 @@
+{
+  "status": "FROZEN",
+  "consumer": "claude",
+  "arms": [
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-393",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-455",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469",
+      "candidate_id": "cand_181961e71adb",
+      "state_level": "high",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    },
+    {
+      "anchor_id": "jsonpickle__jsonpickle-342",
+      "future_pair_id": "jsonpickle__jsonpickle-342__TO__jsonpickle__jsonpickle-469",
+      "candidate_id": "cand_7dd5f8361069",
+      "state_level": "low",
+      "replay_conflict_commit": "c04afceb3bcf9f9b4c04a8c82bc4cfa389a52004",
+      "replay_conflict_files": [
+        "jsonpickle/pickler.py"
+      ],
+      "exhausted_under_amendment_15_for": [
+        "codex",
+        "claude"
+      ]
+    }
+  ]
+}

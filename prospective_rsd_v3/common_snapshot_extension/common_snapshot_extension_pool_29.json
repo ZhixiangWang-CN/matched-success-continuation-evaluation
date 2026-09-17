@@ -1,0 +1,46 @@
+{
+  "candidate_pool_repositories": 26,
+  "excluded_prior_common_snapshot_repositories": [
+    "alteryx/woodwork",
+    "getmoto/moto",
+    "jsonpickle/jsonpickle",
+    "kinto/kinto",
+    "python-markdown/markdown"
+  ],
+  "pair_ids": [
+    "quora__pyanalyze-344__TO__quora__pyanalyze-653",
+    "pennylaneai__pennylane-5538__TO__pennylaneai__pennylane-5851",
+    "elastic__curator-603__TO__elastic__curator-1158",
+    "python-semver__python-semver-239__TO__python-semver__python-semver-261",
+    "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-88",
+    "kinto__kinto-http.py-131__TO__kinto__kinto-http.py-137",
+    "pallets__werkzeug-2655__TO__pallets__werkzeug-2686",
+    "pypa__pipx-1102__TO__pypa__pipx-1284",
+    "pallets__click-1805__TO__pallets__click-1830",
+    "pyccel__pyccel-2003__TO__pyccel__pyccel-2063",
+    "enthought__traits-645__TO__enthought__traits-1440",
+    "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1356",
+    "textualize__rich-2031__TO__textualize__rich-2219",
+    "yt-project__unyt-58__TO__yt-project__unyt-109",
+    "aws-cloudformation__cfn-lint-3390__TO__aws-cloudformation__cfn-lint-3439",
+    "openmdao__openmdao-3371__TO__openmdao__openmdao-3514",
+    "theacodes__nox-314__TO__theacodes__nox-363",
+    "hypothesisworks__hypothesis-3279__TO__hypothesisworks__hypothesis-3386",
+    "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-916",
+    "xknx__xknx-1066__TO__xknx__xknx-1190",
+    "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-925",
+    "yukinarit__pyserde-321__TO__yukinarit__pyserde-430",
+    "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1030",
+    "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-51",
+    "kayak__pypika-127__TO__kayak__pypika-236",
+    "stac-utils__pystac-511__TO__stac-utils__pystac-900"
+  ],
+  "pairs_sha256": "d2fc8c6bf7b3b6250d1954804d9b7f79b19f843d040f69ade773fad1d7bc4f04",
+  "seed": "common-snapshot-extension-v1-20260910",
+  "source": "real_repo_results/multifuture summary and pairs",
+  "source_population": {
+    "all_future_valid": 31,
+    "repositories": 50
+  },
+  "status": "FROZEN_BEFORE_ANY_EXTENSION_AGENT_OUTCOMES"
+}

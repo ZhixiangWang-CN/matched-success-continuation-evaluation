@@ -1,0 +1,21 @@
+{
+  "combined_repositories": 5,
+  "complete": false,
+  "expected_attempts": 24,
+  "maximum_possible_combined_repositories": 14,
+  "maximum_possible_new_repositories": 9,
+  "new_repositories_with_candidate": 0,
+  "observed_attempts": 9,
+  "raw_sha256": {
+    "/workspace/prospective_rsd_v3/extension_producer/nugpu.jsonl": "2f48eb0fcfa41696fdc41e418235704c1192c459b658873ea6f6d344ebd1c1a8",
+    "/workspace/prospective_rsd_v3/extension_producer/yury.jsonl": "7ad084460d01929e2c3dc80d4abf311bede2bf6eefa062b931a77bd63a3d5de7"
+  },
+  "repositories_with_both_attempts_failed": [
+    "alteryx__evalml-1302",
+    "elastic__curator-603",
+    "pycqa__pyflakes-484"
+  ],
+  "selected": [],
+  "status": "EARLY_NO_GO_MATHEMATICALLY_DETERMINED",
+  "stopping_reason": "At least three repositories exhausted both frozen attempts without a success, so the >=10/12 new-repository go rule cannot be met regardless of pending outcomes."
+}

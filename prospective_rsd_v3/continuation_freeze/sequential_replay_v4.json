@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_SELF_CONTAINED_METADATA_SENSITIVITY_REPLAY",
+  "supersedes": "sequential_replay_v3.json (configuration-only startup failure: missing embedded integration map; zero rollouts)",
+  "integration_commits": {
+    "getmoto__moto-5835": "5d2f2bca8c3b3922127594835fad0c39345d6616",
+    "jsonpickle__jsonpickle-342": "2597331a3ae03baebc5723eb961ff8cfe7f1ac25",
+    "kinto__kinto-1814": "a5203ffd8cf6cbdb5f9cb37c9b86c3ef93ba5512",
+    "pymodbus-dev__pymodbus-1533": "369d45e7efb1c682077e58e71e63f94745d91bdc",
+    "researchobject__ro-crate-py-69": "f0ebb5cdf26670d70b141cf0365175ac7ea09831"
+  },
+  "resolution_policy": {
+    "metadata_only": "If every unmerged path is documentation/release metadata, take the replayed upstream commit version, count a metadata recovery event, and continue.",
+    "implementation_or_mixed": "Retain as hard replay failure with commit and unmerged paths.",
+    "empty_cherry_pick": "Skip and count separately."
+  },
+  "interpretation": "Metadata conflicts measure traceability/release-maintenance debt, not functional incompatibility.",
+  "runner_sha256": "3267f8863627e5853c26cf3e2b62ea3218bdd691c9058ab46681bc7405cc4a0a",
+  "proxy_sha256": "8dcf40eeddeae81742e28dc6827f2c6725d97b576ac4b6abe318287f99bd3ca8",
+  "heldout_status": "UNTOUCHED"
+}
