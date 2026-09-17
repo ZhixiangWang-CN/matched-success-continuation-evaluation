@@ -1,7 +1,7 @@
 # Claim–Evidence Ledger
 
-Paper: *The Task Ends, the State Persists: When Success Is Not Sufficient for Persistent Agents*  
-Audit date: 2026-08-31  
+Paper: *The Task Ends, the State Persists: When Success Is Not Sufficient for Persistent Agents*
+Audit date: 2026-08-31
 Scope: residual-state/continuation-value experiments only (R1–R16 in `ALL_EXPERIMENTS_RESULTS_SYNTHESIS.md`). The separate Epistemic Echo/provenance program is intentionally excluded from this paper ledger.
 
 ## Status vocabulary
