@@ -9,6 +9,21 @@ same current-task verifier. We then hold the future task bank, executor,
 verifier, and budget fixed and compare what can still be accomplished from each
 state. This separates immediate task success from downstream continuation value.
 
+## Evidence at a glance
+
+| Panel | Scale | Role |
+|---|---:|---|
+| Controlled matched-success evaluation | 600 pairs; 1,200 continuation outcomes | Establishes that a shared current verdict can hide different futures |
+| Natural-state evaluation | 64 deduplicated successful states; 936 recorded successor rollouts | Tests the effect under model-produced states |
+| Frozen repository decision panel | 18 repositories; 144 heldout executions | Tests whether continuation information changes a decision |
+| Independent-budget recovery | 1,196 retained evaluations; 46 arms per consumer | Measures preservation under fixed recovery budgets |
+| Matched recovery/control panel | 856 consumer-matched rows | Separates candidate cost from historical control cost |
+| Common-snapshot panel | 90 sessions; 5 repositories; 2 executors | Removes history-replay asymmetry |
+
+These are execution and outcome counts, not interchangeable independent sample
+sizes. Statistical inference uses the model, state, family, or repository unit
+appropriate to each frozen panel.
+
 ## What is included
 
 - `empirical_results/`: controlled and natural-state outcome rows and frozen summaries.
