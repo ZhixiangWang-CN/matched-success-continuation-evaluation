@@ -1,0 +1,125 @@
+{
+  "bootstrap": {
+    "draws": 200000,
+    "method": "repository-cluster percentile",
+    "seed": 20260913
+  },
+  "effects": {
+    "selected_minus_historical": {
+      "ci95_repository_bootstrap": [
+        0.0,
+        0.0
+      ],
+      "exact_repository_sign_flip": {
+        "nonzero_clusters": 0,
+        "p_one_sided": 1.0,
+        "p_two_sided": 1.0,
+        "permutations": 1
+      },
+      "mean": 0.0,
+      "negative_repositories": 0,
+      "positive_repositories": 0,
+      "tie_repositories": 18
+    },
+    "selected_minus_shortest": {
+      "ci95_repository_bootstrap": [
+        0.0,
+        0.08333333333333333
+      ],
+      "exact_repository_sign_flip": {
+        "nonzero_clusters": 1,
+        "p_one_sided": 0.5,
+        "p_two_sided": 1.0,
+        "permutations": 2
+      },
+      "mean": 0.027777777777777776,
+      "negative_repositories": 0,
+      "positive_repositories": 1,
+      "tie_repositories": 17
+    },
+    "selected_minus_uniform": {
+      "ci95_repository_bootstrap": [
+        0.05555555555555555,
+        0.2152777777777778
+      ],
+      "exact_repository_sign_flip": {
+        "nonzero_clusters": 8,
+        "p_one_sided": 0.00390625,
+        "p_two_sided": 0.0078125,
+        "permutations": 256
+      },
+      "mean": 0.13194444444444445,
+      "negative_repositories": 0,
+      "positive_repositories": 8,
+      "tie_repositories": 10
+    }
+  },
+  "estimand": "equal-repository selected-state minus uniform-state expectation in strict heldout joint success",
+  "inference_unit": "repository",
+  "integrity": {
+    "candidate_hidden_test_apply": 22,
+    "candidate_replay_success": 24,
+    "expected_rows": 144,
+    "future_pairs": 36,
+    "historical_hidden_test_apply": 72,
+    "input_sha256": {
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard0.jsonl": "6a7565dc726510ea87389d24b42decc8266d13a77604ff16e7814651ec2118cd",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard1.jsonl": "c6326a154a1d3b37c09570dcaa84387cbd37e1be9a43b19b4d17888136793c05",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard2.jsonl": "748fdcfed1187ca1aec3e92e43f5650e0a4d320be4ff09a7ce2bbcb08c2045de",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard3.jsonl": "b7c231f6f7b451189d5dbae40aff84641c8f613d724ef39ec6eff1eb1dd29896",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard4.jsonl": "88b790611f4fca486a484e0173ffa19927278e03992108ad0e6d09f32946bdf6",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard5.jsonl": "3c087911618ae0a390c72b6679332fcb626ad10860c63f351f76dbe4295ccae6",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard6.jsonl": "9d0a2e89c2e79e21fbd85f43371d245c582074dee30c338801406d74b9b80729",
+      "prospective_rsd_v3/sequential_decision_heldout/raw_results/shard7.jsonl": "fbee76292a9c8680ee571706bda07381204dcdbf21c05f0051b47967b924fc69"
+    },
+    "operational_failures": 0,
+    "repositories": 18,
+    "rows": 144,
+    "scientific_sequential_replay_failures": 48,
+    "selected_state_counts": {
+      "historical": 16,
+      "s1": 2
+    },
+    "setup_failures": 0,
+    "unique_rollout_keys": 144
+  },
+  "limitations": "Prospective for the frozen 18-repository panel, not a repository-population prevalence estimate. Historical states are structurally advantaged because observed history was authored on them.",
+  "policies": {
+    "candidate": {
+      "ci95_repository_bootstrap": [
+        0.027777777777777776,
+        0.2222222222222222
+      ],
+      "mean": 0.1111111111111111
+    },
+    "continuation_selected": {
+      "ci95_repository_bootstrap": [
+        0.2222222222222222,
+        0.5416666666666666
+      ],
+      "mean": 0.375
+    },
+    "historical_default": {
+      "ci95_repository_bootstrap": [
+        0.2222222222222222,
+        0.5416666666666666
+      ],
+      "mean": 0.375
+    },
+    "shortest_patch": {
+      "ci95_repository_bootstrap": [
+        0.18055555555555555,
+        0.5277777777777778
+      ],
+      "mean": 0.3472222222222222
+    },
+    "uniform_current_success": {
+      "ci95_repository_bootstrap": [
+        0.1388888888888889,
+        0.3541666666666667
+      ],
+      "mean": 0.24305555555555555
+    }
+  },
+  "status": "COMPLETE_FROZEN_HELDOUT_ANALYSIS"
+}

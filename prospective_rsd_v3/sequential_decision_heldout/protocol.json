@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-13",
+  "development_rows": 72,
+  "expected_rows": 144,
+  "heldout_outcomes_available_at_freeze": 0,
+  "heldout_pairs": 36,
+  "input_sha256": {
+    "development_results": {
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard0.jsonl": "592baa07c097b815e370d6b97847bac46ecd0e5ba62aed83087a3403671be14a",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard1.jsonl": "888dbbcd551b84b4b3a58a26f32549947704b4f453ad8317fac5ce326cc44aac",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard2.jsonl": "881984dd1b804ee850336950356cb91bb5a31c512bf5cd759691568ec773d636",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard3.jsonl": "0a8a60b848566e4564079314c34d640986f0f88f5a008b2d19f022e169138819",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard4.jsonl": "09924c608b0b09e5c6a8c74ed9db2bace559dc79f9ad210c2ba4b7046635c9eb",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard5.jsonl": "374594261beffc8c787d68b31c5444a7c75c7dd1309324a66bd8b7c6ea8c6bc9",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard6.jsonl": "99201f44ddfa709960788bb00a7956bec7d4681088dcde05276621e165f5af9d",
+      "real_repo_decision_v1c/sequential_replay/formal/results/shard7.jsonl": "2da2d6eecd69d011b37186b7be5723926e0d426b771b0ee4cf0135ef442043ae"
+    },
+    "heldout_arms": "5844bbd28c3c129519a661034dc2d300705ef55822044ff41f5053f812a7bf12",
+    "heldout_pairs": "1246b7ff92aecfea36ce833158a226d0922dd6a3acb3b8dd8d1ac67ba4464b04",
+    "selection_ledger": "35f0ba65f72bbedaee9bc6ec5fe4aa3113bb55f427298fb60bf291f75d48b800"
+  },
+  "parent_protocol_id": "81a759d35d5ce2fa7884e35bbfcfcd735c87c2e6acde4f5afda9d5ecc2e80b5b",
+  "primary": "equal-repository selected-state minus uniform-state expectation in strict heldout joint success",
+  "protocol_id": "291c1a115476894a651b8bc4918a32d82064bfd71ce6739d0c0343618217c781",
+  "repeat_indices": [
+    0,
+    1
+  ],
+  "repositories": 18,
+  "scientific_failure_policy": "strict sequential replay conflicts count as continuation failures",
+  "selection_frozen_before_heldout": true,
+  "selection_rule": [
+    "higher mean development joint success",
+    "fewer mean tool calls",
+    "smaller source diff",
+    "SHA256"
+  ],
+  "states_per_pair": 2,
+  "status": "FROZEN_BEFORE_SEQUENTIAL_HELDOUT_OUTCOMES"
+}

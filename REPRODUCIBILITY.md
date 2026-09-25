@@ -23,6 +23,23 @@ make reproduce
 This re-analyzes frozen rows without inference. The recovery-curve analysis uses
 100,000 repository-cluster bootstrap draws and is intentionally slower.
 
+The frozen 18-repository decision panel can also be recomputed directly:
+
+```bash
+python prospective_rsd_v3/sequential_decision_heldout/scripts/analyze_sequential_decision_heldout_v1c.py \
+  --results prospective_rsd_v3/sequential_decision_heldout/raw_results/shard0.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard1.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard2.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard3.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard4.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard5.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard6.jsonl \
+            prospective_rsd_v3/sequential_decision_heldout/raw_results/shard7.jsonl \
+  --selection prospective_rsd_v3/sequential_decision_heldout/selection_ledger.json \
+  --protocol prospective_rsd_v3/sequential_decision_heldout/protocol.json \
+  --output-dir /tmp/sequential-decision-analysis
+```
+
 ## Level 3: repository replay and new rollouts
 
 The release contains frozen protocols and orchestration code, but full replay

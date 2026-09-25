@@ -1,8 +1,8 @@
 # Matched-Success Continuation Evaluation
 
 This repository contains the code, frozen protocols, raw outcome rows, and
-analysis artifacts for **The Task Ends, the State Persists: When Success Is Not
-Sufficient for Persistent Agents**.
+analysis artifacts for **When Success Is a Lossy Record: Matched-Success
+Continuation Evaluation for Persistent Agents**.
 
 The central evaluation unit is a pair of environment states that both pass the
 same current-task verifier. We then hold the future task bank, executor,
@@ -42,6 +42,21 @@ sufficient to verify the reported aggregates without rerunning model inference.
 ## Quick start
 
 Python 3.10 or newer is recommended.
+
+Download the frozen anonymous snapshot and unpack it:
+
+```bash
+curl -L \
+  https://anonymous.4open.science/api/repo/matched-success-continuation-evaluation-B117/zip \
+  -o matched-success-continuation-evaluation-B117.zip
+unzip matched-success-continuation-evaluation-B117.zip
+cd matched-success-continuation-evaluation-B117
+```
+
+The Anonymous GitHub mirror is a frozen review snapshot rather than a Git remote,
+so it should be downloaded as a ZIP instead of cloned with `git clone`.
+
+Create the verification environment:
 
 ```bash
 python -m venv .venv

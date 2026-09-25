@@ -1,0 +1,526 @@
+{
+  "repositories": [
+    {
+      "anchor_id": "agnostiqhq__covalent-1287",
+      "development_pair_id": "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1460",
+      "heldout_pair_ids": [
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1356",
+        "agnostiqhq__covalent-1287__TO__agnostiqhq__covalent-1599"
+      ],
+      "repo": "AgnostiqHQ/covalent",
+      "selected_state_id": "historical",
+      "shortest_state_id": "s1",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 18.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 15,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "871ae98e82397d279988e8b75c352e6dfb1a8c9f76eba456b6b84320ab81f799",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 15,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "amaranth-lang__amaranth-1098",
+      "development_pair_id": "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1135",
+      "heldout_pair_ids": [
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1376",
+        "amaranth-lang__amaranth-1098__TO__amaranth-lang__amaranth-1519"
+      ],
+      "repo": "amaranth-lang/amaranth",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 21.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 63,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "dd3899fdfd41f0abb8fc7472d0721b229f8f81d04f650f6ceeff1ac3f95e9f65",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 71,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "elastic__curator-603",
+      "development_pair_id": "elastic__curator-603__TO__elastic__curator-1158",
+      "heldout_pair_ids": [
+        "elastic__curator-603__TO__elastic__curator-616",
+        "elastic__curator-603__TO__elastic__curator-913"
+      ],
+      "repo": "elastic/curator",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 19.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 12,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "4e205be794e6ff1d5307083707f5d8a3f177b969f937bf6e70b37b7eb63dab6b",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 19,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "enthought__traits-645",
+      "development_pair_id": "enthought__traits-645__TO__enthought__traits-1107",
+      "heldout_pair_ids": [
+        "enthought__traits-645__TO__enthought__traits-1384",
+        "enthought__traits-645__TO__enthought__traits-1393"
+      ],
+      "repo": "enthought/traits",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 13.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 46,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "b649ff128e30782dd470fbe1a5ca9d3bb12c50fd940b2adc0b0f1f7b1051ef5d",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 67,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "kayak__pypika-127",
+      "development_pair_id": "kayak__pypika-127__TO__kayak__pypika-181",
+      "heldout_pair_ids": [
+        "kayak__pypika-127__TO__kayak__pypika-185",
+        "kayak__pypika-127__TO__kayak__pypika-198"
+      ],
+      "repo": "kayak/pypika",
+      "selected_state_id": "s1",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 20.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 10,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "6fa00df847dda6f4a537582164459405a9e6426d97d335a45233a4ecbf1ef21f",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 20.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 11,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "marketsquare__robotframework-robocop-755",
+      "development_pair_id": "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1027",
+      "heldout_pair_ids": [
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-1094",
+        "marketsquare__robotframework-robocop-755__TO__marketsquare__robotframework-robocop-775"
+      ],
+      "repo": "MarketSquare/robotframework-robocop",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 22.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 144,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "0bc52b7cd73e76821295f7aa4d032d77b06307a54e023106e541a21445789f1b",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 157,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "mondeja__mkdocs-include-markdown-plugin-2",
+      "development_pair_id": "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-53",
+      "heldout_pair_ids": [
+        "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-46",
+        "mondeja__mkdocs-include-markdown-plugin-2__TO__mondeja__mkdocs-include-markdown-plugin-51"
+      ],
+      "repo": "mondeja/mkdocs-include-markdown-plugin",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 14.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 189,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "58ec6fd7412de8baf5cbaa4b07220bf20846c6301547486c5343fec3ebeb7e63",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 196,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "openmdao__openmdao-3371",
+      "development_pair_id": "openmdao__openmdao-3371__TO__openmdao__openmdao-3522",
+      "heldout_pair_ids": [
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3406",
+        "openmdao__openmdao-3371__TO__openmdao__openmdao-3514"
+      ],
+      "repo": "OpenMDAO/OpenMDAO",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 32.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 32,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "81bfc30835288c76b6682f24bee3b6c14c579ed3f09cb2f382e49aad6a6c5b70",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 40,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "pybamm-team__pybamm-819",
+      "development_pair_id": "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-925",
+      "heldout_pair_ids": [
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-1020",
+        "pybamm-team__pybamm-819__TO__pybamm-team__pybamm-919"
+      ],
+      "repo": "pybamm-team/PyBaMM",
+      "selected_state_id": "historical",
+      "shortest_state_id": "s1",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 10.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 111,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "6d0a46837a7210a2748131485d3b1bfd6ba675e1af16d6bd0f3d888e816e3839",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 109,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "pytest-dev__pyfakefs-903",
+      "development_pair_id": "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-916",
+      "heldout_pair_ids": [
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-978",
+        "pytest-dev__pyfakefs-903__TO__pytest-dev__pyfakefs-983"
+      ],
+      "repo": "pytest-dev/pyfakefs",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 16.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 107,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "7a1df957ddfd1f0331ba1b563f968f3383e0f49809473dbc54ad148ab9264a0c",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 16.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 110,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "python-semver__python-semver-239",
+      "development_pair_id": "python-semver__python-semver-239__TO__python-semver__python-semver-253",
+      "heldout_pair_ids": [
+        "python-semver__python-semver-239__TO__python-semver__python-semver-254",
+        "python-semver__python-semver-239__TO__python-semver__python-semver-261"
+      ],
+      "repo": "python-semver/python-semver",
+      "selected_state_id": "s1",
+      "shortest_state_id": "s1",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 8.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 189,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "eb8259e2c038d99384a2064ba20be5ed0c20557bba24135cb00e8050cc5a1bc4",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 7.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 186,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "quora__pyanalyze-344",
+      "development_pair_id": "quora__pyanalyze-344__TO__quora__pyanalyze-441",
+      "heldout_pair_ids": [
+        "quora__pyanalyze-344__TO__quora__pyanalyze-564",
+        "quora__pyanalyze-344__TO__quora__pyanalyze-653"
+      ],
+      "repo": "quora/pyanalyze",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 26.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 121,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "107cc3d29f8d18852d69aa266687d5d096ca21eea9c22db73cb03de065b433f1",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 125,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "robotpy__cxxheaderparser-28",
+      "development_pair_id": "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-50",
+      "heldout_pair_ids": [
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-30",
+        "robotpy__cxxheaderparser-28__TO__robotpy__cxxheaderparser-73"
+      ],
+      "repo": "robotpy/cxxheaderparser",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 15.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 13,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "b015b986b045d5e34fc3066b7e5c56cfe21753e1ab5a4d7695437e46360321ec",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 20,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "s-knibbs__dataclasses-jsonschema-75",
+      "development_pair_id": "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-88",
+      "heldout_pair_ids": [
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-77",
+        "s-knibbs__dataclasses-jsonschema-75__TO__s-knibbs__dataclasses-jsonschema-82"
+      ],
+      "repo": "s-knibbs/dataclasses-jsonschema",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 11.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 43,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "a3b1cef9b49759c8fe8a7d5dc3cc9c9b518d559bcd975a08f0a2c010ea0a3978",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 46,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "stac-utils__pystac-511",
+      "development_pair_id": "stac-utils__pystac-511__TO__stac-utils__pystac-826",
+      "heldout_pair_ids": [
+        "stac-utils__pystac-511__TO__stac-utils__pystac-1003",
+        "stac-utils__pystac-511__TO__stac-utils__pystac-794"
+      ],
+      "repo": "stac-utils/pystac",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 1.0,
+          "development_tool_calls": 12.5,
+          "scientific_replay_failures": 0,
+          "source_lines": 30,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "70ffa895ed33c0c1132d6a9dbdd61f17e55e5b7dcee0fc762c93755d430c1b62",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 31,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "textualize__rich-2031",
+      "development_pair_id": "textualize__rich-2031__TO__textualize__rich-2226",
+      "heldout_pair_ids": [
+        "textualize__rich-2031__TO__textualize__rich-2294",
+        "textualize__rich-2031__TO__textualize__rich-2513"
+      ],
+      "repo": "Textualize/rich",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 12.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 94,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "672e37b209bddfa3db87b615ea13f0fd221ffb2e133698e9a1af35e7c1c16ebc",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 100,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "yt-project__unyt-58",
+      "development_pair_id": "yt-project__unyt-58__TO__yt-project__unyt-109",
+      "heldout_pair_ids": [
+        "yt-project__unyt-58__TO__yt-project__unyt-172",
+        "yt-project__unyt-58__TO__yt-project__unyt-80"
+      ],
+      "repo": "yt-project/unyt",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.5,
+          "development_tool_calls": 17.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 190,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "0350953a45bef2b616d92a3199e87e4a03235be79301324ab9f39c1fe514dd55",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 193,
+          "state_id": "s1"
+        }
+      ]
+    },
+    {
+      "anchor_id": "yukinarit__pyserde-321",
+      "development_pair_id": "yukinarit__pyserde-321__TO__yukinarit__pyserde-542",
+      "heldout_pair_ids": [
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-354",
+        "yukinarit__pyserde-321__TO__yukinarit__pyserde-618"
+      ],
+      "repo": "yukinarit/pyserde",
+      "selected_state_id": "historical",
+      "shortest_state_id": "historical",
+      "state_scores": [
+        {
+          "candidate_hash": "historical",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 21.0,
+          "scientific_replay_failures": 0,
+          "source_lines": 54,
+          "state_id": "historical"
+        },
+        {
+          "candidate_hash": "8c4a498fda08220e374279ced6864fa856d5163aad5508a70b2e251832cbee1a",
+          "development_joint_success": 0.0,
+          "development_tool_calls": 1000000000.0,
+          "scientific_replay_failures": 2,
+          "source_lines": 59,
+          "state_id": "s1"
+        }
+      ]
+    }
+  ]
+}

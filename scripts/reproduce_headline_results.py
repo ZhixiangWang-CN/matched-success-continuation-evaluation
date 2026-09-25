@@ -35,6 +35,23 @@ def main() -> None:
     close(selection["primary"]["current_success_random_value"], 0.8169693732193734, "random value")
     close(selection["primary"]["effect"], 0.09969729344729328, "selection effect")
 
+    sequential = load("prospective_rsd_v3/sequential_decision_heldout/analysis/sequential_selection_results.json")
+    integrity = sequential["integrity"]
+    if integrity["rows"] != 144 or integrity["repositories"] != 18:
+        raise AssertionError("sequential decision panel is incomplete")
+    if integrity["setup_failures"] != 0 or integrity["operational_failures"] != 0:
+        raise AssertionError("sequential decision panel contains infrastructure failures")
+    close(sequential["policies"]["continuation_selected"]["mean"], 0.375, "sequential selected")
+    close(sequential["policies"]["uniform_current_success"]["mean"], 0.24305555555555555, "sequential uniform")
+    close(sequential["policies"]["historical_default"]["mean"], 0.375, "sequential history")
+    close(sequential["policies"]["candidate"]["mean"], 0.1111111111111111, "sequential candidate")
+    close(sequential["effects"]["selected_minus_uniform"]["mean"], 0.13194444444444445, "sequential effect")
+    close(
+        sequential["effects"]["selected_minus_uniform"]["exact_repository_sign_flip"]["p_one_sided"],
+        0.00390625,
+        "sequential exact p",
+    )
+
     curve = load("prospective_rsd_v3/recovery_curve_analysis/recovery_curve_cluster_results.json")
     if curve["validation"]["retained_rows_per_consumer"] != 598 or curve["validation"]["retained_arms"] != 46:
         raise AssertionError("recovery-curve retained panel differs from the frozen analysis")
@@ -52,6 +69,7 @@ def main() -> None:
     print("controlled_coding=68.33% vs 40.83%")
     print("controlled_enterprise=41.25% vs 32.50%")
     print("frozen_cross_family_selection=91.67% vs 81.70% random (+9.97 pp; gate not met)")
+    print("sequential_decision=37.50% selected/history, 24.31% uniform, 11.11% candidate (+13.19 pp; p=.0039)")
     print("recovery_B10=56.52% Codex, 43.48% Claude (46 arms each)")
     print("common_snapshot=+10.00 pp Sol, +3.33 pp Terra (45 sessions each)")
 
