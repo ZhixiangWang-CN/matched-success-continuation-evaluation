@@ -1,0 +1,9 @@
+# Retrospective selector cost audit
+
+Run `python3 scripts/selector_cost_budget.py`. Outputs go to `reproduced_outputs/`. The 72 development JSONL rows are added under `prospective_rsd_v3/sequential_decision_development/raw_results/`; any personal home-path strings are anonymized, while fields used for scientific results and cost are preserved. The existing held-out rows and natural-state raw files are reused. This is an additional retrospective analysis, not an original preregistered budget comparison.
+
+The frozen full selector uses 72 attempted transitions (30 failures and 42 consumer sessions), with 708 tool calls. Both one-repeat ablations retain 37.50% held-out success at 36 attempts (15 failures and 21 sessions). Historical identity reaches the same 37.50% without development calls. Candidate generation and pilot costs are not included. Failed-transition rows lack total elapsed time; component durations are incomplete overhead. Ranking penalties of 1e9 are not realized compute.
+
+Release repair: the prior manifest listed one absent generated output, `reproduced_outputs/continuation_selection.json`. Regenerating it from frozen raw data reproduced its prior checksum exactly. All 351 originally present checksummed files matched; no scientific result corrections were required. The updated manifest covers shipped source inputs, not generated outputs, and reproduction compares the generated continuation analysis with the frozen analysis.
+
+Privacy pass: home-directory prefixes embedded in upstream issue text and execution tracebacks were normalized to `/anonymous-home`. These are textual redactions only; outcome, cost, and selection fields are unchanged. Historical protocol hashes remain provenance of their original files; the top-level checksum manifest authenticates the shipped anonymized bytes.

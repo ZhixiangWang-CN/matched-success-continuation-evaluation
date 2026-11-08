@@ -20,8 +20,11 @@ python -m pip install -r requirements.txt
 make reproduce
 ```
 
-This re-analyzes frozen rows without inference. The recovery-curve analysis uses
-100,000 repository-cluster bootstrap draws and is intentionally slower.
+This re-analyzes the natural-state continuation selection and 18-repository
+held-out panel, then computes the retrospective selector-cost/budget audit.
+It compares regenerated results to the frozen results. No inference calls are made.
+See `reports/selector_cost_budget_notes.md` for accounting limits.
+Generated outputs are deliberately excluded from the source integrity manifest.
 
 The frozen 18-repository decision panel can also be recomputed directly:
 
