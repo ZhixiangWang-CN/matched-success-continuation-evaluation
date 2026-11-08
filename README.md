@@ -107,3 +107,13 @@ licenses; see `THIRD_PARTY_LICENSES.md`.
 The repository contents and commit metadata are intentionally author-anonymous.
 During double-blind review, cite only the anonymous mirror supplied in the
 manuscript. The canonical GitHub URL should be used after de-anonymization.
+
+### Appendix O (JavaScript)
+
+Install Node.js 18 or newer in addition to the existing Python dependencies. Run
+`make reproduce-review` to restore and rerun both JavaScript panels. Each panel
+checks 144 saved edit responses, their source handoffs, the two terminal
+contracts and the tagged upstream assertions. The harder panel also runs the
+separate literal fixtures. The command compares the regenerated result files
+byte-for-byte with the archive. Use `python3 scripts/review_supplements.py
+--restore DEST` to retain the four supplemental packages locally.

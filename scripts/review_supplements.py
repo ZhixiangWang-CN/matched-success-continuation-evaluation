@@ -29,11 +29,31 @@ def restore(name, spec, dest):
         z.extractall(work)
     return work / spec["directory"]
 
+def replay_appendix_o(root):
+    for panel in ("study", "hard"):
+        work = root / panel
+        expected = ["scores.csv", "results.json", "upstream_results.json"]
+        if panel == "hard":
+            expected.append("fixtures_results.json")
+        def digests():
+            return {n: hashlib.sha256((work / n).read_bytes()).hexdigest() for n in expected}
+        saved = digests()
+        for script in ("score.py", "supplemental.py"):
+            subprocess.run([sys.executable, script], cwd=work, check=True)
+        if panel == "hard":
+            subprocess.run(["node", "independent_fixtures.js"], cwd=work, check=True)
+        if saved != digests():
+            raise ValueError(f"Appendix O replay mismatch: {panel}")
+        print(f"Appendix O: {panel} reproduced archived results", flush=True)
+
 def run(dest, replay):
     for name, spec in json.loads(INDEX.read_text()).items():
         work = restore(name, spec, dest)
         if replay:
-            subprocess.run([sys.executable, spec["script"]], cwd=work, check=True)
+            if name == "round5":
+                replay_appendix_o(work)
+            else:
+                subprocess.run([sys.executable, spec["script"]], cwd=work, check=True)
         print(f"{name}: verified {spec['sha256']}", flush=True)
 
 if __name__ == "__main__":

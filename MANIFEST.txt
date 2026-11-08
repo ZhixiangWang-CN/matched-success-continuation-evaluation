@@ -538,6 +538,13 @@ review_supplements/round4-068.txt
 review_supplements/round4-069.txt
 review_supplements/round4-070.txt
 review_supplements/round4-071.txt
+review_supplements/round5-000.txt
+review_supplements/round5-001.txt
+review_supplements/round5-002.txt
+review_supplements/round5-003.txt
+review_supplements/round5-004.txt
+review_supplements/round5-005.txt
+review_supplements/round5-006.txt
 scripts/check_reproduced.py
 scripts/reproduce_headline_results.py
 scripts/review_supplements.py
