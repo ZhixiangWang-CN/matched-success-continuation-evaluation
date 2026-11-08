@@ -17,3 +17,7 @@ reproduce: verify
 		--output-dir reproduced_outputs/sequential
 	python3 scripts/selector_cost_budget.py
 	python3 scripts/check_reproduced.py
+
+.PHONY: reproduce-review
+reproduce-review: reproduce
+	python3 scripts/review_supplements.py

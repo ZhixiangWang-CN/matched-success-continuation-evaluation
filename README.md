@@ -49,8 +49,9 @@ Download the frozen anonymous snapshot and unpack it:
 curl -L \
   https://anonymous.4open.science/api/repo/matched-success-continuation-evaluation-B117/zip \
   -o matched-success-continuation-evaluation-B117.zip
-unzip matched-success-continuation-evaluation-B117.zip
-cd matched-success-continuation-evaluation-B117
+mkdir review-copy
+unzip -q matched-success-continuation-evaluation-B117.zip -d review-copy
+cd review-copy
 ```
 
 The Anonymous GitHub mirror is a frozen review snapshot rather than a Git remote,
@@ -59,8 +60,8 @@ so it should be downloaded as a ZIP instead of cloned with `git clone`.
 Create the verification environment:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+python3 -m venv ../lossy-review-venv
+source ../lossy-review-venv/bin/activate
 python -m pip install -r requirements.txt
 make verify
 ```
@@ -69,6 +70,10 @@ make verify
 headline values used in the paper. It does not call a model API, download a
 model, or launch a container. Run `make reproduce` for the slower frozen-data
 analyses.
+
+## Post-review analyses
+
+After installing the requirements, run `make reproduce-review` for the original results and all registered post-review packages. The command restores the exact archived package bytes, checks SHA-256, and runs each package in a new directory. To retain the extracted datasets and scripts, use `python3 scripts/review_supplements.py --restore ../supplements`. Large files are split into text segments for anonymous mirror transport.
 
 ## Evidence tiers
 
